@@ -46,6 +46,11 @@ namespace PalletLotSystem{
                     {
                         MessageBox.Show("Login Successfull", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         txtPassword.Text = "";
+
+                        Layout layout = new Layout();
+                        this.Hide();
+                        layout.Show();
+                        layout.FormClosed += (s, args) => this.Show();
                     }
                     else
                     {
