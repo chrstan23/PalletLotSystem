@@ -34,13 +34,15 @@
             this.btnA4 = new System.Windows.Forms.Button();
             this.btnA5 = new System.Windows.Forms.Button();
             this.txtBarcode = new System.Windows.Forms.TextBox();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnA1
             // 
-            this.btnA1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnA1.BackColor = System.Drawing.SystemColors.Control;
             this.btnA1.Enabled = false;
-            this.btnA1.Location = new System.Drawing.Point(73, 98);
+            this.btnA1.Location = new System.Drawing.Point(68, 103);
             this.btnA1.Name = "btnA1";
             this.btnA1.Size = new System.Drawing.Size(50, 50);
             this.btnA1.TabIndex = 0;
@@ -49,9 +51,9 @@
             // 
             // btnA2
             // 
-            this.btnA2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnA2.BackColor = System.Drawing.SystemColors.Control;
             this.btnA2.Enabled = false;
-            this.btnA2.Location = new System.Drawing.Point(141, 98);
+            this.btnA2.Location = new System.Drawing.Point(143, 103);
             this.btnA2.Name = "btnA2";
             this.btnA2.Size = new System.Drawing.Size(50, 50);
             this.btnA2.TabIndex = 1;
@@ -60,9 +62,9 @@
             // 
             // btnA3
             // 
-            this.btnA3.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnA3.BackColor = System.Drawing.SystemColors.Control;
             this.btnA3.Enabled = false;
-            this.btnA3.Location = new System.Drawing.Point(210, 98);
+            this.btnA3.Location = new System.Drawing.Point(213, 103);
             this.btnA3.Name = "btnA3";
             this.btnA3.Size = new System.Drawing.Size(50, 50);
             this.btnA3.TabIndex = 2;
@@ -71,9 +73,9 @@
             // 
             // btnA4
             // 
-            this.btnA4.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnA4.BackColor = System.Drawing.SystemColors.Control;
             this.btnA4.Enabled = false;
-            this.btnA4.Location = new System.Drawing.Point(281, 98);
+            this.btnA4.Location = new System.Drawing.Point(288, 103);
             this.btnA4.Name = "btnA4";
             this.btnA4.Size = new System.Drawing.Size(50, 50);
             this.btnA4.TabIndex = 3;
@@ -82,9 +84,9 @@
             // 
             // btnA5
             // 
-            this.btnA5.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnA5.BackColor = System.Drawing.SystemColors.Control;
             this.btnA5.Enabled = false;
-            this.btnA5.Location = new System.Drawing.Point(351, 98);
+            this.btnA5.Location = new System.Drawing.Point(363, 103);
             this.btnA5.Name = "btnA5";
             this.btnA5.Size = new System.Drawing.Size(50, 50);
             this.btnA5.TabIndex = 4;
@@ -93,23 +95,43 @@
             // 
             // txtBarcode
             // 
-            this.txtBarcode.Location = new System.Drawing.Point(131, 188);
+            this.txtBarcode.Location = new System.Drawing.Point(41, 15);
             this.txtBarcode.Name = "txtBarcode";
             this.txtBarcode.Size = new System.Drawing.Size(175, 20);
             this.txtBarcode.TabIndex = 5;
             this.txtBarcode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBarcode_KeyDown);
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(309, 12);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.TabIndex = 6;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.Location = new System.Drawing.Point(392, 12);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(75, 23);
+            this.btnLogout.TabIndex = 7;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = true;
             // 
             // Layout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(479, 244);
+            this.Controls.Add(this.btnA1);
+            this.Controls.Add(this.btnA2);
+            this.Controls.Add(this.btnLogout);
+            this.Controls.Add(this.btnA3);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnA4);
             this.Controls.Add(this.txtBarcode);
             this.Controls.Add(this.btnA5);
-            this.Controls.Add(this.btnA4);
-            this.Controls.Add(this.btnA3);
-            this.Controls.Add(this.btnA2);
-            this.Controls.Add(this.btnA1);
             this.Name = "Layout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Layout";
@@ -126,5 +148,7 @@
         private System.Windows.Forms.Button btnA4;
         private System.Windows.Forms.Button btnA5;
         private System.Windows.Forms.TextBox txtBarcode;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnLogout;
     }
 }

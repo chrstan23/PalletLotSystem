@@ -1,0 +1,2 @@
+05-25-26
+Updating occupied or empty pallet using only the pallet no.
