@@ -19,62 +19,53 @@ namespace PalletLotSystem
             LoadPalletStatus();
 
         }
+        
 
-        private void txtBarcode_KeyDown(object sender, KeyEventArgs e){
-            if (e.KeyCode == Keys.Enter){
-                string barcode = txtBarcode.Text.Trim();
-                CheckPalletStatus(barcode);
-                txtBarcode.Text = "";
-                e.SuppressKeyPress = true;
-            }
+        //private void CheckPalletStatus(string palletNo){
+        //    using (MySqlConnection conn = new MySqlConnection(connStr)){
+        //        try{
+        //            conn.Open();
 
-        }
+        //            string query = "SELECT status FROM tbl_pallet WHERE palletNo = @palletNo";
 
-        private void CheckPalletStatus(string palletNo){
-            using (MySqlConnection conn = new MySqlConnection(connStr)){
-                try{
-                    conn.Open();
-
-                    string query = "SELECT status FROM tbl_pallet WHERE palletNo = @palletNo";
-
-                    using (MySqlCommand cmd = new MySqlCommand(query, conn)){
-                        cmd.Parameters.AddWithValue("@palletNo", palletNo);
+        //            using (MySqlCommand cmd = new MySqlCommand(query, conn)){
+        //                cmd.Parameters.AddWithValue("@palletNo", palletNo);
 
 
-                        object result = cmd.ExecuteScalar();
+        //                object result = cmd.ExecuteScalar();
 
-                        if (result != null){
-                            string currentStatus = result.ToString();
-                            string newStatus = "";
+        //                if (result != null){
+        //                    string currentStatus = result.ToString();
+        //                    string newStatus = "";
 
-                            if (currentStatus == "EMPTY"){
-                                newStatus = "OCCUPIED";
-                            }else if (currentStatus == "OCCUPIED"){
-                                newStatus = "EMPTY";
-                            }
+        //                    if (currentStatus == "EMPTY"){
+        //                        newStatus = "OCCUPIED";
+        //                    }else if (currentStatus == "OCCUPIED"){
+        //                        newStatus = "EMPTY";
+        //                    }
 
-                            string updateQuery = "UPDATE tbl_pallet SET status= @status WHERE palletNo = @palletNo";
+        //                    string updateQuery = "UPDATE tbl_pallet SET status= @status WHERE palletNo = @palletNo";
 
-                            using (MySqlCommand updateCmd = new MySqlCommand(updateQuery, conn)){
-                                updateCmd.Parameters.AddWithValue("@status", newStatus);
-                                updateCmd.Parameters.AddWithValue("@palletNo", palletNo);
+        //                    using (MySqlCommand updateCmd = new MySqlCommand(updateQuery, conn)){
+        //                        updateCmd.Parameters.AddWithValue("@status", newStatus);
+        //                        updateCmd.Parameters.AddWithValue("@palletNo", palletNo);
 
-                                updateCmd.ExecuteNonQuery();
+        //                        updateCmd.ExecuteNonQuery();
 
-                            }
+        //                    }
                             
-                            UpdateBoxColor(palletNo, newStatus);
-                        }else{
-                            MessageBox.Show("Pallet not Found!", "Error");
-                        }
-                    }
+        //                    UpdateBoxColor(palletNo, newStatus);
+        //                }else{
+        //                    MessageBox.Show("Pallet not Found!", "Error");
+        //                }
+        //            }
 
-                }
-                catch(Exception ex){
-                    MessageBox.Show("Database Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-        }
+        //        }
+        //        catch(Exception ex){
+        //            MessageBox.Show("Database Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //        }
+        //    }
+        //}
 
         private void UpdateBoxColor(string palletNo, string status){
             foreach (Control ctrl in this.Controls){
@@ -94,22 +85,19 @@ namespace PalletLotSystem
             }
         }
 
-        private void LoadPalletStatus()
-        {
-            using (MySqlConnection conn = new MySqlConnection(connStr))
-            {
-                try
-                {
+        public void LoadPalletStatus(){
+            using (MySqlConnection conn = new MySqlConnection(connStr)){
+                try{
                     conn.Open();
 
                     string query = "SELECT * from tbl_pallet";
 
-                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
-                    {
-                        using (MySqlDataReader reader = cmd.ExecuteReader())
-                        {
-                            while (reader.Read())
-                            {
+                    using (MySqlCommand cmd = new MySqlCommand(query, conn)){
+
+                        using (MySqlDataReader reader = cmd.ExecuteReader()){
+
+                            while (reader.Read()){
+
                                 string palletNo = reader["palletNo"].ToString();
                                 string status = reader["status"].ToString();
 
@@ -118,11 +106,19 @@ namespace PalletLotSystem
                         }
                     }
                 }
-                catch(Exception ex)
-                {
+                catch(Exception ex){
                     MessageBox.Show("Database Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e){
+
+            UpdateForm update = new UpdateForm(this);
+            //this.Hide();
+            //update.Show();
+            //update.FormClosed += (s, args) => this.Show();
+            update.ShowDialog();
         }
     }
 }

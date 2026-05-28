@@ -33,7 +33,6 @@
             this.btnA3 = new System.Windows.Forms.Button();
             this.btnA4 = new System.Windows.Forms.Button();
             this.btnA5 = new System.Windows.Forms.Button();
-            this.txtBarcode = new System.Windows.Forms.TextBox();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -93,14 +92,6 @@
             this.btnA5.Text = "A5";
             this.btnA5.UseVisualStyleBackColor = false;
             // 
-            // txtBarcode
-            // 
-            this.txtBarcode.Location = new System.Drawing.Point(41, 15);
-            this.txtBarcode.Name = "txtBarcode";
-            this.txtBarcode.Size = new System.Drawing.Size(175, 20);
-            this.txtBarcode.TabIndex = 5;
-            this.txtBarcode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBarcode_KeyDown);
-            // 
             // btnUpdate
             // 
             this.btnUpdate.Location = new System.Drawing.Point(309, 12);
@@ -109,6 +100,7 @@
             this.btnUpdate.TabIndex = 6;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnLogout
             // 
@@ -130,13 +122,11 @@
             this.Controls.Add(this.btnA3);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnA4);
-            this.Controls.Add(this.txtBarcode);
             this.Controls.Add(this.btnA5);
             this.Name = "Layout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Layout";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -147,7 +137,6 @@
         private System.Windows.Forms.Button btnA3;
         private System.Windows.Forms.Button btnA4;
         private System.Windows.Forms.Button btnA5;
-        private System.Windows.Forms.TextBox txtBarcode;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnLogout;
     }
