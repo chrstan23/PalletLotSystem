@@ -13,6 +13,7 @@ namespace PalletLotSystem
         {
             InitializeComponent();
             LoadPalletStatus();
+            RegisterPalletButtons();
         }
 
         // CHANGE COLOR USING BUTTON NAME
@@ -43,16 +44,18 @@ namespace PalletLotSystem
             }
         }
 
-        // FETCHING THE LAST WORD FOR PALLET DESCTRIPTION
+        // FETCHING THE LAST WORD FOR PALLET DESCRIPTION
         private string GetButtonDisplayText(string description)
         {
             if (string.IsNullOrWhiteSpace(description))
                 return "";
 
-            string [] words = description
-                                  .Trim()
-                                  .Split(new char[] { ' ' },
-                                         StringSplitOptions.RemoveEmptyEntries);
+            string[] words = description
+                .Trim()
+                .Split(
+                    new char[] { ' ' },
+                    StringSplitOptions.RemoveEmptyEntries
+                );
 
             return words[words.Length - 1];
         }
@@ -83,18 +86,44 @@ namespace PalletLotSystem
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Database Error: " + ex.Message, "Error",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(
+                        "Database Error: " + ex.Message,
+                        "Error",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error
+                    );
                 }
             }
         }
 
+        // OPEN UPDATE FORM
+        
 
-        // OPEN UPDATE FORM (NOW USES NAME_
-        private void btnUpdate_Click(object sender, EventArgs e)
+        private void PalletButton_Click(object sender, EventArgs e)
         {
-            UpdateForm update = new UpdateForm(this);
+            Button btn = (Button)sender;
+
+            string palletNo = btn.Name;
+
+            UpdateForm update = new UpdateForm(this, palletNo);
+
             update.ShowDialog();
+        }
+
+        private void RegisterPalletButtons()
+        {
+            foreach (Control ctrl in this.Controls)
+            {
+                if (ctrl is Button)
+                {
+                    Button btn = (Button)ctrl;
+
+                    if (btn.Name.StartsWith("A"))
+                    {
+                        btn.Click += PalletButton_Click;
+                    }
+                }
+            }
         }
 
         private void btnLogout_Click(object sender, EventArgs e)

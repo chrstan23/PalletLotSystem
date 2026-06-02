@@ -10,24 +10,32 @@ namespace PalletLotSystem
 
         private Layout layoutForm;
 
-        public UpdateForm(Layout layout)
+        public UpdateForm(Layout layout, string palletNo)
         {
             InitializeComponent();
             layoutForm = layout;
+
+            lblPallet.Text = palletNo;
         }
 
         // SAVE BUTTON
         private void btnSave_Click(object sender, EventArgs e)
         {
-            string palletNo = txtBarcode.Text.Trim();
+            string palletNo = lblPallet.Text.Trim();
 
             if (palletNo == "")
             {
                 MessageBox.Show("Please enter Pallet ID.");
                 return;
             }
+            else
+            {
+                UpdatePalletStatus(palletNo);
 
-            UpdatePalletStatus(palletNo);
+                this.Close();
+            }
+
+            
         }
 
         // UPDATE LOGIC
@@ -42,49 +50,61 @@ namespace PalletLotSystem
                     // GET DESCRIPTION INPUT
                     string description = txtPalletId.Text.Trim();
 
-                    string newStatus = "";
+                    string lastWord = GetLastWord(description);
 
-                    // DETERMINE STATUS
-
-                    if (description == "")
+                    if (description != "" && !lastWord.Equals(palletNo, StringComparison.OrdinalIgnoreCase))
                     {
-                        newStatus = "EMPTY";
+                        MessageBox.Show("Pallet Id does not Match! Please enter correct Pallet Id.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                     else
                     {
-                        newStatus = "OCCUPIED";
-                    }
+                        string newStatus = "";
 
-                    // UPDATE DATABASE
-
-                    string updateQuery = @"UPDATE tbl_pallet SET description = @description, status = @status WHERE palletNo = @palletNo";
-
-                    using (MySqlCommand cmd = new MySqlCommand(updateQuery, conn))
-                    {
-                        cmd.Parameters.AddWithValue("@description", description);
-                        cmd.Parameters.AddWithValue("@status", newStatus);
-                        cmd.Parameters.AddWithValue("@palletNo", palletNo);
-
-                        int rowsAffected = cmd.ExecuteNonQuery();
-
-                        if (rowsAffected > 0)
+                        // DETERMINE STATUS
+                        if (description == "")
                         {
-                            MessageBox.Show("Pallet updated successfully!");
-
-                            // REFRESH LAYOUT
-                            layoutForm.LoadPalletStatus();
-
-                            txtBarcode.Clear();
-                            txtPalletId.Clear();
-
-                            txtBarcode.Focus();
+                            newStatus = "EMPTY";
                         }
                         else
                         {
-                            MessageBox.Show("Pallet not found!");
+                            newStatus = "OCCUPIED";
+                        }
+
+                        // UPDATE DATABASE
+                        string updateQuery =
+                            @"UPDATE tbl_pallet
+                          SET description = @description,
+                              status = @status
+                          WHERE palletNo = @palletNo";
+
+                        using (MySqlCommand cmd = new MySqlCommand(updateQuery, conn))
+                        {
+                            cmd.Parameters.AddWithValue("@description", description);
+                            cmd.Parameters.AddWithValue("@status", newStatus);
+                            cmd.Parameters.AddWithValue("@palletNo", palletNo);
+
+                            int rowsAffected = cmd.ExecuteNonQuery();
+
+                            if (rowsAffected > 0)
+                            {
+                                MessageBox.Show("Pallet updated successfully!");
+
+                                // REFRESH LAYOUT
+                                layoutForm.LoadPalletStatus();
+
+                                txtPalletId.Clear();
+
+                                txtPalletId.Focus();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Pallet not found!");
+                            }
                         }
                     }
                 }
+
+                    
                 catch (Exception ex)
                 {
                     MessageBox.Show("Database Error: " + ex.Message);
@@ -92,19 +112,32 @@ namespace PalletLotSystem
             }
         }
 
-        // ENTER KEY SUPPORT
-        private void txtBarcode_KeyDown(object sender, KeyEventArgs e)
+        private string GetLastWord(string text)
         {
-            if (e.KeyCode == Keys.Enter)
+            if (string.IsNullOrWhiteSpace(text))
             {
-                btnSave.PerformClick();
+                return "";
             }
+
+            string[] words = text.Trim().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+            return words[words.Length - 1];
         }
+               
 
         // CANCEL
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        //FOR SCANNING THE BARCODE PALLET ID
+        private void txtPalletId_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnSave.PerformClick();
+            }
         }
     }
 }

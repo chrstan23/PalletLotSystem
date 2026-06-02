@@ -28,21 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtBarcode = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPalletId = new System.Windows.Forms.TextBox();
+            this.lblPallet = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // txtBarcode
-            // 
-            this.txtBarcode.Location = new System.Drawing.Point(131, 86);
-            this.txtBarcode.Name = "txtBarcode";
-            this.txtBarcode.Size = new System.Drawing.Size(163, 20);
-            this.txtBarcode.TabIndex = 0;
-            this.txtBarcode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBarcode_KeyDown);
             // 
             // btnSave
             // 
@@ -88,18 +80,28 @@
             this.txtPalletId.Name = "txtPalletId";
             this.txtPalletId.Size = new System.Drawing.Size(163, 20);
             this.txtPalletId.TabIndex = 5;
+            this.txtPalletId.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPalletId_KeyDown);
+            // 
+            // lblPallet
+            // 
+            this.lblPallet.AutoSize = true;
+            this.lblPallet.Location = new System.Drawing.Point(133, 89);
+            this.lblPallet.Name = "lblPallet";
+            this.lblPallet.Size = new System.Drawing.Size(80, 13);
+            this.lblPallet.TabIndex = 6;
+            this.lblPallet.Text = "Pallet No Value";
             // 
             // UpdateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(411, 198);
+            this.Controls.Add(this.lblPallet);
             this.Controls.Add(this.txtPalletId);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
-            this.Controls.Add(this.txtBarcode);
             this.Name = "UpdateForm";
             this.Text = "UpdateForm";
             this.ResumeLayout(false);
@@ -109,12 +111,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtBarcode;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPalletId;
+        private System.Windows.Forms.Label lblPallet;
 
     }
 }
