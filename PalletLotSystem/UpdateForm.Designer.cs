@@ -34,11 +34,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtPalletId = new System.Windows.Forms.TextBox();
             this.lblPallet = new System.Windows.Forms.Label();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.btnClearPallet = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(107, 140);
+            this.btnSave.Location = new System.Drawing.Point(125, 126);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 1;
@@ -48,7 +50,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(219, 140);
+            this.btnCancel.Location = new System.Drawing.Point(311, 126);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 2;
@@ -76,6 +78,7 @@
             // 
             // txtPalletId
             // 
+            this.txtPalletId.Enabled = false;
             this.txtPalletId.Location = new System.Drawing.Point(131, 57);
             this.txtPalletId.Name = "txtPalletId";
             this.txtPalletId.Size = new System.Drawing.Size(163, 20);
@@ -91,11 +94,33 @@
             this.lblPallet.TabIndex = 6;
             this.lblPallet.Text = "Pallet No Value";
             // 
+            // btnEdit
+            // 
+            this.btnEdit.Location = new System.Drawing.Point(28, 126);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(75, 23);
+            this.btnEdit.TabIndex = 7;
+            this.btnEdit.Text = "Edit";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            // 
+            // btnClearPallet
+            // 
+            this.btnClearPallet.Location = new System.Drawing.Point(219, 126);
+            this.btnClearPallet.Name = "btnClearPallet";
+            this.btnClearPallet.Size = new System.Drawing.Size(75, 23);
+            this.btnClearPallet.TabIndex = 8;
+            this.btnClearPallet.Text = "Clear Pallet";
+            this.btnClearPallet.UseVisualStyleBackColor = true;
+            this.btnClearPallet.Click += new System.EventHandler(this.btnClearPallet_Click);
+            // 
             // UpdateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(411, 198);
+            this.Controls.Add(this.btnClearPallet);
+            this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.lblPallet);
             this.Controls.Add(this.txtPalletId);
             this.Controls.Add(this.label2);
@@ -117,6 +142,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPalletId;
         private System.Windows.Forms.Label lblPallet;
+        private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.Button btnClearPallet;
 
     }
 }

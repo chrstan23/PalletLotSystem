@@ -10,12 +10,14 @@ namespace PalletLotSystem
 
         private Layout layoutForm;
 
-        public UpdateForm(Layout layout, string palletNo)
+        public UpdateForm(Layout layout, string palletNo, string description)
         {
             InitializeComponent();
             layoutForm = layout;
 
             lblPallet.Text = palletNo;
+            txtPalletId.Text = description;
+
         }
 
         // SAVE BUTTON
@@ -47,62 +49,54 @@ namespace PalletLotSystem
                 {
                     conn.Open();
 
-                    // GET DESCRIPTION INPUT
+                        // GET DESCRIPTION INPUT
                     string description = txtPalletId.Text.Trim();
+                      
+                    string newStatus = "";
 
-                    string lastWord = GetLastWord(description);
-
-                    if (description != "" && !lastWord.Equals(palletNo, StringComparison.OrdinalIgnoreCase))
+                    // DETERMINE STATUS
+                    if (description == "")
                     {
-                        MessageBox.Show("Pallet Id does not Match! Please enter correct Pallet Id.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        newStatus = "EMPTY";
                     }
                     else
                     {
-                        string newStatus = "";
+                        newStatus = "OCCUPIED";
+                    }
 
-                        // DETERMINE STATUS
-                        if (description == "")
+                    // UPDATE DATABASE
+                    string updateQuery =
+                        @"UPDATE tbl_pallet
+                        SET description = @description,
+                            status = @status
+                        WHERE palletNo = @palletNo";
+
+                    using (MySqlCommand cmd = new MySqlCommand(updateQuery, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@description", description);
+                        cmd.Parameters.AddWithValue("@status", newStatus);
+                        cmd.Parameters.AddWithValue("@palletNo", palletNo);
+
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
                         {
-                            newStatus = "EMPTY";
+                            MessageBox.Show("Pallet updated successfully!");
+
+                            // REFRESH LAYOUT
+                            layoutForm.LoadPalletStatus();
+
+                            txtPalletId.Clear();
+
+                            txtPalletId.Focus();
                         }
                         else
                         {
-                            newStatus = "OCCUPIED";
-                        }
-
-                        // UPDATE DATABASE
-                        string updateQuery =
-                            @"UPDATE tbl_pallet
-                          SET description = @description,
-                              status = @status
-                          WHERE palletNo = @palletNo";
-
-                        using (MySqlCommand cmd = new MySqlCommand(updateQuery, conn))
-                        {
-                            cmd.Parameters.AddWithValue("@description", description);
-                            cmd.Parameters.AddWithValue("@status", newStatus);
-                            cmd.Parameters.AddWithValue("@palletNo", palletNo);
-
-                            int rowsAffected = cmd.ExecuteNonQuery();
-
-                            if (rowsAffected > 0)
-                            {
-                                MessageBox.Show("Pallet updated successfully!");
-
-                                // REFRESH LAYOUT
-                                layoutForm.LoadPalletStatus();
-
-                                txtPalletId.Clear();
-
-                                txtPalletId.Focus();
-                            }
-                            else
-                            {
-                                MessageBox.Show("Pallet not found!");
-                            }
+                            MessageBox.Show("Pallet not found!");
                         }
                     }
                 }
+                
 
                     
                 catch (Exception ex)
@@ -110,20 +104,7 @@ namespace PalletLotSystem
                     MessageBox.Show("Database Error: " + ex.Message);
                 }
             }
-        }
-
-        private string GetLastWord(string text)
-        {
-            if (string.IsNullOrWhiteSpace(text))
-            {
-                return "";
-            }
-
-            string[] words = text.Trim().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-
-            return words[words.Length - 1];
-        }
-               
+        }              
 
         // CANCEL
         private void btnCancel_Click(object sender, EventArgs e)
@@ -138,6 +119,64 @@ namespace PalletLotSystem
             {
                 btnSave.PerformClick();
             }
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            txtPalletId.Enabled = true;
+            txtPalletId.Focus();
+        }
+
+        private void ClearPallet(){
+            using  (MySqlConnection conn = new MySqlConnection(connStr)){
+                try{
+                    conn.Open();
+
+                    string updateQuery = @"UPDATE tbl_pallet SET description='', status='EMPTY' WHERE palletNo= @palletNo";
+
+                    using (MySqlCommand cmd = new MySqlCommand(updateQuery, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@palletNo", lblPallet.Text.Trim());
+
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Pallet cleared successfully!");
+
+                            layoutForm.LoadPalletStatus();
+                            txtPalletId.Text = "";
+                            this.Close();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Pallet not found!");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Database Error: " + ex.Message);
+                }
+            }
+        }
+
+        private void btnClearPallet_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtPalletId.Text))
+            {
+                MessageBox.Show("The pallet is still empty.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            DialogResult result = MessageBox.Show("Are you sure you want to clear this pallet?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.No)
+            {
+                return;
+            }
+
+            ClearPallet();
         }
     }
 }

@@ -28,14 +28,15 @@ namespace PalletLotSystem
                     if (btn.Name == palletNo)
                     {
                         btn.Text = GetButtonDisplayText(description);
+                        btn.Tag = description;
 
                         if (status == "EMPTY")
                         {
-                            btn.BackColor = Color.Red;
+                            btn.BackColor = Color.Lime;
                         }
                         else if (status == "OCCUPIED")
                         {
-                            btn.BackColor = Color.DeepSkyBlue;
+                            btn.BackColor = Color.Orange;
                         }
 
                         break;
@@ -97,15 +98,19 @@ namespace PalletLotSystem
         }
 
         // OPEN UPDATE FORM
-        
-
         private void PalletButton_Click(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
 
             string palletNo = btn.Name;
+            string description = "";
 
-            UpdateForm update = new UpdateForm(this, palletNo);
+            if (btn.Tag != null)
+            {
+                description = btn.Tag.ToString();
+            }
+
+            UpdateForm update = new UpdateForm(this, palletNo, description);
 
             update.ShowDialog();
         }
