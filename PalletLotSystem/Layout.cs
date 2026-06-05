@@ -17,7 +17,7 @@ namespace PalletLotSystem
         }
 
         // CHANGE COLOR USING BUTTON NAME
-        private void UpdateBoxColor(string palletNo, string description, string status)
+        private void UpdateBoxColor(string location, string palletId, string status)
         {
             foreach (Control ctrl in this.Controls)
             {
@@ -25,10 +25,10 @@ namespace PalletLotSystem
                 {
                     Button btn = (Button)ctrl;
 
-                    if (btn.Name == palletNo)
+                    if (btn.Name == location)
                     {
-                        btn.Text = GetButtonDisplayText(description);
-                        btn.Tag = description;
+                        btn.Text = GetButtonDisplayText(palletId);
+                        btn.Tag = palletId;
 
                         if (status == "EMPTY")
                         {
@@ -45,20 +45,13 @@ namespace PalletLotSystem
             }
         }
 
-        // FETCHING THE LAST WORD FOR PALLET DESCRIPTION
-        private string GetButtonDisplayText(string description)
+        //  DISPLAYING PALLETID TO BUTTON
+        private string GetButtonDisplayText(string palletId)
         {
-            if (string.IsNullOrWhiteSpace(description))
+            if (string.IsNullOrWhiteSpace(palletId))
                 return "";
 
-            string[] words = description
-                .Trim()
-                .Split(
-                    new char[] { ' ' },
-                    StringSplitOptions.RemoveEmptyEntries
-                );
-
-            return words[words.Length - 1];
+            return palletId.Trim();
         }
 
         // LOAD FROM DATABASE
@@ -77,11 +70,11 @@ namespace PalletLotSystem
                     {
                         while (reader.Read())
                         {
-                            string palletNo = reader["palletNo"].ToString();
-                            string description = reader["description"].ToString();
+                            string location = reader["location"].ToString();
+                            string palletId = reader["palletId"].ToString();
                             string status = reader["status"].ToString();
 
-                            UpdateBoxColor(palletNo, description, status);
+                            UpdateBoxColor(location, palletId, status);
                         }
                     }
                 }
@@ -102,15 +95,15 @@ namespace PalletLotSystem
         {
             Button btn = (Button)sender;
 
-            string palletNo = btn.Name;
-            string description = "";
+            string location = btn.Name;
+            string palletId = "";
 
             if (btn.Tag != null)
             {
-                description = btn.Tag.ToString();
+                palletId = btn.Tag.ToString();
             }
 
-            UpdateForm update = new UpdateForm(this, palletNo, description);
+            UpdateForm update = new UpdateForm(this, location, palletId);
 
             update.ShowDialog();
         }
@@ -135,5 +128,6 @@ namespace PalletLotSystem
         {
             this.Close();
         }
+
     }
 }

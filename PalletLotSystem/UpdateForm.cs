@@ -10,29 +10,33 @@ namespace PalletLotSystem
 
         private Layout layoutForm;
 
-        public UpdateForm(Layout layout, string palletNo, string description)
+        public UpdateForm(Layout layout, string location, string palletId)
         {
             InitializeComponent();
             layoutForm = layout;
 
-            lblPallet.Text = palletNo;
-            txtPalletId.Text = description;
+            lblPallet.Text = location;
+            txtPalletId.Text = palletId;
 
         }
 
         // SAVE BUTTON
         private void btnSave_Click(object sender, EventArgs e)
         {
-            string palletNo = lblPallet.Text.Trim();
+            string palletId = txtPalletId.Text.Trim();
+            string palletNo = txtPalletNo.Text.Trim();
 
-            if (palletNo == "")
+            if (palletId == "")
             {
-                MessageBox.Show("Please enter Pallet ID.");
+                MessageBox.Show("Please enter Pallet ID.", "Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }else if(palletNo == ""){
+                MessageBox.Show("Please enter Pallet No.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             else
             {
-                UpdatePalletStatus(palletNo);
+                UpdatePalletStatus();
 
                 this.Close();
             }
@@ -41,7 +45,7 @@ namespace PalletLotSystem
         }
 
         // UPDATE LOGIC
-        private void UpdatePalletStatus(string palletNo)
+        private void UpdatePalletStatus()
         {
             using (MySqlConnection conn = new MySqlConnection(connStr))
             {
@@ -50,12 +54,14 @@ namespace PalletLotSystem
                     conn.Open();
 
                         // GET DESCRIPTION INPUT
-                    string description = txtPalletId.Text.Trim();
+                    string palletId = txtPalletId.Text.Trim();
+                    string palletNo = txtPalletNo.Text.Trim();
+                    string location = lblLocation.Text;
                       
                     string newStatus = "";
 
                     // DETERMINE STATUS
-                    if (description == "")
+                    if (palletId == "")
                     {
                         newStatus = "EMPTY";
                     }
@@ -65,17 +71,14 @@ namespace PalletLotSystem
                     }
 
                     // UPDATE DATABASE
-                    string updateQuery =
-                        @"UPDATE tbl_pallet
-                        SET description = @description,
-                            status = @status
-                        WHERE palletNo = @palletNo";
+                    string updateQuery = @"UPDATE tbl_pallet SET palletId = @palletId, palletNo = @palletNo, status = @status WHERE location = @location";
 
                     using (MySqlCommand cmd = new MySqlCommand(updateQuery, conn))
                     {
-                        cmd.Parameters.AddWithValue("@description", description);
-                        cmd.Parameters.AddWithValue("@status", newStatus);
+                        cmd.Parameters.AddWithValue("@palletId", palletId);
                         cmd.Parameters.AddWithValue("@palletNo", palletNo);
+                        cmd.Parameters.AddWithValue("@status", newStatus);
+                        cmd.Parameters.AddWithValue("@location", location);
 
                         int rowsAffected = cmd.ExecuteNonQuery();
 
@@ -109,7 +112,14 @@ namespace PalletLotSystem
         // CANCEL
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            this.Close();
+            btnIn.Visible = true;
+            btnOut.Visible = true;
+            btnCancel2.Visible = true;
+            btnSave.Visible = false;
+            btnCancel.Visible = false;
+            txtPalletId.Enabled = false;
+            txtPalletNo.Enabled = false;
+
         }
 
         //FOR SCANNING THE BARCODE PALLET ID
@@ -117,14 +127,27 @@ namespace PalletLotSystem
         {
             if (e.KeyCode == Keys.Enter)
             {
-                btnSave.PerformClick();
+                //btnSave.PerformClick();
+                txtPalletNo.Focus();
             }
         }
 
-        private void btnEdit_Click(object sender, EventArgs e)
+        private void btnIn_Click(object sender, EventArgs e)
         {
-            txtPalletId.Enabled = true;
-            txtPalletId.Focus();
+            if (txtPalletId.Text != ""){
+                MessageBox.Show("Pallet is still Occupied", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }else{
+                txtPalletId.Enabled = true;
+                txtPalletNo.Enabled = true;
+                btnSave.Enabled = true;
+                txtPalletId.Focus();
+                btnIn.Visible = false;
+                btnOut.Visible = false;
+                btnSave.Visible = true;
+                btnCancel2.Visible = false;
+                btnCancel.Visible = true;
+
+            }
         }
 
         private void ClearPallet(){
@@ -132,11 +155,11 @@ namespace PalletLotSystem
                 try{
                     conn.Open();
 
-                    string updateQuery = @"UPDATE tbl_pallet SET description='', status='EMPTY' WHERE palletNo= @palletNo";
+                    string updateQuery = @"UPDATE tbl_pallet SET palletId='', status='EMPTY' WHERE location= @location";
 
                     using (MySqlCommand cmd = new MySqlCommand(updateQuery, conn))
                     {
-                        cmd.Parameters.AddWithValue("@palletNo", lblPallet.Text.Trim());
+                        cmd.Parameters.AddWithValue("@location", lblPallet.Text.Trim());
 
                         int rowsAffected = cmd.ExecuteNonQuery();
 
@@ -161,7 +184,7 @@ namespace PalletLotSystem
             }
         }
 
-        private void btnClearPallet_Click(object sender, EventArgs e)
+        private void btnOut_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtPalletId.Text))
             {
@@ -169,7 +192,7 @@ namespace PalletLotSystem
                 return;
             }
 
-            DialogResult result = MessageBox.Show("Are you sure you want to clear this pallet?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Are you sure you want to take out this pallet?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.No)
             {
@@ -177,6 +200,19 @@ namespace PalletLotSystem
             }
 
             ClearPallet();
+        }
+
+        private void txtPalletNo_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnSave.PerformClick();
+            }
+        }
+
+        private void btnCancel2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
