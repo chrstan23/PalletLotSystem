@@ -2,46 +2,84 @@
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
-namespace PalletLotSystem
-{
-    public partial class UpdateForm : Form
-    {
+namespace PalletLotSystem{
+    public partial class UpdateForm : Form{
+
         String connStr = "Server=localhost; user=root; password=root; database=christian; port=3306";
 
         private Layout layoutForm;
 
-        public UpdateForm(Layout layout, string location, string palletId)
-        {
+        public UpdateForm(Layout layout, string location){
             InitializeComponent();
             layoutForm = layout;
 
-            lblPallet.Text = location;
-            txtPalletId.Text = palletId;
+            LoadPalletData(location);
 
         }
 
-        // SAVE BUTTON
-        private void btnSave_Click(object sender, EventArgs e)
+        private void LoadPalletData(string location)
         {
+            using (MySqlConnection conn = new MySqlConnection(connStr))
+            {
+                conn.Open();
+
+                string query = "SELECT * FROM tbl_pallet WHERE location=@location";
+
+                using (MySqlCommand cmd = new MySqlCommand(query, conn)){
+                    cmd.Parameters.AddWithValue("@location", location);
+
+                    using(MySqlDataReader reader = cmd.ExecuteReader()){
+                        if (reader.Read()){
+                            lblPallet.Text = location;
+                            txtPalletId.Text = reader["palletId"].ToString();
+                            txtPalletNo.Text = reader["palletNo"].ToString();
+                        }
+                    }
+                }
+            }
+        }
+
+        // SAVE BUTTON
+        private void btnSave_Click(object sender, EventArgs e){
             string palletId = txtPalletId.Text.Trim();
             string palletNo = txtPalletNo.Text.Trim();
 
-            if (palletId == "")
-            {
+            if (palletId == ""){
                 MessageBox.Show("Please enter Pallet ID.", "Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }else if(palletNo == ""){
                 MessageBox.Show("Please enter Pallet No.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
-            }
-            else
-            {
+            }else{
                 UpdatePalletStatus();
 
                 this.Close();
             }
 
             
+        }
+
+        //INSERTING PALLET LOGS
+        private void InsertPalletLog(string location, string palletId, string palletNo)
+        {
+            using (MySqlConnection conn = new MySqlConnection(connStr))
+            {
+                conn.Open();
+
+                string query =  "INSERT INTO tbl_palletlogs (employeeInName, location, palletId, palletNo, dateIn, timeIn) VALUES (@employeeName, @location, @palletId, @palletNo, @dateIn, @timeIn)";
+
+                using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@employeeName", UserSession.FullName);
+                    cmd.Parameters.AddWithValue("@location", location);
+                    cmd.Parameters.AddWithValue("@palletId", palletId);
+                    cmd.Parameters.AddWithValue("@palletNo", palletNo);
+                    cmd.Parameters.AddWithValue("@dateIn", DateTime.Now.ToString("MM-dd-yyy"));
+                    cmd.Parameters.AddWithValue("@timeIn", DateTime.Now.ToString("HH:mm"));
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
         }
 
         // UPDATE LOGIC
@@ -53,11 +91,11 @@ namespace PalletLotSystem
                 {
                     conn.Open();
 
-                        // GET DESCRIPTION INPUT
+                    // GET DESCRIPTION INPUT
                     string palletId = txtPalletId.Text.Trim();
                     string palletNo = txtPalletNo.Text.Trim();
-                    string location = lblLocation.Text;
-                      
+                    string location = lblPallet.Text;
+
                     string newStatus = "";
 
                     // DETERMINE STATUS
@@ -84,6 +122,8 @@ namespace PalletLotSystem
 
                         if (rowsAffected > 0)
                         {
+                            InsertPalletLog(location, palletId, palletNo);
+
                             MessageBox.Show("Pallet updated successfully!");
 
                             // REFRESH LAYOUT
@@ -92,6 +132,7 @@ namespace PalletLotSystem
                             txtPalletId.Clear();
 
                             txtPalletId.Focus();
+
                         }
                         else
                         {
@@ -99,19 +140,18 @@ namespace PalletLotSystem
                         }
                     }
                 }
-                
 
-                    
+
+
                 catch (Exception ex)
                 {
                     MessageBox.Show("Database Error: " + ex.Message);
                 }
             }
-        }              
+        }
 
         // CANCEL
-        private void btnCancel_Click(object sender, EventArgs e)
-        {
+        private void btnCancel_Click(object sender, EventArgs e){
             btnIn.Visible = true;
             btnOut.Visible = true;
             btnCancel2.Visible = true;
@@ -123,19 +163,19 @@ namespace PalletLotSystem
         }
 
         //FOR SCANNING THE BARCODE PALLET ID
-        private void txtPalletId_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
+        private void txtPalletId_KeyDown(object sender, KeyEventArgs e){
+            if (e.KeyCode == Keys.Enter){
                 //btnSave.PerformClick();
                 txtPalletNo.Focus();
             }
         }
 
-        private void btnIn_Click(object sender, EventArgs e)
-        {
+        //FOR CHECKING IF BUTTON IS OCCUPIED AND CHANGE THE BUTTON VISIBILITY
+        private void btnIn_Click(object sender, EventArgs e){
+
             if (txtPalletId.Text != ""){
                 MessageBox.Show("Pallet is still Occupied", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             }else{
                 txtPalletId.Enabled = true;
                 txtPalletNo.Enabled = true;
@@ -150,68 +190,91 @@ namespace PalletLotSystem
             }
         }
 
-        private void ClearPallet(){
-            using  (MySqlConnection conn = new MySqlConnection(connStr)){
-                try{
+        private void PalletOutLog()
+        {
+            using (MySqlConnection conn = new MySqlConnection(connStr))
+            {
+                try
+                {
                     conn.Open();
 
-                    string updateQuery = @"UPDATE tbl_pallet SET palletId='', status='EMPTY' WHERE location= @location";
+                    string query = "UPDATE tbl_palletlogs SET employeeOutName = @employeeOutName, dateOut = @dateOut, timeOut = @timeOut WHERE location = @location AND palletId = @palletId AND palletNo = @palletNo ORDER BY id DESC LIMIT 1";
 
-                    using (MySqlCommand cmd = new MySqlCommand(updateQuery, conn))
+                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
                     {
+                        cmd.Parameters.AddWithValue("@employeeOutName", UserSession.FullName);
+                        cmd.Parameters.AddWithValue("@dateOut", DateTime.Now.ToString("MM-dd-yyyy"));
+                        cmd.Parameters.AddWithValue("@timeOut", DateTime.Now.ToString("HH:mm"));
                         cmd.Parameters.AddWithValue("@location", lblPallet.Text.Trim());
+                        cmd.Parameters.AddWithValue("@palletId", txtPalletId.Text.Trim());
+                        cmd.Parameters.AddWithValue("@palletNo", txtPalletNo.Text.Trim());
 
-                        int rowsAffected = cmd.ExecuteNonQuery();
-
-                        if (rowsAffected > 0)
-                        {
-                            MessageBox.Show("Pallet cleared successfully!");
-
-                            layoutForm.LoadPalletStatus();
-                            txtPalletId.Text = "";
-                            this.Close();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Pallet not found!");
-                        }
+                        cmd.ExecuteNonQuery();
                     }
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show("Database Error: " + ex.Message);
                 }
+                
             }
         }
 
-        private void btnOut_Click(object sender, EventArgs e)
-        {
-            if (string.IsNullOrWhiteSpace(txtPalletId.Text))
-            {
+        //FUNCTION FOR GETTING THE OUT THE PALLET
+        private void ClearPallet(){
+            using  (MySqlConnection conn = new MySqlConnection(connStr)){
+                try{
+                    conn.Open();
+
+                    string updateQuery = @"UPDATE tbl_pallet SET palletId='', status='EMPTY', palletNo='' WHERE location= @location";
+
+                    using (MySqlCommand cmd = new MySqlCommand(updateQuery, conn)){
+                        cmd.Parameters.AddWithValue("@location", lblPallet.Text.Trim());
+
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        if (rowsAffected > 0){
+                            MessageBox.Show("Pallet cleared successfully!");
+
+                            layoutForm.LoadPalletStatus();
+                            txtPalletId.Text = "";
+                            this.Close();
+                        }else{
+                            MessageBox.Show("Pallet not found!");
+                        }
+                    }
+                }catch (Exception ex){
+                    MessageBox.Show("Database Error: " + ex.Message);
+                }
+            }
+        }
+
+        private void btnOut_Click(object sender, EventArgs e){
+            if (string.IsNullOrWhiteSpace(txtPalletId.Text)){
+
                 MessageBox.Show("The pallet is still empty.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
 
             DialogResult result = MessageBox.Show("Are you sure you want to take out this pallet?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-            if (result == DialogResult.No)
-            {
+            if (result == DialogResult.No){
                 return;
             }
 
+            PalletOutLog();
             ClearPallet();
         }
 
-        private void txtPalletNo_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
+        private void txtPalletNo_KeyDown(object sender, KeyEventArgs e){
+
+            if (e.KeyCode == Keys.Enter){
                 btnSave.PerformClick();
             }
         }
 
-        private void btnCancel2_Click(object sender, EventArgs e)
-        {
+        private void btnCancel2_Click(object sender, EventArgs e){
+
             this.Close();
         }
     }

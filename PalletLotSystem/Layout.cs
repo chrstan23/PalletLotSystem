@@ -9,36 +9,20 @@ namespace PalletLotSystem
     {
         String connStr = "server=localhost; user=root; password=root; database=christian; port=3306";
 
-        public Layout()
-        {
+        public Layout(){
             InitializeComponent();
             LoadPalletStatus();
             RegisterPalletButtons();
         }
 
         // CHANGE COLOR USING BUTTON NAME
-        private void UpdateBoxColor(string location, string palletId, string status)
-        {
-            foreach (Control ctrl in this.Controls)
-            {
-                if (ctrl is Button)
-                {
+        private void UpdatePallet(string location, string palletId, string palletNo, string status){
+            foreach (Control ctrl in this.Controls){
+                if (ctrl is Button){
                     Button btn = (Button)ctrl;
 
-                    if (btn.Name == location)
-                    {
+                    if (btn.Name == location){
                         btn.Text = GetButtonDisplayText(palletId);
-                        btn.Tag = palletId;
-
-                        if (status == "EMPTY")
-                        {
-                            btn.BackColor = Color.Lime;
-                        }
-                        else if (status == "OCCUPIED")
-                        {
-                            btn.BackColor = Color.Orange;
-                        }
-
                         break;
                     }
                 }
@@ -55,30 +39,26 @@ namespace PalletLotSystem
         }
 
         // LOAD FROM DATABASE
-        public void LoadPalletStatus()
-        {
-            using (MySqlConnection conn = new MySqlConnection(connStr))
-            {
-                try
-                {
+        public void LoadPalletStatus(){
+            using (MySqlConnection conn = new MySqlConnection(connStr)){
+
+                try{
                     conn.Open();
 
                     string query = "SELECT * FROM tbl_pallet";
 
                     using (MySqlCommand cmd = new MySqlCommand(query, conn))
-                    using (MySqlDataReader reader = cmd.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
+                    using (MySqlDataReader reader = cmd.ExecuteReader()){
+                        while (reader.Read()){
                             string location = reader["location"].ToString();
                             string palletId = reader["palletId"].ToString();
+                            string palletNo = reader["palletNo"].ToString();
                             string status = reader["status"].ToString();
 
-                            UpdateBoxColor(location, palletId, status);
+                            UpdatePallet(location, palletId, palletNo, status);
                         }
                     }
-                }
-                catch (Exception ex)
+                }catch (Exception ex)
                 {
                     MessageBox.Show(
                         "Database Error: " + ex.Message,
@@ -91,40 +71,31 @@ namespace PalletLotSystem
         }
 
         // OPEN UPDATE FORM
-        private void PalletButton_Click(object sender, EventArgs e)
-        {
+        private void PalletButton_Click(object sender, EventArgs e){
             Button btn = (Button)sender;
-
-            string location = btn.Name;
-            string palletId = "";
-
-            if (btn.Tag != null)
-            {
-                palletId = btn.Tag.ToString();
-            }
-
-            UpdateForm update = new UpdateForm(this, location, palletId);
+            
+            UpdateForm update = new UpdateForm(this, btn.Name);
 
             update.ShowDialog();
         }
 
-        private void RegisterPalletButtons()
-        {
-            foreach (Control ctrl in this.Controls)
-            {
-                if (ctrl is Button)
-                {
+        private void RegisterPalletButtons(){
+            foreach (Control ctrl in this.Controls){
+                if (ctrl is Button){
                     Button btn = (Button)ctrl;
 
-                    if (btn.Name.StartsWith("A"))
-                    {
+                    if (btn.Name.StartsWith("A")){
                         btn.Click += PalletButton_Click;
+                        btn.UseVisualStyleBackColor = false;
+                        btn.FlatStyle = FlatStyle.Flat;
+                        btn.FlatAppearance.BorderSize = 1;
                     }
                 }
             }
         }
 
-        private void btnLogout_Click(object sender, EventArgs e)
+        
+        private void btnBack_Click(object sender, EventArgs e)
         {
             this.Close();
         }

@@ -11,7 +11,7 @@ using MySql.Data.MySqlClient;
 
 namespace PalletLotSystem{
     public partial class Login : Form{
-        String connStr = "server=192.168.0.9; user=test; password=test; database=dblogin; port=3306";
+        String connStr = "server=localhost; user=root; password=root; database=christian; port=3306";
 
         public Login(){
             InitializeComponent();
@@ -44,13 +44,17 @@ namespace PalletLotSystem{
 
                     if (reader.Read())
                     {
+
+                        UserSession.FullName = reader["fullName"].ToString();
+                        UserSession.CompanyId = reader["companyId"].ToString();
+
                         MessageBox.Show("Login Successfull", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         txtPassword.Text = "";
 
-                        Layout layout = new Layout();
+                        LandingPage landing = new LandingPage();
                         this.Hide();
-                        layout.Show();
-                        layout.FormClosed += (s, args) => this.Show();
+                        landing.Show();
+                        landing.FormClosed += (s, args) => this.Show();
                     }
                     else
                     {
@@ -64,6 +68,11 @@ namespace PalletLotSystem{
 
                 }
             }
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

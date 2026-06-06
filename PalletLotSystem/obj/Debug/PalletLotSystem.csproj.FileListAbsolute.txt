@@ -9,3 +9,4 @@ C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\Pall
 C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.pdb
 C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.Layout.resources
 C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.UpdateForm.resources
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.LandingPage.resources

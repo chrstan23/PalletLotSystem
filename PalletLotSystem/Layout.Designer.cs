@@ -33,7 +33,7 @@
             this.A3 = new System.Windows.Forms.Button();
             this.A4 = new System.Windows.Forms.Button();
             this.A5 = new System.Windows.Forms.Button();
-            this.btnLogout = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -543,7 +543,7 @@
             // 
             // A1
             // 
-            this.A1.BackColor = System.Drawing.SystemColors.Control;
+            this.A1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(153)))));
             this.A1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A1.Location = new System.Drawing.Point(1753, 64);
             this.A1.Name = "A1";
@@ -553,7 +553,7 @@
             // 
             // A2
             // 
-            this.A2.BackColor = System.Drawing.SystemColors.Control;
+            this.A2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(153)))));
             this.A2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A2.Location = new System.Drawing.Point(1712, 64);
             this.A2.Name = "A2";
@@ -563,7 +563,7 @@
             // 
             // A3
             // 
-            this.A3.BackColor = System.Drawing.SystemColors.Control;
+            this.A3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(153)))));
             this.A3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A3.Location = new System.Drawing.Point(1671, 64);
             this.A3.Name = "A3";
@@ -573,7 +573,7 @@
             // 
             // A4
             // 
-            this.A4.BackColor = System.Drawing.SystemColors.Control;
+            this.A4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(153)))));
             this.A4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A4.Location = new System.Drawing.Point(1630, 64);
             this.A4.Name = "A4";
@@ -583,7 +583,7 @@
             // 
             // A5
             // 
-            this.A5.BackColor = System.Drawing.SystemColors.Control;
+            this.A5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(153)))));
             this.A5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A5.Location = new System.Drawing.Point(1589, 64);
             this.A5.Name = "A5";
@@ -591,15 +591,15 @@
             this.A5.TabIndex = 4;
             this.A5.UseVisualStyleBackColor = false;
             // 
-            // btnLogout
+            // btnBack
             // 
-            this.btnLogout.Location = new System.Drawing.Point(1692, 12);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(75, 23);
-            this.btnLogout.TabIndex = 7;
-            this.btnLogout.Text = "Logout";
-            this.btnLogout.UseVisualStyleBackColor = true;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            this.btnBack.Location = new System.Drawing.Point(1692, 12);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(75, 23);
+            this.btnBack.TabIndex = 7;
+            this.btnBack.Text = "BACK";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // button1
             // 
@@ -6162,7 +6162,7 @@
             this.Controls.Add(this.lblLineA);
             this.Controls.Add(this.A1);
             this.Controls.Add(this.A2);
-            this.Controls.Add(this.btnLogout);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.A3);
             this.Controls.Add(this.A4);
             this.Controls.Add(this.A5);
@@ -6181,7 +6181,7 @@
         private System.Windows.Forms.Button A3;
         private System.Windows.Forms.Button A4;
         private System.Windows.Forms.Button A5;
-        private System.Windows.Forms.Button btnLogout;
+        private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
