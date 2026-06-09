@@ -28,33 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dvgPalletLogs = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dvgPalletLogs)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dvgPalletLogs
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 68);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(769, 296);
-            this.dataGridView1.TabIndex = 0;
+            this.dvgPalletLogs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dvgPalletLogs.Location = new System.Drawing.Point(6, 68);
+            this.dvgPalletLogs.Name = "dvgPalletLogs";
+            this.dvgPalletLogs.Size = new System.Drawing.Size(769, 296);
+            this.dvgPalletLogs.TabIndex = 0;
             // 
             // PalletLogs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 369);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dvgPalletLogs);
             this.Name = "PalletLogs";
             this.Text = "PalletLogs";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dvgPalletLogs)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dvgPalletLogs;
     }
 }

@@ -39,6 +39,23 @@ namespace PalletLotSystem{
             }
         }
 
+        //VALIDATION FOR THE PALLET NO AND LOCATION
+        private bool PalletNoLoc()
+        {
+            string palletNo = txtPalletNo.Text.Trim();
+            string location = lblPallet.Text.Trim();
+
+            if (!palletNo.EndsWith(location))
+            {
+                MessageBox.Show("Pallet No doesn't match its supposed location!", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtPalletNo.Clear();
+                txtPalletNo.Focus();
+                
+                return false;
+            }
+            return true;
+        }
+
         // SAVE BUTTON
         private void btnSave_Click(object sender, EventArgs e){
             string palletId = txtPalletId.Text.Trim();
@@ -50,13 +67,15 @@ namespace PalletLotSystem{
             }else if(palletNo == ""){
                 MessageBox.Show("Please enter Pallet No.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
+            }else if (!PalletNoLoc()){
+                return;
             }else{
+
+                PalletNoLoc();
                 UpdatePalletStatus();
 
                 this.Close();
             }
-
-            
         }
 
         //INSERTING PALLET LOGS

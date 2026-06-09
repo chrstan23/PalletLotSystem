@@ -59,6 +59,7 @@
             this.Controls.Add(this.btnHistory);
             this.Controls.Add(this.btnLayout);
             this.Name = "LandingPage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LandingPage";
             this.ResumeLayout(false);
 
