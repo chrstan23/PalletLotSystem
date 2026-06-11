@@ -50,6 +50,7 @@
             this.btnHistory.TabIndex = 1;
             this.btnHistory.Text = "HISTORY";
             this.btnHistory.UseVisualStyleBackColor = true;
+            this.btnHistory.Click += new System.EventHandler(this.btnHistory_Click);
             // 
             // LandingPage
             // 

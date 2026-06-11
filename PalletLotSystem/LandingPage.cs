@@ -24,5 +24,13 @@ namespace PalletLotSystem
             layout.Show();
             layout.FormClosed += (s, args) => this.Show();
         }
+
+        private void btnHistory_Click(object sender, EventArgs e)
+        {
+            PalletLogs logs = new PalletLogs();
+            this.Hide();
+            logs.Show();
+            logs.FormClosed += (s, args) => this.Show();
+        }
     }
 }

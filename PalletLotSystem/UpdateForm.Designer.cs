@@ -32,11 +32,11 @@
             this.btnCancel = new System.Windows.Forms.Button();
             this.lblLocation = new System.Windows.Forms.Label();
             this.lblPalletId = new System.Windows.Forms.Label();
-            this.txtPalletId = new System.Windows.Forms.TextBox();
+            this.txtPalletNo = new System.Windows.Forms.TextBox();
             this.lblPallet = new System.Windows.Forms.Label();
             this.btnIn = new System.Windows.Forms.Button();
             this.btnOut = new System.Windows.Forms.Button();
-            this.txtPalletNo = new System.Windows.Forms.TextBox();
+            this.txtPalletId = new System.Windows.Forms.TextBox();
             this.lblPalletNo = new System.Windows.Forms.Label();
             this.btnCancel2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -76,20 +76,20 @@
             // lblPalletId
             // 
             this.lblPalletId.AutoSize = true;
-            this.lblPalletId.Location = new System.Drawing.Point(75, 35);
+            this.lblPalletId.Location = new System.Drawing.Point(75, 61);
             this.lblPalletId.Name = "lblPalletId";
             this.lblPalletId.Size = new System.Drawing.Size(50, 13);
             this.lblPalletId.TabIndex = 7;
             this.lblPalletId.Text = "Pallet ID:";
             // 
-            // txtPalletId
+            // txtPalletNo
             // 
-            this.txtPalletId.Enabled = false;
-            this.txtPalletId.Location = new System.Drawing.Point(131, 32);
-            this.txtPalletId.Name = "txtPalletId";
-            this.txtPalletId.Size = new System.Drawing.Size(163, 20);
-            this.txtPalletId.TabIndex = 1;
-            this.txtPalletId.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPalletId_KeyDown);
+            this.txtPalletNo.Enabled = false;
+            this.txtPalletNo.Location = new System.Drawing.Point(131, 32);
+            this.txtPalletNo.Name = "txtPalletNo";
+            this.txtPalletNo.Size = new System.Drawing.Size(163, 20);
+            this.txtPalletNo.TabIndex = 1;
+            this.txtPalletNo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPalletNo_KeyDown);
             // 
             // lblPallet
             // 
@@ -120,19 +120,19 @@
             this.btnOut.UseVisualStyleBackColor = true;
             this.btnOut.Click += new System.EventHandler(this.btnOut_Click);
             // 
-            // txtPalletNo
+            // txtPalletId
             // 
-            this.txtPalletNo.Enabled = false;
-            this.txtPalletNo.Location = new System.Drawing.Point(131, 58);
-            this.txtPalletNo.Name = "txtPalletNo";
-            this.txtPalletNo.Size = new System.Drawing.Size(163, 20);
-            this.txtPalletNo.TabIndex = 2;
-            this.txtPalletNo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPalletNo_KeyDown);
+            this.txtPalletId.Enabled = false;
+            this.txtPalletId.Location = new System.Drawing.Point(131, 58);
+            this.txtPalletId.Name = "txtPalletId";
+            this.txtPalletId.Size = new System.Drawing.Size(163, 20);
+            this.txtPalletId.TabIndex = 2;
+            this.txtPalletId.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPalletId_KeyDown);
             // 
             // lblPalletNo
             // 
             this.lblPalletNo.AutoSize = true;
-            this.lblPalletNo.Location = new System.Drawing.Point(75, 61);
+            this.lblPalletNo.Location = new System.Drawing.Point(74, 35);
             this.lblPalletNo.Name = "lblPalletNo";
             this.lblPalletNo.Size = new System.Drawing.Size(53, 13);
             this.lblPalletNo.TabIndex = 8;
@@ -154,12 +154,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(411, 198);
             this.Controls.Add(this.btnCancel2);
-            this.Controls.Add(this.txtPalletNo);
+            this.Controls.Add(this.txtPalletId);
             this.Controls.Add(this.lblPalletNo);
             this.Controls.Add(this.btnOut);
             this.Controls.Add(this.btnIn);
             this.Controls.Add(this.lblPallet);
-            this.Controls.Add(this.txtPalletId);
+            this.Controls.Add(this.txtPalletNo);
             this.Controls.Add(this.lblPalletId);
             this.Controls.Add(this.lblLocation);
             this.Controls.Add(this.btnCancel);
@@ -178,8 +178,8 @@
         private System.Windows.Forms.Button btnCancel2;
         private System.Windows.Forms.Label lblLocation;
         private System.Windows.Forms.Label lblPalletId;
-        private System.Windows.Forms.TextBox txtPalletId;
         private System.Windows.Forms.TextBox txtPalletNo;
+        private System.Windows.Forms.TextBox txtPalletId;
         private System.Windows.Forms.Label lblPallet;
         private System.Windows.Forms.Button btnIn;
         private System.Windows.Forms.Button btnOut;

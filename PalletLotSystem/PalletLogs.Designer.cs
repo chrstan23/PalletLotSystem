@@ -28,33 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dvgPalletLogs = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dvgPalletLogs)).BeginInit();
+            this.dgvPalletLogs = new System.Windows.Forms.DataGridView();
+            this.btnExport = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPalletLogs)).BeginInit();
             this.SuspendLayout();
             // 
-            // dvgPalletLogs
+            // dgvPalletLogs
             // 
-            this.dvgPalletLogs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dvgPalletLogs.Location = new System.Drawing.Point(6, 68);
-            this.dvgPalletLogs.Name = "dvgPalletLogs";
-            this.dvgPalletLogs.Size = new System.Drawing.Size(769, 296);
-            this.dvgPalletLogs.TabIndex = 0;
+            this.dgvPalletLogs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPalletLogs.Location = new System.Drawing.Point(3, 85);
+            this.dgvPalletLogs.Name = "dgvPalletLogs";
+            this.dgvPalletLogs.Size = new System.Drawing.Size(999, 324);
+            this.dgvPalletLogs.TabIndex = 0;
+            // 
+            // btnExport
+            // 
+            this.btnExport.Location = new System.Drawing.Point(867, 40);
+            this.btnExport.Name = "btnExport";
+            this.btnExport.Size = new System.Drawing.Size(75, 23);
+            this.btnExport.TabIndex = 1;
+            this.btnExport.Text = "EXPORT";
+            this.btnExport.UseVisualStyleBackColor = true;
+            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
             // PalletLogs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 369);
-            this.Controls.Add(this.dvgPalletLogs);
+            this.ClientSize = new System.Drawing.Size(1006, 412);
+            this.Controls.Add(this.btnExport);
+            this.Controls.Add(this.dgvPalletLogs);
             this.Name = "PalletLogs";
             this.Text = "PalletLogs";
-            ((System.ComponentModel.ISupportInitialize)(this.dvgPalletLogs)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPalletLogs)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dvgPalletLogs;
+        private System.Windows.Forms.DataGridView dgvPalletLogs;
+        private System.Windows.Forms.Button btnExport;
     }
 }

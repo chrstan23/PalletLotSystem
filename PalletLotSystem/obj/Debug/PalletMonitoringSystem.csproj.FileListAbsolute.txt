@@ -1,0 +1,13 @@
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\bin\Debug\PalletLotSystem.exe.config
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\bin\Debug\PalletLotSystem.exe
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\bin\Debug\PalletLotSystem.pdb
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletMonitoringSystem.csprojResolveAssemblyReference.cache
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.LandingPage.resources
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.Layout.resources
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.Login.resources
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.PalletLogs.resources
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.Properties.Resources.resources
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.UpdateForm.resources
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletMonitoringSystem.csproj.GenerateResource.Cache
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.exe
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.pdb

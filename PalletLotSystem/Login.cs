@@ -47,6 +47,7 @@ namespace PalletLotSystem{
 
                         UserSession.FullName = reader["fullName"].ToString();
                         UserSession.CompanyId = reader["companyId"].ToString();
+                        UserSession.Privilege = Convert.ToInt16(reader["privilege"]);
 
                         MessageBox.Show("Login Successfull", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         txtPassword.Text = "";

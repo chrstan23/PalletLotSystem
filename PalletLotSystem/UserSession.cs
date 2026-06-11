@@ -10,5 +10,6 @@ namespace PalletLotSystem
     {
         public static string FullName { get; set; }
         public static string CompanyId { get; set; }
+        public static int Privilege { get;  set; }
     }
 }
