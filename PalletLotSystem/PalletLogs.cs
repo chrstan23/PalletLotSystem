@@ -22,6 +22,9 @@ namespace PalletLotSystem
             InitializeComponent();
 
             DisplayPalletLogs();
+
+            dtpFrom.Value = DateTime.Today;
+            dtpTo.Value = DateTime.Today;
         }
 
         private void DisplayPalletLogs(){
@@ -54,6 +57,58 @@ namespace PalletLotSystem
                 }
             }
         }
+
+        private void FilterPalletLogs()
+        {
+            using (MySqlConnection conn = new MySqlConnection(connStr))
+            {
+                try
+                {
+                    conn.Open();
+
+                    string fromDate = dtpFrom.Value.ToString("MM-dd-yyyy");
+                    string toDate = dtpTo.Value.ToString("MM-dd-yyyy");
+                    string query = "SELECT employeeInName AS `Employee In`, location AS `Pallet Location`, palletId AS `Pallet ID`, palletNo AS `Pallet No.`, dateIn AS `Date In`, timeIn AS `Time In`, employeeOutName AS `Employee Out`, dateOut AS `Date Out`, timeOut AS `Time Out` FROM tbl_palletlogs WHERE STR_TO_DATE(dateIn, '%m-%d-%Y') BETWEEN STR_TO_DATE(@fromDate, '%m-%d-%Y') AND STR_TO_DATE(@toDate, '%m-%d-%Y') ORDER BY id DESC";
+
+                    using(MySqlDataAdapter da = new MySqlDataAdapter(query, conn)){
+                        da.SelectCommand.Parameters.AddWithValue("@fromDate", fromDate);
+                        da.SelectCommand.Parameters.AddWithValue("@toDate", toDate);
+
+                        DataTable dt = new DataTable();
+
+                        da.Fill(dt);
+                        dgvPalletLogs.DataSource = dt;
+
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Database error: " + ex.Message);
+                }
+            }
+        }
+
+        private void btnFilter_Click(object sender, EventArgs e)
+        {
+            if (dtpFrom.Value.Date > dtpTo.Value.Date)
+            {
+                MessageBox.Show("1st Date cannot be later that 2nd Date.", "Invalid Date Range", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                return;
+            }
+
+            FilterPalletLogs();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            dtpFrom.Value = DateTime.Today;
+            dtpTo.Value = DateTime.Today;
+
+            DisplayPalletLogs();
+        }
+
+
 
         private void ExportToCsv()
         {
@@ -113,5 +168,7 @@ namespace PalletLotSystem
         {
             ExportToCsv();
         }
+
+        
     }
 }
