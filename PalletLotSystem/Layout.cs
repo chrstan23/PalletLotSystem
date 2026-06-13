@@ -173,5 +173,10 @@ namespace PalletLotSystem{
             this.Close();
         }
 
+        private void Layout_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
