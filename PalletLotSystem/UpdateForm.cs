@@ -84,7 +84,7 @@ namespace PalletLotSystem{
                 txtPalletId.Clear();
                 txtPalletId.Focus();
                 return;
-            }else if (!PalletIdLoc()){
+            }else if (!PalletIdLoc() || !ValidatePalletNo()){
                 return;
             }else{
 
@@ -155,6 +155,7 @@ namespace PalletLotSystem{
 
                             // REFRESH LAYOUT
                             layoutForm.LoadPalletStatus();
+                            layoutForm.LoadStatistics();
 
                             txtPalletNo.Clear();
 
@@ -283,6 +284,7 @@ namespace PalletLotSystem{
                         if (rowsAffected > 0){
                             MessageBox.Show("Pallet cleared successfully!");
 
+                            layoutForm.LoadStatistics();
                             layoutForm.LoadPalletStatus();
                             txtPalletNo.Text = "";
                             this.Close();
@@ -317,6 +319,7 @@ namespace PalletLotSystem{
 
             if (e.KeyCode == Keys.Enter){
                 txtPalletId.Focus();
+                txtPalletId.SelectAll();
                 ValidatePalletNo();
             }
         }

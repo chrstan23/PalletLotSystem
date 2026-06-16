@@ -10,7 +10,9 @@ namespace PalletLotSystem{
         public Layout(){
             InitializeComponent();
             LoadPalletStatus();
+            LoadStatistics();
             RegisterPalletButtons();
+            lblUsername.Text = UserSession.FullName;
         }
 
         // CHANGE COLOR USING BUTTON NAME
@@ -20,9 +22,53 @@ namespace PalletLotSystem{
                     Button btn = (Button)ctrl;
 
                     if (btn.Name == location){
-                        btn.Text = GetButtonDisplayText(location);
+                        btn.Text = GetButtonDisplayText(palletNo);
                         break;
                     }
+                }
+            }
+        }
+
+        public void LoadStatistics()
+        {
+            using (MySqlConnection conn = new MySqlConnection(connStr))
+            {
+                try
+                {
+                    conn.Open();
+
+                    int total = 0;
+                    int occupied = 0;
+                    int empty = 0;
+
+                    string query = "SELECT COUNT(*) AS TotalPallets, SUM(CASE WHEN `status` = 'OCCUPIED' THEN 1 ELSE 0 END) AS OccupiedPallets, SUM(CASE WHEN `status` = 'EMPTY' THEN 1 ELSE 0 END) AS EmptyPallets FROM tbl_pallet";
+
+                    using(MySqlCommand cmd = new MySqlCommand(query, conn))
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            total = Convert.ToInt32(reader["TotalPallets"]);
+                            occupied = Convert.ToInt32(reader["OccupiedPallets"]);
+                            empty = Convert.ToInt32(reader["EmptyPallets"]);
+                        }
+                    }
+
+                    double utilization = 0;
+                    if (total > 0)
+                    {
+                        utilization = ((double)occupied / total) * 100;
+                    }
+
+                    lblTotalPallets.Text = total.ToString();
+                    lblOccupiedPallets.Text = occupied.ToString();
+                    lblEmptyPallets.Text = empty.ToString();
+                    lblUtilizationPallets.Text = (utilization.ToString("0.00") + "%");
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Database Error: " + ex.Message);
                 }
             }
         }
@@ -166,6 +212,11 @@ namespace PalletLotSystem{
                     }
                 }
             }
+        }
+
+        private void DisplayUser()
+        {
+            //using(MySqlCon)
         }
 
         
