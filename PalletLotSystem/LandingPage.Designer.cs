@@ -34,29 +34,38 @@
             // 
             // btnLayout
             // 
-            this.btnLayout.Location = new System.Drawing.Point(62, 71);
+            this.btnLayout.BackColor = System.Drawing.Color.Black;
+            this.btnLayout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLayout.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLayout.ForeColor = System.Drawing.Color.White;
+            this.btnLayout.Location = new System.Drawing.Point(60, 48);
             this.btnLayout.Name = "btnLayout";
-            this.btnLayout.Size = new System.Drawing.Size(75, 23);
+            this.btnLayout.Size = new System.Drawing.Size(90, 35);
             this.btnLayout.TabIndex = 0;
             this.btnLayout.Text = "LAYOUT";
-            this.btnLayout.UseVisualStyleBackColor = true;
+            this.btnLayout.UseVisualStyleBackColor = false;
             this.btnLayout.Click += new System.EventHandler(this.btnLayout_Click);
             // 
             // btnHistory
             // 
-            this.btnHistory.Location = new System.Drawing.Point(181, 71);
+            this.btnHistory.BackColor = System.Drawing.Color.Black;
+            this.btnHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHistory.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistory.ForeColor = System.Drawing.Color.White;
+            this.btnHistory.Location = new System.Drawing.Point(192, 48);
             this.btnHistory.Name = "btnHistory";
-            this.btnHistory.Size = new System.Drawing.Size(75, 23);
+            this.btnHistory.Size = new System.Drawing.Size(90, 35);
             this.btnHistory.TabIndex = 1;
             this.btnHistory.Text = "HISTORY";
-            this.btnHistory.UseVisualStyleBackColor = true;
+            this.btnHistory.UseVisualStyleBackColor = false;
             this.btnHistory.Click += new System.EventHandler(this.btnHistory_Click);
             // 
             // LandingPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(341, 176);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(244)))), ((int)(((byte)(248)))));
+            this.ClientSize = new System.Drawing.Size(340, 146);
             this.Controls.Add(this.btnHistory);
             this.Controls.Add(this.btnLayout);
             this.Name = "LandingPage";

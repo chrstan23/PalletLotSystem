@@ -213,14 +213,6 @@ namespace PalletLotSystem{
 
             this.pnlUtilization.BackColor = Color.FromArgb(220, 220, 220);
 
-            this.pnlAA.BackColor = Color.FromArgb(211, 211, 211);
-            this.pnlBC.BackColor = Color.FromArgb(211, 211, 211);
-            this.pnlDE.BackColor = Color.FromArgb(211, 211, 211);
-            this.pnlFG.BackColor = Color.FromArgb(211, 211, 211);
-            this.pnlHI.BackColor = Color.FromArgb(211, 211, 211);
-            this.pnlJK.BackColor = Color.FromArgb(211, 211, 211);
-            this.pnlBlock1.BackColor = Color.FromArgb(211, 211, 211);
-            this.pnlBlock2.BackColor = Color.FromArgb(211, 211, 211);
         }
 
         private void Layout_Load(object sender, EventArgs e)

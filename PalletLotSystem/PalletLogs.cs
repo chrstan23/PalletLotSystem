@@ -44,12 +44,17 @@ namespace PalletLotSystem
                     dgvPalletLogs.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
                     dgvPalletLogs.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
                     dgvPalletLogs.Columns["Employee In"].FillWeight = 130;
-                    dgvPalletLogs.Columns["Pallet No."].FillWeight = 220;
-                    dgvPalletLogs.Columns["Pallet Location"].FillWeight = 110;
+                    dgvPalletLogs.Columns["Pallet ID"].FillWeight = 220;
+                    dgvPalletLogs.Columns["Pallet Location"].FillWeight = 130;
                     dgvPalletLogs.Columns["Employee Out"].FillWeight = 130;
                     dgvPalletLogs.ReadOnly = true;
                     dgvPalletLogs.AllowUserToAddRows = false;
                     dgvPalletLogs.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+                    dgvPalletLogs.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 9, FontStyle.Bold);
+                    dgvPalletLogs.DefaultCellStyle.Font = new Font("Segoe UI", 9);
+                    dgvPalletLogs.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(245, 245, 245);
+                    dgvPalletLogs.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+                    dgvPalletLogs.GridColor = Color.LightGray;
 
                 }catch (Exception e){
                     MessageBox.Show("Database Error " + e.Message);

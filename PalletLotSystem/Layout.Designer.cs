@@ -580,8 +580,6 @@
             this.pnlJK = new System.Windows.Forms.Panel();
             this.pnlFG = new System.Windows.Forms.Panel();
             this.pnlHI = new System.Windows.Forms.Panel();
-            this.pnlBlock1 = new System.Windows.Forms.Panel();
-            this.pnlBlock2 = new System.Windows.Forms.Panel();
             this.pnlHeading = new System.Windows.Forms.Panel();
             this.label50 = new System.Windows.Forms.Label();
             this.pnlAA.SuspendLayout();
@@ -598,69 +596,67 @@
             this.pnlJK.SuspendLayout();
             this.pnlFG.SuspendLayout();
             this.pnlHI.SuspendLayout();
-            this.pnlBlock1.SuspendLayout();
-            this.pnlBlock2.SuspendLayout();
             this.pnlHeading.SuspendLayout();
             this.SuspendLayout();
             // 
             // A01
             // 
             this.A01.BackColor = System.Drawing.SystemColors.Control;
-            this.A01.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A01.Location = new System.Drawing.Point(1597, 145);
+            this.A01.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A01.Location = new System.Drawing.Point(1210, 124);
             this.A01.Name = "A01";
-            this.A01.Size = new System.Drawing.Size(40, 40);
+            this.A01.Size = new System.Drawing.Size(30, 30);
             this.A01.TabIndex = 0;
             this.A01.UseVisualStyleBackColor = false;
             // 
             // A02
             // 
             this.A02.BackColor = System.Drawing.SystemColors.Control;
-            this.A02.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A02.Location = new System.Drawing.Point(1558, 145);
+            this.A02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A02.Location = new System.Drawing.Point(1181, 124);
             this.A02.Name = "A02";
-            this.A02.Size = new System.Drawing.Size(40, 40);
+            this.A02.Size = new System.Drawing.Size(30, 30);
             this.A02.TabIndex = 1;
             this.A02.UseVisualStyleBackColor = false;
             // 
             // A03
             // 
             this.A03.BackColor = System.Drawing.SystemColors.Control;
-            this.A03.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A03.Location = new System.Drawing.Point(1519, 145);
+            this.A03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A03.Location = new System.Drawing.Point(1152, 124);
             this.A03.Name = "A03";
-            this.A03.Size = new System.Drawing.Size(40, 40);
+            this.A03.Size = new System.Drawing.Size(30, 30);
             this.A03.TabIndex = 2;
             this.A03.UseVisualStyleBackColor = false;
             // 
             // A04
             // 
             this.A04.BackColor = System.Drawing.SystemColors.Control;
-            this.A04.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A04.Location = new System.Drawing.Point(1480, 145);
+            this.A04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A04.Location = new System.Drawing.Point(1123, 124);
             this.A04.Name = "A04";
-            this.A04.Size = new System.Drawing.Size(40, 40);
+            this.A04.Size = new System.Drawing.Size(30, 30);
             this.A04.TabIndex = 3;
             this.A04.UseVisualStyleBackColor = false;
             // 
             // A05
             // 
             this.A05.BackColor = System.Drawing.SystemColors.Control;
-            this.A05.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A05.Location = new System.Drawing.Point(1441, 145);
+            this.A05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A05.Location = new System.Drawing.Point(1094, 124);
             this.A05.Name = "A05";
-            this.A05.Size = new System.Drawing.Size(40, 40);
+            this.A05.Size = new System.Drawing.Size(30, 30);
             this.A05.TabIndex = 4;
             this.A05.UseVisualStyleBackColor = false;
             // 
             // btnBack
             // 
-            this.btnBack.BackColor = System.Drawing.Color.White;
+            this.btnBack.BackColor = System.Drawing.Color.Red;
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBack.Location = new System.Drawing.Point(1568, 29);
+            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Location = new System.Drawing.Point(1197, 42);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(100, 35);
+            this.btnBack.Size = new System.Drawing.Size(101, 30);
             this.btnBack.TabIndex = 7;
             this.btnBack.Text = "BACK";
             this.btnBack.UseVisualStyleBackColor = false;
@@ -669,190 +665,202 @@
             // A06
             // 
             this.A06.BackColor = System.Drawing.SystemColors.Control;
-            this.A06.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A06.Location = new System.Drawing.Point(1402, 145);
+            this.A06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A06.Location = new System.Drawing.Point(1065, 124);
             this.A06.Name = "A06";
-            this.A06.Size = new System.Drawing.Size(40, 40);
+            this.A06.Size = new System.Drawing.Size(30, 30);
             this.A06.TabIndex = 9;
             this.A06.UseVisualStyleBackColor = false;
             // 
             // AA06
             // 
             this.AA06.BackColor = System.Drawing.SystemColors.Control;
-            this.AA06.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA06.Location = new System.Drawing.Point(1402, 184);
+            this.AA06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA06.Location = new System.Drawing.Point(1065, 153);
             this.AA06.Name = "AA06";
-            this.AA06.Size = new System.Drawing.Size(40, 40);
+            this.AA06.Size = new System.Drawing.Size(30, 30);
             this.AA06.TabIndex = 49;
             this.AA06.UseVisualStyleBackColor = false;
             // 
             // AA01
             // 
             this.AA01.BackColor = System.Drawing.SystemColors.Control;
-            this.AA01.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA01.Location = new System.Drawing.Point(1597, 184);
+            this.AA01.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA01.Location = new System.Drawing.Point(1210, 153);
             this.AA01.Name = "AA01";
-            this.AA01.Size = new System.Drawing.Size(40, 40);
+            this.AA01.Size = new System.Drawing.Size(30, 30);
             this.AA01.TabIndex = 44;
             this.AA01.UseVisualStyleBackColor = false;
             // 
             // AA02
             // 
             this.AA02.BackColor = System.Drawing.SystemColors.Control;
-            this.AA02.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA02.Location = new System.Drawing.Point(1558, 184);
+            this.AA02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA02.Location = new System.Drawing.Point(1181, 153);
             this.AA02.Name = "AA02";
-            this.AA02.Size = new System.Drawing.Size(40, 40);
+            this.AA02.Size = new System.Drawing.Size(30, 30);
             this.AA02.TabIndex = 45;
             this.AA02.UseVisualStyleBackColor = false;
             // 
             // AA03
             // 
             this.AA03.BackColor = System.Drawing.SystemColors.Control;
-            this.AA03.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA03.Location = new System.Drawing.Point(1519, 184);
+            this.AA03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA03.Location = new System.Drawing.Point(1152, 153);
             this.AA03.Name = "AA03";
-            this.AA03.Size = new System.Drawing.Size(40, 40);
+            this.AA03.Size = new System.Drawing.Size(30, 30);
             this.AA03.TabIndex = 46;
             this.AA03.UseVisualStyleBackColor = false;
             // 
             // AA04
             // 
             this.AA04.BackColor = System.Drawing.SystemColors.Control;
-            this.AA04.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA04.Location = new System.Drawing.Point(1480, 184);
+            this.AA04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA04.Location = new System.Drawing.Point(1123, 153);
             this.AA04.Name = "AA04";
-            this.AA04.Size = new System.Drawing.Size(40, 40);
+            this.AA04.Size = new System.Drawing.Size(30, 30);
             this.AA04.TabIndex = 47;
             this.AA04.UseVisualStyleBackColor = false;
             // 
             // AA05
             // 
             this.AA05.BackColor = System.Drawing.SystemColors.Control;
-            this.AA05.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA05.Location = new System.Drawing.Point(1441, 184);
+            this.AA05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA05.Location = new System.Drawing.Point(1094, 153);
             this.AA05.Name = "AA05";
-            this.AA05.Size = new System.Drawing.Size(40, 40);
+            this.AA05.Size = new System.Drawing.Size(30, 30);
             this.AA05.TabIndex = 48;
             this.AA05.UseVisualStyleBackColor = false;
             // 
             // lblLineB
             // 
             this.lblLineB.AutoSize = true;
-            this.lblLineB.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLineB.Location = new System.Drawing.Point(8, 3);
+            this.lblLineB.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLineB.ForeColor = System.Drawing.Color.Black;
+            this.lblLineB.Location = new System.Drawing.Point(8, -4);
             this.lblLineB.Name = "lblLineB";
-            this.lblLineB.Size = new System.Drawing.Size(34, 37);
+            this.lblLineB.Size = new System.Drawing.Size(26, 30);
             this.lblLineB.TabIndex = 84;
             this.lblLineB.Text = "B";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(8, 44);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(8, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 37);
+            this.label1.Size = new System.Drawing.Size(26, 30);
             this.label1.TabIndex = 165;
             this.label1.Text = "C";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(7, 0);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(7, -3);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 37);
+            this.label2.Size = new System.Drawing.Size(28, 30);
             this.label2.TabIndex = 166;
             this.label2.Text = "D";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(9, 35);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(9, 27);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 37);
+            this.label3.Size = new System.Drawing.Size(24, 30);
             this.label3.TabIndex = 167;
             this.label3.Text = "E";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(10, 2);
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(9, -4);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(31, 37);
+            this.label4.Size = new System.Drawing.Size(24, 30);
             this.label4.TabIndex = 168;
             this.label4.Text = "F";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(8, 37);
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(8, 26);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(36, 37);
+            this.label5.Size = new System.Drawing.Size(28, 30);
             this.label5.TabIndex = 169;
             this.label5.Text = "G";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(7, 0);
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(7, -4);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 37);
+            this.label6.Size = new System.Drawing.Size(29, 30);
             this.label6.TabIndex = 170;
             this.label6.Text = "H";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(13, 39);
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(12, 26);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(26, 37);
+            this.label7.Size = new System.Drawing.Size(20, 30);
             this.label7.TabIndex = 371;
             this.label7.Text = "I";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(10, 1);
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Location = new System.Drawing.Point(10, -6);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(29, 37);
+            this.label8.Size = new System.Drawing.Size(22, 30);
             this.label8.TabIndex = 372;
             this.label8.Text = "J";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(7, 37);
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(7, 25);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 37);
+            this.label9.Size = new System.Drawing.Size(27, 30);
             this.label9.TabIndex = 373;
             this.label9.Text = "K";
             // 
             // lblLineA
             // 
             this.lblLineA.AutoSize = true;
-            this.lblLineA.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLineA.Location = new System.Drawing.Point(8, 2);
+            this.lblLineA.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLineA.ForeColor = System.Drawing.Color.Black;
+            this.lblLineA.Location = new System.Drawing.Point(7, -4);
             this.lblLineA.Name = "lblLineA";
-            this.lblLineA.Size = new System.Drawing.Size(36, 37);
+            this.lblLineA.Size = new System.Drawing.Size(28, 30);
             this.lblLineA.TabIndex = 8;
             this.lblLineA.Text = "A";
             // 
             // lblLineAA
             // 
             this.lblLineAA.AutoSize = true;
-            this.lblLineAA.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLineAA.Location = new System.Drawing.Point(0, 39);
+            this.lblLineAA.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLineAA.ForeColor = System.Drawing.Color.Black;
+            this.lblLineAA.Location = new System.Drawing.Point(0, 25);
             this.lblLineAA.Name = "lblLineAA";
-            this.lblLineAA.Size = new System.Drawing.Size(55, 37);
+            this.lblLineAA.Size = new System.Drawing.Size(43, 30);
             this.lblLineAA.TabIndex = 499;
             this.lblLineAA.Text = "AA";
             this.lblLineAA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -861,10 +869,11 @@
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(587, 9);
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(1215, 104);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(34, 25);
+            this.label10.Size = new System.Drawing.Size(22, 17);
             this.label10.TabIndex = 500;
             this.label10.Text = "01";
             // 
@@ -872,10 +881,11 @@
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(550, 9);
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(1186, 104);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(34, 25);
+            this.label11.Size = new System.Drawing.Size(22, 17);
             this.label11.TabIndex = 501;
             this.label11.Text = "02";
             // 
@@ -883,10 +893,11 @@
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(512, 9);
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.Black;
+            this.label12.Location = new System.Drawing.Point(1157, 104);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(34, 25);
+            this.label12.Size = new System.Drawing.Size(22, 17);
             this.label12.TabIndex = 502;
             this.label12.Text = "03";
             // 
@@ -894,10 +905,11 @@
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(472, 9);
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(1128, 104);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(34, 25);
+            this.label13.Size = new System.Drawing.Size(22, 17);
             this.label13.TabIndex = 503;
             this.label13.Text = "04";
             // 
@@ -905,10 +917,11 @@
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(433, 9);
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.Black;
+            this.label14.Location = new System.Drawing.Point(1099, 104);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(34, 25);
+            this.label14.Size = new System.Drawing.Size(22, 17);
             this.label14.TabIndex = 504;
             this.label14.Text = "05";
             // 
@@ -916,10 +929,11 @@
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(237, 9);
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Black;
+            this.label15.Location = new System.Drawing.Point(954, 104);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(34, 25);
+            this.label15.Size = new System.Drawing.Size(22, 17);
             this.label15.TabIndex = 509;
             this.label15.Text = "10";
             // 
@@ -927,10 +941,11 @@
             // 
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(276, 9);
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.Black;
+            this.label16.Location = new System.Drawing.Point(984, 104);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(34, 25);
+            this.label16.Size = new System.Drawing.Size(22, 17);
             this.label16.TabIndex = 508;
             this.label16.Text = "09";
             // 
@@ -938,10 +953,11 @@
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(315, 9);
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.Black;
+            this.label17.Location = new System.Drawing.Point(1013, 104);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(34, 25);
+            this.label17.Size = new System.Drawing.Size(22, 17);
             this.label17.TabIndex = 507;
             this.label17.Text = "08";
             // 
@@ -949,10 +965,11 @@
             // 
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(355, 9);
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.Black;
+            this.label18.Location = new System.Drawing.Point(1041, 104);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(34, 25);
+            this.label18.Size = new System.Drawing.Size(22, 17);
             this.label18.TabIndex = 506;
             this.label18.Text = "07";
             // 
@@ -960,50 +977,55 @@
             // 
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(396, 9);
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.Black;
+            this.label19.Location = new System.Drawing.Point(1070, 104);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(34, 25);
+            this.label19.Size = new System.Drawing.Size(22, 17);
             this.label19.TabIndex = 505;
             this.label19.Text = "06";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(821, 10);
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.Black;
+            this.label20.Location = new System.Drawing.Point(626, 92);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(34, 25);
+            this.label20.Size = new System.Drawing.Size(22, 17);
             this.label20.TabIndex = 519;
             this.label20.Text = "20";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(860, 10);
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.Black;
+            this.label21.Location = new System.Drawing.Point(655, 92);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(34, 25);
+            this.label21.Size = new System.Drawing.Size(22, 17);
             this.label21.TabIndex = 518;
             this.label21.Text = "19";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(901, 10);
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.Black;
+            this.label22.Location = new System.Drawing.Point(683, 92);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(34, 25);
+            this.label22.Size = new System.Drawing.Size(22, 17);
             this.label22.TabIndex = 517;
             this.label22.Text = "18";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(942, 10);
+            this.label23.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.Black;
+            this.label23.Location = new System.Drawing.Point(713, 92);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(34, 25);
+            this.label23.Size = new System.Drawing.Size(22, 17);
             this.label23.TabIndex = 516;
             this.label23.Text = "17";
             // 
@@ -1011,10 +1033,11 @@
             // 
             this.label24.AutoSize = true;
             this.label24.BackColor = System.Drawing.Color.Transparent;
-            this.label24.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(5, 10);
+            this.label24.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.Black;
+            this.label24.Location = new System.Drawing.Point(780, 104);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(34, 25);
+            this.label24.Size = new System.Drawing.Size(22, 17);
             this.label24.TabIndex = 515;
             this.label24.Text = "16";
             // 
@@ -1022,10 +1045,11 @@
             // 
             this.label25.AutoSize = true;
             this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(42, 10);
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.Black;
+            this.label25.Location = new System.Drawing.Point(809, 104);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(34, 25);
+            this.label25.Size = new System.Drawing.Size(22, 17);
             this.label25.TabIndex = 514;
             this.label25.Text = "15";
             // 
@@ -1033,10 +1057,11 @@
             // 
             this.label26.AutoSize = true;
             this.label26.BackColor = System.Drawing.Color.Transparent;
-            this.label26.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(80, 10);
+            this.label26.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.Black;
+            this.label26.Location = new System.Drawing.Point(840, 104);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(34, 25);
+            this.label26.Size = new System.Drawing.Size(22, 17);
             this.label26.TabIndex = 513;
             this.label26.Text = "14";
             // 
@@ -1044,10 +1069,11 @@
             // 
             this.label27.AutoSize = true;
             this.label27.BackColor = System.Drawing.Color.Transparent;
-            this.label27.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(119, 9);
+            this.label27.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.Black;
+            this.label27.Location = new System.Drawing.Point(867, 104);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(34, 25);
+            this.label27.Size = new System.Drawing.Size(22, 17);
             this.label27.TabIndex = 512;
             this.label27.Text = "13";
             // 
@@ -1055,10 +1081,11 @@
             // 
             this.label28.AutoSize = true;
             this.label28.BackColor = System.Drawing.Color.Transparent;
-            this.label28.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(159, 9);
+            this.label28.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.Black;
+            this.label28.Location = new System.Drawing.Point(896, 104);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(34, 25);
+            this.label28.Size = new System.Drawing.Size(22, 17);
             this.label28.TabIndex = 511;
             this.label28.Text = "12";
             // 
@@ -1066,4863 +1093,4885 @@
             // 
             this.label29.AutoSize = true;
             this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.label29.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(198, 9);
+            this.label29.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.Black;
+            this.label29.Location = new System.Drawing.Point(925, 104);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(34, 25);
+            this.label29.Size = new System.Drawing.Size(22, 17);
             this.label29.TabIndex = 510;
             this.label29.Text = "11";
             // 
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(432, 10);
+            this.label30.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.Black;
+            this.label30.Location = new System.Drawing.Point(336, 92);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(34, 25);
+            this.label30.Size = new System.Drawing.Size(22, 17);
             this.label30.TabIndex = 529;
             this.label30.Text = "30";
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(471, 10);
+            this.label31.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.Black;
+            this.label31.Location = new System.Drawing.Point(364, 92);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(34, 25);
+            this.label31.Size = new System.Drawing.Size(22, 17);
             this.label31.TabIndex = 528;
             this.label31.Text = "29";
             // 
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(510, 10);
+            this.label32.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.Black;
+            this.label32.Location = new System.Drawing.Point(394, 92);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(34, 25);
+            this.label32.Size = new System.Drawing.Size(22, 17);
             this.label32.TabIndex = 527;
             this.label32.Text = "28";
             // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(549, 10);
+            this.label33.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.Color.Black;
+            this.label33.Location = new System.Drawing.Point(422, 92);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(34, 25);
+            this.label33.Size = new System.Drawing.Size(22, 17);
             this.label33.TabIndex = 526;
             this.label33.Text = "27";
             // 
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(589, 10);
+            this.label34.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.ForeColor = System.Drawing.Color.Black;
+            this.label34.Location = new System.Drawing.Point(452, 92);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(34, 25);
+            this.label34.Size = new System.Drawing.Size(22, 17);
             this.label34.TabIndex = 525;
             this.label34.Text = "26";
             // 
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(628, 10);
+            this.label35.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.ForeColor = System.Drawing.Color.Black;
+            this.label35.Location = new System.Drawing.Point(481, 92);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(34, 25);
+            this.label35.Size = new System.Drawing.Size(22, 17);
             this.label35.TabIndex = 524;
             this.label35.Text = "25";
             // 
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(666, 10);
+            this.label36.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.Color.Black;
+            this.label36.Location = new System.Drawing.Point(510, 92);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(34, 25);
+            this.label36.Size = new System.Drawing.Size(22, 17);
             this.label36.TabIndex = 523;
             this.label36.Text = "24";
             // 
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(704, 10);
+            this.label37.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.Color.Black;
+            this.label37.Location = new System.Drawing.Point(539, 92);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(34, 25);
+            this.label37.Size = new System.Drawing.Size(22, 17);
             this.label37.TabIndex = 522;
             this.label37.Text = "23";
             // 
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(743, 10);
+            this.label38.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.ForeColor = System.Drawing.Color.Black;
+            this.label38.Location = new System.Drawing.Point(568, 92);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(34, 25);
+            this.label38.Size = new System.Drawing.Size(22, 17);
             this.label38.TabIndex = 521;
             this.label38.Text = "22";
             // 
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(783, 10);
+            this.label39.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.Color.Black;
+            this.label39.Location = new System.Drawing.Point(596, 92);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(34, 25);
+            this.label39.Size = new System.Drawing.Size(22, 17);
             this.label39.TabIndex = 520;
             this.label39.Text = "21";
             // 
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(43, 10);
+            this.label40.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.ForeColor = System.Drawing.Color.Black;
+            this.label40.Location = new System.Drawing.Point(46, 92);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(34, 25);
+            this.label40.Size = new System.Drawing.Size(22, 17);
             this.label40.TabIndex = 539;
             this.label40.Text = "40";
             // 
             // label41
             // 
             this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.Location = new System.Drawing.Point(80, 10);
+            this.label41.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.ForeColor = System.Drawing.Color.Black;
+            this.label41.Location = new System.Drawing.Point(75, 92);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(34, 25);
+            this.label41.Size = new System.Drawing.Size(22, 17);
             this.label41.TabIndex = 538;
             this.label41.Text = "39";
             // 
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(120, 10);
+            this.label42.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.ForeColor = System.Drawing.Color.Black;
+            this.label42.Location = new System.Drawing.Point(104, 92);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(34, 25);
+            this.label42.Size = new System.Drawing.Size(22, 17);
             this.label42.TabIndex = 537;
             this.label42.Text = "38";
             // 
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(159, 10);
+            this.label43.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.ForeColor = System.Drawing.Color.Black;
+            this.label43.Location = new System.Drawing.Point(133, 92);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(34, 25);
+            this.label43.Size = new System.Drawing.Size(22, 17);
             this.label43.TabIndex = 536;
             this.label43.Text = "37";
             // 
             // label44
             // 
             this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(198, 10);
+            this.label44.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.ForeColor = System.Drawing.Color.Black;
+            this.label44.Location = new System.Drawing.Point(162, 92);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(34, 25);
+            this.label44.Size = new System.Drawing.Size(22, 17);
             this.label44.TabIndex = 535;
             this.label44.Text = "36";
             // 
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(239, 10);
+            this.label45.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.ForeColor = System.Drawing.Color.Black;
+            this.label45.Location = new System.Drawing.Point(191, 92);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(34, 25);
+            this.label45.Size = new System.Drawing.Size(22, 17);
             this.label45.TabIndex = 534;
             this.label45.Text = "35";
             // 
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(278, 10);
+            this.label46.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.Color.Black;
+            this.label46.Location = new System.Drawing.Point(220, 92);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(34, 25);
+            this.label46.Size = new System.Drawing.Size(22, 17);
             this.label46.TabIndex = 533;
             this.label46.Text = "34";
             // 
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(317, 10);
+            this.label47.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.ForeColor = System.Drawing.Color.Black;
+            this.label47.Location = new System.Drawing.Point(249, 92);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(34, 25);
+            this.label47.Size = new System.Drawing.Size(22, 17);
             this.label47.TabIndex = 532;
             this.label47.Text = "33";
             // 
             // label48
             // 
             this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(355, 10);
+            this.label48.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.ForeColor = System.Drawing.Color.Black;
+            this.label48.Location = new System.Drawing.Point(278, 92);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(34, 25);
+            this.label48.Size = new System.Drawing.Size(22, 17);
             this.label48.TabIndex = 531;
             this.label48.Text = "32";
             // 
             // label49
             // 
             this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(393, 10);
+            this.label49.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.Color.Black;
+            this.label49.Location = new System.Drawing.Point(307, 92);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(34, 25);
+            this.label49.Size = new System.Drawing.Size(22, 17);
             this.label49.TabIndex = 530;
             this.label49.Text = "31";
             // 
             // label52
             // 
             this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(3, 10);
+            this.label52.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.Color.Black;
+            this.label52.Location = new System.Drawing.Point(17, 92);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(34, 25);
+            this.label52.Size = new System.Drawing.Size(22, 17);
             this.label52.TabIndex = 540;
             this.label52.Text = "41";
             // 
             // AA08
             // 
             this.AA08.BackColor = System.Drawing.SystemColors.Control;
-            this.AA08.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA08.Location = new System.Drawing.Point(1324, 184);
+            this.AA08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA08.Location = new System.Drawing.Point(1007, 153);
             this.AA08.Name = "AA08";
-            this.AA08.Size = new System.Drawing.Size(40, 40);
+            this.AA08.Size = new System.Drawing.Size(30, 30);
             this.AA08.TabIndex = 545;
             this.AA08.UseVisualStyleBackColor = false;
             // 
             // AA09
             // 
             this.AA09.BackColor = System.Drawing.SystemColors.Control;
-            this.AA09.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA09.Location = new System.Drawing.Point(1285, 184);
+            this.AA09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA09.Location = new System.Drawing.Point(978, 153);
             this.AA09.Name = "AA09";
-            this.AA09.Size = new System.Drawing.Size(40, 40);
+            this.AA09.Size = new System.Drawing.Size(30, 30);
             this.AA09.TabIndex = 546;
             this.AA09.UseVisualStyleBackColor = false;
             // 
             // A08
             // 
             this.A08.BackColor = System.Drawing.SystemColors.Control;
-            this.A08.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A08.Location = new System.Drawing.Point(1324, 145);
+            this.A08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A08.Location = new System.Drawing.Point(1007, 124);
             this.A08.Name = "A08";
-            this.A08.Size = new System.Drawing.Size(40, 40);
+            this.A08.Size = new System.Drawing.Size(30, 30);
             this.A08.TabIndex = 543;
             this.A08.UseVisualStyleBackColor = false;
             // 
             // A09
             // 
             this.A09.BackColor = System.Drawing.SystemColors.Control;
-            this.A09.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A09.Location = new System.Drawing.Point(1285, 145);
+            this.A09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A09.Location = new System.Drawing.Point(978, 124);
             this.A09.Name = "A09";
-            this.A09.Size = new System.Drawing.Size(40, 40);
+            this.A09.Size = new System.Drawing.Size(30, 30);
             this.A09.TabIndex = 544;
             this.A09.UseVisualStyleBackColor = false;
             // 
             // AA15
             // 
             this.AA15.BackColor = System.Drawing.SystemColors.Control;
-            this.AA15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA15.Location = new System.Drawing.Point(1051, 184);
+            this.AA15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA15.Location = new System.Drawing.Point(804, 153);
             this.AA15.Name = "AA15";
-            this.AA15.Size = new System.Drawing.Size(40, 40);
+            this.AA15.Size = new System.Drawing.Size(30, 30);
             this.AA15.TabIndex = 556;
             this.AA15.UseVisualStyleBackColor = false;
             // 
             // AA11
             // 
             this.AA11.BackColor = System.Drawing.SystemColors.Control;
-            this.AA11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA11.Location = new System.Drawing.Point(1207, 184);
+            this.AA11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA11.Location = new System.Drawing.Point(920, 153);
             this.AA11.Name = "AA11";
-            this.AA11.Size = new System.Drawing.Size(40, 40);
+            this.AA11.Size = new System.Drawing.Size(30, 30);
             this.AA11.TabIndex = 552;
             this.AA11.UseVisualStyleBackColor = false;
             // 
             // AA12
             // 
             this.AA12.BackColor = System.Drawing.SystemColors.Control;
-            this.AA12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA12.Location = new System.Drawing.Point(1168, 184);
+            this.AA12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA12.Location = new System.Drawing.Point(891, 153);
             this.AA12.Name = "AA12";
-            this.AA12.Size = new System.Drawing.Size(40, 40);
+            this.AA12.Size = new System.Drawing.Size(30, 30);
             this.AA12.TabIndex = 553;
             this.AA12.UseVisualStyleBackColor = false;
             // 
             // AA13
             // 
             this.AA13.BackColor = System.Drawing.SystemColors.Control;
-            this.AA13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA13.Location = new System.Drawing.Point(1129, 184);
+            this.AA13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA13.Location = new System.Drawing.Point(862, 153);
             this.AA13.Name = "AA13";
-            this.AA13.Size = new System.Drawing.Size(40, 40);
+            this.AA13.Size = new System.Drawing.Size(30, 30);
             this.AA13.TabIndex = 554;
             this.AA13.UseVisualStyleBackColor = false;
             // 
             // AA14
             // 
             this.AA14.BackColor = System.Drawing.SystemColors.Control;
-            this.AA14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA14.Location = new System.Drawing.Point(1090, 184);
+            this.AA14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA14.Location = new System.Drawing.Point(833, 153);
             this.AA14.Name = "AA14";
-            this.AA14.Size = new System.Drawing.Size(40, 40);
+            this.AA14.Size = new System.Drawing.Size(30, 30);
             this.AA14.TabIndex = 555;
             this.AA14.UseVisualStyleBackColor = false;
             // 
             // A15
             // 
             this.A15.BackColor = System.Drawing.SystemColors.Control;
-            this.A15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A15.Location = new System.Drawing.Point(1051, 145);
+            this.A15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A15.Location = new System.Drawing.Point(804, 124);
             this.A15.Name = "A15";
-            this.A15.Size = new System.Drawing.Size(40, 40);
+            this.A15.Size = new System.Drawing.Size(30, 30);
             this.A15.TabIndex = 551;
             this.A15.UseVisualStyleBackColor = false;
             // 
             // A11
             // 
             this.A11.BackColor = System.Drawing.SystemColors.Control;
-            this.A11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A11.Location = new System.Drawing.Point(1207, 145);
+            this.A11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A11.Location = new System.Drawing.Point(920, 124);
             this.A11.Name = "A11";
-            this.A11.Size = new System.Drawing.Size(40, 40);
+            this.A11.Size = new System.Drawing.Size(30, 30);
             this.A11.TabIndex = 547;
             this.A11.UseVisualStyleBackColor = false;
             // 
             // A12
             // 
             this.A12.BackColor = System.Drawing.SystemColors.Control;
-            this.A12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A12.Location = new System.Drawing.Point(1168, 145);
+            this.A12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A12.Location = new System.Drawing.Point(891, 124);
             this.A12.Name = "A12";
-            this.A12.Size = new System.Drawing.Size(40, 40);
+            this.A12.Size = new System.Drawing.Size(30, 30);
             this.A12.TabIndex = 548;
             this.A12.UseVisualStyleBackColor = false;
             // 
             // A13
             // 
             this.A13.BackColor = System.Drawing.SystemColors.Control;
-            this.A13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A13.Location = new System.Drawing.Point(1129, 145);
+            this.A13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A13.Location = new System.Drawing.Point(862, 124);
             this.A13.Name = "A13";
-            this.A13.Size = new System.Drawing.Size(40, 40);
+            this.A13.Size = new System.Drawing.Size(30, 30);
             this.A13.TabIndex = 549;
             this.A13.UseVisualStyleBackColor = false;
             // 
             // A14
             // 
             this.A14.BackColor = System.Drawing.SystemColors.Control;
-            this.A14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A14.Location = new System.Drawing.Point(1090, 145);
+            this.A14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A14.Location = new System.Drawing.Point(833, 124);
             this.A14.Name = "A14";
-            this.A14.Size = new System.Drawing.Size(40, 40);
+            this.A14.Size = new System.Drawing.Size(30, 30);
             this.A14.TabIndex = 550;
             this.A14.UseVisualStyleBackColor = false;
             // 
             // A25
             // 
             this.A25.BackColor = System.Drawing.SystemColors.Control;
-            this.A25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A25.Location = new System.Drawing.Point(631, 145);
+            this.A25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A25.Location = new System.Drawing.Point(475, 112);
             this.A25.Name = "A25";
-            this.A25.Size = new System.Drawing.Size(40, 40);
+            this.A25.Size = new System.Drawing.Size(30, 30);
             this.A25.TabIndex = 575;
             this.A25.UseVisualStyleBackColor = false;
             // 
             // A22
             // 
             this.A22.BackColor = System.Drawing.SystemColors.Control;
-            this.A22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A22.Location = new System.Drawing.Point(748, 145);
+            this.A22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A22.Location = new System.Drawing.Point(562, 112);
             this.A22.Name = "A22";
-            this.A22.Size = new System.Drawing.Size(40, 40);
+            this.A22.Size = new System.Drawing.Size(30, 30);
             this.A22.TabIndex = 574;
             this.A22.UseVisualStyleBackColor = false;
             // 
             // A30
             // 
             this.A30.BackColor = System.Drawing.SystemColors.Control;
-            this.A30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A30.Location = new System.Drawing.Point(436, 145);
+            this.A30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A30.Location = new System.Drawing.Point(330, 112);
             this.A30.Name = "A30";
-            this.A30.Size = new System.Drawing.Size(40, 40);
+            this.A30.Size = new System.Drawing.Size(30, 30);
             this.A30.TabIndex = 573;
             this.A30.UseVisualStyleBackColor = false;
             // 
             // A26
             // 
             this.A26.BackColor = System.Drawing.SystemColors.Control;
-            this.A26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A26.Location = new System.Drawing.Point(592, 145);
+            this.A26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A26.Location = new System.Drawing.Point(446, 112);
             this.A26.Name = "A26";
-            this.A26.Size = new System.Drawing.Size(40, 40);
+            this.A26.Size = new System.Drawing.Size(30, 30);
             this.A26.TabIndex = 569;
             this.A26.UseVisualStyleBackColor = false;
             // 
             // A27
             // 
             this.A27.BackColor = System.Drawing.SystemColors.Control;
-            this.A27.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A27.Location = new System.Drawing.Point(553, 145);
+            this.A27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A27.Location = new System.Drawing.Point(417, 112);
             this.A27.Name = "A27";
-            this.A27.Size = new System.Drawing.Size(40, 40);
+            this.A27.Size = new System.Drawing.Size(30, 30);
             this.A27.TabIndex = 570;
             this.A27.UseVisualStyleBackColor = false;
             // 
             // A28
             // 
             this.A28.BackColor = System.Drawing.SystemColors.Control;
-            this.A28.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A28.Location = new System.Drawing.Point(514, 145);
+            this.A28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A28.Location = new System.Drawing.Point(388, 112);
             this.A28.Name = "A28";
-            this.A28.Size = new System.Drawing.Size(40, 40);
+            this.A28.Size = new System.Drawing.Size(30, 30);
             this.A28.TabIndex = 571;
             this.A28.UseVisualStyleBackColor = false;
             // 
             // A29
             // 
             this.A29.BackColor = System.Drawing.SystemColors.Control;
-            this.A29.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A29.Location = new System.Drawing.Point(475, 145);
+            this.A29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A29.Location = new System.Drawing.Point(359, 112);
             this.A29.Name = "A29";
-            this.A29.Size = new System.Drawing.Size(40, 40);
+            this.A29.Size = new System.Drawing.Size(30, 30);
             this.A29.TabIndex = 572;
             this.A29.UseVisualStyleBackColor = false;
             // 
             // A23
             // 
             this.A23.BackColor = System.Drawing.SystemColors.Control;
-            this.A23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A23.Location = new System.Drawing.Point(709, 145);
+            this.A23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A23.Location = new System.Drawing.Point(533, 112);
             this.A23.Name = "A23";
-            this.A23.Size = new System.Drawing.Size(40, 40);
+            this.A23.Size = new System.Drawing.Size(30, 30);
             this.A23.TabIndex = 567;
             this.A23.UseVisualStyleBackColor = false;
             // 
             // A24
             // 
             this.A24.BackColor = System.Drawing.SystemColors.Control;
-            this.A24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A24.Location = new System.Drawing.Point(670, 145);
+            this.A24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A24.Location = new System.Drawing.Point(504, 112);
             this.A24.Name = "A24";
-            this.A24.Size = new System.Drawing.Size(40, 40);
+            this.A24.Size = new System.Drawing.Size(30, 30);
             this.A24.TabIndex = 568;
             this.A24.UseVisualStyleBackColor = false;
             // 
             // A21
             // 
             this.A21.BackColor = System.Drawing.SystemColors.Control;
-            this.A21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A21.Location = new System.Drawing.Point(787, 145);
+            this.A21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A21.Location = new System.Drawing.Point(591, 112);
             this.A21.Name = "A21";
-            this.A21.Size = new System.Drawing.Size(40, 40);
+            this.A21.Size = new System.Drawing.Size(30, 30);
             this.A21.TabIndex = 566;
             this.A21.UseVisualStyleBackColor = false;
             // 
             // A16
             // 
             this.A16.BackColor = System.Drawing.SystemColors.Control;
-            this.A16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A16.Location = new System.Drawing.Point(1012, 145);
+            this.A16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A16.Location = new System.Drawing.Point(776, 124);
             this.A16.Name = "A16";
-            this.A16.Size = new System.Drawing.Size(40, 40);
+            this.A16.Size = new System.Drawing.Size(30, 30);
             this.A16.TabIndex = 561;
             this.A16.UseVisualStyleBackColor = false;
             // 
             // A17
             // 
             this.A17.BackColor = System.Drawing.SystemColors.Control;
-            this.A17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A17.Location = new System.Drawing.Point(943, 145);
+            this.A17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A17.Location = new System.Drawing.Point(707, 112);
             this.A17.Name = "A17";
-            this.A17.Size = new System.Drawing.Size(40, 40);
+            this.A17.Size = new System.Drawing.Size(30, 30);
             this.A17.TabIndex = 562;
             this.A17.UseVisualStyleBackColor = false;
             // 
             // A18
             // 
             this.A18.BackColor = System.Drawing.SystemColors.Control;
-            this.A18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A18.Location = new System.Drawing.Point(904, 145);
+            this.A18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A18.Location = new System.Drawing.Point(678, 112);
             this.A18.Name = "A18";
-            this.A18.Size = new System.Drawing.Size(40, 40);
+            this.A18.Size = new System.Drawing.Size(30, 30);
             this.A18.TabIndex = 563;
             this.A18.UseVisualStyleBackColor = false;
             // 
             // A19
             // 
             this.A19.BackColor = System.Drawing.SystemColors.Control;
-            this.A19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A19.Location = new System.Drawing.Point(865, 145);
+            this.A19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A19.Location = new System.Drawing.Point(649, 112);
             this.A19.Name = "A19";
-            this.A19.Size = new System.Drawing.Size(40, 40);
+            this.A19.Size = new System.Drawing.Size(30, 30);
             this.A19.TabIndex = 564;
             this.A19.UseVisualStyleBackColor = false;
             // 
             // A20
             // 
             this.A20.BackColor = System.Drawing.SystemColors.Control;
-            this.A20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A20.Location = new System.Drawing.Point(826, 145);
+            this.A20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A20.Location = new System.Drawing.Point(620, 112);
             this.A20.Name = "A20";
-            this.A20.Size = new System.Drawing.Size(40, 40);
+            this.A20.Size = new System.Drawing.Size(30, 30);
             this.A20.TabIndex = 565;
             this.A20.UseVisualStyleBackColor = false;
             // 
             // A35
             // 
             this.A35.BackColor = System.Drawing.SystemColors.Control;
-            this.A35.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A35.Location = new System.Drawing.Point(241, 145);
+            this.A35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A35.Location = new System.Drawing.Point(185, 112);
             this.A35.Name = "A35";
-            this.A35.Size = new System.Drawing.Size(40, 40);
+            this.A35.Size = new System.Drawing.Size(30, 30);
             this.A35.TabIndex = 585;
             this.A35.UseVisualStyleBackColor = false;
             // 
             // A32
             // 
             this.A32.BackColor = System.Drawing.SystemColors.Control;
-            this.A32.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A32.Location = new System.Drawing.Point(358, 145);
+            this.A32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A32.Location = new System.Drawing.Point(272, 112);
             this.A32.Name = "A32";
-            this.A32.Size = new System.Drawing.Size(40, 40);
+            this.A32.Size = new System.Drawing.Size(30, 30);
             this.A32.TabIndex = 584;
             this.A32.UseVisualStyleBackColor = false;
             // 
             // A40
             // 
             this.A40.BackColor = System.Drawing.SystemColors.Control;
-            this.A40.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A40.Location = new System.Drawing.Point(46, 145);
+            this.A40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A40.Location = new System.Drawing.Point(40, 112);
             this.A40.Name = "A40";
-            this.A40.Size = new System.Drawing.Size(40, 40);
+            this.A40.Size = new System.Drawing.Size(30, 30);
             this.A40.TabIndex = 583;
             this.A40.UseVisualStyleBackColor = false;
             // 
             // A36
             // 
             this.A36.BackColor = System.Drawing.SystemColors.Control;
-            this.A36.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A36.Location = new System.Drawing.Point(202, 145);
+            this.A36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A36.Location = new System.Drawing.Point(156, 112);
             this.A36.Name = "A36";
-            this.A36.Size = new System.Drawing.Size(40, 40);
+            this.A36.Size = new System.Drawing.Size(30, 30);
             this.A36.TabIndex = 579;
             this.A36.UseVisualStyleBackColor = false;
             // 
             // A37
             // 
             this.A37.BackColor = System.Drawing.SystemColors.Control;
-            this.A37.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A37.Location = new System.Drawing.Point(163, 145);
+            this.A37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A37.Location = new System.Drawing.Point(127, 112);
             this.A37.Name = "A37";
-            this.A37.Size = new System.Drawing.Size(40, 40);
+            this.A37.Size = new System.Drawing.Size(30, 30);
             this.A37.TabIndex = 580;
             this.A37.UseVisualStyleBackColor = false;
             // 
             // A38
             // 
             this.A38.BackColor = System.Drawing.SystemColors.Control;
-            this.A38.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A38.Location = new System.Drawing.Point(124, 145);
+            this.A38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A38.Location = new System.Drawing.Point(98, 112);
             this.A38.Name = "A38";
-            this.A38.Size = new System.Drawing.Size(40, 40);
+            this.A38.Size = new System.Drawing.Size(30, 30);
             this.A38.TabIndex = 581;
             this.A38.UseVisualStyleBackColor = false;
             // 
             // A39
             // 
             this.A39.BackColor = System.Drawing.SystemColors.Control;
-            this.A39.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A39.Location = new System.Drawing.Point(85, 145);
+            this.A39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A39.Location = new System.Drawing.Point(69, 112);
             this.A39.Name = "A39";
-            this.A39.Size = new System.Drawing.Size(40, 40);
+            this.A39.Size = new System.Drawing.Size(30, 30);
             this.A39.TabIndex = 582;
             this.A39.UseVisualStyleBackColor = false;
             // 
             // A33
             // 
             this.A33.BackColor = System.Drawing.SystemColors.Control;
-            this.A33.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A33.Location = new System.Drawing.Point(319, 145);
+            this.A33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A33.Location = new System.Drawing.Point(243, 112);
             this.A33.Name = "A33";
-            this.A33.Size = new System.Drawing.Size(40, 40);
+            this.A33.Size = new System.Drawing.Size(30, 30);
             this.A33.TabIndex = 577;
             this.A33.UseVisualStyleBackColor = false;
             // 
             // A34
             // 
             this.A34.BackColor = System.Drawing.SystemColors.Control;
-            this.A34.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A34.Location = new System.Drawing.Point(280, 145);
+            this.A34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A34.Location = new System.Drawing.Point(214, 112);
             this.A34.Name = "A34";
-            this.A34.Size = new System.Drawing.Size(40, 40);
+            this.A34.Size = new System.Drawing.Size(30, 30);
             this.A34.TabIndex = 578;
             this.A34.UseVisualStyleBackColor = false;
             // 
             // A31
             // 
             this.A31.BackColor = System.Drawing.SystemColors.Control;
-            this.A31.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A31.Location = new System.Drawing.Point(397, 145);
+            this.A31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A31.Location = new System.Drawing.Point(301, 112);
             this.A31.Name = "A31";
-            this.A31.Size = new System.Drawing.Size(40, 40);
+            this.A31.Size = new System.Drawing.Size(30, 30);
             this.A31.TabIndex = 576;
             this.A31.UseVisualStyleBackColor = false;
             // 
             // B36
             // 
             this.B36.BackColor = System.Drawing.SystemColors.Control;
-            this.B36.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B36.Location = new System.Drawing.Point(202, 242);
+            this.B36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B36.Location = new System.Drawing.Point(157, 201);
             this.B36.Name = "B36";
-            this.B36.Size = new System.Drawing.Size(40, 40);
+            this.B36.Size = new System.Drawing.Size(30, 30);
             this.B36.TabIndex = 610;
             this.B36.UseVisualStyleBackColor = false;
             // 
             // B33
             // 
             this.B33.BackColor = System.Drawing.SystemColors.Control;
-            this.B33.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B33.Location = new System.Drawing.Point(319, 242);
+            this.B33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B33.Location = new System.Drawing.Point(244, 201);
             this.B33.Name = "B33";
-            this.B33.Size = new System.Drawing.Size(40, 40);
+            this.B33.Size = new System.Drawing.Size(30, 30);
             this.B33.TabIndex = 609;
             this.B33.UseVisualStyleBackColor = false;
             // 
             // B17
             // 
             this.B17.BackColor = System.Drawing.SystemColors.Control;
-            this.B17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B17.Location = new System.Drawing.Point(943, 242);
+            this.B17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B17.Location = new System.Drawing.Point(708, 201);
             this.B17.Name = "B17";
-            this.B17.Size = new System.Drawing.Size(40, 40);
+            this.B17.Size = new System.Drawing.Size(30, 30);
             this.B17.TabIndex = 608;
             this.B17.UseVisualStyleBackColor = false;
             // 
             // B37
             // 
             this.B37.BackColor = System.Drawing.SystemColors.Control;
-            this.B37.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B37.Location = new System.Drawing.Point(163, 242);
+            this.B37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B37.Location = new System.Drawing.Point(128, 201);
             this.B37.Name = "B37";
-            this.B37.Size = new System.Drawing.Size(40, 40);
+            this.B37.Size = new System.Drawing.Size(30, 30);
             this.B37.TabIndex = 604;
             this.B37.UseVisualStyleBackColor = false;
             // 
             // B38
             // 
             this.B38.BackColor = System.Drawing.SystemColors.Control;
-            this.B38.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B38.Location = new System.Drawing.Point(124, 242);
+            this.B38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B38.Location = new System.Drawing.Point(99, 201);
             this.B38.Name = "B38";
-            this.B38.Size = new System.Drawing.Size(40, 40);
+            this.B38.Size = new System.Drawing.Size(30, 30);
             this.B38.TabIndex = 605;
             this.B38.UseVisualStyleBackColor = false;
             // 
             // B39
             // 
             this.B39.BackColor = System.Drawing.SystemColors.Control;
-            this.B39.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B39.Location = new System.Drawing.Point(85, 242);
+            this.B39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B39.Location = new System.Drawing.Point(70, 201);
             this.B39.Name = "B39";
-            this.B39.Size = new System.Drawing.Size(40, 40);
+            this.B39.Size = new System.Drawing.Size(30, 30);
             this.B39.TabIndex = 606;
             this.B39.UseVisualStyleBackColor = false;
             // 
             // B40
             // 
             this.B40.BackColor = System.Drawing.SystemColors.Control;
-            this.B40.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B40.Location = new System.Drawing.Point(46, 242);
+            this.B40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B40.Location = new System.Drawing.Point(41, 201);
             this.B40.Name = "B40";
-            this.B40.Size = new System.Drawing.Size(40, 40);
+            this.B40.Size = new System.Drawing.Size(30, 30);
             this.B40.TabIndex = 607;
             this.B40.UseVisualStyleBackColor = false;
             // 
             // B34
             // 
             this.B34.BackColor = System.Drawing.SystemColors.Control;
-            this.B34.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B34.Location = new System.Drawing.Point(280, 242);
+            this.B34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B34.Location = new System.Drawing.Point(215, 201);
             this.B34.Name = "B34";
-            this.B34.Size = new System.Drawing.Size(40, 40);
+            this.B34.Size = new System.Drawing.Size(30, 30);
             this.B34.TabIndex = 602;
             this.B34.UseVisualStyleBackColor = false;
             // 
             // B35
             // 
             this.B35.BackColor = System.Drawing.SystemColors.Control;
-            this.B35.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B35.Location = new System.Drawing.Point(241, 242);
+            this.B35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B35.Location = new System.Drawing.Point(186, 201);
             this.B35.Name = "B35";
-            this.B35.Size = new System.Drawing.Size(40, 40);
+            this.B35.Size = new System.Drawing.Size(30, 30);
             this.B35.TabIndex = 603;
             this.B35.UseVisualStyleBackColor = false;
             // 
             // B32
             // 
             this.B32.BackColor = System.Drawing.SystemColors.Control;
-            this.B32.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B32.Location = new System.Drawing.Point(358, 242);
+            this.B32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B32.Location = new System.Drawing.Point(273, 201);
             this.B32.Name = "B32";
-            this.B32.Size = new System.Drawing.Size(40, 40);
+            this.B32.Size = new System.Drawing.Size(30, 30);
             this.B32.TabIndex = 601;
             this.B32.UseVisualStyleBackColor = false;
             // 
             // B26
             // 
             this.B26.BackColor = System.Drawing.SystemColors.Control;
-            this.B26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B26.Location = new System.Drawing.Point(592, 242);
+            this.B26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B26.Location = new System.Drawing.Point(447, 201);
             this.B26.Name = "B26";
-            this.B26.Size = new System.Drawing.Size(40, 40);
+            this.B26.Size = new System.Drawing.Size(30, 30);
             this.B26.TabIndex = 600;
             this.B26.UseVisualStyleBackColor = false;
             // 
             // B23
             // 
             this.B23.BackColor = System.Drawing.SystemColors.Control;
-            this.B23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B23.Location = new System.Drawing.Point(709, 242);
+            this.B23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B23.Location = new System.Drawing.Point(534, 201);
             this.B23.Name = "B23";
-            this.B23.Size = new System.Drawing.Size(40, 40);
+            this.B23.Size = new System.Drawing.Size(30, 30);
             this.B23.TabIndex = 599;
             this.B23.UseVisualStyleBackColor = false;
             // 
             // B31
             // 
             this.B31.BackColor = System.Drawing.SystemColors.Control;
-            this.B31.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B31.Location = new System.Drawing.Point(397, 242);
+            this.B31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B31.Location = new System.Drawing.Point(302, 201);
             this.B31.Name = "B31";
-            this.B31.Size = new System.Drawing.Size(40, 40);
+            this.B31.Size = new System.Drawing.Size(30, 30);
             this.B31.TabIndex = 598;
             this.B31.UseVisualStyleBackColor = false;
             // 
             // B27
             // 
             this.B27.BackColor = System.Drawing.SystemColors.Control;
-            this.B27.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B27.Location = new System.Drawing.Point(553, 242);
+            this.B27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B27.Location = new System.Drawing.Point(418, 201);
             this.B27.Name = "B27";
-            this.B27.Size = new System.Drawing.Size(40, 40);
+            this.B27.Size = new System.Drawing.Size(30, 30);
             this.B27.TabIndex = 594;
             this.B27.UseVisualStyleBackColor = false;
             // 
             // B28
             // 
             this.B28.BackColor = System.Drawing.SystemColors.Control;
-            this.B28.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B28.Location = new System.Drawing.Point(514, 242);
+            this.B28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B28.Location = new System.Drawing.Point(389, 201);
             this.B28.Name = "B28";
-            this.B28.Size = new System.Drawing.Size(40, 40);
+            this.B28.Size = new System.Drawing.Size(30, 30);
             this.B28.TabIndex = 595;
             this.B28.UseVisualStyleBackColor = false;
             // 
             // B29
             // 
             this.B29.BackColor = System.Drawing.SystemColors.Control;
-            this.B29.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B29.Location = new System.Drawing.Point(475, 242);
+            this.B29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B29.Location = new System.Drawing.Point(360, 201);
             this.B29.Name = "B29";
-            this.B29.Size = new System.Drawing.Size(40, 40);
+            this.B29.Size = new System.Drawing.Size(30, 30);
             this.B29.TabIndex = 596;
             this.B29.UseVisualStyleBackColor = false;
             // 
             // B30
             // 
             this.B30.BackColor = System.Drawing.SystemColors.Control;
-            this.B30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B30.Location = new System.Drawing.Point(436, 242);
+            this.B30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B30.Location = new System.Drawing.Point(331, 201);
             this.B30.Name = "B30";
-            this.B30.Size = new System.Drawing.Size(40, 40);
+            this.B30.Size = new System.Drawing.Size(30, 30);
             this.B30.TabIndex = 597;
             this.B30.UseVisualStyleBackColor = false;
             // 
             // B24
             // 
             this.B24.BackColor = System.Drawing.SystemColors.Control;
-            this.B24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B24.Location = new System.Drawing.Point(670, 242);
+            this.B24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B24.Location = new System.Drawing.Point(505, 201);
             this.B24.Name = "B24";
-            this.B24.Size = new System.Drawing.Size(40, 40);
+            this.B24.Size = new System.Drawing.Size(30, 30);
             this.B24.TabIndex = 592;
             this.B24.UseVisualStyleBackColor = false;
             // 
             // B25
             // 
             this.B25.BackColor = System.Drawing.SystemColors.Control;
-            this.B25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B25.Location = new System.Drawing.Point(631, 242);
+            this.B25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B25.Location = new System.Drawing.Point(476, 201);
             this.B25.Name = "B25";
-            this.B25.Size = new System.Drawing.Size(40, 40);
+            this.B25.Size = new System.Drawing.Size(30, 30);
             this.B25.TabIndex = 593;
             this.B25.UseVisualStyleBackColor = false;
             // 
             // B22
             // 
             this.B22.BackColor = System.Drawing.SystemColors.Control;
-            this.B22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B22.Location = new System.Drawing.Point(748, 242);
+            this.B22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B22.Location = new System.Drawing.Point(563, 201);
             this.B22.Name = "B22";
-            this.B22.Size = new System.Drawing.Size(40, 40);
+            this.B22.Size = new System.Drawing.Size(30, 30);
             this.B22.TabIndex = 591;
             this.B22.UseVisualStyleBackColor = false;
             // 
             // B16
             // 
             this.B16.BackColor = System.Drawing.SystemColors.Control;
-            this.B16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B16.Location = new System.Drawing.Point(1012, 243);
+            this.B16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B16.Location = new System.Drawing.Point(776, 201);
             this.B16.Name = "B16";
-            this.B16.Size = new System.Drawing.Size(40, 40);
+            this.B16.Size = new System.Drawing.Size(30, 30);
             this.B16.TabIndex = 586;
             this.B16.UseVisualStyleBackColor = false;
             // 
             // B18
             // 
             this.B18.BackColor = System.Drawing.SystemColors.Control;
-            this.B18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B18.Location = new System.Drawing.Point(904, 242);
+            this.B18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B18.Location = new System.Drawing.Point(679, 201);
             this.B18.Name = "B18";
-            this.B18.Size = new System.Drawing.Size(40, 40);
+            this.B18.Size = new System.Drawing.Size(30, 30);
             this.B18.TabIndex = 587;
             this.B18.UseVisualStyleBackColor = false;
             // 
             // B19
             // 
             this.B19.BackColor = System.Drawing.SystemColors.Control;
-            this.B19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B19.Location = new System.Drawing.Point(865, 242);
+            this.B19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B19.Location = new System.Drawing.Point(650, 201);
             this.B19.Name = "B19";
-            this.B19.Size = new System.Drawing.Size(40, 40);
+            this.B19.Size = new System.Drawing.Size(30, 30);
             this.B19.TabIndex = 588;
             this.B19.UseVisualStyleBackColor = false;
             // 
             // B20
             // 
             this.B20.BackColor = System.Drawing.SystemColors.Control;
-            this.B20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B20.Location = new System.Drawing.Point(826, 242);
+            this.B20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B20.Location = new System.Drawing.Point(621, 201);
             this.B20.Name = "B20";
-            this.B20.Size = new System.Drawing.Size(40, 40);
+            this.B20.Size = new System.Drawing.Size(30, 30);
             this.B20.TabIndex = 589;
             this.B20.UseVisualStyleBackColor = false;
             // 
             // B21
             // 
             this.B21.BackColor = System.Drawing.SystemColors.Control;
-            this.B21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B21.Location = new System.Drawing.Point(787, 242);
+            this.B21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B21.Location = new System.Drawing.Point(592, 201);
             this.B21.Name = "B21";
-            this.B21.Size = new System.Drawing.Size(40, 40);
+            this.B21.Size = new System.Drawing.Size(30, 30);
             this.B21.TabIndex = 590;
             this.B21.UseVisualStyleBackColor = false;
             // 
             // A10
             // 
             this.A10.BackColor = System.Drawing.SystemColors.Control;
-            this.A10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A10.Location = new System.Drawing.Point(1246, 145);
+            this.A10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A10.Location = new System.Drawing.Point(949, 124);
             this.A10.Name = "A10";
-            this.A10.Size = new System.Drawing.Size(40, 40);
+            this.A10.Size = new System.Drawing.Size(30, 30);
             this.A10.TabIndex = 559;
             this.A10.UseVisualStyleBackColor = false;
             // 
             // AA10
             // 
             this.AA10.BackColor = System.Drawing.SystemColors.Control;
-            this.AA10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA10.Location = new System.Drawing.Point(1246, 184);
+            this.AA10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA10.Location = new System.Drawing.Point(949, 153);
             this.AA10.Name = "AA10";
-            this.AA10.Size = new System.Drawing.Size(40, 40);
+            this.AA10.Size = new System.Drawing.Size(30, 30);
             this.AA10.TabIndex = 560;
             this.AA10.UseVisualStyleBackColor = false;
             // 
             // A07
             // 
             this.A07.BackColor = System.Drawing.SystemColors.Control;
-            this.A07.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.A07.Location = new System.Drawing.Point(1363, 145);
+            this.A07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A07.Location = new System.Drawing.Point(1036, 124);
             this.A07.Name = "A07";
-            this.A07.Size = new System.Drawing.Size(40, 40);
+            this.A07.Size = new System.Drawing.Size(30, 30);
             this.A07.TabIndex = 557;
             this.A07.UseVisualStyleBackColor = false;
             // 
             // AA07
             // 
             this.AA07.BackColor = System.Drawing.SystemColors.Control;
-            this.AA07.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA07.Location = new System.Drawing.Point(1363, 184);
+            this.AA07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA07.Location = new System.Drawing.Point(1036, 153);
             this.AA07.Name = "AA07";
-            this.AA07.Size = new System.Drawing.Size(40, 40);
+            this.AA07.Size = new System.Drawing.Size(30, 30);
             this.AA07.TabIndex = 558;
             this.AA07.UseVisualStyleBackColor = false;
             // 
             // B10
             // 
             this.B10.BackColor = System.Drawing.SystemColors.Control;
-            this.B10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B10.Location = new System.Drawing.Point(1246, 243);
+            this.B10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B10.Location = new System.Drawing.Point(950, 201);
             this.B10.Name = "B10";
-            this.B10.Size = new System.Drawing.Size(40, 40);
+            this.B10.Size = new System.Drawing.Size(30, 30);
             this.B10.TabIndex = 625;
             this.B10.UseVisualStyleBackColor = false;
             // 
             // B07
             // 
             this.B07.BackColor = System.Drawing.SystemColors.Control;
-            this.B07.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B07.Location = new System.Drawing.Point(1363, 243);
+            this.B07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B07.Location = new System.Drawing.Point(1037, 201);
             this.B07.Name = "B07";
-            this.B07.Size = new System.Drawing.Size(40, 40);
+            this.B07.Size = new System.Drawing.Size(30, 30);
             this.B07.TabIndex = 624;
             this.B07.UseVisualStyleBackColor = false;
             // 
             // B15
             // 
             this.B15.BackColor = System.Drawing.SystemColors.Control;
-            this.B15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B15.Location = new System.Drawing.Point(1051, 243);
+            this.B15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B15.Location = new System.Drawing.Point(805, 201);
             this.B15.Name = "B15";
-            this.B15.Size = new System.Drawing.Size(40, 40);
+            this.B15.Size = new System.Drawing.Size(30, 30);
             this.B15.TabIndex = 623;
             this.B15.UseVisualStyleBackColor = false;
             // 
             // B11
             // 
             this.B11.BackColor = System.Drawing.SystemColors.Control;
-            this.B11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B11.Location = new System.Drawing.Point(1207, 243);
+            this.B11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B11.Location = new System.Drawing.Point(921, 201);
             this.B11.Name = "B11";
-            this.B11.Size = new System.Drawing.Size(40, 40);
+            this.B11.Size = new System.Drawing.Size(30, 30);
             this.B11.TabIndex = 619;
             this.B11.UseVisualStyleBackColor = false;
             // 
             // B12
             // 
             this.B12.BackColor = System.Drawing.SystemColors.Control;
-            this.B12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B12.Location = new System.Drawing.Point(1168, 243);
+            this.B12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B12.Location = new System.Drawing.Point(892, 201);
             this.B12.Name = "B12";
-            this.B12.Size = new System.Drawing.Size(40, 40);
+            this.B12.Size = new System.Drawing.Size(30, 30);
             this.B12.TabIndex = 620;
             this.B12.UseVisualStyleBackColor = false;
             // 
             // B13
             // 
             this.B13.BackColor = System.Drawing.SystemColors.Control;
-            this.B13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B13.Location = new System.Drawing.Point(1129, 243);
+            this.B13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B13.Location = new System.Drawing.Point(863, 201);
             this.B13.Name = "B13";
-            this.B13.Size = new System.Drawing.Size(40, 40);
+            this.B13.Size = new System.Drawing.Size(30, 30);
             this.B13.TabIndex = 621;
             this.B13.UseVisualStyleBackColor = false;
             // 
             // B14
             // 
             this.B14.BackColor = System.Drawing.SystemColors.Control;
-            this.B14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B14.Location = new System.Drawing.Point(1090, 243);
+            this.B14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B14.Location = new System.Drawing.Point(834, 201);
             this.B14.Name = "B14";
-            this.B14.Size = new System.Drawing.Size(40, 40);
+            this.B14.Size = new System.Drawing.Size(30, 30);
             this.B14.TabIndex = 622;
             this.B14.UseVisualStyleBackColor = false;
             // 
             // B08
             // 
             this.B08.BackColor = System.Drawing.SystemColors.Control;
-            this.B08.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B08.Location = new System.Drawing.Point(1324, 243);
+            this.B08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B08.Location = new System.Drawing.Point(1008, 201);
             this.B08.Name = "B08";
-            this.B08.Size = new System.Drawing.Size(40, 40);
+            this.B08.Size = new System.Drawing.Size(30, 30);
             this.B08.TabIndex = 617;
             this.B08.UseVisualStyleBackColor = false;
             // 
             // B09
             // 
             this.B09.BackColor = System.Drawing.SystemColors.Control;
-            this.B09.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B09.Location = new System.Drawing.Point(1285, 243);
+            this.B09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B09.Location = new System.Drawing.Point(979, 201);
             this.B09.Name = "B09";
-            this.B09.Size = new System.Drawing.Size(40, 40);
+            this.B09.Size = new System.Drawing.Size(30, 30);
             this.B09.TabIndex = 618;
             this.B09.UseVisualStyleBackColor = false;
             // 
             // B06
             // 
             this.B06.BackColor = System.Drawing.SystemColors.Control;
-            this.B06.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B06.Location = new System.Drawing.Point(1402, 243);
+            this.B06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B06.Location = new System.Drawing.Point(1066, 201);
             this.B06.Name = "B06";
-            this.B06.Size = new System.Drawing.Size(40, 40);
+            this.B06.Size = new System.Drawing.Size(30, 30);
             this.B06.TabIndex = 616;
             this.B06.UseVisualStyleBackColor = false;
             // 
             // B01
             // 
             this.B01.BackColor = System.Drawing.SystemColors.Control;
-            this.B01.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B01.Location = new System.Drawing.Point(1597, 243);
+            this.B01.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B01.Location = new System.Drawing.Point(1211, 201);
             this.B01.Name = "B01";
-            this.B01.Size = new System.Drawing.Size(40, 40);
+            this.B01.Size = new System.Drawing.Size(30, 30);
             this.B01.TabIndex = 611;
             this.B01.UseVisualStyleBackColor = false;
             // 
             // B02
             // 
             this.B02.BackColor = System.Drawing.SystemColors.Control;
-            this.B02.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B02.Location = new System.Drawing.Point(1558, 243);
+            this.B02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B02.Location = new System.Drawing.Point(1182, 201);
             this.B02.Name = "B02";
-            this.B02.Size = new System.Drawing.Size(40, 40);
+            this.B02.Size = new System.Drawing.Size(30, 30);
             this.B02.TabIndex = 612;
             this.B02.UseVisualStyleBackColor = false;
             // 
             // B03
             // 
             this.B03.BackColor = System.Drawing.SystemColors.Control;
-            this.B03.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B03.Location = new System.Drawing.Point(1519, 243);
+            this.B03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B03.Location = new System.Drawing.Point(1153, 201);
             this.B03.Name = "B03";
-            this.B03.Size = new System.Drawing.Size(40, 40);
+            this.B03.Size = new System.Drawing.Size(30, 30);
             this.B03.TabIndex = 613;
             this.B03.UseVisualStyleBackColor = false;
             // 
             // B04
             // 
             this.B04.BackColor = System.Drawing.SystemColors.Control;
-            this.B04.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B04.Location = new System.Drawing.Point(1480, 243);
+            this.B04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B04.Location = new System.Drawing.Point(1124, 201);
             this.B04.Name = "B04";
-            this.B04.Size = new System.Drawing.Size(40, 40);
+            this.B04.Size = new System.Drawing.Size(30, 30);
             this.B04.TabIndex = 614;
             this.B04.UseVisualStyleBackColor = false;
             // 
             // B05
             // 
             this.B05.BackColor = System.Drawing.SystemColors.Control;
-            this.B05.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B05.Location = new System.Drawing.Point(1441, 243);
+            this.B05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B05.Location = new System.Drawing.Point(1095, 201);
             this.B05.Name = "B05";
-            this.B05.Size = new System.Drawing.Size(40, 40);
+            this.B05.Size = new System.Drawing.Size(30, 30);
             this.B05.TabIndex = 615;
             this.B05.UseVisualStyleBackColor = false;
             // 
             // C01
             // 
             this.C01.BackColor = System.Drawing.SystemColors.Control;
-            this.C01.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C01.Location = new System.Drawing.Point(1590, 282);
+            this.C01.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C01.Location = new System.Drawing.Point(1204, 230);
             this.C01.Name = "C01";
-            this.C01.Size = new System.Drawing.Size(48, 48);
+            this.C01.Size = new System.Drawing.Size(37, 37);
             this.C01.TabIndex = 626;
             this.C01.UseVisualStyleBackColor = false;
             // 
             // C02
             // 
             this.C02.BackColor = System.Drawing.SystemColors.Control;
-            this.C02.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C02.Location = new System.Drawing.Point(1543, 282);
+            this.C02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C02.Location = new System.Drawing.Point(1168, 230);
             this.C02.Name = "C02";
-            this.C02.Size = new System.Drawing.Size(48, 48);
+            this.C02.Size = new System.Drawing.Size(37, 37);
             this.C02.TabIndex = 627;
             this.C02.UseVisualStyleBackColor = false;
             // 
             // C04
             // 
             this.C04.BackColor = System.Drawing.SystemColors.Control;
-            this.C04.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C04.Location = new System.Drawing.Point(1449, 282);
+            this.C04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C04.Location = new System.Drawing.Point(1096, 230);
             this.C04.Name = "C04";
-            this.C04.Size = new System.Drawing.Size(48, 48);
+            this.C04.Size = new System.Drawing.Size(37, 37);
             this.C04.TabIndex = 629;
             this.C04.UseVisualStyleBackColor = false;
             // 
             // C03
             // 
             this.C03.BackColor = System.Drawing.SystemColors.Control;
-            this.C03.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C03.Location = new System.Drawing.Point(1496, 282);
+            this.C03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C03.Location = new System.Drawing.Point(1132, 230);
             this.C03.Name = "C03";
-            this.C03.Size = new System.Drawing.Size(48, 48);
+            this.C03.Size = new System.Drawing.Size(37, 37);
             this.C03.TabIndex = 628;
             this.C03.UseVisualStyleBackColor = false;
             // 
             // C08
             // 
             this.C08.BackColor = System.Drawing.SystemColors.Control;
-            this.C08.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C08.Location = new System.Drawing.Point(1261, 282);
+            this.C08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C08.Location = new System.Drawing.Point(952, 230);
             this.C08.Name = "C08";
-            this.C08.Size = new System.Drawing.Size(48, 48);
+            this.C08.Size = new System.Drawing.Size(37, 37);
             this.C08.TabIndex = 633;
             this.C08.UseVisualStyleBackColor = false;
             // 
             // C07
             // 
             this.C07.BackColor = System.Drawing.SystemColors.Control;
-            this.C07.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C07.Location = new System.Drawing.Point(1308, 282);
+            this.C07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C07.Location = new System.Drawing.Point(988, 230);
             this.C07.Name = "C07";
-            this.C07.Size = new System.Drawing.Size(48, 48);
+            this.C07.Size = new System.Drawing.Size(37, 37);
             this.C07.TabIndex = 632;
             this.C07.UseVisualStyleBackColor = false;
             // 
             // C06
             // 
             this.C06.BackColor = System.Drawing.SystemColors.Control;
-            this.C06.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C06.Location = new System.Drawing.Point(1355, 282);
+            this.C06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C06.Location = new System.Drawing.Point(1024, 230);
             this.C06.Name = "C06";
-            this.C06.Size = new System.Drawing.Size(48, 48);
+            this.C06.Size = new System.Drawing.Size(37, 37);
             this.C06.TabIndex = 631;
             this.C06.UseVisualStyleBackColor = false;
             // 
             // C05
             // 
             this.C05.BackColor = System.Drawing.SystemColors.Control;
-            this.C05.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C05.Location = new System.Drawing.Point(1402, 282);
+            this.C05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C05.Location = new System.Drawing.Point(1060, 230);
             this.C05.Name = "C05";
-            this.C05.Size = new System.Drawing.Size(48, 48);
+            this.C05.Size = new System.Drawing.Size(37, 37);
             this.C05.TabIndex = 630;
             this.C05.UseVisualStyleBackColor = false;
             // 
             // C13
             // 
             this.C13.BackColor = System.Drawing.SystemColors.Control;
-            this.C13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C13.Location = new System.Drawing.Point(1026, 282);
+            this.C13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C13.Location = new System.Drawing.Point(772, 230);
             this.C13.Name = "C13";
-            this.C13.Size = new System.Drawing.Size(48, 48);
+            this.C13.Size = new System.Drawing.Size(37, 37);
             this.C13.TabIndex = 638;
             this.C13.UseVisualStyleBackColor = false;
             // 
             // C12
             // 
             this.C12.BackColor = System.Drawing.SystemColors.Control;
-            this.C12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C12.Location = new System.Drawing.Point(1073, 282);
+            this.C12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C12.Location = new System.Drawing.Point(808, 230);
             this.C12.Name = "C12";
-            this.C12.Size = new System.Drawing.Size(48, 48);
+            this.C12.Size = new System.Drawing.Size(37, 37);
             this.C12.TabIndex = 637;
             this.C12.UseVisualStyleBackColor = false;
             // 
             // C11
             // 
             this.C11.BackColor = System.Drawing.SystemColors.Control;
-            this.C11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C11.Location = new System.Drawing.Point(1120, 282);
+            this.C11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C11.Location = new System.Drawing.Point(844, 230);
             this.C11.Name = "C11";
-            this.C11.Size = new System.Drawing.Size(48, 48);
+            this.C11.Size = new System.Drawing.Size(37, 37);
             this.C11.TabIndex = 636;
             this.C11.UseVisualStyleBackColor = false;
             // 
             // C10
             // 
             this.C10.BackColor = System.Drawing.SystemColors.Control;
-            this.C10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C10.Location = new System.Drawing.Point(1167, 282);
+            this.C10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C10.Location = new System.Drawing.Point(880, 230);
             this.C10.Name = "C10";
-            this.C10.Size = new System.Drawing.Size(48, 48);
+            this.C10.Size = new System.Drawing.Size(37, 37);
             this.C10.TabIndex = 635;
             this.C10.UseVisualStyleBackColor = false;
             // 
             // C09
             // 
             this.C09.BackColor = System.Drawing.SystemColors.Control;
-            this.C09.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C09.Location = new System.Drawing.Point(1214, 282);
+            this.C09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C09.Location = new System.Drawing.Point(916, 230);
             this.C09.Name = "C09";
-            this.C09.Size = new System.Drawing.Size(48, 48);
+            this.C09.Size = new System.Drawing.Size(37, 37);
             this.C09.TabIndex = 634;
             this.C09.UseVisualStyleBackColor = false;
             // 
             // C26
             // 
             this.C26.BackColor = System.Drawing.SystemColors.Control;
-            this.C26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C26.Location = new System.Drawing.Point(371, 281);
+            this.C26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C26.Location = new System.Drawing.Point(269, 230);
             this.C26.Name = "C26";
-            this.C26.Size = new System.Drawing.Size(48, 48);
+            this.C26.Size = new System.Drawing.Size(37, 37);
             this.C26.TabIndex = 651;
             this.C26.UseVisualStyleBackColor = false;
             // 
             // C25
             // 
             this.C25.BackColor = System.Drawing.SystemColors.Control;
-            this.C25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C25.Location = new System.Drawing.Point(418, 281);
+            this.C25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C25.Location = new System.Drawing.Point(305, 230);
             this.C25.Name = "C25";
-            this.C25.Size = new System.Drawing.Size(48, 48);
+            this.C25.Size = new System.Drawing.Size(37, 37);
             this.C25.TabIndex = 650;
             this.C25.UseVisualStyleBackColor = false;
             // 
             // C24
             // 
             this.C24.BackColor = System.Drawing.SystemColors.Control;
-            this.C24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C24.Location = new System.Drawing.Point(465, 281);
+            this.C24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C24.Location = new System.Drawing.Point(341, 230);
             this.C24.Name = "C24";
-            this.C24.Size = new System.Drawing.Size(48, 48);
+            this.C24.Size = new System.Drawing.Size(37, 37);
             this.C24.TabIndex = 649;
             this.C24.UseVisualStyleBackColor = false;
             // 
             // C23
             // 
             this.C23.BackColor = System.Drawing.SystemColors.Control;
-            this.C23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C23.Location = new System.Drawing.Point(512, 281);
+            this.C23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C23.Location = new System.Drawing.Point(377, 230);
             this.C23.Name = "C23";
-            this.C23.Size = new System.Drawing.Size(48, 48);
+            this.C23.Size = new System.Drawing.Size(37, 37);
             this.C23.TabIndex = 648;
             this.C23.UseVisualStyleBackColor = false;
             // 
             // C22
             // 
             this.C22.BackColor = System.Drawing.SystemColors.Control;
-            this.C22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C22.Location = new System.Drawing.Point(559, 281);
+            this.C22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C22.Location = new System.Drawing.Point(413, 230);
             this.C22.Name = "C22";
-            this.C22.Size = new System.Drawing.Size(48, 48);
+            this.C22.Size = new System.Drawing.Size(37, 37);
             this.C22.TabIndex = 647;
             this.C22.UseVisualStyleBackColor = false;
             // 
             // C21
             // 
             this.C21.BackColor = System.Drawing.SystemColors.Control;
-            this.C21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C21.Location = new System.Drawing.Point(606, 281);
+            this.C21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C21.Location = new System.Drawing.Point(449, 230);
             this.C21.Name = "C21";
-            this.C21.Size = new System.Drawing.Size(48, 48);
+            this.C21.Size = new System.Drawing.Size(37, 37);
             this.C21.TabIndex = 646;
             this.C21.UseVisualStyleBackColor = false;
             // 
             // C20
             // 
             this.C20.BackColor = System.Drawing.SystemColors.Control;
-            this.C20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C20.Location = new System.Drawing.Point(653, 281);
+            this.C20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C20.Location = new System.Drawing.Point(485, 230);
             this.C20.Name = "C20";
-            this.C20.Size = new System.Drawing.Size(48, 48);
+            this.C20.Size = new System.Drawing.Size(37, 37);
             this.C20.TabIndex = 645;
             this.C20.UseVisualStyleBackColor = false;
             // 
             // C19
             // 
             this.C19.BackColor = System.Drawing.SystemColors.Control;
-            this.C19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C19.Location = new System.Drawing.Point(700, 281);
+            this.C19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C19.Location = new System.Drawing.Point(521, 230);
             this.C19.Name = "C19";
-            this.C19.Size = new System.Drawing.Size(48, 48);
+            this.C19.Size = new System.Drawing.Size(37, 37);
             this.C19.TabIndex = 644;
             this.C19.UseVisualStyleBackColor = false;
             // 
             // C18
             // 
             this.C18.BackColor = System.Drawing.SystemColors.Control;
-            this.C18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C18.Location = new System.Drawing.Point(747, 281);
+            this.C18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C18.Location = new System.Drawing.Point(557, 230);
             this.C18.Name = "C18";
-            this.C18.Size = new System.Drawing.Size(48, 48);
+            this.C18.Size = new System.Drawing.Size(37, 37);
             this.C18.TabIndex = 643;
             this.C18.UseVisualStyleBackColor = false;
             // 
             // C17
             // 
             this.C17.BackColor = System.Drawing.SystemColors.Control;
-            this.C17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C17.Location = new System.Drawing.Point(794, 281);
+            this.C17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C17.Location = new System.Drawing.Point(593, 230);
             this.C17.Name = "C17";
-            this.C17.Size = new System.Drawing.Size(48, 48);
+            this.C17.Size = new System.Drawing.Size(37, 37);
             this.C17.TabIndex = 642;
             this.C17.UseVisualStyleBackColor = false;
             // 
             // C16
             // 
             this.C16.BackColor = System.Drawing.SystemColors.Control;
-            this.C16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C16.Location = new System.Drawing.Point(841, 281);
+            this.C16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C16.Location = new System.Drawing.Point(629, 230);
             this.C16.Name = "C16";
-            this.C16.Size = new System.Drawing.Size(48, 48);
+            this.C16.Size = new System.Drawing.Size(37, 37);
             this.C16.TabIndex = 641;
             this.C16.UseVisualStyleBackColor = false;
             // 
             // C15
             // 
             this.C15.BackColor = System.Drawing.SystemColors.Control;
-            this.C15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C15.Location = new System.Drawing.Point(888, 281);
+            this.C15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C15.Location = new System.Drawing.Point(665, 230);
             this.C15.Name = "C15";
-            this.C15.Size = new System.Drawing.Size(48, 48);
+            this.C15.Size = new System.Drawing.Size(37, 37);
             this.C15.TabIndex = 640;
             this.C15.UseVisualStyleBackColor = false;
             // 
             // C14
             // 
             this.C14.BackColor = System.Drawing.SystemColors.Control;
-            this.C14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C14.Location = new System.Drawing.Point(935, 281);
+            this.C14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C14.Location = new System.Drawing.Point(701, 230);
             this.C14.Name = "C14";
-            this.C14.Size = new System.Drawing.Size(48, 48);
+            this.C14.Size = new System.Drawing.Size(37, 37);
             this.C14.TabIndex = 639;
             this.C14.UseVisualStyleBackColor = false;
             // 
             // C31
             // 
             this.C31.BackColor = System.Drawing.SystemColors.Control;
-            this.C31.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C31.Location = new System.Drawing.Point(136, 281);
+            this.C31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C31.Location = new System.Drawing.Point(89, 230);
             this.C31.Name = "C31";
-            this.C31.Size = new System.Drawing.Size(48, 48);
+            this.C31.Size = new System.Drawing.Size(37, 37);
             this.C31.TabIndex = 656;
             this.C31.UseVisualStyleBackColor = false;
             // 
             // C30
             // 
             this.C30.BackColor = System.Drawing.SystemColors.Control;
-            this.C30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C30.Location = new System.Drawing.Point(183, 281);
+            this.C30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C30.Location = new System.Drawing.Point(125, 230);
             this.C30.Name = "C30";
-            this.C30.Size = new System.Drawing.Size(48, 48);
+            this.C30.Size = new System.Drawing.Size(37, 37);
             this.C30.TabIndex = 655;
             this.C30.UseVisualStyleBackColor = false;
             // 
             // C29
             // 
             this.C29.BackColor = System.Drawing.SystemColors.Control;
-            this.C29.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C29.Location = new System.Drawing.Point(230, 281);
+            this.C29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C29.Location = new System.Drawing.Point(161, 230);
             this.C29.Name = "C29";
-            this.C29.Size = new System.Drawing.Size(48, 48);
+            this.C29.Size = new System.Drawing.Size(37, 37);
             this.C29.TabIndex = 654;
             this.C29.UseVisualStyleBackColor = false;
             // 
             // C28
             // 
             this.C28.BackColor = System.Drawing.SystemColors.Control;
-            this.C28.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C28.Location = new System.Drawing.Point(277, 281);
+            this.C28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C28.Location = new System.Drawing.Point(197, 230);
             this.C28.Name = "C28";
-            this.C28.Size = new System.Drawing.Size(48, 48);
+            this.C28.Size = new System.Drawing.Size(37, 37);
             this.C28.TabIndex = 653;
             this.C28.UseVisualStyleBackColor = false;
             // 
             // C27
             // 
             this.C27.BackColor = System.Drawing.SystemColors.Control;
-            this.C27.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C27.Location = new System.Drawing.Point(324, 281);
+            this.C27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C27.Location = new System.Drawing.Point(233, 230);
             this.C27.Name = "C27";
-            this.C27.Size = new System.Drawing.Size(48, 48);
+            this.C27.Size = new System.Drawing.Size(37, 37);
             this.C27.TabIndex = 652;
             this.C27.UseVisualStyleBackColor = false;
             // 
             // C32
             // 
             this.C32.BackColor = System.Drawing.SystemColors.Control;
-            this.C32.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C32.Location = new System.Drawing.Point(97, 281);
+            this.C32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C32.Location = new System.Drawing.Point(60, 230);
             this.C32.Name = "C32";
-            this.C32.Size = new System.Drawing.Size(40, 40);
+            this.C32.Size = new System.Drawing.Size(30, 30);
             this.C32.TabIndex = 657;
             this.C32.UseVisualStyleBackColor = false;
             // 
             // C33
             // 
             this.C33.BackColor = System.Drawing.SystemColors.Control;
-            this.C33.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.C33.Location = new System.Drawing.Point(58, 281);
+            this.C33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C33.Location = new System.Drawing.Point(31, 230);
             this.C33.Name = "C33";
-            this.C33.Size = new System.Drawing.Size(40, 40);
+            this.C33.Size = new System.Drawing.Size(30, 30);
             this.C33.TabIndex = 658;
             this.C33.UseVisualStyleBackColor = false;
             // 
             // D10
             // 
             this.D10.BackColor = System.Drawing.SystemColors.Control;
-            this.D10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D10.Location = new System.Drawing.Point(1246, 352);
+            this.D10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D10.Location = new System.Drawing.Point(950, 282);
             this.D10.Name = "D10";
-            this.D10.Size = new System.Drawing.Size(40, 40);
+            this.D10.Size = new System.Drawing.Size(30, 30);
             this.D10.TabIndex = 699;
             this.D10.UseVisualStyleBackColor = false;
             // 
             // D07
             // 
             this.D07.BackColor = System.Drawing.SystemColors.Control;
-            this.D07.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D07.Location = new System.Drawing.Point(1363, 352);
+            this.D07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D07.Location = new System.Drawing.Point(1037, 282);
             this.D07.Name = "D07";
-            this.D07.Size = new System.Drawing.Size(40, 40);
+            this.D07.Size = new System.Drawing.Size(30, 30);
             this.D07.TabIndex = 698;
             this.D07.UseVisualStyleBackColor = false;
             // 
             // D15
             // 
             this.D15.BackColor = System.Drawing.SystemColors.Control;
-            this.D15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D15.Location = new System.Drawing.Point(1051, 352);
+            this.D15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D15.Location = new System.Drawing.Point(805, 282);
             this.D15.Name = "D15";
-            this.D15.Size = new System.Drawing.Size(40, 40);
+            this.D15.Size = new System.Drawing.Size(30, 30);
             this.D15.TabIndex = 697;
             this.D15.UseVisualStyleBackColor = false;
             // 
             // D11
             // 
             this.D11.BackColor = System.Drawing.SystemColors.Control;
-            this.D11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D11.Location = new System.Drawing.Point(1207, 352);
+            this.D11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D11.Location = new System.Drawing.Point(921, 282);
             this.D11.Name = "D11";
-            this.D11.Size = new System.Drawing.Size(40, 40);
+            this.D11.Size = new System.Drawing.Size(30, 30);
             this.D11.TabIndex = 693;
             this.D11.UseVisualStyleBackColor = false;
             // 
             // D12
             // 
             this.D12.BackColor = System.Drawing.SystemColors.Control;
-            this.D12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D12.Location = new System.Drawing.Point(1168, 352);
+            this.D12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D12.Location = new System.Drawing.Point(892, 282);
             this.D12.Name = "D12";
-            this.D12.Size = new System.Drawing.Size(40, 40);
+            this.D12.Size = new System.Drawing.Size(30, 30);
             this.D12.TabIndex = 694;
             this.D12.UseVisualStyleBackColor = false;
             // 
             // D13
             // 
             this.D13.BackColor = System.Drawing.SystemColors.Control;
-            this.D13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D13.Location = new System.Drawing.Point(1129, 352);
+            this.D13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D13.Location = new System.Drawing.Point(863, 282);
             this.D13.Name = "D13";
-            this.D13.Size = new System.Drawing.Size(40, 40);
+            this.D13.Size = new System.Drawing.Size(30, 30);
             this.D13.TabIndex = 695;
             this.D13.UseVisualStyleBackColor = false;
             // 
             // D14
             // 
             this.D14.BackColor = System.Drawing.SystemColors.Control;
-            this.D14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D14.Location = new System.Drawing.Point(1090, 352);
+            this.D14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D14.Location = new System.Drawing.Point(834, 282);
             this.D14.Name = "D14";
-            this.D14.Size = new System.Drawing.Size(40, 40);
+            this.D14.Size = new System.Drawing.Size(30, 30);
             this.D14.TabIndex = 696;
             this.D14.UseVisualStyleBackColor = false;
             // 
             // D08
             // 
             this.D08.BackColor = System.Drawing.SystemColors.Control;
-            this.D08.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D08.Location = new System.Drawing.Point(1324, 352);
+            this.D08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D08.Location = new System.Drawing.Point(1008, 282);
             this.D08.Name = "D08";
-            this.D08.Size = new System.Drawing.Size(40, 40);
+            this.D08.Size = new System.Drawing.Size(30, 30);
             this.D08.TabIndex = 691;
             this.D08.UseVisualStyleBackColor = false;
             // 
             // D09
             // 
             this.D09.BackColor = System.Drawing.SystemColors.Control;
-            this.D09.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D09.Location = new System.Drawing.Point(1285, 352);
+            this.D09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D09.Location = new System.Drawing.Point(979, 282);
             this.D09.Name = "D09";
-            this.D09.Size = new System.Drawing.Size(40, 40);
+            this.D09.Size = new System.Drawing.Size(30, 30);
             this.D09.TabIndex = 692;
             this.D09.UseVisualStyleBackColor = false;
             // 
             // D06
             // 
             this.D06.BackColor = System.Drawing.SystemColors.Control;
-            this.D06.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D06.Location = new System.Drawing.Point(1402, 352);
+            this.D06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D06.Location = new System.Drawing.Point(1066, 282);
             this.D06.Name = "D06";
-            this.D06.Size = new System.Drawing.Size(40, 40);
+            this.D06.Size = new System.Drawing.Size(30, 30);
             this.D06.TabIndex = 690;
             this.D06.UseVisualStyleBackColor = false;
             // 
             // D01
             // 
             this.D01.BackColor = System.Drawing.SystemColors.Control;
-            this.D01.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D01.Location = new System.Drawing.Point(1597, 352);
+            this.D01.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D01.Location = new System.Drawing.Point(1211, 282);
             this.D01.Name = "D01";
-            this.D01.Size = new System.Drawing.Size(40, 40);
+            this.D01.Size = new System.Drawing.Size(30, 30);
             this.D01.TabIndex = 685;
             this.D01.UseVisualStyleBackColor = false;
             // 
             // D02
             // 
             this.D02.BackColor = System.Drawing.SystemColors.Control;
-            this.D02.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D02.Location = new System.Drawing.Point(1558, 352);
+            this.D02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D02.Location = new System.Drawing.Point(1182, 282);
             this.D02.Name = "D02";
-            this.D02.Size = new System.Drawing.Size(40, 40);
+            this.D02.Size = new System.Drawing.Size(30, 30);
             this.D02.TabIndex = 686;
             this.D02.UseVisualStyleBackColor = false;
             // 
             // D03
             // 
             this.D03.BackColor = System.Drawing.SystemColors.Control;
-            this.D03.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D03.Location = new System.Drawing.Point(1519, 352);
+            this.D03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D03.Location = new System.Drawing.Point(1153, 282);
             this.D03.Name = "D03";
-            this.D03.Size = new System.Drawing.Size(40, 40);
+            this.D03.Size = new System.Drawing.Size(30, 30);
             this.D03.TabIndex = 687;
             this.D03.UseVisualStyleBackColor = false;
             // 
             // D04
             // 
             this.D04.BackColor = System.Drawing.SystemColors.Control;
-            this.D04.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D04.Location = new System.Drawing.Point(1480, 352);
+            this.D04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D04.Location = new System.Drawing.Point(1124, 282);
             this.D04.Name = "D04";
-            this.D04.Size = new System.Drawing.Size(40, 40);
+            this.D04.Size = new System.Drawing.Size(30, 30);
             this.D04.TabIndex = 688;
             this.D04.UseVisualStyleBackColor = false;
             // 
             // D05
             // 
             this.D05.BackColor = System.Drawing.SystemColors.Control;
-            this.D05.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D05.Location = new System.Drawing.Point(1441, 352);
+            this.D05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D05.Location = new System.Drawing.Point(1095, 282);
             this.D05.Name = "D05";
-            this.D05.Size = new System.Drawing.Size(40, 40);
+            this.D05.Size = new System.Drawing.Size(30, 30);
             this.D05.TabIndex = 689;
             this.D05.UseVisualStyleBackColor = false;
             // 
             // D36
             // 
             this.D36.BackColor = System.Drawing.SystemColors.Control;
-            this.D36.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D36.Location = new System.Drawing.Point(202, 352);
+            this.D36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D36.Location = new System.Drawing.Point(157, 282);
             this.D36.Name = "D36";
-            this.D36.Size = new System.Drawing.Size(40, 40);
+            this.D36.Size = new System.Drawing.Size(30, 30);
             this.D36.TabIndex = 684;
             this.D36.UseVisualStyleBackColor = false;
             // 
             // D33
             // 
             this.D33.BackColor = System.Drawing.SystemColors.Control;
-            this.D33.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D33.Location = new System.Drawing.Point(319, 352);
+            this.D33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D33.Location = new System.Drawing.Point(244, 282);
             this.D33.Name = "D33";
-            this.D33.Size = new System.Drawing.Size(40, 40);
+            this.D33.Size = new System.Drawing.Size(30, 30);
             this.D33.TabIndex = 683;
             this.D33.UseVisualStyleBackColor = false;
             // 
             // D17
             // 
             this.D17.BackColor = System.Drawing.SystemColors.Control;
-            this.D17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D17.Location = new System.Drawing.Point(943, 352);
+            this.D17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D17.Location = new System.Drawing.Point(708, 282);
             this.D17.Name = "D17";
-            this.D17.Size = new System.Drawing.Size(40, 40);
+            this.D17.Size = new System.Drawing.Size(30, 30);
             this.D17.TabIndex = 682;
             this.D17.UseVisualStyleBackColor = false;
             // 
             // D37
             // 
             this.D37.BackColor = System.Drawing.SystemColors.Control;
-            this.D37.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D37.Location = new System.Drawing.Point(163, 352);
+            this.D37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D37.Location = new System.Drawing.Point(128, 282);
             this.D37.Name = "D37";
-            this.D37.Size = new System.Drawing.Size(40, 40);
+            this.D37.Size = new System.Drawing.Size(30, 30);
             this.D37.TabIndex = 678;
             this.D37.UseVisualStyleBackColor = false;
             // 
             // D38
             // 
             this.D38.BackColor = System.Drawing.SystemColors.Control;
-            this.D38.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D38.Location = new System.Drawing.Point(124, 352);
+            this.D38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D38.Location = new System.Drawing.Point(99, 282);
             this.D38.Name = "D38";
-            this.D38.Size = new System.Drawing.Size(40, 40);
+            this.D38.Size = new System.Drawing.Size(30, 30);
             this.D38.TabIndex = 679;
             this.D38.UseVisualStyleBackColor = false;
             // 
             // D39
             // 
             this.D39.BackColor = System.Drawing.SystemColors.Control;
-            this.D39.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D39.Location = new System.Drawing.Point(85, 352);
+            this.D39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D39.Location = new System.Drawing.Point(70, 282);
             this.D39.Name = "D39";
-            this.D39.Size = new System.Drawing.Size(40, 40);
+            this.D39.Size = new System.Drawing.Size(30, 30);
             this.D39.TabIndex = 680;
             this.D39.UseVisualStyleBackColor = false;
             // 
             // D40
             // 
             this.D40.BackColor = System.Drawing.SystemColors.Control;
-            this.D40.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D40.Location = new System.Drawing.Point(46, 352);
+            this.D40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D40.Location = new System.Drawing.Point(41, 282);
             this.D40.Name = "D40";
-            this.D40.Size = new System.Drawing.Size(40, 40);
+            this.D40.Size = new System.Drawing.Size(30, 30);
             this.D40.TabIndex = 681;
             this.D40.UseVisualStyleBackColor = false;
             // 
             // D34
             // 
             this.D34.BackColor = System.Drawing.SystemColors.Control;
-            this.D34.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D34.Location = new System.Drawing.Point(280, 352);
+            this.D34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D34.Location = new System.Drawing.Point(215, 282);
             this.D34.Name = "D34";
-            this.D34.Size = new System.Drawing.Size(40, 40);
+            this.D34.Size = new System.Drawing.Size(30, 30);
             this.D34.TabIndex = 676;
             this.D34.UseVisualStyleBackColor = false;
             // 
             // D35
             // 
             this.D35.BackColor = System.Drawing.SystemColors.Control;
-            this.D35.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D35.Location = new System.Drawing.Point(241, 352);
+            this.D35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D35.Location = new System.Drawing.Point(186, 282);
             this.D35.Name = "D35";
-            this.D35.Size = new System.Drawing.Size(40, 40);
+            this.D35.Size = new System.Drawing.Size(30, 30);
             this.D35.TabIndex = 677;
             this.D35.UseVisualStyleBackColor = false;
             // 
             // D32
             // 
             this.D32.BackColor = System.Drawing.SystemColors.Control;
-            this.D32.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D32.Location = new System.Drawing.Point(358, 352);
+            this.D32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D32.Location = new System.Drawing.Point(273, 282);
             this.D32.Name = "D32";
-            this.D32.Size = new System.Drawing.Size(40, 40);
+            this.D32.Size = new System.Drawing.Size(30, 30);
             this.D32.TabIndex = 675;
             this.D32.UseVisualStyleBackColor = false;
             // 
             // D26
             // 
             this.D26.BackColor = System.Drawing.SystemColors.Control;
-            this.D26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D26.Location = new System.Drawing.Point(592, 352);
+            this.D26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D26.Location = new System.Drawing.Point(447, 282);
             this.D26.Name = "D26";
-            this.D26.Size = new System.Drawing.Size(40, 40);
+            this.D26.Size = new System.Drawing.Size(30, 30);
             this.D26.TabIndex = 674;
             this.D26.UseVisualStyleBackColor = false;
             // 
             // D23
             // 
             this.D23.BackColor = System.Drawing.SystemColors.Control;
-            this.D23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D23.Location = new System.Drawing.Point(709, 352);
+            this.D23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D23.Location = new System.Drawing.Point(534, 282);
             this.D23.Name = "D23";
-            this.D23.Size = new System.Drawing.Size(40, 40);
+            this.D23.Size = new System.Drawing.Size(30, 30);
             this.D23.TabIndex = 673;
             this.D23.UseVisualStyleBackColor = false;
             // 
             // D31
             // 
             this.D31.BackColor = System.Drawing.SystemColors.Control;
-            this.D31.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D31.Location = new System.Drawing.Point(397, 352);
+            this.D31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D31.Location = new System.Drawing.Point(302, 282);
             this.D31.Name = "D31";
-            this.D31.Size = new System.Drawing.Size(40, 40);
+            this.D31.Size = new System.Drawing.Size(30, 30);
             this.D31.TabIndex = 672;
             this.D31.UseVisualStyleBackColor = false;
             // 
             // D27
             // 
             this.D27.BackColor = System.Drawing.SystemColors.Control;
-            this.D27.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D27.Location = new System.Drawing.Point(553, 352);
+            this.D27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D27.Location = new System.Drawing.Point(418, 282);
             this.D27.Name = "D27";
-            this.D27.Size = new System.Drawing.Size(40, 40);
+            this.D27.Size = new System.Drawing.Size(30, 30);
             this.D27.TabIndex = 668;
             this.D27.UseVisualStyleBackColor = false;
             // 
             // D28
             // 
             this.D28.BackColor = System.Drawing.SystemColors.Control;
-            this.D28.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D28.Location = new System.Drawing.Point(514, 352);
+            this.D28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D28.Location = new System.Drawing.Point(389, 282);
             this.D28.Name = "D28";
-            this.D28.Size = new System.Drawing.Size(40, 40);
+            this.D28.Size = new System.Drawing.Size(30, 30);
             this.D28.TabIndex = 669;
             this.D28.UseVisualStyleBackColor = false;
             // 
             // D29
             // 
             this.D29.BackColor = System.Drawing.SystemColors.Control;
-            this.D29.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D29.Location = new System.Drawing.Point(475, 352);
+            this.D29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D29.Location = new System.Drawing.Point(360, 282);
             this.D29.Name = "D29";
-            this.D29.Size = new System.Drawing.Size(40, 40);
+            this.D29.Size = new System.Drawing.Size(30, 30);
             this.D29.TabIndex = 670;
             this.D29.UseVisualStyleBackColor = false;
             // 
             // D30
             // 
             this.D30.BackColor = System.Drawing.SystemColors.Control;
-            this.D30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D30.Location = new System.Drawing.Point(436, 352);
+            this.D30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D30.Location = new System.Drawing.Point(331, 282);
             this.D30.Name = "D30";
-            this.D30.Size = new System.Drawing.Size(40, 40);
+            this.D30.Size = new System.Drawing.Size(30, 30);
             this.D30.TabIndex = 671;
             this.D30.UseVisualStyleBackColor = false;
             // 
             // D24
             // 
             this.D24.BackColor = System.Drawing.SystemColors.Control;
-            this.D24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D24.Location = new System.Drawing.Point(670, 352);
+            this.D24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D24.Location = new System.Drawing.Point(505, 282);
             this.D24.Name = "D24";
-            this.D24.Size = new System.Drawing.Size(40, 40);
+            this.D24.Size = new System.Drawing.Size(30, 30);
             this.D24.TabIndex = 666;
             this.D24.UseVisualStyleBackColor = false;
             // 
             // D25
             // 
             this.D25.BackColor = System.Drawing.SystemColors.Control;
-            this.D25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D25.Location = new System.Drawing.Point(631, 352);
+            this.D25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D25.Location = new System.Drawing.Point(476, 282);
             this.D25.Name = "D25";
-            this.D25.Size = new System.Drawing.Size(40, 40);
+            this.D25.Size = new System.Drawing.Size(30, 30);
             this.D25.TabIndex = 667;
             this.D25.UseVisualStyleBackColor = false;
             // 
             // D22
             // 
             this.D22.BackColor = System.Drawing.SystemColors.Control;
-            this.D22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D22.Location = new System.Drawing.Point(748, 352);
+            this.D22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D22.Location = new System.Drawing.Point(563, 282);
             this.D22.Name = "D22";
-            this.D22.Size = new System.Drawing.Size(40, 40);
+            this.D22.Size = new System.Drawing.Size(30, 30);
             this.D22.TabIndex = 665;
             this.D22.UseVisualStyleBackColor = false;
             // 
             // D16
             // 
             this.D16.BackColor = System.Drawing.SystemColors.Control;
-            this.D16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D16.Location = new System.Drawing.Point(1012, 352);
+            this.D16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D16.Location = new System.Drawing.Point(776, 282);
             this.D16.Name = "D16";
-            this.D16.Size = new System.Drawing.Size(40, 40);
+            this.D16.Size = new System.Drawing.Size(30, 30);
             this.D16.TabIndex = 660;
             this.D16.UseVisualStyleBackColor = false;
             // 
             // D18
             // 
             this.D18.BackColor = System.Drawing.SystemColors.Control;
-            this.D18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D18.Location = new System.Drawing.Point(904, 352);
+            this.D18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D18.Location = new System.Drawing.Point(679, 282);
             this.D18.Name = "D18";
-            this.D18.Size = new System.Drawing.Size(40, 40);
+            this.D18.Size = new System.Drawing.Size(30, 30);
             this.D18.TabIndex = 661;
             this.D18.UseVisualStyleBackColor = false;
             // 
             // D19
             // 
             this.D19.BackColor = System.Drawing.SystemColors.Control;
-            this.D19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D19.Location = new System.Drawing.Point(865, 352);
+            this.D19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D19.Location = new System.Drawing.Point(650, 282);
             this.D19.Name = "D19";
-            this.D19.Size = new System.Drawing.Size(40, 40);
+            this.D19.Size = new System.Drawing.Size(30, 30);
             this.D19.TabIndex = 662;
             this.D19.UseVisualStyleBackColor = false;
             // 
             // D20
             // 
             this.D20.BackColor = System.Drawing.SystemColors.Control;
-            this.D20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D20.Location = new System.Drawing.Point(826, 352);
+            this.D20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D20.Location = new System.Drawing.Point(621, 282);
             this.D20.Name = "D20";
-            this.D20.Size = new System.Drawing.Size(40, 40);
+            this.D20.Size = new System.Drawing.Size(30, 30);
             this.D20.TabIndex = 663;
             this.D20.UseVisualStyleBackColor = false;
             // 
             // D21
             // 
             this.D21.BackColor = System.Drawing.SystemColors.Control;
-            this.D21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.D21.Location = new System.Drawing.Point(787, 352);
+            this.D21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.D21.Location = new System.Drawing.Point(592, 282);
             this.D21.Name = "D21";
-            this.D21.Size = new System.Drawing.Size(40, 40);
+            this.D21.Size = new System.Drawing.Size(30, 30);
             this.D21.TabIndex = 664;
             this.D21.UseVisualStyleBackColor = false;
             // 
             // E10
             // 
             this.E10.BackColor = System.Drawing.SystemColors.Control;
-            this.E10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E10.Location = new System.Drawing.Point(1246, 391);
+            this.E10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E10.Location = new System.Drawing.Point(950, 311);
             this.E10.Name = "E10";
-            this.E10.Size = new System.Drawing.Size(40, 40);
+            this.E10.Size = new System.Drawing.Size(30, 30);
             this.E10.TabIndex = 739;
             this.E10.UseVisualStyleBackColor = false;
             // 
             // E07
             // 
             this.E07.BackColor = System.Drawing.SystemColors.Control;
-            this.E07.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E07.Location = new System.Drawing.Point(1363, 391);
+            this.E07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E07.Location = new System.Drawing.Point(1037, 311);
             this.E07.Name = "E07";
-            this.E07.Size = new System.Drawing.Size(40, 40);
+            this.E07.Size = new System.Drawing.Size(30, 30);
             this.E07.TabIndex = 738;
             this.E07.UseVisualStyleBackColor = false;
             // 
             // E15
             // 
             this.E15.BackColor = System.Drawing.SystemColors.Control;
-            this.E15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E15.Location = new System.Drawing.Point(1051, 391);
+            this.E15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E15.Location = new System.Drawing.Point(805, 311);
             this.E15.Name = "E15";
-            this.E15.Size = new System.Drawing.Size(40, 40);
+            this.E15.Size = new System.Drawing.Size(30, 30);
             this.E15.TabIndex = 737;
             this.E15.UseVisualStyleBackColor = false;
             // 
             // E11
             // 
             this.E11.BackColor = System.Drawing.SystemColors.Control;
-            this.E11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E11.Location = new System.Drawing.Point(1207, 391);
+            this.E11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E11.Location = new System.Drawing.Point(921, 311);
             this.E11.Name = "E11";
-            this.E11.Size = new System.Drawing.Size(40, 40);
+            this.E11.Size = new System.Drawing.Size(30, 30);
             this.E11.TabIndex = 733;
             this.E11.UseVisualStyleBackColor = false;
             // 
             // E12
             // 
             this.E12.BackColor = System.Drawing.SystemColors.Control;
-            this.E12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E12.Location = new System.Drawing.Point(1168, 391);
+            this.E12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E12.Location = new System.Drawing.Point(892, 311);
             this.E12.Name = "E12";
-            this.E12.Size = new System.Drawing.Size(40, 40);
+            this.E12.Size = new System.Drawing.Size(30, 30);
             this.E12.TabIndex = 734;
             this.E12.UseVisualStyleBackColor = false;
             // 
             // E13
             // 
             this.E13.BackColor = System.Drawing.SystemColors.Control;
-            this.E13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E13.Location = new System.Drawing.Point(1129, 391);
+            this.E13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E13.Location = new System.Drawing.Point(863, 311);
             this.E13.Name = "E13";
-            this.E13.Size = new System.Drawing.Size(40, 40);
+            this.E13.Size = new System.Drawing.Size(30, 30);
             this.E13.TabIndex = 735;
             this.E13.UseVisualStyleBackColor = false;
             // 
             // E14
             // 
             this.E14.BackColor = System.Drawing.SystemColors.Control;
-            this.E14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E14.Location = new System.Drawing.Point(1090, 391);
+            this.E14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E14.Location = new System.Drawing.Point(834, 311);
             this.E14.Name = "E14";
-            this.E14.Size = new System.Drawing.Size(40, 40);
+            this.E14.Size = new System.Drawing.Size(30, 30);
             this.E14.TabIndex = 736;
             this.E14.UseVisualStyleBackColor = false;
             // 
             // E08
             // 
             this.E08.BackColor = System.Drawing.SystemColors.Control;
-            this.E08.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E08.Location = new System.Drawing.Point(1324, 391);
+            this.E08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E08.Location = new System.Drawing.Point(1008, 311);
             this.E08.Name = "E08";
-            this.E08.Size = new System.Drawing.Size(40, 40);
+            this.E08.Size = new System.Drawing.Size(30, 30);
             this.E08.TabIndex = 731;
             this.E08.UseVisualStyleBackColor = false;
             // 
             // E09
             // 
             this.E09.BackColor = System.Drawing.SystemColors.Control;
-            this.E09.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E09.Location = new System.Drawing.Point(1285, 391);
+            this.E09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E09.Location = new System.Drawing.Point(979, 311);
             this.E09.Name = "E09";
-            this.E09.Size = new System.Drawing.Size(40, 40);
+            this.E09.Size = new System.Drawing.Size(30, 30);
             this.E09.TabIndex = 732;
             this.E09.UseVisualStyleBackColor = false;
             // 
             // E06
             // 
             this.E06.BackColor = System.Drawing.SystemColors.Control;
-            this.E06.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E06.Location = new System.Drawing.Point(1402, 391);
+            this.E06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E06.Location = new System.Drawing.Point(1066, 311);
             this.E06.Name = "E06";
-            this.E06.Size = new System.Drawing.Size(40, 40);
+            this.E06.Size = new System.Drawing.Size(30, 30);
             this.E06.TabIndex = 730;
             this.E06.UseVisualStyleBackColor = false;
             // 
             // E01
             // 
             this.E01.BackColor = System.Drawing.SystemColors.Control;
-            this.E01.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E01.Location = new System.Drawing.Point(1597, 391);
+            this.E01.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E01.Location = new System.Drawing.Point(1211, 311);
             this.E01.Name = "E01";
-            this.E01.Size = new System.Drawing.Size(40, 40);
+            this.E01.Size = new System.Drawing.Size(30, 30);
             this.E01.TabIndex = 725;
             this.E01.UseVisualStyleBackColor = false;
             // 
             // E02
             // 
             this.E02.BackColor = System.Drawing.SystemColors.Control;
-            this.E02.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E02.Location = new System.Drawing.Point(1558, 391);
+            this.E02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E02.Location = new System.Drawing.Point(1182, 311);
             this.E02.Name = "E02";
-            this.E02.Size = new System.Drawing.Size(40, 40);
+            this.E02.Size = new System.Drawing.Size(30, 30);
             this.E02.TabIndex = 726;
             this.E02.UseVisualStyleBackColor = false;
             // 
             // E03
             // 
             this.E03.BackColor = System.Drawing.SystemColors.Control;
-            this.E03.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E03.Location = new System.Drawing.Point(1519, 391);
+            this.E03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E03.Location = new System.Drawing.Point(1153, 311);
             this.E03.Name = "E03";
-            this.E03.Size = new System.Drawing.Size(40, 40);
+            this.E03.Size = new System.Drawing.Size(30, 30);
             this.E03.TabIndex = 727;
             this.E03.UseVisualStyleBackColor = false;
             // 
             // E04
             // 
             this.E04.BackColor = System.Drawing.SystemColors.Control;
-            this.E04.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E04.Location = new System.Drawing.Point(1480, 391);
+            this.E04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E04.Location = new System.Drawing.Point(1124, 311);
             this.E04.Name = "E04";
-            this.E04.Size = new System.Drawing.Size(40, 40);
+            this.E04.Size = new System.Drawing.Size(30, 30);
             this.E04.TabIndex = 728;
             this.E04.UseVisualStyleBackColor = false;
             // 
             // E05
             // 
             this.E05.BackColor = System.Drawing.SystemColors.Control;
-            this.E05.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E05.Location = new System.Drawing.Point(1441, 391);
+            this.E05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E05.Location = new System.Drawing.Point(1095, 311);
             this.E05.Name = "E05";
-            this.E05.Size = new System.Drawing.Size(40, 40);
+            this.E05.Size = new System.Drawing.Size(30, 30);
             this.E05.TabIndex = 729;
             this.E05.UseVisualStyleBackColor = false;
             // 
             // E36
             // 
             this.E36.BackColor = System.Drawing.SystemColors.Control;
-            this.E36.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E36.Location = new System.Drawing.Point(202, 391);
+            this.E36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E36.Location = new System.Drawing.Point(157, 311);
             this.E36.Name = "E36";
-            this.E36.Size = new System.Drawing.Size(40, 40);
+            this.E36.Size = new System.Drawing.Size(30, 30);
             this.E36.TabIndex = 724;
             this.E36.UseVisualStyleBackColor = false;
             // 
             // E33
             // 
             this.E33.BackColor = System.Drawing.SystemColors.Control;
-            this.E33.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E33.Location = new System.Drawing.Point(319, 391);
+            this.E33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E33.Location = new System.Drawing.Point(244, 311);
             this.E33.Name = "E33";
-            this.E33.Size = new System.Drawing.Size(40, 40);
+            this.E33.Size = new System.Drawing.Size(30, 30);
             this.E33.TabIndex = 723;
             this.E33.UseVisualStyleBackColor = false;
             // 
             // E17
             // 
             this.E17.BackColor = System.Drawing.SystemColors.Control;
-            this.E17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E17.Location = new System.Drawing.Point(943, 391);
+            this.E17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E17.Location = new System.Drawing.Point(708, 311);
             this.E17.Name = "E17";
-            this.E17.Size = new System.Drawing.Size(40, 40);
+            this.E17.Size = new System.Drawing.Size(30, 30);
             this.E17.TabIndex = 722;
             this.E17.UseVisualStyleBackColor = false;
             // 
             // E37
             // 
             this.E37.BackColor = System.Drawing.SystemColors.Control;
-            this.E37.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E37.Location = new System.Drawing.Point(163, 391);
+            this.E37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E37.Location = new System.Drawing.Point(128, 311);
             this.E37.Name = "E37";
-            this.E37.Size = new System.Drawing.Size(40, 40);
+            this.E37.Size = new System.Drawing.Size(30, 30);
             this.E37.TabIndex = 718;
             this.E37.UseVisualStyleBackColor = false;
             // 
             // E38
             // 
             this.E38.BackColor = System.Drawing.SystemColors.Control;
-            this.E38.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E38.Location = new System.Drawing.Point(124, 391);
+            this.E38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E38.Location = new System.Drawing.Point(99, 311);
             this.E38.Name = "E38";
-            this.E38.Size = new System.Drawing.Size(40, 40);
+            this.E38.Size = new System.Drawing.Size(30, 30);
             this.E38.TabIndex = 719;
             this.E38.UseVisualStyleBackColor = false;
             // 
             // E39
             // 
             this.E39.BackColor = System.Drawing.SystemColors.Control;
-            this.E39.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E39.Location = new System.Drawing.Point(85, 391);
+            this.E39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E39.Location = new System.Drawing.Point(70, 311);
             this.E39.Name = "E39";
-            this.E39.Size = new System.Drawing.Size(40, 40);
+            this.E39.Size = new System.Drawing.Size(30, 30);
             this.E39.TabIndex = 720;
             this.E39.UseVisualStyleBackColor = false;
             // 
             // E40
             // 
             this.E40.BackColor = System.Drawing.SystemColors.Control;
-            this.E40.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E40.Location = new System.Drawing.Point(46, 391);
+            this.E40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E40.Location = new System.Drawing.Point(41, 311);
             this.E40.Name = "E40";
-            this.E40.Size = new System.Drawing.Size(40, 40);
+            this.E40.Size = new System.Drawing.Size(30, 30);
             this.E40.TabIndex = 721;
             this.E40.UseVisualStyleBackColor = false;
             // 
             // E34
             // 
             this.E34.BackColor = System.Drawing.SystemColors.Control;
-            this.E34.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E34.Location = new System.Drawing.Point(280, 391);
+            this.E34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E34.Location = new System.Drawing.Point(215, 311);
             this.E34.Name = "E34";
-            this.E34.Size = new System.Drawing.Size(40, 40);
+            this.E34.Size = new System.Drawing.Size(30, 30);
             this.E34.TabIndex = 716;
             this.E34.UseVisualStyleBackColor = false;
             // 
             // E35
             // 
             this.E35.BackColor = System.Drawing.SystemColors.Control;
-            this.E35.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E35.Location = new System.Drawing.Point(241, 391);
+            this.E35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E35.Location = new System.Drawing.Point(186, 311);
             this.E35.Name = "E35";
-            this.E35.Size = new System.Drawing.Size(40, 40);
+            this.E35.Size = new System.Drawing.Size(30, 30);
             this.E35.TabIndex = 717;
             this.E35.UseVisualStyleBackColor = false;
             // 
             // E32
             // 
             this.E32.BackColor = System.Drawing.SystemColors.Control;
-            this.E32.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E32.Location = new System.Drawing.Point(358, 391);
+            this.E32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E32.Location = new System.Drawing.Point(273, 311);
             this.E32.Name = "E32";
-            this.E32.Size = new System.Drawing.Size(40, 40);
+            this.E32.Size = new System.Drawing.Size(30, 30);
             this.E32.TabIndex = 715;
             this.E32.UseVisualStyleBackColor = false;
             // 
             // E26
             // 
             this.E26.BackColor = System.Drawing.SystemColors.Control;
-            this.E26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E26.Location = new System.Drawing.Point(592, 391);
+            this.E26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E26.Location = new System.Drawing.Point(447, 311);
             this.E26.Name = "E26";
-            this.E26.Size = new System.Drawing.Size(40, 40);
+            this.E26.Size = new System.Drawing.Size(30, 30);
             this.E26.TabIndex = 714;
             this.E26.UseVisualStyleBackColor = false;
             // 
             // E23
             // 
             this.E23.BackColor = System.Drawing.SystemColors.Control;
-            this.E23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E23.Location = new System.Drawing.Point(709, 391);
+            this.E23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E23.Location = new System.Drawing.Point(534, 311);
             this.E23.Name = "E23";
-            this.E23.Size = new System.Drawing.Size(40, 40);
+            this.E23.Size = new System.Drawing.Size(30, 30);
             this.E23.TabIndex = 713;
             this.E23.UseVisualStyleBackColor = false;
             // 
             // E31
             // 
             this.E31.BackColor = System.Drawing.SystemColors.Control;
-            this.E31.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E31.Location = new System.Drawing.Point(397, 391);
+            this.E31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E31.Location = new System.Drawing.Point(302, 311);
             this.E31.Name = "E31";
-            this.E31.Size = new System.Drawing.Size(40, 40);
+            this.E31.Size = new System.Drawing.Size(30, 30);
             this.E31.TabIndex = 712;
             this.E31.UseVisualStyleBackColor = false;
             // 
             // E27
             // 
             this.E27.BackColor = System.Drawing.SystemColors.Control;
-            this.E27.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E27.Location = new System.Drawing.Point(553, 391);
+            this.E27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E27.Location = new System.Drawing.Point(418, 311);
             this.E27.Name = "E27";
-            this.E27.Size = new System.Drawing.Size(40, 40);
+            this.E27.Size = new System.Drawing.Size(30, 30);
             this.E27.TabIndex = 708;
             this.E27.UseVisualStyleBackColor = false;
             // 
             // E28
             // 
             this.E28.BackColor = System.Drawing.SystemColors.Control;
-            this.E28.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E28.Location = new System.Drawing.Point(514, 391);
+            this.E28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E28.Location = new System.Drawing.Point(389, 311);
             this.E28.Name = "E28";
-            this.E28.Size = new System.Drawing.Size(40, 40);
+            this.E28.Size = new System.Drawing.Size(30, 30);
             this.E28.TabIndex = 709;
             this.E28.UseVisualStyleBackColor = false;
             // 
             // E29
             // 
             this.E29.BackColor = System.Drawing.SystemColors.Control;
-            this.E29.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E29.Location = new System.Drawing.Point(475, 391);
+            this.E29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E29.Location = new System.Drawing.Point(360, 311);
             this.E29.Name = "E29";
-            this.E29.Size = new System.Drawing.Size(40, 40);
+            this.E29.Size = new System.Drawing.Size(30, 30);
             this.E29.TabIndex = 710;
             this.E29.UseVisualStyleBackColor = false;
             // 
             // E30
             // 
             this.E30.BackColor = System.Drawing.SystemColors.Control;
-            this.E30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E30.Location = new System.Drawing.Point(436, 391);
+            this.E30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E30.Location = new System.Drawing.Point(331, 311);
             this.E30.Name = "E30";
-            this.E30.Size = new System.Drawing.Size(40, 40);
+            this.E30.Size = new System.Drawing.Size(30, 30);
             this.E30.TabIndex = 711;
             this.E30.UseVisualStyleBackColor = false;
             // 
             // E24
             // 
             this.E24.BackColor = System.Drawing.SystemColors.Control;
-            this.E24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E24.Location = new System.Drawing.Point(670, 391);
+            this.E24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E24.Location = new System.Drawing.Point(505, 311);
             this.E24.Name = "E24";
-            this.E24.Size = new System.Drawing.Size(40, 40);
+            this.E24.Size = new System.Drawing.Size(30, 30);
             this.E24.TabIndex = 706;
             this.E24.UseVisualStyleBackColor = false;
             // 
             // E25
             // 
             this.E25.BackColor = System.Drawing.SystemColors.Control;
-            this.E25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E25.Location = new System.Drawing.Point(631, 391);
+            this.E25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E25.Location = new System.Drawing.Point(476, 311);
             this.E25.Name = "E25";
-            this.E25.Size = new System.Drawing.Size(40, 40);
+            this.E25.Size = new System.Drawing.Size(30, 30);
             this.E25.TabIndex = 707;
             this.E25.UseVisualStyleBackColor = false;
             // 
             // E22
             // 
             this.E22.BackColor = System.Drawing.SystemColors.Control;
-            this.E22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E22.Location = new System.Drawing.Point(748, 391);
+            this.E22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E22.Location = new System.Drawing.Point(563, 311);
             this.E22.Name = "E22";
-            this.E22.Size = new System.Drawing.Size(40, 40);
+            this.E22.Size = new System.Drawing.Size(30, 30);
             this.E22.TabIndex = 705;
             this.E22.UseVisualStyleBackColor = false;
             // 
             // E16
             // 
             this.E16.BackColor = System.Drawing.SystemColors.Control;
-            this.E16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E16.Location = new System.Drawing.Point(1012, 391);
+            this.E16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E16.Location = new System.Drawing.Point(776, 311);
             this.E16.Name = "E16";
-            this.E16.Size = new System.Drawing.Size(40, 40);
+            this.E16.Size = new System.Drawing.Size(30, 30);
             this.E16.TabIndex = 700;
             this.E16.UseVisualStyleBackColor = false;
             // 
             // E18
             // 
             this.E18.BackColor = System.Drawing.SystemColors.Control;
-            this.E18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E18.Location = new System.Drawing.Point(904, 391);
+            this.E18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E18.Location = new System.Drawing.Point(679, 311);
             this.E18.Name = "E18";
-            this.E18.Size = new System.Drawing.Size(40, 40);
+            this.E18.Size = new System.Drawing.Size(30, 30);
             this.E18.TabIndex = 701;
             this.E18.UseVisualStyleBackColor = false;
             // 
             // E19
             // 
             this.E19.BackColor = System.Drawing.SystemColors.Control;
-            this.E19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E19.Location = new System.Drawing.Point(865, 391);
+            this.E19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E19.Location = new System.Drawing.Point(650, 311);
             this.E19.Name = "E19";
-            this.E19.Size = new System.Drawing.Size(40, 40);
+            this.E19.Size = new System.Drawing.Size(30, 30);
             this.E19.TabIndex = 702;
             this.E19.UseVisualStyleBackColor = false;
             // 
             // E20
             // 
             this.E20.BackColor = System.Drawing.SystemColors.Control;
-            this.E20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E20.Location = new System.Drawing.Point(826, 391);
+            this.E20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E20.Location = new System.Drawing.Point(621, 311);
             this.E20.Name = "E20";
-            this.E20.Size = new System.Drawing.Size(40, 40);
+            this.E20.Size = new System.Drawing.Size(30, 30);
             this.E20.TabIndex = 703;
             this.E20.UseVisualStyleBackColor = false;
             // 
             // E21
             // 
             this.E21.BackColor = System.Drawing.SystemColors.Control;
-            this.E21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.E21.Location = new System.Drawing.Point(787, 391);
+            this.E21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.E21.Location = new System.Drawing.Point(592, 311);
             this.E21.Name = "E21";
-            this.E21.Size = new System.Drawing.Size(40, 40);
+            this.E21.Size = new System.Drawing.Size(30, 30);
             this.E21.TabIndex = 704;
             this.E21.UseVisualStyleBackColor = false;
             // 
             // F10
             // 
             this.F10.BackColor = System.Drawing.SystemColors.Control;
-            this.F10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F10.Location = new System.Drawing.Point(1246, 447);
+            this.F10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F10.Location = new System.Drawing.Point(950, 355);
             this.F10.Name = "F10";
-            this.F10.Size = new System.Drawing.Size(40, 40);
+            this.F10.Size = new System.Drawing.Size(30, 30);
             this.F10.TabIndex = 779;
             this.F10.UseVisualStyleBackColor = false;
             // 
             // F07
             // 
             this.F07.BackColor = System.Drawing.SystemColors.Control;
-            this.F07.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F07.Location = new System.Drawing.Point(1363, 447);
+            this.F07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F07.Location = new System.Drawing.Point(1037, 355);
             this.F07.Name = "F07";
-            this.F07.Size = new System.Drawing.Size(40, 40);
+            this.F07.Size = new System.Drawing.Size(30, 30);
             this.F07.TabIndex = 778;
             this.F07.UseVisualStyleBackColor = false;
             // 
             // F15
             // 
             this.F15.BackColor = System.Drawing.SystemColors.Control;
-            this.F15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F15.Location = new System.Drawing.Point(1051, 447);
+            this.F15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F15.Location = new System.Drawing.Point(805, 355);
             this.F15.Name = "F15";
-            this.F15.Size = new System.Drawing.Size(40, 40);
+            this.F15.Size = new System.Drawing.Size(30, 30);
             this.F15.TabIndex = 777;
             this.F15.UseVisualStyleBackColor = false;
             // 
             // F11
             // 
             this.F11.BackColor = System.Drawing.SystemColors.Control;
-            this.F11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F11.Location = new System.Drawing.Point(1207, 447);
+            this.F11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F11.Location = new System.Drawing.Point(921, 355);
             this.F11.Name = "F11";
-            this.F11.Size = new System.Drawing.Size(40, 40);
+            this.F11.Size = new System.Drawing.Size(30, 30);
             this.F11.TabIndex = 773;
             this.F11.UseVisualStyleBackColor = false;
             // 
             // F12
             // 
             this.F12.BackColor = System.Drawing.SystemColors.Control;
-            this.F12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F12.Location = new System.Drawing.Point(1168, 447);
+            this.F12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F12.Location = new System.Drawing.Point(892, 355);
             this.F12.Name = "F12";
-            this.F12.Size = new System.Drawing.Size(40, 40);
+            this.F12.Size = new System.Drawing.Size(30, 30);
             this.F12.TabIndex = 774;
             this.F12.UseVisualStyleBackColor = false;
             // 
             // F13
             // 
             this.F13.BackColor = System.Drawing.SystemColors.Control;
-            this.F13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F13.Location = new System.Drawing.Point(1129, 447);
+            this.F13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F13.Location = new System.Drawing.Point(863, 355);
             this.F13.Name = "F13";
-            this.F13.Size = new System.Drawing.Size(40, 40);
+            this.F13.Size = new System.Drawing.Size(30, 30);
             this.F13.TabIndex = 775;
             this.F13.UseVisualStyleBackColor = false;
             // 
             // F14
             // 
             this.F14.BackColor = System.Drawing.SystemColors.Control;
-            this.F14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F14.Location = new System.Drawing.Point(1090, 447);
+            this.F14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F14.Location = new System.Drawing.Point(834, 355);
             this.F14.Name = "F14";
-            this.F14.Size = new System.Drawing.Size(40, 40);
+            this.F14.Size = new System.Drawing.Size(30, 30);
             this.F14.TabIndex = 776;
             this.F14.UseVisualStyleBackColor = false;
             // 
             // F08
             // 
             this.F08.BackColor = System.Drawing.SystemColors.Control;
-            this.F08.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F08.Location = new System.Drawing.Point(1324, 447);
+            this.F08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F08.Location = new System.Drawing.Point(1008, 355);
             this.F08.Name = "F08";
-            this.F08.Size = new System.Drawing.Size(40, 40);
+            this.F08.Size = new System.Drawing.Size(30, 30);
             this.F08.TabIndex = 771;
             this.F08.UseVisualStyleBackColor = false;
             // 
             // F09
             // 
             this.F09.BackColor = System.Drawing.SystemColors.Control;
-            this.F09.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F09.Location = new System.Drawing.Point(1285, 447);
+            this.F09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F09.Location = new System.Drawing.Point(979, 355);
             this.F09.Name = "F09";
-            this.F09.Size = new System.Drawing.Size(40, 40);
+            this.F09.Size = new System.Drawing.Size(30, 30);
             this.F09.TabIndex = 772;
             this.F09.UseVisualStyleBackColor = false;
             // 
             // F06
             // 
             this.F06.BackColor = System.Drawing.SystemColors.Control;
-            this.F06.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F06.Location = new System.Drawing.Point(1402, 447);
+            this.F06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F06.Location = new System.Drawing.Point(1066, 355);
             this.F06.Name = "F06";
-            this.F06.Size = new System.Drawing.Size(40, 40);
+            this.F06.Size = new System.Drawing.Size(30, 30);
             this.F06.TabIndex = 770;
             this.F06.UseVisualStyleBackColor = false;
             // 
             // F01
             // 
             this.F01.BackColor = System.Drawing.SystemColors.Control;
-            this.F01.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F01.Location = new System.Drawing.Point(1597, 447);
+            this.F01.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F01.Location = new System.Drawing.Point(1211, 355);
             this.F01.Name = "F01";
-            this.F01.Size = new System.Drawing.Size(40, 40);
+            this.F01.Size = new System.Drawing.Size(30, 30);
             this.F01.TabIndex = 765;
             this.F01.UseVisualStyleBackColor = false;
             // 
             // F02
             // 
             this.F02.BackColor = System.Drawing.SystemColors.Control;
-            this.F02.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F02.Location = new System.Drawing.Point(1558, 447);
+            this.F02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F02.Location = new System.Drawing.Point(1182, 355);
             this.F02.Name = "F02";
-            this.F02.Size = new System.Drawing.Size(40, 40);
+            this.F02.Size = new System.Drawing.Size(30, 30);
             this.F02.TabIndex = 766;
             this.F02.UseVisualStyleBackColor = false;
             // 
             // F03
             // 
             this.F03.BackColor = System.Drawing.SystemColors.Control;
-            this.F03.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F03.Location = new System.Drawing.Point(1519, 447);
+            this.F03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F03.Location = new System.Drawing.Point(1153, 355);
             this.F03.Name = "F03";
-            this.F03.Size = new System.Drawing.Size(40, 40);
+            this.F03.Size = new System.Drawing.Size(30, 30);
             this.F03.TabIndex = 767;
             this.F03.UseVisualStyleBackColor = false;
             // 
             // F04
             // 
             this.F04.BackColor = System.Drawing.SystemColors.Control;
-            this.F04.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F04.Location = new System.Drawing.Point(1480, 447);
+            this.F04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F04.Location = new System.Drawing.Point(1124, 355);
             this.F04.Name = "F04";
-            this.F04.Size = new System.Drawing.Size(40, 40);
+            this.F04.Size = new System.Drawing.Size(30, 30);
             this.F04.TabIndex = 768;
             this.F04.UseVisualStyleBackColor = false;
             // 
             // F05
             // 
             this.F05.BackColor = System.Drawing.SystemColors.Control;
-            this.F05.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F05.Location = new System.Drawing.Point(1441, 447);
+            this.F05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F05.Location = new System.Drawing.Point(1095, 355);
             this.F05.Name = "F05";
-            this.F05.Size = new System.Drawing.Size(40, 40);
+            this.F05.Size = new System.Drawing.Size(30, 30);
             this.F05.TabIndex = 769;
             this.F05.UseVisualStyleBackColor = false;
             // 
             // F36
             // 
             this.F36.BackColor = System.Drawing.SystemColors.Control;
-            this.F36.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F36.Location = new System.Drawing.Point(202, 447);
+            this.F36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F36.Location = new System.Drawing.Point(157, 355);
             this.F36.Name = "F36";
-            this.F36.Size = new System.Drawing.Size(40, 40);
+            this.F36.Size = new System.Drawing.Size(30, 30);
             this.F36.TabIndex = 764;
             this.F36.UseVisualStyleBackColor = false;
             // 
             // F33
             // 
             this.F33.BackColor = System.Drawing.SystemColors.Control;
-            this.F33.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F33.Location = new System.Drawing.Point(319, 447);
+            this.F33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F33.Location = new System.Drawing.Point(244, 355);
             this.F33.Name = "F33";
-            this.F33.Size = new System.Drawing.Size(40, 40);
+            this.F33.Size = new System.Drawing.Size(30, 30);
             this.F33.TabIndex = 763;
             this.F33.UseVisualStyleBackColor = false;
             // 
             // F17
             // 
             this.F17.BackColor = System.Drawing.SystemColors.Control;
-            this.F17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F17.Location = new System.Drawing.Point(943, 447);
+            this.F17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F17.Location = new System.Drawing.Point(708, 355);
             this.F17.Name = "F17";
-            this.F17.Size = new System.Drawing.Size(40, 40);
+            this.F17.Size = new System.Drawing.Size(30, 30);
             this.F17.TabIndex = 762;
             this.F17.UseVisualStyleBackColor = false;
             // 
             // F37
             // 
             this.F37.BackColor = System.Drawing.SystemColors.Control;
-            this.F37.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F37.Location = new System.Drawing.Point(163, 447);
+            this.F37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F37.Location = new System.Drawing.Point(128, 355);
             this.F37.Name = "F37";
-            this.F37.Size = new System.Drawing.Size(40, 40);
+            this.F37.Size = new System.Drawing.Size(30, 30);
             this.F37.TabIndex = 758;
             this.F37.UseVisualStyleBackColor = false;
             // 
             // F38
             // 
             this.F38.BackColor = System.Drawing.SystemColors.Control;
-            this.F38.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F38.Location = new System.Drawing.Point(124, 447);
+            this.F38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F38.Location = new System.Drawing.Point(99, 355);
             this.F38.Name = "F38";
-            this.F38.Size = new System.Drawing.Size(40, 40);
+            this.F38.Size = new System.Drawing.Size(30, 30);
             this.F38.TabIndex = 759;
             this.F38.UseVisualStyleBackColor = false;
             // 
             // F39
             // 
             this.F39.BackColor = System.Drawing.SystemColors.Control;
-            this.F39.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F39.Location = new System.Drawing.Point(85, 447);
+            this.F39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F39.Location = new System.Drawing.Point(70, 355);
             this.F39.Name = "F39";
-            this.F39.Size = new System.Drawing.Size(40, 40);
+            this.F39.Size = new System.Drawing.Size(30, 30);
             this.F39.TabIndex = 760;
             this.F39.UseVisualStyleBackColor = false;
             // 
             // F40
             // 
             this.F40.BackColor = System.Drawing.SystemColors.Control;
-            this.F40.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F40.Location = new System.Drawing.Point(46, 447);
+            this.F40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F40.Location = new System.Drawing.Point(41, 355);
             this.F40.Name = "F40";
-            this.F40.Size = new System.Drawing.Size(40, 40);
+            this.F40.Size = new System.Drawing.Size(30, 30);
             this.F40.TabIndex = 761;
             this.F40.UseVisualStyleBackColor = false;
             // 
             // F34
             // 
             this.F34.BackColor = System.Drawing.SystemColors.Control;
-            this.F34.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F34.Location = new System.Drawing.Point(280, 447);
+            this.F34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F34.Location = new System.Drawing.Point(215, 355);
             this.F34.Name = "F34";
-            this.F34.Size = new System.Drawing.Size(40, 40);
+            this.F34.Size = new System.Drawing.Size(30, 30);
             this.F34.TabIndex = 756;
             this.F34.UseVisualStyleBackColor = false;
             // 
             // F35
             // 
             this.F35.BackColor = System.Drawing.SystemColors.Control;
-            this.F35.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F35.Location = new System.Drawing.Point(241, 447);
+            this.F35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F35.Location = new System.Drawing.Point(186, 355);
             this.F35.Name = "F35";
-            this.F35.Size = new System.Drawing.Size(40, 40);
+            this.F35.Size = new System.Drawing.Size(30, 30);
             this.F35.TabIndex = 757;
             this.F35.UseVisualStyleBackColor = false;
             // 
             // F32
             // 
             this.F32.BackColor = System.Drawing.SystemColors.Control;
-            this.F32.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F32.Location = new System.Drawing.Point(358, 447);
+            this.F32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F32.Location = new System.Drawing.Point(273, 355);
             this.F32.Name = "F32";
-            this.F32.Size = new System.Drawing.Size(40, 40);
+            this.F32.Size = new System.Drawing.Size(30, 30);
             this.F32.TabIndex = 755;
             this.F32.UseVisualStyleBackColor = false;
             // 
             // F26
             // 
             this.F26.BackColor = System.Drawing.SystemColors.Control;
-            this.F26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F26.Location = new System.Drawing.Point(592, 447);
+            this.F26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F26.Location = new System.Drawing.Point(447, 355);
             this.F26.Name = "F26";
-            this.F26.Size = new System.Drawing.Size(40, 40);
+            this.F26.Size = new System.Drawing.Size(30, 30);
             this.F26.TabIndex = 754;
             this.F26.UseVisualStyleBackColor = false;
             // 
             // F23
             // 
             this.F23.BackColor = System.Drawing.SystemColors.Control;
-            this.F23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F23.Location = new System.Drawing.Point(709, 447);
+            this.F23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F23.Location = new System.Drawing.Point(534, 355);
             this.F23.Name = "F23";
-            this.F23.Size = new System.Drawing.Size(40, 40);
+            this.F23.Size = new System.Drawing.Size(30, 30);
             this.F23.TabIndex = 753;
             this.F23.UseVisualStyleBackColor = false;
             // 
             // F31
             // 
             this.F31.BackColor = System.Drawing.SystemColors.Control;
-            this.F31.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F31.Location = new System.Drawing.Point(397, 447);
+            this.F31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F31.Location = new System.Drawing.Point(302, 355);
             this.F31.Name = "F31";
-            this.F31.Size = new System.Drawing.Size(40, 40);
+            this.F31.Size = new System.Drawing.Size(30, 30);
             this.F31.TabIndex = 752;
             this.F31.UseVisualStyleBackColor = false;
             // 
             // F27
             // 
             this.F27.BackColor = System.Drawing.SystemColors.Control;
-            this.F27.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F27.Location = new System.Drawing.Point(553, 447);
+            this.F27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F27.Location = new System.Drawing.Point(418, 355);
             this.F27.Name = "F27";
-            this.F27.Size = new System.Drawing.Size(40, 40);
+            this.F27.Size = new System.Drawing.Size(30, 30);
             this.F27.TabIndex = 748;
             this.F27.UseVisualStyleBackColor = false;
             // 
             // F28
             // 
             this.F28.BackColor = System.Drawing.SystemColors.Control;
-            this.F28.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F28.Location = new System.Drawing.Point(514, 447);
+            this.F28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F28.Location = new System.Drawing.Point(389, 355);
             this.F28.Name = "F28";
-            this.F28.Size = new System.Drawing.Size(40, 40);
+            this.F28.Size = new System.Drawing.Size(30, 30);
             this.F28.TabIndex = 749;
             this.F28.UseVisualStyleBackColor = false;
             // 
             // F29
             // 
             this.F29.BackColor = System.Drawing.SystemColors.Control;
-            this.F29.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F29.Location = new System.Drawing.Point(475, 447);
+            this.F29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F29.Location = new System.Drawing.Point(360, 355);
             this.F29.Name = "F29";
-            this.F29.Size = new System.Drawing.Size(40, 40);
+            this.F29.Size = new System.Drawing.Size(30, 30);
             this.F29.TabIndex = 750;
             this.F29.UseVisualStyleBackColor = false;
             // 
             // F30
             // 
             this.F30.BackColor = System.Drawing.SystemColors.Control;
-            this.F30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F30.Location = new System.Drawing.Point(436, 447);
+            this.F30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F30.Location = new System.Drawing.Point(331, 355);
             this.F30.Name = "F30";
-            this.F30.Size = new System.Drawing.Size(40, 40);
+            this.F30.Size = new System.Drawing.Size(30, 30);
             this.F30.TabIndex = 751;
             this.F30.UseVisualStyleBackColor = false;
             // 
             // F24
             // 
             this.F24.BackColor = System.Drawing.SystemColors.Control;
-            this.F24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F24.Location = new System.Drawing.Point(670, 447);
+            this.F24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F24.Location = new System.Drawing.Point(505, 355);
             this.F24.Name = "F24";
-            this.F24.Size = new System.Drawing.Size(40, 40);
+            this.F24.Size = new System.Drawing.Size(30, 30);
             this.F24.TabIndex = 746;
             this.F24.UseVisualStyleBackColor = false;
             // 
             // F25
             // 
             this.F25.BackColor = System.Drawing.SystemColors.Control;
-            this.F25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F25.Location = new System.Drawing.Point(631, 447);
+            this.F25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F25.Location = new System.Drawing.Point(476, 355);
             this.F25.Name = "F25";
-            this.F25.Size = new System.Drawing.Size(40, 40);
+            this.F25.Size = new System.Drawing.Size(30, 30);
             this.F25.TabIndex = 747;
             this.F25.UseVisualStyleBackColor = false;
             // 
             // F22
             // 
             this.F22.BackColor = System.Drawing.SystemColors.Control;
-            this.F22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F22.Location = new System.Drawing.Point(748, 447);
+            this.F22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F22.Location = new System.Drawing.Point(563, 355);
             this.F22.Name = "F22";
-            this.F22.Size = new System.Drawing.Size(40, 40);
+            this.F22.Size = new System.Drawing.Size(30, 30);
             this.F22.TabIndex = 745;
             this.F22.UseVisualStyleBackColor = false;
             // 
             // F16
             // 
             this.F16.BackColor = System.Drawing.SystemColors.Control;
-            this.F16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F16.Location = new System.Drawing.Point(1012, 447);
+            this.F16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F16.Location = new System.Drawing.Point(776, 355);
             this.F16.Name = "F16";
-            this.F16.Size = new System.Drawing.Size(40, 40);
+            this.F16.Size = new System.Drawing.Size(30, 30);
             this.F16.TabIndex = 740;
             this.F16.UseVisualStyleBackColor = false;
             // 
             // F18
             // 
             this.F18.BackColor = System.Drawing.SystemColors.Control;
-            this.F18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F18.Location = new System.Drawing.Point(904, 447);
+            this.F18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F18.Location = new System.Drawing.Point(679, 355);
             this.F18.Name = "F18";
-            this.F18.Size = new System.Drawing.Size(40, 40);
+            this.F18.Size = new System.Drawing.Size(30, 30);
             this.F18.TabIndex = 741;
             this.F18.UseVisualStyleBackColor = false;
             // 
             // F19
             // 
             this.F19.BackColor = System.Drawing.SystemColors.Control;
-            this.F19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F19.Location = new System.Drawing.Point(865, 447);
+            this.F19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F19.Location = new System.Drawing.Point(650, 355);
             this.F19.Name = "F19";
-            this.F19.Size = new System.Drawing.Size(40, 40);
+            this.F19.Size = new System.Drawing.Size(30, 30);
             this.F19.TabIndex = 742;
             this.F19.UseVisualStyleBackColor = false;
             // 
             // F20
             // 
             this.F20.BackColor = System.Drawing.SystemColors.Control;
-            this.F20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F20.Location = new System.Drawing.Point(826, 447);
+            this.F20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F20.Location = new System.Drawing.Point(621, 355);
             this.F20.Name = "F20";
-            this.F20.Size = new System.Drawing.Size(40, 40);
+            this.F20.Size = new System.Drawing.Size(30, 30);
             this.F20.TabIndex = 743;
             this.F20.UseVisualStyleBackColor = false;
             // 
             // F21
             // 
             this.F21.BackColor = System.Drawing.SystemColors.Control;
-            this.F21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.F21.Location = new System.Drawing.Point(787, 447);
+            this.F21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.F21.Location = new System.Drawing.Point(592, 355);
             this.F21.Name = "F21";
-            this.F21.Size = new System.Drawing.Size(40, 40);
+            this.F21.Size = new System.Drawing.Size(30, 30);
             this.F21.TabIndex = 744;
             this.F21.UseVisualStyleBackColor = false;
             // 
             // G10
             // 
             this.G10.BackColor = System.Drawing.SystemColors.Control;
-            this.G10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G10.Location = new System.Drawing.Point(1246, 486);
+            this.G10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G10.Location = new System.Drawing.Point(950, 384);
             this.G10.Name = "G10";
-            this.G10.Size = new System.Drawing.Size(40, 40);
+            this.G10.Size = new System.Drawing.Size(30, 30);
             this.G10.TabIndex = 819;
             this.G10.UseVisualStyleBackColor = false;
             // 
             // G07
             // 
             this.G07.BackColor = System.Drawing.SystemColors.Control;
-            this.G07.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G07.Location = new System.Drawing.Point(1363, 486);
+            this.G07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G07.Location = new System.Drawing.Point(1037, 384);
             this.G07.Name = "G07";
-            this.G07.Size = new System.Drawing.Size(40, 40);
+            this.G07.Size = new System.Drawing.Size(30, 30);
             this.G07.TabIndex = 818;
             this.G07.UseVisualStyleBackColor = false;
             // 
             // G15
             // 
             this.G15.BackColor = System.Drawing.SystemColors.Control;
-            this.G15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G15.Location = new System.Drawing.Point(1051, 486);
+            this.G15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G15.Location = new System.Drawing.Point(805, 384);
             this.G15.Name = "G15";
-            this.G15.Size = new System.Drawing.Size(40, 40);
+            this.G15.Size = new System.Drawing.Size(30, 30);
             this.G15.TabIndex = 817;
             this.G15.UseVisualStyleBackColor = false;
             // 
             // G11
             // 
             this.G11.BackColor = System.Drawing.SystemColors.Control;
-            this.G11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G11.Location = new System.Drawing.Point(1207, 486);
+            this.G11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G11.Location = new System.Drawing.Point(921, 384);
             this.G11.Name = "G11";
-            this.G11.Size = new System.Drawing.Size(40, 40);
+            this.G11.Size = new System.Drawing.Size(30, 30);
             this.G11.TabIndex = 813;
             this.G11.UseVisualStyleBackColor = false;
             // 
             // G12
             // 
             this.G12.BackColor = System.Drawing.SystemColors.Control;
-            this.G12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G12.Location = new System.Drawing.Point(1168, 486);
+            this.G12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G12.Location = new System.Drawing.Point(892, 384);
             this.G12.Name = "G12";
-            this.G12.Size = new System.Drawing.Size(40, 40);
+            this.G12.Size = new System.Drawing.Size(30, 30);
             this.G12.TabIndex = 814;
             this.G12.UseVisualStyleBackColor = false;
             // 
             // G13
             // 
             this.G13.BackColor = System.Drawing.SystemColors.Control;
-            this.G13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G13.Location = new System.Drawing.Point(1129, 486);
+            this.G13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G13.Location = new System.Drawing.Point(863, 384);
             this.G13.Name = "G13";
-            this.G13.Size = new System.Drawing.Size(40, 40);
+            this.G13.Size = new System.Drawing.Size(30, 30);
             this.G13.TabIndex = 815;
             this.G13.UseVisualStyleBackColor = false;
             // 
             // G14
             // 
             this.G14.BackColor = System.Drawing.SystemColors.Control;
-            this.G14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G14.Location = new System.Drawing.Point(1090, 486);
+            this.G14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G14.Location = new System.Drawing.Point(834, 384);
             this.G14.Name = "G14";
-            this.G14.Size = new System.Drawing.Size(40, 40);
+            this.G14.Size = new System.Drawing.Size(30, 30);
             this.G14.TabIndex = 816;
             this.G14.UseVisualStyleBackColor = false;
             // 
             // G08
             // 
             this.G08.BackColor = System.Drawing.SystemColors.Control;
-            this.G08.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G08.Location = new System.Drawing.Point(1324, 486);
+            this.G08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G08.Location = new System.Drawing.Point(1008, 384);
             this.G08.Name = "G08";
-            this.G08.Size = new System.Drawing.Size(40, 40);
+            this.G08.Size = new System.Drawing.Size(30, 30);
             this.G08.TabIndex = 811;
             this.G08.UseVisualStyleBackColor = false;
             // 
             // G09
             // 
             this.G09.BackColor = System.Drawing.SystemColors.Control;
-            this.G09.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G09.Location = new System.Drawing.Point(1285, 486);
+            this.G09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G09.Location = new System.Drawing.Point(979, 384);
             this.G09.Name = "G09";
-            this.G09.Size = new System.Drawing.Size(40, 40);
+            this.G09.Size = new System.Drawing.Size(30, 30);
             this.G09.TabIndex = 812;
             this.G09.UseVisualStyleBackColor = false;
             // 
             // G06
             // 
             this.G06.BackColor = System.Drawing.SystemColors.Control;
-            this.G06.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G06.Location = new System.Drawing.Point(1402, 486);
+            this.G06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G06.Location = new System.Drawing.Point(1066, 384);
             this.G06.Name = "G06";
-            this.G06.Size = new System.Drawing.Size(40, 40);
+            this.G06.Size = new System.Drawing.Size(30, 30);
             this.G06.TabIndex = 810;
             this.G06.UseVisualStyleBackColor = false;
             // 
             // G01
             // 
             this.G01.BackColor = System.Drawing.SystemColors.Control;
-            this.G01.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G01.Location = new System.Drawing.Point(1597, 486);
+            this.G01.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G01.Location = new System.Drawing.Point(1211, 384);
             this.G01.Name = "G01";
-            this.G01.Size = new System.Drawing.Size(40, 40);
+            this.G01.Size = new System.Drawing.Size(30, 30);
             this.G01.TabIndex = 805;
             this.G01.UseVisualStyleBackColor = false;
             // 
             // G02
             // 
             this.G02.BackColor = System.Drawing.SystemColors.Control;
-            this.G02.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G02.Location = new System.Drawing.Point(1558, 486);
+            this.G02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G02.Location = new System.Drawing.Point(1182, 384);
             this.G02.Name = "G02";
-            this.G02.Size = new System.Drawing.Size(40, 40);
+            this.G02.Size = new System.Drawing.Size(30, 30);
             this.G02.TabIndex = 806;
             this.G02.UseVisualStyleBackColor = false;
             // 
             // G03
             // 
             this.G03.BackColor = System.Drawing.SystemColors.Control;
-            this.G03.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G03.Location = new System.Drawing.Point(1519, 486);
+            this.G03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G03.Location = new System.Drawing.Point(1153, 384);
             this.G03.Name = "G03";
-            this.G03.Size = new System.Drawing.Size(40, 40);
+            this.G03.Size = new System.Drawing.Size(30, 30);
             this.G03.TabIndex = 807;
             this.G03.UseVisualStyleBackColor = false;
             // 
             // G04
             // 
             this.G04.BackColor = System.Drawing.SystemColors.Control;
-            this.G04.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G04.Location = new System.Drawing.Point(1480, 486);
+            this.G04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G04.Location = new System.Drawing.Point(1124, 384);
             this.G04.Name = "G04";
-            this.G04.Size = new System.Drawing.Size(40, 40);
+            this.G04.Size = new System.Drawing.Size(30, 30);
             this.G04.TabIndex = 808;
             this.G04.UseVisualStyleBackColor = false;
             // 
             // G05
             // 
             this.G05.BackColor = System.Drawing.SystemColors.Control;
-            this.G05.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G05.Location = new System.Drawing.Point(1441, 486);
+            this.G05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G05.Location = new System.Drawing.Point(1095, 384);
             this.G05.Name = "G05";
-            this.G05.Size = new System.Drawing.Size(40, 40);
+            this.G05.Size = new System.Drawing.Size(30, 30);
             this.G05.TabIndex = 809;
             this.G05.UseVisualStyleBackColor = false;
             // 
             // G36
             // 
             this.G36.BackColor = System.Drawing.SystemColors.Control;
-            this.G36.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G36.Location = new System.Drawing.Point(202, 486);
+            this.G36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G36.Location = new System.Drawing.Point(157, 384);
             this.G36.Name = "G36";
-            this.G36.Size = new System.Drawing.Size(40, 40);
+            this.G36.Size = new System.Drawing.Size(30, 30);
             this.G36.TabIndex = 804;
             this.G36.UseVisualStyleBackColor = false;
             // 
             // G33
             // 
             this.G33.BackColor = System.Drawing.SystemColors.Control;
-            this.G33.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G33.Location = new System.Drawing.Point(319, 486);
+            this.G33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G33.Location = new System.Drawing.Point(244, 384);
             this.G33.Name = "G33";
-            this.G33.Size = new System.Drawing.Size(40, 40);
+            this.G33.Size = new System.Drawing.Size(30, 30);
             this.G33.TabIndex = 803;
             this.G33.UseVisualStyleBackColor = false;
             // 
             // G17
             // 
             this.G17.BackColor = System.Drawing.SystemColors.Control;
-            this.G17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G17.Location = new System.Drawing.Point(943, 486);
+            this.G17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G17.Location = new System.Drawing.Point(708, 384);
             this.G17.Name = "G17";
-            this.G17.Size = new System.Drawing.Size(40, 40);
+            this.G17.Size = new System.Drawing.Size(30, 30);
             this.G17.TabIndex = 802;
             this.G17.UseVisualStyleBackColor = false;
             // 
             // G37
             // 
             this.G37.BackColor = System.Drawing.SystemColors.Control;
-            this.G37.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G37.Location = new System.Drawing.Point(163, 486);
+            this.G37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G37.Location = new System.Drawing.Point(128, 384);
             this.G37.Name = "G37";
-            this.G37.Size = new System.Drawing.Size(40, 40);
+            this.G37.Size = new System.Drawing.Size(30, 30);
             this.G37.TabIndex = 798;
             this.G37.UseVisualStyleBackColor = false;
             // 
             // G38
             // 
             this.G38.BackColor = System.Drawing.SystemColors.Control;
-            this.G38.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G38.Location = new System.Drawing.Point(124, 486);
+            this.G38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G38.Location = new System.Drawing.Point(99, 384);
             this.G38.Name = "G38";
-            this.G38.Size = new System.Drawing.Size(40, 40);
+            this.G38.Size = new System.Drawing.Size(30, 30);
             this.G38.TabIndex = 799;
             this.G38.UseVisualStyleBackColor = false;
             // 
             // G39
             // 
             this.G39.BackColor = System.Drawing.SystemColors.Control;
-            this.G39.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G39.Location = new System.Drawing.Point(85, 486);
+            this.G39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G39.Location = new System.Drawing.Point(70, 384);
             this.G39.Name = "G39";
-            this.G39.Size = new System.Drawing.Size(40, 40);
+            this.G39.Size = new System.Drawing.Size(30, 30);
             this.G39.TabIndex = 800;
             this.G39.UseVisualStyleBackColor = false;
             // 
             // G40
             // 
             this.G40.BackColor = System.Drawing.SystemColors.Control;
-            this.G40.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G40.Location = new System.Drawing.Point(46, 486);
+            this.G40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G40.Location = new System.Drawing.Point(41, 384);
             this.G40.Name = "G40";
-            this.G40.Size = new System.Drawing.Size(40, 40);
+            this.G40.Size = new System.Drawing.Size(30, 30);
             this.G40.TabIndex = 801;
             this.G40.UseVisualStyleBackColor = false;
             // 
             // G34
             // 
             this.G34.BackColor = System.Drawing.SystemColors.Control;
-            this.G34.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G34.Location = new System.Drawing.Point(280, 486);
+            this.G34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G34.Location = new System.Drawing.Point(215, 384);
             this.G34.Name = "G34";
-            this.G34.Size = new System.Drawing.Size(40, 40);
+            this.G34.Size = new System.Drawing.Size(30, 30);
             this.G34.TabIndex = 796;
             this.G34.UseVisualStyleBackColor = false;
             // 
             // G35
             // 
             this.G35.BackColor = System.Drawing.SystemColors.Control;
-            this.G35.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G35.Location = new System.Drawing.Point(241, 486);
+            this.G35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G35.Location = new System.Drawing.Point(186, 384);
             this.G35.Name = "G35";
-            this.G35.Size = new System.Drawing.Size(40, 40);
+            this.G35.Size = new System.Drawing.Size(30, 30);
             this.G35.TabIndex = 797;
             this.G35.UseVisualStyleBackColor = false;
             // 
             // G32
             // 
             this.G32.BackColor = System.Drawing.SystemColors.Control;
-            this.G32.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G32.Location = new System.Drawing.Point(358, 486);
+            this.G32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G32.Location = new System.Drawing.Point(273, 384);
             this.G32.Name = "G32";
-            this.G32.Size = new System.Drawing.Size(40, 40);
+            this.G32.Size = new System.Drawing.Size(30, 30);
             this.G32.TabIndex = 795;
             this.G32.UseVisualStyleBackColor = false;
             // 
             // G26
             // 
             this.G26.BackColor = System.Drawing.SystemColors.Control;
-            this.G26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G26.Location = new System.Drawing.Point(592, 486);
+            this.G26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G26.Location = new System.Drawing.Point(447, 384);
             this.G26.Name = "G26";
-            this.G26.Size = new System.Drawing.Size(40, 40);
+            this.G26.Size = new System.Drawing.Size(30, 30);
             this.G26.TabIndex = 794;
             this.G26.UseVisualStyleBackColor = false;
             // 
             // G23
             // 
             this.G23.BackColor = System.Drawing.SystemColors.Control;
-            this.G23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G23.Location = new System.Drawing.Point(709, 486);
+            this.G23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G23.Location = new System.Drawing.Point(534, 384);
             this.G23.Name = "G23";
-            this.G23.Size = new System.Drawing.Size(40, 40);
+            this.G23.Size = new System.Drawing.Size(30, 30);
             this.G23.TabIndex = 793;
             this.G23.UseVisualStyleBackColor = false;
             // 
             // G31
             // 
             this.G31.BackColor = System.Drawing.SystemColors.Control;
-            this.G31.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G31.Location = new System.Drawing.Point(397, 486);
+            this.G31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G31.Location = new System.Drawing.Point(302, 384);
             this.G31.Name = "G31";
-            this.G31.Size = new System.Drawing.Size(40, 40);
+            this.G31.Size = new System.Drawing.Size(30, 30);
             this.G31.TabIndex = 792;
             this.G31.UseVisualStyleBackColor = false;
             // 
             // G27
             // 
             this.G27.BackColor = System.Drawing.SystemColors.Control;
-            this.G27.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G27.Location = new System.Drawing.Point(553, 486);
+            this.G27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G27.Location = new System.Drawing.Point(418, 384);
             this.G27.Name = "G27";
-            this.G27.Size = new System.Drawing.Size(40, 40);
+            this.G27.Size = new System.Drawing.Size(30, 30);
             this.G27.TabIndex = 788;
             this.G27.UseVisualStyleBackColor = false;
             // 
             // G28
             // 
             this.G28.BackColor = System.Drawing.SystemColors.Control;
-            this.G28.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G28.Location = new System.Drawing.Point(514, 486);
+            this.G28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G28.Location = new System.Drawing.Point(389, 384);
             this.G28.Name = "G28";
-            this.G28.Size = new System.Drawing.Size(40, 40);
+            this.G28.Size = new System.Drawing.Size(30, 30);
             this.G28.TabIndex = 789;
             this.G28.UseVisualStyleBackColor = false;
             // 
             // G29
             // 
             this.G29.BackColor = System.Drawing.SystemColors.Control;
-            this.G29.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G29.Location = new System.Drawing.Point(475, 486);
+            this.G29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G29.Location = new System.Drawing.Point(360, 384);
             this.G29.Name = "G29";
-            this.G29.Size = new System.Drawing.Size(40, 40);
+            this.G29.Size = new System.Drawing.Size(30, 30);
             this.G29.TabIndex = 790;
             this.G29.UseVisualStyleBackColor = false;
             // 
             // G30
             // 
             this.G30.BackColor = System.Drawing.SystemColors.Control;
-            this.G30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G30.Location = new System.Drawing.Point(436, 486);
+            this.G30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G30.Location = new System.Drawing.Point(331, 384);
             this.G30.Name = "G30";
-            this.G30.Size = new System.Drawing.Size(40, 40);
+            this.G30.Size = new System.Drawing.Size(30, 30);
             this.G30.TabIndex = 791;
             this.G30.UseVisualStyleBackColor = false;
             // 
             // G24
             // 
             this.G24.BackColor = System.Drawing.SystemColors.Control;
-            this.G24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G24.Location = new System.Drawing.Point(670, 486);
+            this.G24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G24.Location = new System.Drawing.Point(505, 384);
             this.G24.Name = "G24";
-            this.G24.Size = new System.Drawing.Size(40, 40);
+            this.G24.Size = new System.Drawing.Size(30, 30);
             this.G24.TabIndex = 786;
             this.G24.UseVisualStyleBackColor = false;
             // 
             // G25
             // 
             this.G25.BackColor = System.Drawing.SystemColors.Control;
-            this.G25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G25.Location = new System.Drawing.Point(631, 486);
+            this.G25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G25.Location = new System.Drawing.Point(476, 384);
             this.G25.Name = "G25";
-            this.G25.Size = new System.Drawing.Size(40, 40);
+            this.G25.Size = new System.Drawing.Size(30, 30);
             this.G25.TabIndex = 787;
             this.G25.UseVisualStyleBackColor = false;
             // 
             // G22
             // 
             this.G22.BackColor = System.Drawing.SystemColors.Control;
-            this.G22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G22.Location = new System.Drawing.Point(748, 486);
+            this.G22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G22.Location = new System.Drawing.Point(563, 384);
             this.G22.Name = "G22";
-            this.G22.Size = new System.Drawing.Size(40, 40);
+            this.G22.Size = new System.Drawing.Size(30, 30);
             this.G22.TabIndex = 785;
             this.G22.UseVisualStyleBackColor = false;
             // 
             // G16
             // 
             this.G16.BackColor = System.Drawing.SystemColors.Control;
-            this.G16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G16.Location = new System.Drawing.Point(1012, 486);
+            this.G16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G16.Location = new System.Drawing.Point(776, 384);
             this.G16.Name = "G16";
-            this.G16.Size = new System.Drawing.Size(40, 40);
+            this.G16.Size = new System.Drawing.Size(30, 30);
             this.G16.TabIndex = 780;
             this.G16.UseVisualStyleBackColor = false;
             // 
             // G18
             // 
             this.G18.BackColor = System.Drawing.SystemColors.Control;
-            this.G18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G18.Location = new System.Drawing.Point(904, 486);
+            this.G18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G18.Location = new System.Drawing.Point(679, 384);
             this.G18.Name = "G18";
-            this.G18.Size = new System.Drawing.Size(40, 40);
+            this.G18.Size = new System.Drawing.Size(30, 30);
             this.G18.TabIndex = 781;
             this.G18.UseVisualStyleBackColor = false;
             // 
             // G19
             // 
             this.G19.BackColor = System.Drawing.SystemColors.Control;
-            this.G19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G19.Location = new System.Drawing.Point(865, 486);
+            this.G19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G19.Location = new System.Drawing.Point(650, 384);
             this.G19.Name = "G19";
-            this.G19.Size = new System.Drawing.Size(40, 40);
+            this.G19.Size = new System.Drawing.Size(30, 30);
             this.G19.TabIndex = 782;
             this.G19.UseVisualStyleBackColor = false;
             // 
             // G20
             // 
             this.G20.BackColor = System.Drawing.SystemColors.Control;
-            this.G20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G20.Location = new System.Drawing.Point(826, 486);
+            this.G20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G20.Location = new System.Drawing.Point(621, 384);
             this.G20.Name = "G20";
-            this.G20.Size = new System.Drawing.Size(40, 40);
+            this.G20.Size = new System.Drawing.Size(30, 30);
             this.G20.TabIndex = 783;
             this.G20.UseVisualStyleBackColor = false;
             // 
             // G21
             // 
             this.G21.BackColor = System.Drawing.SystemColors.Control;
-            this.G21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.G21.Location = new System.Drawing.Point(787, 486);
+            this.G21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G21.Location = new System.Drawing.Point(592, 384);
             this.G21.Name = "G21";
-            this.G21.Size = new System.Drawing.Size(40, 40);
+            this.G21.Size = new System.Drawing.Size(30, 30);
             this.G21.TabIndex = 784;
             this.G21.UseVisualStyleBackColor = false;
             // 
             // AA16
             // 
             this.AA16.BackColor = System.Drawing.SystemColors.Control;
-            this.AA16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA16.Location = new System.Drawing.Point(1012, 184);
+            this.AA16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA16.Location = new System.Drawing.Point(776, 153);
             this.AA16.Name = "AA16";
-            this.AA16.Size = new System.Drawing.Size(40, 40);
+            this.AA16.Size = new System.Drawing.Size(30, 30);
             this.AA16.TabIndex = 820;
             this.AA16.UseVisualStyleBackColor = false;
             // 
             // AA34
             // 
             this.AA34.BackColor = System.Drawing.SystemColors.Control;
-            this.AA34.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA34.Location = new System.Drawing.Point(280, 184);
+            this.AA34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA34.Location = new System.Drawing.Point(214, 141);
             this.AA34.Name = "AA34";
-            this.AA34.Size = new System.Drawing.Size(40, 40);
+            this.AA34.Size = new System.Drawing.Size(30, 30);
             this.AA34.TabIndex = 844;
             this.AA34.UseVisualStyleBackColor = false;
             // 
             // AA31
             // 
             this.AA31.BackColor = System.Drawing.SystemColors.Control;
-            this.AA31.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA31.Location = new System.Drawing.Point(397, 184);
+            this.AA31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA31.Location = new System.Drawing.Point(301, 141);
             this.AA31.Name = "AA31";
-            this.AA31.Size = new System.Drawing.Size(40, 40);
+            this.AA31.Size = new System.Drawing.Size(30, 30);
             this.AA31.TabIndex = 843;
             this.AA31.UseVisualStyleBackColor = false;
             // 
             // AA35
             // 
             this.AA35.BackColor = System.Drawing.SystemColors.Control;
-            this.AA35.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA35.Location = new System.Drawing.Point(241, 184);
+            this.AA35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA35.Location = new System.Drawing.Point(185, 141);
             this.AA35.Name = "AA35";
-            this.AA35.Size = new System.Drawing.Size(40, 40);
+            this.AA35.Size = new System.Drawing.Size(30, 30);
             this.AA35.TabIndex = 838;
             this.AA35.UseVisualStyleBackColor = false;
             // 
             // AA36
             // 
             this.AA36.BackColor = System.Drawing.SystemColors.Control;
-            this.AA36.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA36.Location = new System.Drawing.Point(202, 184);
+            this.AA36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA36.Location = new System.Drawing.Point(156, 141);
             this.AA36.Name = "AA36";
-            this.AA36.Size = new System.Drawing.Size(40, 40);
+            this.AA36.Size = new System.Drawing.Size(30, 30);
             this.AA36.TabIndex = 839;
             this.AA36.UseVisualStyleBackColor = false;
             // 
             // AA37
             // 
             this.AA37.BackColor = System.Drawing.SystemColors.Control;
-            this.AA37.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA37.Location = new System.Drawing.Point(163, 184);
+            this.AA37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA37.Location = new System.Drawing.Point(127, 141);
             this.AA37.Name = "AA37";
-            this.AA37.Size = new System.Drawing.Size(40, 40);
+            this.AA37.Size = new System.Drawing.Size(30, 30);
             this.AA37.TabIndex = 840;
             this.AA37.UseVisualStyleBackColor = false;
             // 
             // AA38
             // 
             this.AA38.BackColor = System.Drawing.SystemColors.Control;
-            this.AA38.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA38.Location = new System.Drawing.Point(124, 184);
+            this.AA38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA38.Location = new System.Drawing.Point(98, 141);
             this.AA38.Name = "AA38";
-            this.AA38.Size = new System.Drawing.Size(40, 40);
+            this.AA38.Size = new System.Drawing.Size(30, 30);
             this.AA38.TabIndex = 841;
             this.AA38.UseVisualStyleBackColor = false;
             // 
             // AA32
             // 
             this.AA32.BackColor = System.Drawing.SystemColors.Control;
-            this.AA32.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA32.Location = new System.Drawing.Point(358, 184);
+            this.AA32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA32.Location = new System.Drawing.Point(272, 141);
             this.AA32.Name = "AA32";
-            this.AA32.Size = new System.Drawing.Size(40, 40);
+            this.AA32.Size = new System.Drawing.Size(30, 30);
             this.AA32.TabIndex = 836;
             this.AA32.UseVisualStyleBackColor = false;
             // 
             // AA33
             // 
             this.AA33.BackColor = System.Drawing.SystemColors.Control;
-            this.AA33.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA33.Location = new System.Drawing.Point(319, 184);
+            this.AA33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA33.Location = new System.Drawing.Point(243, 141);
             this.AA33.Name = "AA33";
-            this.AA33.Size = new System.Drawing.Size(40, 40);
+            this.AA33.Size = new System.Drawing.Size(30, 30);
             this.AA33.TabIndex = 837;
             this.AA33.UseVisualStyleBackColor = false;
             // 
             // AA30
             // 
             this.AA30.BackColor = System.Drawing.SystemColors.Control;
-            this.AA30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA30.Location = new System.Drawing.Point(436, 184);
+            this.AA30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA30.Location = new System.Drawing.Point(330, 141);
             this.AA30.Name = "AA30";
-            this.AA30.Size = new System.Drawing.Size(40, 40);
+            this.AA30.Size = new System.Drawing.Size(30, 30);
             this.AA30.TabIndex = 835;
             this.AA30.UseVisualStyleBackColor = false;
             // 
             // AA39
             // 
             this.AA39.BackColor = System.Drawing.SystemColors.Control;
-            this.AA39.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA39.Location = new System.Drawing.Point(85, 184);
+            this.AA39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA39.Location = new System.Drawing.Point(69, 141);
             this.AA39.Name = "AA39";
-            this.AA39.Size = new System.Drawing.Size(40, 40);
+            this.AA39.Size = new System.Drawing.Size(30, 30);
             this.AA39.TabIndex = 834;
             this.AA39.UseVisualStyleBackColor = false;
             // 
             // AA22
             // 
             this.AA22.BackColor = System.Drawing.SystemColors.Control;
-            this.AA22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA22.Location = new System.Drawing.Point(748, 184);
+            this.AA22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA22.Location = new System.Drawing.Point(562, 141);
             this.AA22.Name = "AA22";
-            this.AA22.Size = new System.Drawing.Size(40, 40);
+            this.AA22.Size = new System.Drawing.Size(30, 30);
             this.AA22.TabIndex = 833;
             this.AA22.UseVisualStyleBackColor = false;
             // 
             // AA29
             // 
             this.AA29.BackColor = System.Drawing.SystemColors.Control;
-            this.AA29.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA29.Location = new System.Drawing.Point(475, 184);
+            this.AA29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA29.Location = new System.Drawing.Point(359, 141);
             this.AA29.Name = "AA29";
-            this.AA29.Size = new System.Drawing.Size(40, 40);
+            this.AA29.Size = new System.Drawing.Size(30, 30);
             this.AA29.TabIndex = 832;
             this.AA29.UseVisualStyleBackColor = false;
             // 
             // AA25
             // 
             this.AA25.BackColor = System.Drawing.SystemColors.Control;
-            this.AA25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA25.Location = new System.Drawing.Point(631, 184);
+            this.AA25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA25.Location = new System.Drawing.Point(475, 141);
             this.AA25.Name = "AA25";
-            this.AA25.Size = new System.Drawing.Size(40, 40);
+            this.AA25.Size = new System.Drawing.Size(30, 30);
             this.AA25.TabIndex = 828;
             this.AA25.UseVisualStyleBackColor = false;
             // 
             // AA26
             // 
             this.AA26.BackColor = System.Drawing.SystemColors.Control;
-            this.AA26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA26.Location = new System.Drawing.Point(592, 184);
+            this.AA26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA26.Location = new System.Drawing.Point(446, 141);
             this.AA26.Name = "AA26";
-            this.AA26.Size = new System.Drawing.Size(40, 40);
+            this.AA26.Size = new System.Drawing.Size(30, 30);
             this.AA26.TabIndex = 829;
             this.AA26.UseVisualStyleBackColor = false;
             // 
             // AA27
             // 
             this.AA27.BackColor = System.Drawing.SystemColors.Control;
-            this.AA27.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA27.Location = new System.Drawing.Point(553, 184);
+            this.AA27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA27.Location = new System.Drawing.Point(417, 141);
             this.AA27.Name = "AA27";
-            this.AA27.Size = new System.Drawing.Size(40, 40);
+            this.AA27.Size = new System.Drawing.Size(30, 30);
             this.AA27.TabIndex = 830;
             this.AA27.UseVisualStyleBackColor = false;
             // 
             // AA28
             // 
             this.AA28.BackColor = System.Drawing.SystemColors.Control;
-            this.AA28.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA28.Location = new System.Drawing.Point(514, 184);
+            this.AA28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA28.Location = new System.Drawing.Point(388, 141);
             this.AA28.Name = "AA28";
-            this.AA28.Size = new System.Drawing.Size(40, 40);
+            this.AA28.Size = new System.Drawing.Size(30, 30);
             this.AA28.TabIndex = 831;
             this.AA28.UseVisualStyleBackColor = false;
             // 
             // AA23
             // 
             this.AA23.BackColor = System.Drawing.SystemColors.Control;
-            this.AA23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA23.Location = new System.Drawing.Point(709, 184);
+            this.AA23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA23.Location = new System.Drawing.Point(533, 141);
             this.AA23.Name = "AA23";
-            this.AA23.Size = new System.Drawing.Size(40, 40);
+            this.AA23.Size = new System.Drawing.Size(30, 30);
             this.AA23.TabIndex = 826;
             this.AA23.UseVisualStyleBackColor = false;
             // 
             // AA24
             // 
             this.AA24.BackColor = System.Drawing.SystemColors.Control;
-            this.AA24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA24.Location = new System.Drawing.Point(670, 184);
+            this.AA24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA24.Location = new System.Drawing.Point(504, 141);
             this.AA24.Name = "AA24";
-            this.AA24.Size = new System.Drawing.Size(40, 40);
+            this.AA24.Size = new System.Drawing.Size(30, 30);
             this.AA24.TabIndex = 827;
             this.AA24.UseVisualStyleBackColor = false;
             // 
             // AA21
             // 
             this.AA21.BackColor = System.Drawing.SystemColors.Control;
-            this.AA21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA21.Location = new System.Drawing.Point(787, 184);
+            this.AA21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA21.Location = new System.Drawing.Point(591, 141);
             this.AA21.Name = "AA21";
-            this.AA21.Size = new System.Drawing.Size(40, 40);
+            this.AA21.Size = new System.Drawing.Size(30, 30);
             this.AA21.TabIndex = 825;
             this.AA21.UseVisualStyleBackColor = false;
             // 
             // AA17
             // 
             this.AA17.BackColor = System.Drawing.SystemColors.Control;
-            this.AA17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA17.Location = new System.Drawing.Point(943, 184);
+            this.AA17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA17.Location = new System.Drawing.Point(707, 141);
             this.AA17.Name = "AA17";
-            this.AA17.Size = new System.Drawing.Size(40, 40);
+            this.AA17.Size = new System.Drawing.Size(30, 30);
             this.AA17.TabIndex = 821;
             this.AA17.UseVisualStyleBackColor = false;
             // 
             // AA18
             // 
             this.AA18.BackColor = System.Drawing.SystemColors.Control;
-            this.AA18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA18.Location = new System.Drawing.Point(904, 184);
+            this.AA18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA18.Location = new System.Drawing.Point(678, 141);
             this.AA18.Name = "AA18";
-            this.AA18.Size = new System.Drawing.Size(40, 40);
+            this.AA18.Size = new System.Drawing.Size(30, 30);
             this.AA18.TabIndex = 822;
             this.AA18.UseVisualStyleBackColor = false;
             // 
             // AA19
             // 
             this.AA19.BackColor = System.Drawing.SystemColors.Control;
-            this.AA19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA19.Location = new System.Drawing.Point(865, 184);
+            this.AA19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA19.Location = new System.Drawing.Point(649, 141);
             this.AA19.Name = "AA19";
-            this.AA19.Size = new System.Drawing.Size(40, 40);
+            this.AA19.Size = new System.Drawing.Size(30, 30);
             this.AA19.TabIndex = 823;
             this.AA19.UseVisualStyleBackColor = false;
             // 
             // AA20
             // 
             this.AA20.BackColor = System.Drawing.SystemColors.Control;
-            this.AA20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA20.Location = new System.Drawing.Point(826, 184);
+            this.AA20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA20.Location = new System.Drawing.Point(620, 141);
             this.AA20.Name = "AA20";
-            this.AA20.Size = new System.Drawing.Size(40, 40);
+            this.AA20.Size = new System.Drawing.Size(30, 30);
             this.AA20.TabIndex = 824;
             this.AA20.UseVisualStyleBackColor = false;
             // 
             // AA40
             // 
             this.AA40.BackColor = System.Drawing.SystemColors.Control;
-            this.AA40.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AA40.Location = new System.Drawing.Point(46, 184);
+            this.AA40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AA40.Location = new System.Drawing.Point(40, 141);
             this.AA40.Name = "AA40";
-            this.AA40.Size = new System.Drawing.Size(40, 40);
+            this.AA40.Size = new System.Drawing.Size(30, 30);
             this.AA40.TabIndex = 845;
             this.AA40.UseVisualStyleBackColor = false;
             // 
             // B41
             // 
             this.B41.BackColor = System.Drawing.SystemColors.Control;
-            this.B41.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B41.Location = new System.Drawing.Point(7, 242);
+            this.B41.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B41.Location = new System.Drawing.Point(12, 201);
             this.B41.Name = "B41";
-            this.B41.Size = new System.Drawing.Size(40, 40);
+            this.B41.Size = new System.Drawing.Size(30, 30);
             this.B41.TabIndex = 846;
             this.B41.UseVisualStyleBackColor = false;
             // 
             // K10
             // 
             this.K10.BackColor = System.Drawing.SystemColors.Control;
-            this.K10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K10.Location = new System.Drawing.Point(1246, 685);
+            this.K10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K10.Location = new System.Drawing.Point(950, 530);
             this.K10.Name = "K10";
-            this.K10.Size = new System.Drawing.Size(40, 40);
+            this.K10.Size = new System.Drawing.Size(30, 30);
             this.K10.TabIndex = 910;
             this.K10.UseVisualStyleBackColor = false;
             // 
             // K07
             // 
             this.K07.BackColor = System.Drawing.SystemColors.Control;
-            this.K07.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K07.Location = new System.Drawing.Point(1363, 685);
+            this.K07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K07.Location = new System.Drawing.Point(1037, 530);
             this.K07.Name = "K07";
-            this.K07.Size = new System.Drawing.Size(40, 40);
+            this.K07.Size = new System.Drawing.Size(30, 30);
             this.K07.TabIndex = 909;
             this.K07.UseVisualStyleBackColor = false;
             // 
             // K15
             // 
             this.K15.BackColor = System.Drawing.SystemColors.Control;
-            this.K15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K15.Location = new System.Drawing.Point(1051, 685);
+            this.K15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K15.Location = new System.Drawing.Point(805, 530);
             this.K15.Name = "K15";
-            this.K15.Size = new System.Drawing.Size(40, 40);
+            this.K15.Size = new System.Drawing.Size(30, 30);
             this.K15.TabIndex = 908;
             this.K15.UseVisualStyleBackColor = false;
             // 
             // K11
             // 
             this.K11.BackColor = System.Drawing.SystemColors.Control;
-            this.K11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K11.Location = new System.Drawing.Point(1207, 685);
+            this.K11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K11.Location = new System.Drawing.Point(921, 530);
             this.K11.Name = "K11";
-            this.K11.Size = new System.Drawing.Size(40, 40);
+            this.K11.Size = new System.Drawing.Size(30, 30);
             this.K11.TabIndex = 904;
             this.K11.UseVisualStyleBackColor = false;
             // 
             // K12
             // 
             this.K12.BackColor = System.Drawing.SystemColors.Control;
-            this.K12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K12.Location = new System.Drawing.Point(1168, 685);
+            this.K12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K12.Location = new System.Drawing.Point(892, 530);
             this.K12.Name = "K12";
-            this.K12.Size = new System.Drawing.Size(40, 40);
+            this.K12.Size = new System.Drawing.Size(30, 30);
             this.K12.TabIndex = 905;
             this.K12.UseVisualStyleBackColor = false;
             // 
             // K13
             // 
             this.K13.BackColor = System.Drawing.SystemColors.Control;
-            this.K13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K13.Location = new System.Drawing.Point(1129, 685);
+            this.K13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K13.Location = new System.Drawing.Point(863, 530);
             this.K13.Name = "K13";
-            this.K13.Size = new System.Drawing.Size(40, 40);
+            this.K13.Size = new System.Drawing.Size(30, 30);
             this.K13.TabIndex = 906;
             this.K13.UseVisualStyleBackColor = false;
             // 
             // K14
             // 
             this.K14.BackColor = System.Drawing.SystemColors.Control;
-            this.K14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K14.Location = new System.Drawing.Point(1090, 685);
+            this.K14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K14.Location = new System.Drawing.Point(834, 530);
             this.K14.Name = "K14";
-            this.K14.Size = new System.Drawing.Size(40, 40);
+            this.K14.Size = new System.Drawing.Size(30, 30);
             this.K14.TabIndex = 907;
             this.K14.UseVisualStyleBackColor = false;
             // 
             // K08
             // 
             this.K08.BackColor = System.Drawing.SystemColors.Control;
-            this.K08.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K08.Location = new System.Drawing.Point(1324, 685);
+            this.K08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K08.Location = new System.Drawing.Point(1008, 530);
             this.K08.Name = "K08";
-            this.K08.Size = new System.Drawing.Size(40, 40);
+            this.K08.Size = new System.Drawing.Size(30, 30);
             this.K08.TabIndex = 902;
             this.K08.UseVisualStyleBackColor = false;
             // 
             // K09
             // 
             this.K09.BackColor = System.Drawing.SystemColors.Control;
-            this.K09.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K09.Location = new System.Drawing.Point(1285, 685);
+            this.K09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K09.Location = new System.Drawing.Point(979, 530);
             this.K09.Name = "K09";
-            this.K09.Size = new System.Drawing.Size(40, 40);
+            this.K09.Size = new System.Drawing.Size(30, 30);
             this.K09.TabIndex = 903;
             this.K09.UseVisualStyleBackColor = false;
             // 
             // K06
             // 
             this.K06.BackColor = System.Drawing.SystemColors.Control;
-            this.K06.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K06.Location = new System.Drawing.Point(1402, 685);
+            this.K06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K06.Location = new System.Drawing.Point(1066, 530);
             this.K06.Name = "K06";
-            this.K06.Size = new System.Drawing.Size(40, 40);
+            this.K06.Size = new System.Drawing.Size(30, 30);
             this.K06.TabIndex = 901;
             this.K06.UseVisualStyleBackColor = false;
             // 
             // K01
             // 
             this.K01.BackColor = System.Drawing.SystemColors.Control;
-            this.K01.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K01.Location = new System.Drawing.Point(1597, 685);
+            this.K01.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K01.Location = new System.Drawing.Point(1211, 530);
             this.K01.Name = "K01";
-            this.K01.Size = new System.Drawing.Size(40, 40);
+            this.K01.Size = new System.Drawing.Size(30, 30);
             this.K01.TabIndex = 896;
             this.K01.UseVisualStyleBackColor = false;
             // 
             // K02
             // 
             this.K02.BackColor = System.Drawing.SystemColors.Control;
-            this.K02.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K02.Location = new System.Drawing.Point(1558, 685);
+            this.K02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K02.Location = new System.Drawing.Point(1182, 530);
             this.K02.Name = "K02";
-            this.K02.Size = new System.Drawing.Size(40, 40);
+            this.K02.Size = new System.Drawing.Size(30, 30);
             this.K02.TabIndex = 897;
             this.K02.UseVisualStyleBackColor = false;
             // 
             // K03
             // 
             this.K03.BackColor = System.Drawing.SystemColors.Control;
-            this.K03.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K03.Location = new System.Drawing.Point(1519, 685);
+            this.K03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K03.Location = new System.Drawing.Point(1153, 530);
             this.K03.Name = "K03";
-            this.K03.Size = new System.Drawing.Size(40, 40);
+            this.K03.Size = new System.Drawing.Size(30, 30);
             this.K03.TabIndex = 898;
             this.K03.UseVisualStyleBackColor = false;
             // 
             // K04
             // 
             this.K04.BackColor = System.Drawing.SystemColors.Control;
-            this.K04.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K04.Location = new System.Drawing.Point(1480, 685);
+            this.K04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K04.Location = new System.Drawing.Point(1124, 530);
             this.K04.Name = "K04";
-            this.K04.Size = new System.Drawing.Size(40, 40);
+            this.K04.Size = new System.Drawing.Size(30, 30);
             this.K04.TabIndex = 899;
             this.K04.UseVisualStyleBackColor = false;
             // 
             // K05
             // 
             this.K05.BackColor = System.Drawing.SystemColors.Control;
-            this.K05.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K05.Location = new System.Drawing.Point(1441, 685);
+            this.K05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K05.Location = new System.Drawing.Point(1095, 530);
             this.K05.Name = "K05";
-            this.K05.Size = new System.Drawing.Size(40, 40);
+            this.K05.Size = new System.Drawing.Size(30, 30);
             this.K05.TabIndex = 900;
             this.K05.UseVisualStyleBackColor = false;
             // 
             // K16
             // 
             this.K16.BackColor = System.Drawing.SystemColors.Control;
-            this.K16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K16.Location = new System.Drawing.Point(1012, 685);
+            this.K16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K16.Location = new System.Drawing.Point(776, 530);
             this.K16.Name = "K16";
-            this.K16.Size = new System.Drawing.Size(40, 40);
+            this.K16.Size = new System.Drawing.Size(30, 30);
             this.K16.TabIndex = 895;
             this.K16.UseVisualStyleBackColor = false;
             // 
             // J10
             // 
             this.J10.BackColor = System.Drawing.SystemColors.Control;
-            this.J10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J10.Location = new System.Drawing.Point(1246, 646);
+            this.J10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J10.Location = new System.Drawing.Point(950, 501);
             this.J10.Name = "J10";
-            this.J10.Size = new System.Drawing.Size(40, 40);
+            this.J10.Size = new System.Drawing.Size(30, 30);
             this.J10.TabIndex = 894;
             this.J10.UseVisualStyleBackColor = false;
             // 
             // J07
             // 
             this.J07.BackColor = System.Drawing.SystemColors.Control;
-            this.J07.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J07.Location = new System.Drawing.Point(1363, 646);
+            this.J07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J07.Location = new System.Drawing.Point(1037, 501);
             this.J07.Name = "J07";
-            this.J07.Size = new System.Drawing.Size(40, 40);
+            this.J07.Size = new System.Drawing.Size(30, 30);
             this.J07.TabIndex = 893;
             this.J07.UseVisualStyleBackColor = false;
             // 
             // J15
             // 
             this.J15.BackColor = System.Drawing.SystemColors.Control;
-            this.J15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J15.Location = new System.Drawing.Point(1051, 646);
+            this.J15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J15.Location = new System.Drawing.Point(805, 501);
             this.J15.Name = "J15";
-            this.J15.Size = new System.Drawing.Size(40, 40);
+            this.J15.Size = new System.Drawing.Size(30, 30);
             this.J15.TabIndex = 892;
             this.J15.UseVisualStyleBackColor = false;
             // 
             // J11
             // 
             this.J11.BackColor = System.Drawing.SystemColors.Control;
-            this.J11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J11.Location = new System.Drawing.Point(1207, 646);
+            this.J11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J11.Location = new System.Drawing.Point(921, 501);
             this.J11.Name = "J11";
-            this.J11.Size = new System.Drawing.Size(40, 40);
+            this.J11.Size = new System.Drawing.Size(30, 30);
             this.J11.TabIndex = 888;
             this.J11.UseVisualStyleBackColor = false;
             // 
             // J12
             // 
             this.J12.BackColor = System.Drawing.SystemColors.Control;
-            this.J12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J12.Location = new System.Drawing.Point(1168, 646);
+            this.J12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J12.Location = new System.Drawing.Point(892, 501);
             this.J12.Name = "J12";
-            this.J12.Size = new System.Drawing.Size(40, 40);
+            this.J12.Size = new System.Drawing.Size(30, 30);
             this.J12.TabIndex = 889;
             this.J12.UseVisualStyleBackColor = false;
             // 
             // J13
             // 
             this.J13.BackColor = System.Drawing.SystemColors.Control;
-            this.J13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J13.Location = new System.Drawing.Point(1129, 646);
+            this.J13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J13.Location = new System.Drawing.Point(863, 501);
             this.J13.Name = "J13";
-            this.J13.Size = new System.Drawing.Size(40, 40);
+            this.J13.Size = new System.Drawing.Size(30, 30);
             this.J13.TabIndex = 890;
             this.J13.UseVisualStyleBackColor = false;
             // 
             // J14
             // 
             this.J14.BackColor = System.Drawing.SystemColors.Control;
-            this.J14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J14.Location = new System.Drawing.Point(1090, 646);
+            this.J14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J14.Location = new System.Drawing.Point(834, 501);
             this.J14.Name = "J14";
-            this.J14.Size = new System.Drawing.Size(40, 40);
+            this.J14.Size = new System.Drawing.Size(30, 30);
             this.J14.TabIndex = 891;
             this.J14.UseVisualStyleBackColor = false;
             // 
             // J08
             // 
             this.J08.BackColor = System.Drawing.SystemColors.Control;
-            this.J08.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J08.Location = new System.Drawing.Point(1324, 646);
+            this.J08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J08.Location = new System.Drawing.Point(1008, 501);
             this.J08.Name = "J08";
-            this.J08.Size = new System.Drawing.Size(40, 40);
+            this.J08.Size = new System.Drawing.Size(30, 30);
             this.J08.TabIndex = 886;
             this.J08.UseVisualStyleBackColor = false;
             // 
             // J09
             // 
             this.J09.BackColor = System.Drawing.SystemColors.Control;
-            this.J09.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J09.Location = new System.Drawing.Point(1285, 646);
+            this.J09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J09.Location = new System.Drawing.Point(979, 501);
             this.J09.Name = "J09";
-            this.J09.Size = new System.Drawing.Size(40, 40);
+            this.J09.Size = new System.Drawing.Size(30, 30);
             this.J09.TabIndex = 887;
             this.J09.UseVisualStyleBackColor = false;
             // 
             // J06
             // 
             this.J06.BackColor = System.Drawing.SystemColors.Control;
-            this.J06.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J06.Location = new System.Drawing.Point(1402, 646);
+            this.J06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J06.Location = new System.Drawing.Point(1066, 501);
             this.J06.Name = "J06";
-            this.J06.Size = new System.Drawing.Size(40, 40);
+            this.J06.Size = new System.Drawing.Size(30, 30);
             this.J06.TabIndex = 885;
             this.J06.UseVisualStyleBackColor = false;
             // 
             // J01
             // 
             this.J01.BackColor = System.Drawing.SystemColors.Control;
-            this.J01.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J01.Location = new System.Drawing.Point(1597, 646);
+            this.J01.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J01.Location = new System.Drawing.Point(1211, 501);
             this.J01.Name = "J01";
-            this.J01.Size = new System.Drawing.Size(40, 40);
+            this.J01.Size = new System.Drawing.Size(30, 30);
             this.J01.TabIndex = 880;
             this.J01.UseVisualStyleBackColor = false;
             // 
             // J02
             // 
             this.J02.BackColor = System.Drawing.SystemColors.Control;
-            this.J02.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J02.Location = new System.Drawing.Point(1558, 646);
+            this.J02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J02.Location = new System.Drawing.Point(1182, 501);
             this.J02.Name = "J02";
-            this.J02.Size = new System.Drawing.Size(40, 40);
+            this.J02.Size = new System.Drawing.Size(30, 30);
             this.J02.TabIndex = 881;
             this.J02.UseVisualStyleBackColor = false;
             // 
             // J03
             // 
             this.J03.BackColor = System.Drawing.SystemColors.Control;
-            this.J03.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J03.Location = new System.Drawing.Point(1519, 646);
+            this.J03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J03.Location = new System.Drawing.Point(1153, 501);
             this.J03.Name = "J03";
-            this.J03.Size = new System.Drawing.Size(40, 40);
+            this.J03.Size = new System.Drawing.Size(30, 30);
             this.J03.TabIndex = 882;
             this.J03.UseVisualStyleBackColor = false;
             // 
             // J04
             // 
             this.J04.BackColor = System.Drawing.SystemColors.Control;
-            this.J04.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J04.Location = new System.Drawing.Point(1480, 646);
+            this.J04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J04.Location = new System.Drawing.Point(1124, 501);
             this.J04.Name = "J04";
-            this.J04.Size = new System.Drawing.Size(40, 40);
+            this.J04.Size = new System.Drawing.Size(30, 30);
             this.J04.TabIndex = 883;
             this.J04.UseVisualStyleBackColor = false;
             // 
             // J05
             // 
             this.J05.BackColor = System.Drawing.SystemColors.Control;
-            this.J05.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J05.Location = new System.Drawing.Point(1441, 646);
+            this.J05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J05.Location = new System.Drawing.Point(1095, 501);
             this.J05.Name = "J05";
-            this.J05.Size = new System.Drawing.Size(40, 40);
+            this.J05.Size = new System.Drawing.Size(30, 30);
             this.J05.TabIndex = 884;
             this.J05.UseVisualStyleBackColor = false;
             // 
             // J16
             // 
             this.J16.BackColor = System.Drawing.SystemColors.Control;
-            this.J16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J16.Location = new System.Drawing.Point(1012, 646);
+            this.J16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J16.Location = new System.Drawing.Point(776, 501);
             this.J16.Name = "J16";
-            this.J16.Size = new System.Drawing.Size(40, 40);
+            this.J16.Size = new System.Drawing.Size(30, 30);
             this.J16.TabIndex = 879;
             this.J16.UseVisualStyleBackColor = false;
             // 
             // I10
             // 
             this.I10.BackColor = System.Drawing.SystemColors.Control;
-            this.I10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I10.Location = new System.Drawing.Point(1246, 585);
+            this.I10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I10.Location = new System.Drawing.Point(950, 457);
             this.I10.Name = "I10";
-            this.I10.Size = new System.Drawing.Size(40, 40);
+            this.I10.Size = new System.Drawing.Size(30, 30);
             this.I10.TabIndex = 878;
             this.I10.UseVisualStyleBackColor = false;
             // 
             // I07
             // 
             this.I07.BackColor = System.Drawing.SystemColors.Control;
-            this.I07.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I07.Location = new System.Drawing.Point(1363, 585);
+            this.I07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I07.Location = new System.Drawing.Point(1037, 457);
             this.I07.Name = "I07";
-            this.I07.Size = new System.Drawing.Size(40, 40);
+            this.I07.Size = new System.Drawing.Size(30, 30);
             this.I07.TabIndex = 877;
             this.I07.UseVisualStyleBackColor = false;
             // 
             // I15
             // 
             this.I15.BackColor = System.Drawing.SystemColors.Control;
-            this.I15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I15.Location = new System.Drawing.Point(1051, 585);
+            this.I15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I15.Location = new System.Drawing.Point(805, 457);
             this.I15.Name = "I15";
-            this.I15.Size = new System.Drawing.Size(40, 40);
+            this.I15.Size = new System.Drawing.Size(30, 30);
             this.I15.TabIndex = 876;
             this.I15.UseVisualStyleBackColor = false;
             // 
             // I11
             // 
             this.I11.BackColor = System.Drawing.SystemColors.Control;
-            this.I11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I11.Location = new System.Drawing.Point(1207, 585);
+            this.I11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I11.Location = new System.Drawing.Point(921, 457);
             this.I11.Name = "I11";
-            this.I11.Size = new System.Drawing.Size(40, 40);
+            this.I11.Size = new System.Drawing.Size(30, 30);
             this.I11.TabIndex = 872;
             this.I11.UseVisualStyleBackColor = false;
             // 
             // I12
             // 
             this.I12.BackColor = System.Drawing.SystemColors.Control;
-            this.I12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I12.Location = new System.Drawing.Point(1168, 585);
+            this.I12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I12.Location = new System.Drawing.Point(892, 457);
             this.I12.Name = "I12";
-            this.I12.Size = new System.Drawing.Size(40, 40);
+            this.I12.Size = new System.Drawing.Size(30, 30);
             this.I12.TabIndex = 873;
             this.I12.UseVisualStyleBackColor = false;
             // 
             // I13
             // 
             this.I13.BackColor = System.Drawing.SystemColors.Control;
-            this.I13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I13.Location = new System.Drawing.Point(1129, 585);
+            this.I13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I13.Location = new System.Drawing.Point(863, 457);
             this.I13.Name = "I13";
-            this.I13.Size = new System.Drawing.Size(40, 40);
+            this.I13.Size = new System.Drawing.Size(30, 30);
             this.I13.TabIndex = 874;
             this.I13.UseVisualStyleBackColor = false;
             // 
             // I14
             // 
             this.I14.BackColor = System.Drawing.SystemColors.Control;
-            this.I14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I14.Location = new System.Drawing.Point(1090, 585);
+            this.I14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I14.Location = new System.Drawing.Point(834, 457);
             this.I14.Name = "I14";
-            this.I14.Size = new System.Drawing.Size(40, 40);
+            this.I14.Size = new System.Drawing.Size(30, 30);
             this.I14.TabIndex = 875;
             this.I14.UseVisualStyleBackColor = false;
             // 
             // I08
             // 
             this.I08.BackColor = System.Drawing.SystemColors.Control;
-            this.I08.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I08.Location = new System.Drawing.Point(1324, 585);
+            this.I08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I08.Location = new System.Drawing.Point(1008, 457);
             this.I08.Name = "I08";
-            this.I08.Size = new System.Drawing.Size(40, 40);
+            this.I08.Size = new System.Drawing.Size(30, 30);
             this.I08.TabIndex = 870;
             this.I08.UseVisualStyleBackColor = false;
             // 
             // I09
             // 
             this.I09.BackColor = System.Drawing.SystemColors.Control;
-            this.I09.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I09.Location = new System.Drawing.Point(1285, 585);
+            this.I09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I09.Location = new System.Drawing.Point(979, 457);
             this.I09.Name = "I09";
-            this.I09.Size = new System.Drawing.Size(40, 40);
+            this.I09.Size = new System.Drawing.Size(30, 30);
             this.I09.TabIndex = 871;
             this.I09.UseVisualStyleBackColor = false;
             // 
             // I06
             // 
             this.I06.BackColor = System.Drawing.SystemColors.Control;
-            this.I06.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I06.Location = new System.Drawing.Point(1402, 585);
+            this.I06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I06.Location = new System.Drawing.Point(1066, 457);
             this.I06.Name = "I06";
-            this.I06.Size = new System.Drawing.Size(40, 40);
+            this.I06.Size = new System.Drawing.Size(30, 30);
             this.I06.TabIndex = 869;
             this.I06.UseVisualStyleBackColor = false;
             // 
             // I01
             // 
             this.I01.BackColor = System.Drawing.SystemColors.Control;
-            this.I01.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I01.Location = new System.Drawing.Point(1597, 585);
+            this.I01.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I01.Location = new System.Drawing.Point(1211, 457);
             this.I01.Name = "I01";
-            this.I01.Size = new System.Drawing.Size(40, 40);
+            this.I01.Size = new System.Drawing.Size(30, 30);
             this.I01.TabIndex = 864;
             this.I01.UseVisualStyleBackColor = false;
             // 
             // I02
             // 
             this.I02.BackColor = System.Drawing.SystemColors.Control;
-            this.I02.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I02.Location = new System.Drawing.Point(1558, 585);
+            this.I02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I02.Location = new System.Drawing.Point(1182, 457);
             this.I02.Name = "I02";
-            this.I02.Size = new System.Drawing.Size(40, 40);
+            this.I02.Size = new System.Drawing.Size(30, 30);
             this.I02.TabIndex = 865;
             this.I02.UseVisualStyleBackColor = false;
             // 
             // I03
             // 
             this.I03.BackColor = System.Drawing.SystemColors.Control;
-            this.I03.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I03.Location = new System.Drawing.Point(1519, 585);
+            this.I03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I03.Location = new System.Drawing.Point(1153, 457);
             this.I03.Name = "I03";
-            this.I03.Size = new System.Drawing.Size(40, 40);
+            this.I03.Size = new System.Drawing.Size(30, 30);
             this.I03.TabIndex = 866;
             this.I03.UseVisualStyleBackColor = false;
             // 
             // I04
             // 
             this.I04.BackColor = System.Drawing.SystemColors.Control;
-            this.I04.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I04.Location = new System.Drawing.Point(1480, 585);
+            this.I04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I04.Location = new System.Drawing.Point(1124, 457);
             this.I04.Name = "I04";
-            this.I04.Size = new System.Drawing.Size(40, 40);
+            this.I04.Size = new System.Drawing.Size(30, 30);
             this.I04.TabIndex = 867;
             this.I04.UseVisualStyleBackColor = false;
             // 
             // I05
             // 
             this.I05.BackColor = System.Drawing.SystemColors.Control;
-            this.I05.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I05.Location = new System.Drawing.Point(1441, 585);
+            this.I05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I05.Location = new System.Drawing.Point(1095, 457);
             this.I05.Name = "I05";
-            this.I05.Size = new System.Drawing.Size(40, 40);
+            this.I05.Size = new System.Drawing.Size(30, 30);
             this.I05.TabIndex = 868;
             this.I05.UseVisualStyleBackColor = false;
             // 
             // I16
             // 
             this.I16.BackColor = System.Drawing.SystemColors.Control;
-            this.I16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I16.Location = new System.Drawing.Point(1012, 585);
+            this.I16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I16.Location = new System.Drawing.Point(776, 457);
             this.I16.Name = "I16";
-            this.I16.Size = new System.Drawing.Size(40, 40);
+            this.I16.Size = new System.Drawing.Size(30, 30);
             this.I16.TabIndex = 863;
             this.I16.UseVisualStyleBackColor = false;
             // 
             // H10
             // 
             this.H10.BackColor = System.Drawing.SystemColors.Control;
-            this.H10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H10.Location = new System.Drawing.Point(1246, 546);
+            this.H10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H10.Location = new System.Drawing.Point(950, 428);
             this.H10.Name = "H10";
-            this.H10.Size = new System.Drawing.Size(40, 40);
+            this.H10.Size = new System.Drawing.Size(30, 30);
             this.H10.TabIndex = 862;
             this.H10.UseVisualStyleBackColor = false;
             // 
             // H07
             // 
             this.H07.BackColor = System.Drawing.SystemColors.Control;
-            this.H07.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H07.Location = new System.Drawing.Point(1363, 546);
+            this.H07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H07.Location = new System.Drawing.Point(1037, 428);
             this.H07.Name = "H07";
-            this.H07.Size = new System.Drawing.Size(40, 40);
+            this.H07.Size = new System.Drawing.Size(30, 30);
             this.H07.TabIndex = 861;
             this.H07.UseVisualStyleBackColor = false;
             // 
             // H15
             // 
             this.H15.BackColor = System.Drawing.SystemColors.Control;
-            this.H15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H15.Location = new System.Drawing.Point(1051, 546);
+            this.H15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H15.Location = new System.Drawing.Point(805, 428);
             this.H15.Name = "H15";
-            this.H15.Size = new System.Drawing.Size(40, 40);
+            this.H15.Size = new System.Drawing.Size(30, 30);
             this.H15.TabIndex = 860;
             this.H15.UseVisualStyleBackColor = false;
             // 
             // H11
             // 
             this.H11.BackColor = System.Drawing.SystemColors.Control;
-            this.H11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H11.Location = new System.Drawing.Point(1207, 546);
+            this.H11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H11.Location = new System.Drawing.Point(921, 428);
             this.H11.Name = "H11";
-            this.H11.Size = new System.Drawing.Size(40, 40);
+            this.H11.Size = new System.Drawing.Size(30, 30);
             this.H11.TabIndex = 856;
             this.H11.UseVisualStyleBackColor = false;
             // 
             // H12
             // 
             this.H12.BackColor = System.Drawing.SystemColors.Control;
-            this.H12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H12.Location = new System.Drawing.Point(1168, 546);
+            this.H12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H12.Location = new System.Drawing.Point(892, 428);
             this.H12.Name = "H12";
-            this.H12.Size = new System.Drawing.Size(40, 40);
+            this.H12.Size = new System.Drawing.Size(30, 30);
             this.H12.TabIndex = 857;
             this.H12.UseVisualStyleBackColor = false;
             // 
             // H13
             // 
             this.H13.BackColor = System.Drawing.SystemColors.Control;
-            this.H13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H13.Location = new System.Drawing.Point(1129, 546);
+            this.H13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H13.Location = new System.Drawing.Point(863, 428);
             this.H13.Name = "H13";
-            this.H13.Size = new System.Drawing.Size(40, 40);
+            this.H13.Size = new System.Drawing.Size(30, 30);
             this.H13.TabIndex = 858;
             this.H13.UseVisualStyleBackColor = false;
             // 
             // H14
             // 
             this.H14.BackColor = System.Drawing.SystemColors.Control;
-            this.H14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H14.Location = new System.Drawing.Point(1090, 546);
+            this.H14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H14.Location = new System.Drawing.Point(834, 428);
             this.H14.Name = "H14";
-            this.H14.Size = new System.Drawing.Size(40, 40);
+            this.H14.Size = new System.Drawing.Size(30, 30);
             this.H14.TabIndex = 859;
             this.H14.UseVisualStyleBackColor = false;
             // 
             // H08
             // 
             this.H08.BackColor = System.Drawing.SystemColors.Control;
-            this.H08.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H08.Location = new System.Drawing.Point(1324, 546);
+            this.H08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H08.Location = new System.Drawing.Point(1008, 428);
             this.H08.Name = "H08";
-            this.H08.Size = new System.Drawing.Size(40, 40);
+            this.H08.Size = new System.Drawing.Size(30, 30);
             this.H08.TabIndex = 854;
             this.H08.UseVisualStyleBackColor = false;
             // 
             // H09
             // 
             this.H09.BackColor = System.Drawing.SystemColors.Control;
-            this.H09.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H09.Location = new System.Drawing.Point(1285, 546);
+            this.H09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H09.Location = new System.Drawing.Point(979, 428);
             this.H09.Name = "H09";
-            this.H09.Size = new System.Drawing.Size(40, 40);
+            this.H09.Size = new System.Drawing.Size(30, 30);
             this.H09.TabIndex = 855;
             this.H09.UseVisualStyleBackColor = false;
             // 
             // H06
             // 
             this.H06.BackColor = System.Drawing.SystemColors.Control;
-            this.H06.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H06.Location = new System.Drawing.Point(1402, 546);
+            this.H06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H06.Location = new System.Drawing.Point(1066, 428);
             this.H06.Name = "H06";
-            this.H06.Size = new System.Drawing.Size(40, 40);
+            this.H06.Size = new System.Drawing.Size(30, 30);
             this.H06.TabIndex = 853;
             this.H06.UseVisualStyleBackColor = false;
             // 
             // H01
             // 
             this.H01.BackColor = System.Drawing.SystemColors.Control;
-            this.H01.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H01.Location = new System.Drawing.Point(1597, 546);
+            this.H01.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H01.Location = new System.Drawing.Point(1211, 428);
             this.H01.Name = "H01";
-            this.H01.Size = new System.Drawing.Size(40, 40);
+            this.H01.Size = new System.Drawing.Size(30, 30);
             this.H01.TabIndex = 848;
             this.H01.UseVisualStyleBackColor = false;
             // 
             // H02
             // 
             this.H02.BackColor = System.Drawing.SystemColors.Control;
-            this.H02.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H02.Location = new System.Drawing.Point(1558, 546);
+            this.H02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H02.Location = new System.Drawing.Point(1182, 428);
             this.H02.Name = "H02";
-            this.H02.Size = new System.Drawing.Size(40, 40);
+            this.H02.Size = new System.Drawing.Size(30, 30);
             this.H02.TabIndex = 849;
             this.H02.UseVisualStyleBackColor = false;
             // 
             // H03
             // 
             this.H03.BackColor = System.Drawing.SystemColors.Control;
-            this.H03.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H03.Location = new System.Drawing.Point(1519, 546);
+            this.H03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H03.Location = new System.Drawing.Point(1153, 428);
             this.H03.Name = "H03";
-            this.H03.Size = new System.Drawing.Size(40, 40);
+            this.H03.Size = new System.Drawing.Size(30, 30);
             this.H03.TabIndex = 850;
             this.H03.UseVisualStyleBackColor = false;
             // 
             // H04
             // 
             this.H04.BackColor = System.Drawing.SystemColors.Control;
-            this.H04.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H04.Location = new System.Drawing.Point(1480, 546);
+            this.H04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H04.Location = new System.Drawing.Point(1124, 428);
             this.H04.Name = "H04";
-            this.H04.Size = new System.Drawing.Size(40, 40);
+            this.H04.Size = new System.Drawing.Size(30, 30);
             this.H04.TabIndex = 851;
             this.H04.UseVisualStyleBackColor = false;
             // 
             // H05
             // 
             this.H05.BackColor = System.Drawing.SystemColors.Control;
-            this.H05.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H05.Location = new System.Drawing.Point(1441, 546);
+            this.H05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H05.Location = new System.Drawing.Point(1095, 428);
             this.H05.Name = "H05";
-            this.H05.Size = new System.Drawing.Size(40, 40);
+            this.H05.Size = new System.Drawing.Size(30, 30);
             this.H05.TabIndex = 852;
             this.H05.UseVisualStyleBackColor = false;
             // 
             // H16
             // 
             this.H16.BackColor = System.Drawing.SystemColors.Control;
-            this.H16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H16.Location = new System.Drawing.Point(1012, 546);
+            this.H16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H16.Location = new System.Drawing.Point(776, 428);
             this.H16.Name = "H16";
-            this.H16.Size = new System.Drawing.Size(40, 40);
+            this.H16.Size = new System.Drawing.Size(30, 30);
             this.H16.TabIndex = 847;
             this.H16.UseVisualStyleBackColor = false;
             // 
             // K36
             // 
             this.K36.BackColor = System.Drawing.SystemColors.Control;
-            this.K36.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K36.Location = new System.Drawing.Point(202, 684);
+            this.K36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K36.Location = new System.Drawing.Point(157, 529);
             this.K36.Name = "K36";
-            this.K36.Size = new System.Drawing.Size(40, 40);
+            this.K36.Size = new System.Drawing.Size(30, 30);
             this.K36.TabIndex = 1006;
             this.K36.UseVisualStyleBackColor = false;
             // 
             // K33
             // 
             this.K33.BackColor = System.Drawing.SystemColors.Control;
-            this.K33.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K33.Location = new System.Drawing.Point(319, 684);
+            this.K33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K33.Location = new System.Drawing.Point(244, 529);
             this.K33.Name = "K33";
-            this.K33.Size = new System.Drawing.Size(40, 40);
+            this.K33.Size = new System.Drawing.Size(30, 30);
             this.K33.TabIndex = 1005;
             this.K33.UseVisualStyleBackColor = false;
             // 
             // K17
             // 
             this.K17.BackColor = System.Drawing.SystemColors.Control;
-            this.K17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K17.Location = new System.Drawing.Point(943, 684);
+            this.K17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K17.Location = new System.Drawing.Point(708, 529);
             this.K17.Name = "K17";
-            this.K17.Size = new System.Drawing.Size(40, 40);
+            this.K17.Size = new System.Drawing.Size(30, 30);
             this.K17.TabIndex = 1004;
             this.K17.UseVisualStyleBackColor = false;
             // 
             // K37
             // 
             this.K37.BackColor = System.Drawing.SystemColors.Control;
-            this.K37.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K37.Location = new System.Drawing.Point(163, 684);
+            this.K37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K37.Location = new System.Drawing.Point(128, 529);
             this.K37.Name = "K37";
-            this.K37.Size = new System.Drawing.Size(40, 40);
+            this.K37.Size = new System.Drawing.Size(30, 30);
             this.K37.TabIndex = 1000;
             this.K37.UseVisualStyleBackColor = false;
             // 
             // K38
             // 
             this.K38.BackColor = System.Drawing.SystemColors.Control;
-            this.K38.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K38.Location = new System.Drawing.Point(124, 684);
+            this.K38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K38.Location = new System.Drawing.Point(99, 529);
             this.K38.Name = "K38";
-            this.K38.Size = new System.Drawing.Size(40, 40);
+            this.K38.Size = new System.Drawing.Size(30, 30);
             this.K38.TabIndex = 1001;
             this.K38.UseVisualStyleBackColor = false;
             // 
             // K39
             // 
             this.K39.BackColor = System.Drawing.SystemColors.Control;
-            this.K39.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K39.Location = new System.Drawing.Point(85, 684);
+            this.K39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K39.Location = new System.Drawing.Point(70, 529);
             this.K39.Name = "K39";
-            this.K39.Size = new System.Drawing.Size(40, 40);
+            this.K39.Size = new System.Drawing.Size(30, 30);
             this.K39.TabIndex = 1002;
             this.K39.UseVisualStyleBackColor = false;
             // 
             // K40
             // 
             this.K40.BackColor = System.Drawing.SystemColors.Control;
-            this.K40.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K40.Location = new System.Drawing.Point(46, 684);
+            this.K40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K40.Location = new System.Drawing.Point(41, 529);
             this.K40.Name = "K40";
-            this.K40.Size = new System.Drawing.Size(40, 40);
+            this.K40.Size = new System.Drawing.Size(30, 30);
             this.K40.TabIndex = 1003;
             this.K40.UseVisualStyleBackColor = false;
             // 
             // K34
             // 
             this.K34.BackColor = System.Drawing.SystemColors.Control;
-            this.K34.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K34.Location = new System.Drawing.Point(280, 684);
+            this.K34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K34.Location = new System.Drawing.Point(215, 529);
             this.K34.Name = "K34";
-            this.K34.Size = new System.Drawing.Size(40, 40);
+            this.K34.Size = new System.Drawing.Size(30, 30);
             this.K34.TabIndex = 998;
             this.K34.UseVisualStyleBackColor = false;
             // 
             // K35
             // 
             this.K35.BackColor = System.Drawing.SystemColors.Control;
-            this.K35.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K35.Location = new System.Drawing.Point(241, 684);
+            this.K35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K35.Location = new System.Drawing.Point(186, 529);
             this.K35.Name = "K35";
-            this.K35.Size = new System.Drawing.Size(40, 40);
+            this.K35.Size = new System.Drawing.Size(30, 30);
             this.K35.TabIndex = 999;
             this.K35.UseVisualStyleBackColor = false;
             // 
             // K32
             // 
             this.K32.BackColor = System.Drawing.SystemColors.Control;
-            this.K32.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K32.Location = new System.Drawing.Point(358, 684);
+            this.K32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K32.Location = new System.Drawing.Point(273, 529);
             this.K32.Name = "K32";
-            this.K32.Size = new System.Drawing.Size(40, 40);
+            this.K32.Size = new System.Drawing.Size(30, 30);
             this.K32.TabIndex = 997;
             this.K32.UseVisualStyleBackColor = false;
             // 
             // K26
             // 
             this.K26.BackColor = System.Drawing.SystemColors.Control;
-            this.K26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K26.Location = new System.Drawing.Point(592, 684);
+            this.K26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K26.Location = new System.Drawing.Point(447, 529);
             this.K26.Name = "K26";
-            this.K26.Size = new System.Drawing.Size(40, 40);
+            this.K26.Size = new System.Drawing.Size(30, 30);
             this.K26.TabIndex = 996;
             this.K26.UseVisualStyleBackColor = false;
             // 
             // K23
             // 
             this.K23.BackColor = System.Drawing.SystemColors.Control;
-            this.K23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K23.Location = new System.Drawing.Point(709, 684);
+            this.K23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K23.Location = new System.Drawing.Point(534, 529);
             this.K23.Name = "K23";
-            this.K23.Size = new System.Drawing.Size(40, 40);
+            this.K23.Size = new System.Drawing.Size(30, 30);
             this.K23.TabIndex = 995;
             this.K23.UseVisualStyleBackColor = false;
             // 
             // K31
             // 
             this.K31.BackColor = System.Drawing.SystemColors.Control;
-            this.K31.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K31.Location = new System.Drawing.Point(397, 684);
+            this.K31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K31.Location = new System.Drawing.Point(302, 529);
             this.K31.Name = "K31";
-            this.K31.Size = new System.Drawing.Size(40, 40);
+            this.K31.Size = new System.Drawing.Size(30, 30);
             this.K31.TabIndex = 994;
             this.K31.UseVisualStyleBackColor = false;
             // 
             // K27
             // 
             this.K27.BackColor = System.Drawing.SystemColors.Control;
-            this.K27.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K27.Location = new System.Drawing.Point(553, 684);
+            this.K27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K27.Location = new System.Drawing.Point(418, 529);
             this.K27.Name = "K27";
-            this.K27.Size = new System.Drawing.Size(40, 40);
+            this.K27.Size = new System.Drawing.Size(30, 30);
             this.K27.TabIndex = 990;
             this.K27.UseVisualStyleBackColor = false;
             // 
             // K28
             // 
             this.K28.BackColor = System.Drawing.SystemColors.Control;
-            this.K28.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K28.Location = new System.Drawing.Point(514, 684);
+            this.K28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K28.Location = new System.Drawing.Point(389, 529);
             this.K28.Name = "K28";
-            this.K28.Size = new System.Drawing.Size(40, 40);
+            this.K28.Size = new System.Drawing.Size(30, 30);
             this.K28.TabIndex = 991;
             this.K28.UseVisualStyleBackColor = false;
             // 
             // K29
             // 
             this.K29.BackColor = System.Drawing.SystemColors.Control;
-            this.K29.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K29.Location = new System.Drawing.Point(475, 684);
+            this.K29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K29.Location = new System.Drawing.Point(360, 529);
             this.K29.Name = "K29";
-            this.K29.Size = new System.Drawing.Size(40, 40);
+            this.K29.Size = new System.Drawing.Size(30, 30);
             this.K29.TabIndex = 992;
             this.K29.UseVisualStyleBackColor = false;
             // 
             // K30
             // 
             this.K30.BackColor = System.Drawing.SystemColors.Control;
-            this.K30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K30.Location = new System.Drawing.Point(436, 684);
+            this.K30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K30.Location = new System.Drawing.Point(331, 529);
             this.K30.Name = "K30";
-            this.K30.Size = new System.Drawing.Size(40, 40);
+            this.K30.Size = new System.Drawing.Size(30, 30);
             this.K30.TabIndex = 993;
             this.K30.UseVisualStyleBackColor = false;
             // 
             // K24
             // 
             this.K24.BackColor = System.Drawing.SystemColors.Control;
-            this.K24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K24.Location = new System.Drawing.Point(670, 684);
+            this.K24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K24.Location = new System.Drawing.Point(505, 529);
             this.K24.Name = "K24";
-            this.K24.Size = new System.Drawing.Size(40, 40);
+            this.K24.Size = new System.Drawing.Size(30, 30);
             this.K24.TabIndex = 988;
             this.K24.UseVisualStyleBackColor = false;
             // 
             // K25
             // 
             this.K25.BackColor = System.Drawing.SystemColors.Control;
-            this.K25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K25.Location = new System.Drawing.Point(631, 684);
+            this.K25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K25.Location = new System.Drawing.Point(476, 529);
             this.K25.Name = "K25";
-            this.K25.Size = new System.Drawing.Size(40, 40);
+            this.K25.Size = new System.Drawing.Size(30, 30);
             this.K25.TabIndex = 989;
             this.K25.UseVisualStyleBackColor = false;
             // 
             // K22
             // 
             this.K22.BackColor = System.Drawing.SystemColors.Control;
-            this.K22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K22.Location = new System.Drawing.Point(748, 684);
+            this.K22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K22.Location = new System.Drawing.Point(563, 529);
             this.K22.Name = "K22";
-            this.K22.Size = new System.Drawing.Size(40, 40);
+            this.K22.Size = new System.Drawing.Size(30, 30);
             this.K22.TabIndex = 987;
             this.K22.UseVisualStyleBackColor = false;
             // 
             // K18
             // 
             this.K18.BackColor = System.Drawing.SystemColors.Control;
-            this.K18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K18.Location = new System.Drawing.Point(904, 684);
+            this.K18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K18.Location = new System.Drawing.Point(679, 529);
             this.K18.Name = "K18";
-            this.K18.Size = new System.Drawing.Size(40, 40);
+            this.K18.Size = new System.Drawing.Size(30, 30);
             this.K18.TabIndex = 983;
             this.K18.UseVisualStyleBackColor = false;
             // 
             // K19
             // 
             this.K19.BackColor = System.Drawing.SystemColors.Control;
-            this.K19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K19.Location = new System.Drawing.Point(865, 684);
+            this.K19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K19.Location = new System.Drawing.Point(650, 529);
             this.K19.Name = "K19";
-            this.K19.Size = new System.Drawing.Size(40, 40);
+            this.K19.Size = new System.Drawing.Size(30, 30);
             this.K19.TabIndex = 984;
             this.K19.UseVisualStyleBackColor = false;
             // 
             // K20
             // 
             this.K20.BackColor = System.Drawing.SystemColors.Control;
-            this.K20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K20.Location = new System.Drawing.Point(826, 684);
+            this.K20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K20.Location = new System.Drawing.Point(621, 529);
             this.K20.Name = "K20";
-            this.K20.Size = new System.Drawing.Size(40, 40);
+            this.K20.Size = new System.Drawing.Size(30, 30);
             this.K20.TabIndex = 985;
             this.K20.UseVisualStyleBackColor = false;
             // 
             // K21
             // 
             this.K21.BackColor = System.Drawing.SystemColors.Control;
-            this.K21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.K21.Location = new System.Drawing.Point(787, 684);
+            this.K21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.K21.Location = new System.Drawing.Point(592, 529);
             this.K21.Name = "K21";
-            this.K21.Size = new System.Drawing.Size(40, 40);
+            this.K21.Size = new System.Drawing.Size(30, 30);
             this.K21.TabIndex = 986;
             this.K21.UseVisualStyleBackColor = false;
             // 
             // J36
             // 
             this.J36.BackColor = System.Drawing.SystemColors.Control;
-            this.J36.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J36.Location = new System.Drawing.Point(202, 645);
+            this.J36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J36.Location = new System.Drawing.Point(157, 500);
             this.J36.Name = "J36";
-            this.J36.Size = new System.Drawing.Size(40, 40);
+            this.J36.Size = new System.Drawing.Size(30, 30);
             this.J36.TabIndex = 982;
             this.J36.UseVisualStyleBackColor = false;
             // 
             // J33
             // 
             this.J33.BackColor = System.Drawing.SystemColors.Control;
-            this.J33.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J33.Location = new System.Drawing.Point(319, 645);
+            this.J33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J33.Location = new System.Drawing.Point(244, 500);
             this.J33.Name = "J33";
-            this.J33.Size = new System.Drawing.Size(40, 40);
+            this.J33.Size = new System.Drawing.Size(30, 30);
             this.J33.TabIndex = 981;
             this.J33.UseVisualStyleBackColor = false;
             // 
             // J17
             // 
             this.J17.BackColor = System.Drawing.SystemColors.Control;
-            this.J17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J17.Location = new System.Drawing.Point(943, 645);
+            this.J17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J17.Location = new System.Drawing.Point(708, 500);
             this.J17.Name = "J17";
-            this.J17.Size = new System.Drawing.Size(40, 40);
+            this.J17.Size = new System.Drawing.Size(30, 30);
             this.J17.TabIndex = 980;
             this.J17.UseVisualStyleBackColor = false;
             // 
             // J37
             // 
             this.J37.BackColor = System.Drawing.SystemColors.Control;
-            this.J37.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J37.Location = new System.Drawing.Point(163, 645);
+            this.J37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J37.Location = new System.Drawing.Point(128, 500);
             this.J37.Name = "J37";
-            this.J37.Size = new System.Drawing.Size(40, 40);
+            this.J37.Size = new System.Drawing.Size(30, 30);
             this.J37.TabIndex = 976;
             this.J37.UseVisualStyleBackColor = false;
             // 
             // J38
             // 
             this.J38.BackColor = System.Drawing.SystemColors.Control;
-            this.J38.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J38.Location = new System.Drawing.Point(124, 645);
+            this.J38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J38.Location = new System.Drawing.Point(99, 500);
             this.J38.Name = "J38";
-            this.J38.Size = new System.Drawing.Size(40, 40);
+            this.J38.Size = new System.Drawing.Size(30, 30);
             this.J38.TabIndex = 977;
             this.J38.UseVisualStyleBackColor = false;
             // 
             // J39
             // 
             this.J39.BackColor = System.Drawing.SystemColors.Control;
-            this.J39.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J39.Location = new System.Drawing.Point(85, 645);
+            this.J39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J39.Location = new System.Drawing.Point(70, 500);
             this.J39.Name = "J39";
-            this.J39.Size = new System.Drawing.Size(40, 40);
+            this.J39.Size = new System.Drawing.Size(30, 30);
             this.J39.TabIndex = 978;
             this.J39.UseVisualStyleBackColor = false;
             // 
             // J40
             // 
             this.J40.BackColor = System.Drawing.SystemColors.Control;
-            this.J40.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J40.Location = new System.Drawing.Point(46, 645);
+            this.J40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J40.Location = new System.Drawing.Point(41, 500);
             this.J40.Name = "J40";
-            this.J40.Size = new System.Drawing.Size(40, 40);
+            this.J40.Size = new System.Drawing.Size(30, 30);
             this.J40.TabIndex = 979;
             this.J40.UseVisualStyleBackColor = false;
             // 
             // J34
             // 
             this.J34.BackColor = System.Drawing.SystemColors.Control;
-            this.J34.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J34.Location = new System.Drawing.Point(280, 645);
+            this.J34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J34.Location = new System.Drawing.Point(215, 500);
             this.J34.Name = "J34";
-            this.J34.Size = new System.Drawing.Size(40, 40);
+            this.J34.Size = new System.Drawing.Size(30, 30);
             this.J34.TabIndex = 974;
             this.J34.UseVisualStyleBackColor = false;
             // 
             // J35
             // 
             this.J35.BackColor = System.Drawing.SystemColors.Control;
-            this.J35.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J35.Location = new System.Drawing.Point(241, 645);
+            this.J35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J35.Location = new System.Drawing.Point(186, 500);
             this.J35.Name = "J35";
-            this.J35.Size = new System.Drawing.Size(40, 40);
+            this.J35.Size = new System.Drawing.Size(30, 30);
             this.J35.TabIndex = 975;
             this.J35.UseVisualStyleBackColor = false;
             // 
             // J32
             // 
             this.J32.BackColor = System.Drawing.SystemColors.Control;
-            this.J32.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J32.Location = new System.Drawing.Point(358, 645);
+            this.J32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J32.Location = new System.Drawing.Point(273, 500);
             this.J32.Name = "J32";
-            this.J32.Size = new System.Drawing.Size(40, 40);
+            this.J32.Size = new System.Drawing.Size(30, 30);
             this.J32.TabIndex = 973;
             this.J32.UseVisualStyleBackColor = false;
             // 
             // J26
             // 
             this.J26.BackColor = System.Drawing.SystemColors.Control;
-            this.J26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J26.Location = new System.Drawing.Point(592, 645);
+            this.J26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J26.Location = new System.Drawing.Point(447, 500);
             this.J26.Name = "J26";
-            this.J26.Size = new System.Drawing.Size(40, 40);
+            this.J26.Size = new System.Drawing.Size(30, 30);
             this.J26.TabIndex = 972;
             this.J26.UseVisualStyleBackColor = false;
             // 
             // J23
             // 
             this.J23.BackColor = System.Drawing.SystemColors.Control;
-            this.J23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J23.Location = new System.Drawing.Point(709, 645);
+            this.J23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J23.Location = new System.Drawing.Point(534, 500);
             this.J23.Name = "J23";
-            this.J23.Size = new System.Drawing.Size(40, 40);
+            this.J23.Size = new System.Drawing.Size(30, 30);
             this.J23.TabIndex = 971;
             this.J23.UseVisualStyleBackColor = false;
             // 
             // J31
             // 
             this.J31.BackColor = System.Drawing.SystemColors.Control;
-            this.J31.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J31.Location = new System.Drawing.Point(397, 645);
+            this.J31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J31.Location = new System.Drawing.Point(302, 500);
             this.J31.Name = "J31";
-            this.J31.Size = new System.Drawing.Size(40, 40);
+            this.J31.Size = new System.Drawing.Size(30, 30);
             this.J31.TabIndex = 970;
             this.J31.UseVisualStyleBackColor = false;
             // 
             // J27
             // 
             this.J27.BackColor = System.Drawing.SystemColors.Control;
-            this.J27.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J27.Location = new System.Drawing.Point(553, 645);
+            this.J27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J27.Location = new System.Drawing.Point(418, 500);
             this.J27.Name = "J27";
-            this.J27.Size = new System.Drawing.Size(40, 40);
+            this.J27.Size = new System.Drawing.Size(30, 30);
             this.J27.TabIndex = 966;
             this.J27.UseVisualStyleBackColor = false;
             // 
             // J28
             // 
             this.J28.BackColor = System.Drawing.SystemColors.Control;
-            this.J28.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J28.Location = new System.Drawing.Point(514, 645);
+            this.J28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J28.Location = new System.Drawing.Point(389, 500);
             this.J28.Name = "J28";
-            this.J28.Size = new System.Drawing.Size(40, 40);
+            this.J28.Size = new System.Drawing.Size(30, 30);
             this.J28.TabIndex = 967;
             this.J28.UseVisualStyleBackColor = false;
             // 
             // J29
             // 
             this.J29.BackColor = System.Drawing.SystemColors.Control;
-            this.J29.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J29.Location = new System.Drawing.Point(475, 645);
+            this.J29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J29.Location = new System.Drawing.Point(360, 500);
             this.J29.Name = "J29";
-            this.J29.Size = new System.Drawing.Size(40, 40);
+            this.J29.Size = new System.Drawing.Size(30, 30);
             this.J29.TabIndex = 968;
             this.J29.UseVisualStyleBackColor = false;
             // 
             // J30
             // 
             this.J30.BackColor = System.Drawing.SystemColors.Control;
-            this.J30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J30.Location = new System.Drawing.Point(436, 645);
+            this.J30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J30.Location = new System.Drawing.Point(331, 500);
             this.J30.Name = "J30";
-            this.J30.Size = new System.Drawing.Size(40, 40);
+            this.J30.Size = new System.Drawing.Size(30, 30);
             this.J30.TabIndex = 969;
             this.J30.UseVisualStyleBackColor = false;
             // 
             // J24
             // 
             this.J24.BackColor = System.Drawing.SystemColors.Control;
-            this.J24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J24.Location = new System.Drawing.Point(670, 645);
+            this.J24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J24.Location = new System.Drawing.Point(505, 500);
             this.J24.Name = "J24";
-            this.J24.Size = new System.Drawing.Size(40, 40);
+            this.J24.Size = new System.Drawing.Size(30, 30);
             this.J24.TabIndex = 964;
             this.J24.UseVisualStyleBackColor = false;
             // 
             // J25
             // 
             this.J25.BackColor = System.Drawing.SystemColors.Control;
-            this.J25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J25.Location = new System.Drawing.Point(631, 645);
+            this.J25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J25.Location = new System.Drawing.Point(476, 500);
             this.J25.Name = "J25";
-            this.J25.Size = new System.Drawing.Size(40, 40);
+            this.J25.Size = new System.Drawing.Size(30, 30);
             this.J25.TabIndex = 965;
             this.J25.UseVisualStyleBackColor = false;
             // 
             // J22
             // 
             this.J22.BackColor = System.Drawing.SystemColors.Control;
-            this.J22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J22.Location = new System.Drawing.Point(748, 645);
+            this.J22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J22.Location = new System.Drawing.Point(563, 500);
             this.J22.Name = "J22";
-            this.J22.Size = new System.Drawing.Size(40, 40);
+            this.J22.Size = new System.Drawing.Size(30, 30);
             this.J22.TabIndex = 963;
             this.J22.UseVisualStyleBackColor = false;
             // 
             // J18
             // 
             this.J18.BackColor = System.Drawing.SystemColors.Control;
-            this.J18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J18.Location = new System.Drawing.Point(904, 645);
+            this.J18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J18.Location = new System.Drawing.Point(679, 500);
             this.J18.Name = "J18";
-            this.J18.Size = new System.Drawing.Size(40, 40);
+            this.J18.Size = new System.Drawing.Size(30, 30);
             this.J18.TabIndex = 959;
             this.J18.UseVisualStyleBackColor = false;
             // 
             // J19
             // 
             this.J19.BackColor = System.Drawing.SystemColors.Control;
-            this.J19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J19.Location = new System.Drawing.Point(865, 645);
+            this.J19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J19.Location = new System.Drawing.Point(650, 500);
             this.J19.Name = "J19";
-            this.J19.Size = new System.Drawing.Size(40, 40);
+            this.J19.Size = new System.Drawing.Size(30, 30);
             this.J19.TabIndex = 960;
             this.J19.UseVisualStyleBackColor = false;
             // 
             // J20
             // 
             this.J20.BackColor = System.Drawing.SystemColors.Control;
-            this.J20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J20.Location = new System.Drawing.Point(826, 645);
+            this.J20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J20.Location = new System.Drawing.Point(621, 500);
             this.J20.Name = "J20";
-            this.J20.Size = new System.Drawing.Size(40, 40);
+            this.J20.Size = new System.Drawing.Size(30, 30);
             this.J20.TabIndex = 961;
             this.J20.UseVisualStyleBackColor = false;
             // 
             // J21
             // 
             this.J21.BackColor = System.Drawing.SystemColors.Control;
-            this.J21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.J21.Location = new System.Drawing.Point(787, 645);
+            this.J21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.J21.Location = new System.Drawing.Point(592, 500);
             this.J21.Name = "J21";
-            this.J21.Size = new System.Drawing.Size(40, 40);
+            this.J21.Size = new System.Drawing.Size(30, 30);
             this.J21.TabIndex = 962;
             this.J21.UseVisualStyleBackColor = false;
             // 
             // I36
             // 
             this.I36.BackColor = System.Drawing.SystemColors.Control;
-            this.I36.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I36.Location = new System.Drawing.Point(202, 584);
+            this.I36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I36.Location = new System.Drawing.Point(157, 456);
             this.I36.Name = "I36";
-            this.I36.Size = new System.Drawing.Size(40, 40);
+            this.I36.Size = new System.Drawing.Size(30, 30);
             this.I36.TabIndex = 958;
             this.I36.UseVisualStyleBackColor = false;
             // 
             // I33
             // 
             this.I33.BackColor = System.Drawing.SystemColors.Control;
-            this.I33.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I33.Location = new System.Drawing.Point(319, 584);
+            this.I33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I33.Location = new System.Drawing.Point(244, 456);
             this.I33.Name = "I33";
-            this.I33.Size = new System.Drawing.Size(40, 40);
+            this.I33.Size = new System.Drawing.Size(30, 30);
             this.I33.TabIndex = 957;
             this.I33.UseVisualStyleBackColor = false;
             // 
             // I17
             // 
             this.I17.BackColor = System.Drawing.SystemColors.Control;
-            this.I17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I17.Location = new System.Drawing.Point(943, 584);
+            this.I17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I17.Location = new System.Drawing.Point(708, 456);
             this.I17.Name = "I17";
-            this.I17.Size = new System.Drawing.Size(40, 40);
+            this.I17.Size = new System.Drawing.Size(30, 30);
             this.I17.TabIndex = 956;
             this.I17.UseVisualStyleBackColor = false;
             // 
             // I37
             // 
             this.I37.BackColor = System.Drawing.SystemColors.Control;
-            this.I37.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I37.Location = new System.Drawing.Point(163, 584);
+            this.I37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I37.Location = new System.Drawing.Point(128, 456);
             this.I37.Name = "I37";
-            this.I37.Size = new System.Drawing.Size(40, 40);
+            this.I37.Size = new System.Drawing.Size(30, 30);
             this.I37.TabIndex = 952;
             this.I37.UseVisualStyleBackColor = false;
             // 
             // I38
             // 
             this.I38.BackColor = System.Drawing.SystemColors.Control;
-            this.I38.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I38.Location = new System.Drawing.Point(124, 584);
+            this.I38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I38.Location = new System.Drawing.Point(99, 456);
             this.I38.Name = "I38";
-            this.I38.Size = new System.Drawing.Size(40, 40);
+            this.I38.Size = new System.Drawing.Size(30, 30);
             this.I38.TabIndex = 953;
             this.I38.UseVisualStyleBackColor = false;
             // 
             // I39
             // 
             this.I39.BackColor = System.Drawing.SystemColors.Control;
-            this.I39.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I39.Location = new System.Drawing.Point(85, 584);
+            this.I39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I39.Location = new System.Drawing.Point(70, 456);
             this.I39.Name = "I39";
-            this.I39.Size = new System.Drawing.Size(40, 40);
+            this.I39.Size = new System.Drawing.Size(30, 30);
             this.I39.TabIndex = 954;
             this.I39.UseVisualStyleBackColor = false;
             // 
             // I40
             // 
             this.I40.BackColor = System.Drawing.SystemColors.Control;
-            this.I40.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I40.Location = new System.Drawing.Point(46, 584);
+            this.I40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I40.Location = new System.Drawing.Point(41, 456);
             this.I40.Name = "I40";
-            this.I40.Size = new System.Drawing.Size(40, 40);
+            this.I40.Size = new System.Drawing.Size(30, 30);
             this.I40.TabIndex = 955;
             this.I40.UseVisualStyleBackColor = false;
             // 
             // I34
             // 
             this.I34.BackColor = System.Drawing.SystemColors.Control;
-            this.I34.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I34.Location = new System.Drawing.Point(280, 584);
+            this.I34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I34.Location = new System.Drawing.Point(215, 456);
             this.I34.Name = "I34";
-            this.I34.Size = new System.Drawing.Size(40, 40);
+            this.I34.Size = new System.Drawing.Size(30, 30);
             this.I34.TabIndex = 950;
             this.I34.UseVisualStyleBackColor = false;
             // 
             // I35
             // 
             this.I35.BackColor = System.Drawing.SystemColors.Control;
-            this.I35.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I35.Location = new System.Drawing.Point(241, 584);
+            this.I35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I35.Location = new System.Drawing.Point(186, 456);
             this.I35.Name = "I35";
-            this.I35.Size = new System.Drawing.Size(40, 40);
+            this.I35.Size = new System.Drawing.Size(30, 30);
             this.I35.TabIndex = 951;
             this.I35.UseVisualStyleBackColor = false;
             // 
             // I32
             // 
             this.I32.BackColor = System.Drawing.SystemColors.Control;
-            this.I32.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I32.Location = new System.Drawing.Point(358, 584);
+            this.I32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I32.Location = new System.Drawing.Point(273, 456);
             this.I32.Name = "I32";
-            this.I32.Size = new System.Drawing.Size(40, 40);
+            this.I32.Size = new System.Drawing.Size(30, 30);
             this.I32.TabIndex = 949;
             this.I32.UseVisualStyleBackColor = false;
             // 
             // I26
             // 
             this.I26.BackColor = System.Drawing.SystemColors.Control;
-            this.I26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I26.Location = new System.Drawing.Point(592, 584);
+            this.I26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I26.Location = new System.Drawing.Point(447, 456);
             this.I26.Name = "I26";
-            this.I26.Size = new System.Drawing.Size(40, 40);
+            this.I26.Size = new System.Drawing.Size(30, 30);
             this.I26.TabIndex = 948;
             this.I26.UseVisualStyleBackColor = false;
             // 
             // I23
             // 
             this.I23.BackColor = System.Drawing.SystemColors.Control;
-            this.I23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I23.Location = new System.Drawing.Point(709, 584);
+            this.I23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I23.Location = new System.Drawing.Point(534, 456);
             this.I23.Name = "I23";
-            this.I23.Size = new System.Drawing.Size(40, 40);
+            this.I23.Size = new System.Drawing.Size(30, 30);
             this.I23.TabIndex = 947;
             this.I23.UseVisualStyleBackColor = false;
             // 
             // I31
             // 
             this.I31.BackColor = System.Drawing.SystemColors.Control;
-            this.I31.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I31.Location = new System.Drawing.Point(397, 584);
+            this.I31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I31.Location = new System.Drawing.Point(302, 456);
             this.I31.Name = "I31";
-            this.I31.Size = new System.Drawing.Size(40, 40);
+            this.I31.Size = new System.Drawing.Size(30, 30);
             this.I31.TabIndex = 946;
             this.I31.UseVisualStyleBackColor = false;
             // 
             // I27
             // 
             this.I27.BackColor = System.Drawing.SystemColors.Control;
-            this.I27.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I27.Location = new System.Drawing.Point(553, 584);
+            this.I27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I27.Location = new System.Drawing.Point(418, 456);
             this.I27.Name = "I27";
-            this.I27.Size = new System.Drawing.Size(40, 40);
+            this.I27.Size = new System.Drawing.Size(30, 30);
             this.I27.TabIndex = 942;
             this.I27.UseVisualStyleBackColor = false;
             // 
             // I28
             // 
             this.I28.BackColor = System.Drawing.SystemColors.Control;
-            this.I28.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I28.Location = new System.Drawing.Point(514, 584);
+            this.I28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I28.Location = new System.Drawing.Point(389, 456);
             this.I28.Name = "I28";
-            this.I28.Size = new System.Drawing.Size(40, 40);
+            this.I28.Size = new System.Drawing.Size(30, 30);
             this.I28.TabIndex = 943;
             this.I28.UseVisualStyleBackColor = false;
             // 
             // I29
             // 
             this.I29.BackColor = System.Drawing.SystemColors.Control;
-            this.I29.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I29.Location = new System.Drawing.Point(475, 584);
+            this.I29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I29.Location = new System.Drawing.Point(360, 456);
             this.I29.Name = "I29";
-            this.I29.Size = new System.Drawing.Size(40, 40);
+            this.I29.Size = new System.Drawing.Size(30, 30);
             this.I29.TabIndex = 944;
             this.I29.UseVisualStyleBackColor = false;
             // 
             // I30
             // 
             this.I30.BackColor = System.Drawing.SystemColors.Control;
-            this.I30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I30.Location = new System.Drawing.Point(436, 584);
+            this.I30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I30.Location = new System.Drawing.Point(331, 456);
             this.I30.Name = "I30";
-            this.I30.Size = new System.Drawing.Size(40, 40);
+            this.I30.Size = new System.Drawing.Size(30, 30);
             this.I30.TabIndex = 945;
             this.I30.UseVisualStyleBackColor = false;
             // 
             // I24
             // 
             this.I24.BackColor = System.Drawing.SystemColors.Control;
-            this.I24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I24.Location = new System.Drawing.Point(670, 584);
+            this.I24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I24.Location = new System.Drawing.Point(505, 456);
             this.I24.Name = "I24";
-            this.I24.Size = new System.Drawing.Size(40, 40);
+            this.I24.Size = new System.Drawing.Size(30, 30);
             this.I24.TabIndex = 940;
             this.I24.UseVisualStyleBackColor = false;
             // 
             // I25
             // 
             this.I25.BackColor = System.Drawing.SystemColors.Control;
-            this.I25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I25.Location = new System.Drawing.Point(631, 584);
+            this.I25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I25.Location = new System.Drawing.Point(476, 456);
             this.I25.Name = "I25";
-            this.I25.Size = new System.Drawing.Size(40, 40);
+            this.I25.Size = new System.Drawing.Size(30, 30);
             this.I25.TabIndex = 941;
             this.I25.UseVisualStyleBackColor = false;
             // 
             // I22
             // 
             this.I22.BackColor = System.Drawing.SystemColors.Control;
-            this.I22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I22.Location = new System.Drawing.Point(748, 584);
+            this.I22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I22.Location = new System.Drawing.Point(563, 456);
             this.I22.Name = "I22";
-            this.I22.Size = new System.Drawing.Size(40, 40);
+            this.I22.Size = new System.Drawing.Size(30, 30);
             this.I22.TabIndex = 939;
             this.I22.UseVisualStyleBackColor = false;
             // 
             // I18
             // 
             this.I18.BackColor = System.Drawing.SystemColors.Control;
-            this.I18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I18.Location = new System.Drawing.Point(904, 584);
+            this.I18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I18.Location = new System.Drawing.Point(679, 456);
             this.I18.Name = "I18";
-            this.I18.Size = new System.Drawing.Size(40, 40);
+            this.I18.Size = new System.Drawing.Size(30, 30);
             this.I18.TabIndex = 935;
             this.I18.UseVisualStyleBackColor = false;
             // 
             // I19
             // 
             this.I19.BackColor = System.Drawing.SystemColors.Control;
-            this.I19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I19.Location = new System.Drawing.Point(865, 584);
+            this.I19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I19.Location = new System.Drawing.Point(650, 456);
             this.I19.Name = "I19";
-            this.I19.Size = new System.Drawing.Size(40, 40);
+            this.I19.Size = new System.Drawing.Size(30, 30);
             this.I19.TabIndex = 936;
             this.I19.UseVisualStyleBackColor = false;
             // 
             // I20
             // 
             this.I20.BackColor = System.Drawing.SystemColors.Control;
-            this.I20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I20.Location = new System.Drawing.Point(826, 584);
+            this.I20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I20.Location = new System.Drawing.Point(621, 456);
             this.I20.Name = "I20";
-            this.I20.Size = new System.Drawing.Size(40, 40);
+            this.I20.Size = new System.Drawing.Size(30, 30);
             this.I20.TabIndex = 937;
             this.I20.UseVisualStyleBackColor = false;
             // 
             // I21
             // 
             this.I21.BackColor = System.Drawing.SystemColors.Control;
-            this.I21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.I21.Location = new System.Drawing.Point(787, 584);
+            this.I21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.I21.Location = new System.Drawing.Point(592, 456);
             this.I21.Name = "I21";
-            this.I21.Size = new System.Drawing.Size(40, 40);
+            this.I21.Size = new System.Drawing.Size(30, 30);
             this.I21.TabIndex = 938;
             this.I21.UseVisualStyleBackColor = false;
             // 
             // H36
             // 
             this.H36.BackColor = System.Drawing.SystemColors.Control;
-            this.H36.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H36.Location = new System.Drawing.Point(202, 545);
+            this.H36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H36.Location = new System.Drawing.Point(157, 427);
             this.H36.Name = "H36";
-            this.H36.Size = new System.Drawing.Size(40, 40);
+            this.H36.Size = new System.Drawing.Size(30, 30);
             this.H36.TabIndex = 934;
             this.H36.UseVisualStyleBackColor = false;
             // 
             // H33
             // 
             this.H33.BackColor = System.Drawing.SystemColors.Control;
-            this.H33.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H33.Location = new System.Drawing.Point(319, 545);
+            this.H33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H33.Location = new System.Drawing.Point(244, 427);
             this.H33.Name = "H33";
-            this.H33.Size = new System.Drawing.Size(40, 40);
+            this.H33.Size = new System.Drawing.Size(30, 30);
             this.H33.TabIndex = 933;
             this.H33.UseVisualStyleBackColor = false;
             // 
             // H17
             // 
             this.H17.BackColor = System.Drawing.SystemColors.Control;
-            this.H17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H17.Location = new System.Drawing.Point(943, 545);
+            this.H17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H17.Location = new System.Drawing.Point(708, 427);
             this.H17.Name = "H17";
-            this.H17.Size = new System.Drawing.Size(40, 40);
+            this.H17.Size = new System.Drawing.Size(30, 30);
             this.H17.TabIndex = 932;
             this.H17.UseVisualStyleBackColor = false;
             // 
             // H37
             // 
             this.H37.BackColor = System.Drawing.SystemColors.Control;
-            this.H37.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H37.Location = new System.Drawing.Point(163, 545);
+            this.H37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H37.Location = new System.Drawing.Point(128, 427);
             this.H37.Name = "H37";
-            this.H37.Size = new System.Drawing.Size(40, 40);
+            this.H37.Size = new System.Drawing.Size(30, 30);
             this.H37.TabIndex = 928;
             this.H37.UseVisualStyleBackColor = false;
             // 
             // H38
             // 
             this.H38.BackColor = System.Drawing.SystemColors.Control;
-            this.H38.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H38.Location = new System.Drawing.Point(124, 545);
+            this.H38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H38.Location = new System.Drawing.Point(99, 427);
             this.H38.Name = "H38";
-            this.H38.Size = new System.Drawing.Size(40, 40);
+            this.H38.Size = new System.Drawing.Size(30, 30);
             this.H38.TabIndex = 929;
             this.H38.UseVisualStyleBackColor = false;
             // 
             // H39
             // 
             this.H39.BackColor = System.Drawing.SystemColors.Control;
-            this.H39.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H39.Location = new System.Drawing.Point(85, 545);
+            this.H39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H39.Location = new System.Drawing.Point(70, 427);
             this.H39.Name = "H39";
-            this.H39.Size = new System.Drawing.Size(40, 40);
+            this.H39.Size = new System.Drawing.Size(30, 30);
             this.H39.TabIndex = 930;
             this.H39.UseVisualStyleBackColor = false;
             // 
             // H40
             // 
             this.H40.BackColor = System.Drawing.SystemColors.Control;
-            this.H40.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H40.Location = new System.Drawing.Point(46, 545);
+            this.H40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H40.Location = new System.Drawing.Point(41, 427);
             this.H40.Name = "H40";
-            this.H40.Size = new System.Drawing.Size(40, 40);
+            this.H40.Size = new System.Drawing.Size(30, 30);
             this.H40.TabIndex = 931;
             this.H40.UseVisualStyleBackColor = false;
             // 
             // H34
             // 
             this.H34.BackColor = System.Drawing.SystemColors.Control;
-            this.H34.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H34.Location = new System.Drawing.Point(280, 545);
+            this.H34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H34.Location = new System.Drawing.Point(215, 427);
             this.H34.Name = "H34";
-            this.H34.Size = new System.Drawing.Size(40, 40);
+            this.H34.Size = new System.Drawing.Size(30, 30);
             this.H34.TabIndex = 926;
             this.H34.UseVisualStyleBackColor = false;
             // 
             // H35
             // 
             this.H35.BackColor = System.Drawing.SystemColors.Control;
-            this.H35.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H35.Location = new System.Drawing.Point(241, 545);
+            this.H35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H35.Location = new System.Drawing.Point(186, 427);
             this.H35.Name = "H35";
-            this.H35.Size = new System.Drawing.Size(40, 40);
+            this.H35.Size = new System.Drawing.Size(30, 30);
             this.H35.TabIndex = 927;
             this.H35.UseVisualStyleBackColor = false;
             // 
             // H32
             // 
             this.H32.BackColor = System.Drawing.SystemColors.Control;
-            this.H32.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H32.Location = new System.Drawing.Point(358, 545);
+            this.H32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H32.Location = new System.Drawing.Point(273, 427);
             this.H32.Name = "H32";
-            this.H32.Size = new System.Drawing.Size(40, 40);
+            this.H32.Size = new System.Drawing.Size(30, 30);
             this.H32.TabIndex = 925;
             this.H32.UseVisualStyleBackColor = false;
             // 
             // H26
             // 
             this.H26.BackColor = System.Drawing.SystemColors.Control;
-            this.H26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H26.Location = new System.Drawing.Point(592, 545);
+            this.H26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H26.Location = new System.Drawing.Point(447, 427);
             this.H26.Name = "H26";
-            this.H26.Size = new System.Drawing.Size(40, 40);
+            this.H26.Size = new System.Drawing.Size(30, 30);
             this.H26.TabIndex = 924;
             this.H26.UseVisualStyleBackColor = false;
             // 
             // H23
             // 
             this.H23.BackColor = System.Drawing.SystemColors.Control;
-            this.H23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H23.Location = new System.Drawing.Point(709, 545);
+            this.H23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H23.Location = new System.Drawing.Point(534, 427);
             this.H23.Name = "H23";
-            this.H23.Size = new System.Drawing.Size(40, 40);
+            this.H23.Size = new System.Drawing.Size(30, 30);
             this.H23.TabIndex = 923;
             this.H23.UseVisualStyleBackColor = false;
             // 
             // H31
             // 
             this.H31.BackColor = System.Drawing.SystemColors.Control;
-            this.H31.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H31.Location = new System.Drawing.Point(397, 545);
+            this.H31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H31.Location = new System.Drawing.Point(302, 427);
             this.H31.Name = "H31";
-            this.H31.Size = new System.Drawing.Size(40, 40);
+            this.H31.Size = new System.Drawing.Size(30, 30);
             this.H31.TabIndex = 922;
             this.H31.UseVisualStyleBackColor = false;
             // 
             // H27
             // 
             this.H27.BackColor = System.Drawing.SystemColors.Control;
-            this.H27.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H27.Location = new System.Drawing.Point(553, 545);
+            this.H27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H27.Location = new System.Drawing.Point(418, 427);
             this.H27.Name = "H27";
-            this.H27.Size = new System.Drawing.Size(40, 40);
+            this.H27.Size = new System.Drawing.Size(30, 30);
             this.H27.TabIndex = 918;
             this.H27.UseVisualStyleBackColor = false;
             // 
             // H28
             // 
             this.H28.BackColor = System.Drawing.SystemColors.Control;
-            this.H28.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H28.Location = new System.Drawing.Point(514, 545);
+            this.H28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H28.Location = new System.Drawing.Point(389, 427);
             this.H28.Name = "H28";
-            this.H28.Size = new System.Drawing.Size(40, 40);
+            this.H28.Size = new System.Drawing.Size(30, 30);
             this.H28.TabIndex = 919;
             this.H28.UseVisualStyleBackColor = false;
             // 
             // H29
             // 
             this.H29.BackColor = System.Drawing.SystemColors.Control;
-            this.H29.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H29.Location = new System.Drawing.Point(475, 545);
+            this.H29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H29.Location = new System.Drawing.Point(360, 427);
             this.H29.Name = "H29";
-            this.H29.Size = new System.Drawing.Size(40, 40);
+            this.H29.Size = new System.Drawing.Size(30, 30);
             this.H29.TabIndex = 920;
             this.H29.UseVisualStyleBackColor = false;
             // 
             // H30
             // 
             this.H30.BackColor = System.Drawing.SystemColors.Control;
-            this.H30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H30.Location = new System.Drawing.Point(436, 545);
+            this.H30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H30.Location = new System.Drawing.Point(331, 427);
             this.H30.Name = "H30";
-            this.H30.Size = new System.Drawing.Size(40, 40);
+            this.H30.Size = new System.Drawing.Size(30, 30);
             this.H30.TabIndex = 921;
             this.H30.UseVisualStyleBackColor = false;
             // 
             // H24
             // 
             this.H24.BackColor = System.Drawing.SystemColors.Control;
-            this.H24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H24.Location = new System.Drawing.Point(670, 545);
+            this.H24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H24.Location = new System.Drawing.Point(505, 427);
             this.H24.Name = "H24";
-            this.H24.Size = new System.Drawing.Size(40, 40);
+            this.H24.Size = new System.Drawing.Size(30, 30);
             this.H24.TabIndex = 916;
             this.H24.UseVisualStyleBackColor = false;
             // 
             // H25
             // 
             this.H25.BackColor = System.Drawing.SystemColors.Control;
-            this.H25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H25.Location = new System.Drawing.Point(631, 545);
+            this.H25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H25.Location = new System.Drawing.Point(476, 427);
             this.H25.Name = "H25";
-            this.H25.Size = new System.Drawing.Size(40, 40);
+            this.H25.Size = new System.Drawing.Size(30, 30);
             this.H25.TabIndex = 917;
             this.H25.UseVisualStyleBackColor = false;
             // 
             // H22
             // 
             this.H22.BackColor = System.Drawing.SystemColors.Control;
-            this.H22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H22.Location = new System.Drawing.Point(748, 545);
+            this.H22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H22.Location = new System.Drawing.Point(563, 427);
             this.H22.Name = "H22";
-            this.H22.Size = new System.Drawing.Size(40, 40);
+            this.H22.Size = new System.Drawing.Size(30, 30);
             this.H22.TabIndex = 915;
             this.H22.UseVisualStyleBackColor = false;
             // 
             // H18
             // 
             this.H18.BackColor = System.Drawing.SystemColors.Control;
-            this.H18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H18.Location = new System.Drawing.Point(904, 545);
+            this.H18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H18.Location = new System.Drawing.Point(679, 427);
             this.H18.Name = "H18";
-            this.H18.Size = new System.Drawing.Size(40, 40);
+            this.H18.Size = new System.Drawing.Size(30, 30);
             this.H18.TabIndex = 911;
             this.H18.UseVisualStyleBackColor = false;
             // 
             // H19
             // 
             this.H19.BackColor = System.Drawing.SystemColors.Control;
-            this.H19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H19.Location = new System.Drawing.Point(865, 545);
+            this.H19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H19.Location = new System.Drawing.Point(650, 427);
             this.H19.Name = "H19";
-            this.H19.Size = new System.Drawing.Size(40, 40);
+            this.H19.Size = new System.Drawing.Size(30, 30);
             this.H19.TabIndex = 912;
             this.H19.UseVisualStyleBackColor = false;
             // 
             // H20
             // 
             this.H20.BackColor = System.Drawing.SystemColors.Control;
-            this.H20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H20.Location = new System.Drawing.Point(826, 545);
+            this.H20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H20.Location = new System.Drawing.Point(621, 427);
             this.H20.Name = "H20";
-            this.H20.Size = new System.Drawing.Size(40, 40);
+            this.H20.Size = new System.Drawing.Size(30, 30);
             this.H20.TabIndex = 913;
             this.H20.UseVisualStyleBackColor = false;
             // 
             // H21
             // 
             this.H21.BackColor = System.Drawing.SystemColors.Control;
-            this.H21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.H21.Location = new System.Drawing.Point(787, 545);
+            this.H21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.H21.Location = new System.Drawing.Point(592, 427);
             this.H21.Name = "H21";
-            this.H21.Size = new System.Drawing.Size(40, 40);
+            this.H21.Size = new System.Drawing.Size(30, 30);
             this.H21.TabIndex = 914;
             this.H21.UseVisualStyleBackColor = false;
             // 
             // lblUser
             // 
             this.lblUser.AutoSize = true;
-            this.lblUser.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUser.ForeColor = System.Drawing.Color.White;
-            this.lblUser.Location = new System.Drawing.Point(1213, 38);
+            this.lblUser.Location = new System.Drawing.Point(1005, 45);
             this.lblUser.Margin = new System.Windows.Forms.Padding(0);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(86, 25);
+            this.lblUser.Size = new System.Drawing.Size(49, 18);
             this.lblUser.TabIndex = 1007;
             this.lblUser.Text = "USER:";
             // 
             // lblUsername
             // 
             this.lblUsername.AutoSize = true;
-            this.lblUsername.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.Font = new System.Drawing.Font("Bahnschrift SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsername.ForeColor = System.Drawing.Color.White;
-            this.lblUsername.Location = new System.Drawing.Point(1303, 38);
+            this.lblUsername.Location = new System.Drawing.Point(1056, 46);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(116, 25);
+            this.lblUsername.Size = new System.Drawing.Size(77, 18);
             this.lblUsername.TabIndex = 1008;
             this.lblUsername.Text = "Username";
             // 
@@ -5988,7 +6037,7 @@
             // 
             this.lblUtilizationPallets.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUtilizationPallets.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblUtilizationPallets.Location = new System.Drawing.Point(34, 18);
+            this.lblUtilizationPallets.Location = new System.Drawing.Point(29, 18);
             this.lblUtilizationPallets.Name = "lblUtilizationPallets";
             this.lblUtilizationPallets.Size = new System.Drawing.Size(95, 40);
             this.lblUtilizationPallets.TabIndex = 1016;
@@ -6010,12 +6059,13 @@
             // pnlAA
             // 
             this.pnlAA.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.pnlAA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(199)))), ((int)(((byte)(199)))));
             this.pnlAA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlAA.Controls.Add(this.lblLineA);
             this.pnlAA.Controls.Add(this.lblLineAA);
-            this.pnlAA.Location = new System.Drawing.Point(1643, 145);
+            this.pnlAA.Location = new System.Drawing.Point(1246, 124);
             this.pnlAA.Name = "pnlAA";
-            this.pnlAA.Size = new System.Drawing.Size(52, 79);
+            this.pnlAA.Size = new System.Drawing.Size(42, 59);
             this.pnlAA.TabIndex = 1017;
             // 
             // pnlOccupied
@@ -6024,7 +6074,7 @@
             this.pnlOccupied.Controls.Add(this.picOccupied);
             this.pnlOccupied.Controls.Add(this.lblOccupiedPallets);
             this.pnlOccupied.Controls.Add(this.label51);
-            this.pnlOccupied.Location = new System.Drawing.Point(575, 4);
+            this.pnlOccupied.Location = new System.Drawing.Point(422, 4);
             this.pnlOccupied.Name = "pnlOccupied";
             this.pnlOccupied.Size = new System.Drawing.Size(130, 60);
             this.pnlOccupied.TabIndex = 1018;
@@ -6045,7 +6095,7 @@
             this.pnlEmpty.Controls.Add(this.picEmpty);
             this.pnlEmpty.Controls.Add(this.lblEmptyPallets);
             this.pnlEmpty.Controls.Add(this.lblEmpty);
-            this.pnlEmpty.Location = new System.Drawing.Point(722, 4);
+            this.pnlEmpty.Location = new System.Drawing.Point(569, 4);
             this.pnlEmpty.Name = "pnlEmpty";
             this.pnlEmpty.Size = new System.Drawing.Size(130, 60);
             this.pnlEmpty.TabIndex = 1019;
@@ -6077,7 +6127,7 @@
             this.pnlTotal.Controls.Add(this.picTotal);
             this.pnlTotal.Controls.Add(this.lblTotalPallets);
             this.pnlTotal.Controls.Add(this.lblTotal);
-            this.pnlTotal.Location = new System.Drawing.Point(868, 4);
+            this.pnlTotal.Location = new System.Drawing.Point(715, 4);
             this.pnlTotal.Name = "pnlTotal";
             this.pnlTotal.Size = new System.Drawing.Size(130, 60);
             this.pnlTotal.TabIndex = 1019;
@@ -6098,7 +6148,7 @@
             this.pnlUtilization.Controls.Add(this.picUtilization);
             this.pnlUtilization.Controls.Add(this.lblUtilizationPallets);
             this.pnlUtilization.Controls.Add(this.lblUtilization);
-            this.pnlUtilization.Location = new System.Drawing.Point(1013, 4);
+            this.pnlUtilization.Location = new System.Drawing.Point(860, 4);
             this.pnlUtilization.Name = "pnlUtilization";
             this.pnlUtilization.Size = new System.Drawing.Size(130, 60);
             this.pnlUtilization.TabIndex = 1020;
@@ -6116,114 +6166,62 @@
             // pnlBC
             // 
             this.pnlBC.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.pnlBC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(199)))), ((int)(((byte)(199)))));
             this.pnlBC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlBC.Controls.Add(this.label1);
             this.pnlBC.Controls.Add(this.lblLineB);
-            this.pnlBC.Location = new System.Drawing.Point(1643, 246);
+            this.pnlBC.Location = new System.Drawing.Point(1247, 201);
             this.pnlBC.Name = "pnlBC";
-            this.pnlBC.Size = new System.Drawing.Size(52, 87);
+            this.pnlBC.Size = new System.Drawing.Size(42, 66);
             this.pnlBC.TabIndex = 1018;
             // 
             // pnlDE
             // 
             this.pnlDE.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.pnlDE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(199)))), ((int)(((byte)(199)))));
             this.pnlDE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlDE.Controls.Add(this.label2);
             this.pnlDE.Controls.Add(this.label3);
-            this.pnlDE.Location = new System.Drawing.Point(1643, 352);
+            this.pnlDE.Location = new System.Drawing.Point(1246, 282);
             this.pnlDE.Name = "pnlDE";
-            this.pnlDE.Size = new System.Drawing.Size(52, 79);
+            this.pnlDE.Size = new System.Drawing.Size(42, 59);
             this.pnlDE.TabIndex = 1019;
             // 
             // pnlJK
             // 
             this.pnlJK.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.pnlJK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(199)))), ((int)(((byte)(199)))));
             this.pnlJK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlJK.Controls.Add(this.label9);
             this.pnlJK.Controls.Add(this.label8);
-            this.pnlJK.Location = new System.Drawing.Point(1643, 646);
+            this.pnlJK.Location = new System.Drawing.Point(1246, 501);
             this.pnlJK.Name = "pnlJK";
-            this.pnlJK.Size = new System.Drawing.Size(52, 79);
+            this.pnlJK.Size = new System.Drawing.Size(42, 59);
             this.pnlJK.TabIndex = 1020;
             // 
             // pnlFG
             // 
             this.pnlFG.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.pnlFG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(199)))), ((int)(((byte)(199)))));
             this.pnlFG.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlFG.Controls.Add(this.label5);
             this.pnlFG.Controls.Add(this.label4);
-            this.pnlFG.Location = new System.Drawing.Point(1643, 447);
+            this.pnlFG.Location = new System.Drawing.Point(1246, 355);
             this.pnlFG.Name = "pnlFG";
-            this.pnlFG.Size = new System.Drawing.Size(52, 79);
+            this.pnlFG.Size = new System.Drawing.Size(42, 59);
             this.pnlFG.TabIndex = 1020;
             // 
             // pnlHI
             // 
             this.pnlHI.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.pnlHI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(199)))), ((int)(((byte)(199)))));
             this.pnlHI.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlHI.Controls.Add(this.label6);
             this.pnlHI.Controls.Add(this.label7);
-            this.pnlHI.Location = new System.Drawing.Point(1643, 546);
+            this.pnlHI.Location = new System.Drawing.Point(1246, 428);
             this.pnlHI.Name = "pnlHI";
-            this.pnlHI.Size = new System.Drawing.Size(52, 79);
+            this.pnlHI.Size = new System.Drawing.Size(42, 59);
             this.pnlHI.TabIndex = 1020;
-            // 
-            // pnlBlock1
-            // 
-            this.pnlBlock1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlBlock1.Controls.Add(this.label10);
-            this.pnlBlock1.Controls.Add(this.label11);
-            this.pnlBlock1.Controls.Add(this.label12);
-            this.pnlBlock1.Controls.Add(this.label13);
-            this.pnlBlock1.Controls.Add(this.label14);
-            this.pnlBlock1.Controls.Add(this.label19);
-            this.pnlBlock1.Controls.Add(this.label18);
-            this.pnlBlock1.Controls.Add(this.label17);
-            this.pnlBlock1.Controls.Add(this.label16);
-            this.pnlBlock1.Controls.Add(this.label15);
-            this.pnlBlock1.Controls.Add(this.label29);
-            this.pnlBlock1.Controls.Add(this.label28);
-            this.pnlBlock1.Controls.Add(this.label27);
-            this.pnlBlock1.Controls.Add(this.label26);
-            this.pnlBlock1.Controls.Add(this.label25);
-            this.pnlBlock1.Controls.Add(this.label24);
-            this.pnlBlock1.Location = new System.Drawing.Point(1012, 94);
-            this.pnlBlock1.Name = "pnlBlock1";
-            this.pnlBlock1.Size = new System.Drawing.Size(626, 44);
-            this.pnlBlock1.TabIndex = 1021;
-            // 
-            // pnlBlock2
-            // 
-            this.pnlBlock2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlBlock2.Controls.Add(this.label23);
-            this.pnlBlock2.Controls.Add(this.label22);
-            this.pnlBlock2.Controls.Add(this.label21);
-            this.pnlBlock2.Controls.Add(this.label20);
-            this.pnlBlock2.Controls.Add(this.label39);
-            this.pnlBlock2.Controls.Add(this.label38);
-            this.pnlBlock2.Controls.Add(this.label37);
-            this.pnlBlock2.Controls.Add(this.label36);
-            this.pnlBlock2.Controls.Add(this.label35);
-            this.pnlBlock2.Controls.Add(this.label34);
-            this.pnlBlock2.Controls.Add(this.label33);
-            this.pnlBlock2.Controls.Add(this.label32);
-            this.pnlBlock2.Controls.Add(this.label31);
-            this.pnlBlock2.Controls.Add(this.label30);
-            this.pnlBlock2.Controls.Add(this.label49);
-            this.pnlBlock2.Controls.Add(this.label48);
-            this.pnlBlock2.Controls.Add(this.label47);
-            this.pnlBlock2.Controls.Add(this.label46);
-            this.pnlBlock2.Controls.Add(this.label45);
-            this.pnlBlock2.Controls.Add(this.label44);
-            this.pnlBlock2.Controls.Add(this.label43);
-            this.pnlBlock2.Controls.Add(this.label42);
-            this.pnlBlock2.Controls.Add(this.label41);
-            this.pnlBlock2.Controls.Add(this.label40);
-            this.pnlBlock2.Controls.Add(this.label52);
-            this.pnlBlock2.Location = new System.Drawing.Point(7, 94);
-            this.pnlBlock2.Name = "pnlBlock2";
-            this.pnlBlock2.Size = new System.Drawing.Size(982, 44);
-            this.pnlBlock2.TabIndex = 1022;
             // 
             // pnlHeading
             // 
@@ -6239,17 +6237,17 @@
             this.pnlHeading.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlHeading.Location = new System.Drawing.Point(0, 0);
             this.pnlHeading.Name = "pnlHeading";
-            this.pnlHeading.Size = new System.Drawing.Size(1707, 75);
+            this.pnlHeading.Size = new System.Drawing.Size(1307, 75);
             this.pnlHeading.TabIndex = 1023;
             // 
             // label50
             // 
             this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Modern No. 20", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label50.ForeColor = System.Drawing.Color.White;
-            this.label50.Location = new System.Drawing.Point(9, 15);
+            this.label50.Location = new System.Drawing.Point(7, 15);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(560, 36);
+            this.label50.Size = new System.Drawing.Size(386, 39);
             this.label50.TabIndex = 1024;
             this.label50.Text = "PLANT 3 PALLET MONITORING";
             // 
@@ -6257,29 +6255,69 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(1707, 736);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(244)))), ((int)(((byte)(248)))));
+            this.ClientSize = new System.Drawing.Size(1307, 580);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.label19);
             this.Controls.Add(this.pnlHeading);
-            this.Controls.Add(this.pnlBlock2);
-            this.Controls.Add(this.pnlBlock1);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label39);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label38);
+            this.Controls.Add(this.label29);
             this.Controls.Add(this.pnlJK);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.label37);
+            this.Controls.Add(this.label27);
             this.Controls.Add(this.pnlHI);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.label36);
+            this.Controls.Add(this.label25);
             this.Controls.Add(this.pnlFG);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.label35);
             this.Controls.Add(this.pnlDE);
+            this.Controls.Add(this.label34);
             this.Controls.Add(this.pnlBC);
+            this.Controls.Add(this.label33);
             this.Controls.Add(this.pnlAA);
+            this.Controls.Add(this.label32);
             this.Controls.Add(this.K36);
+            this.Controls.Add(this.label31);
             this.Controls.Add(this.K33);
+            this.Controls.Add(this.label30);
             this.Controls.Add(this.K17);
+            this.Controls.Add(this.label49);
             this.Controls.Add(this.K37);
+            this.Controls.Add(this.label48);
             this.Controls.Add(this.K38);
+            this.Controls.Add(this.label47);
             this.Controls.Add(this.K39);
+            this.Controls.Add(this.label46);
             this.Controls.Add(this.K40);
+            this.Controls.Add(this.label45);
             this.Controls.Add(this.K34);
+            this.Controls.Add(this.label44);
             this.Controls.Add(this.K35);
+            this.Controls.Add(this.label43);
             this.Controls.Add(this.K32);
+            this.Controls.Add(this.label42);
             this.Controls.Add(this.K26);
+            this.Controls.Add(this.label41);
             this.Controls.Add(this.K23);
+            this.Controls.Add(this.label40);
             this.Controls.Add(this.K31);
+            this.Controls.Add(this.label52);
             this.Controls.Add(this.K27);
             this.Controls.Add(this.K28);
             this.Controls.Add(this.K29);
@@ -6769,13 +6807,10 @@
             this.pnlFG.PerformLayout();
             this.pnlHI.ResumeLayout(false);
             this.pnlHI.PerformLayout();
-            this.pnlBlock1.ResumeLayout(false);
-            this.pnlBlock1.PerformLayout();
-            this.pnlBlock2.ResumeLayout(false);
-            this.pnlBlock2.PerformLayout();
             this.pnlHeading.ResumeLayout(false);
             this.pnlHeading.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -7333,8 +7368,6 @@
         private System.Windows.Forms.Panel pnlJK;
         private System.Windows.Forms.Panel pnlFG;
         private System.Windows.Forms.Panel pnlHI;
-        private System.Windows.Forms.Panel pnlBlock1;
-        private System.Windows.Forms.Panel pnlBlock2;
         private System.Windows.Forms.Panel pnlHeading;
         private System.Windows.Forms.Label label50;
     }
