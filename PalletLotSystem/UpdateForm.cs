@@ -18,8 +18,7 @@ namespace PalletLotSystem{
 
         }
 
-        private void ApplyUserPermissions()
-        {
+        private void ApplyUserPermissions(){
             if (UserSession.Privilege == 3)
             {
                 btnIn.Visible = false;
@@ -30,10 +29,8 @@ namespace PalletLotSystem{
             }
         }
 
-        private void LoadPalletData(string location)
-        {
-            using (MySqlConnection conn = new MySqlConnection(connStr))
-            {
+        private void LoadPalletData(string location){
+            using (MySqlConnection conn = new MySqlConnection(connStr)){
                 conn.Open();
 
                 string query = "SELECT * FROM tbl_pallet WHERE location=@location";
@@ -53,13 +50,11 @@ namespace PalletLotSystem{
         }
 
         //VALIDATION FOR THE PALLET NO AND LOCATION
-        private bool PalletIdLoc()
-        {
+        private bool PalletIdLoc(){
             string palletId = txtPalletId.Text.Trim();
             string location = lblPallet.Text.Trim();
 
-            if (!palletId.EndsWith(location))
-            {
+            if (!palletId.EndsWith(location)){
                 MessageBox.Show("Pallet ID doesn't match its supposed location!", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtPalletId.Clear();
                 txtPalletId.Focus();
@@ -165,33 +160,25 @@ namespace PalletLotSystem{
                             MessageBox.Show("Pallet not found!");
                         }
                     }
-                }
-
-
-
-                catch (Exception ex){
+                }catch (Exception ex){
                     MessageBox.Show("Database Error: " + ex.Message);
                 }
             }
         }
 
-        private bool ValidatePalletNo()
-        {
-            using (MySqlConnection conn = new MySqlConnection(connStr))
-            {
+        private bool ValidatePalletNo(){
+            using (MySqlConnection conn = new MySqlConnection(connStr)){
                 conn.Open();
 
                 string query = "SELECT location FROM tbl_pallet WHERE palletNo = @palletNo AND status = 'OCCUPIED' AND location <> @location";
 
-                using (MySqlCommand cmd = new MySqlCommand(query, conn))
-                {
+                using (MySqlCommand cmd = new MySqlCommand(query, conn)){
                     cmd.Parameters.AddWithValue("@palletNo", txtPalletNo.Text.Trim());
                     cmd.Parameters.AddWithValue("@location", lblPallet.Text.Trim());
 
                     object result = cmd.ExecuteScalar();
 
-                    if (result != null)
-                    {
+                    if (result != null){
                         MessageBox.Show("Pallet No " + txtPalletNo.Text.Trim() + " is already occupied at " + result.ToString(), "Duplicate Pallet", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         txtPalletNo.Clear();
                         txtPalletNo.Focus();

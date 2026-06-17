@@ -57,12 +57,9 @@ namespace PalletLotSystem
             }
         }
 
-        private void FilterPalletLogs()
-        {
-            using (MySqlConnection conn = new MySqlConnection(connStr))
-            {
-                try
-                {
+        private void FilterPalletLogs(){
+            using (MySqlConnection conn = new MySqlConnection(connStr)){
+                try{
                     conn.Open();
 
                     string fromDate = dtpFrom.Value.ToString("MM-dd-yyyy");
@@ -80,17 +77,14 @@ namespace PalletLotSystem
 
                     }
                 }
-                catch (Exception ex)
-                {
+                catch (Exception ex){
                     MessageBox.Show("Database error: " + ex.Message);
                 }
             }
         }
 
-        private void btnFilter_Click(object sender, EventArgs e)
-        {
-            if (dtpFrom.Value.Date > dtpTo.Value.Date)
-            {
+        private void btnFilter_Click(object sender, EventArgs e){
+            if (dtpFrom.Value.Date > dtpTo.Value.Date){
                 MessageBox.Show("1st Date cannot be later that 2nd Date.", "Invalid Date Range", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
                 return;
@@ -99,8 +93,7 @@ namespace PalletLotSystem
             FilterPalletLogs();
         }
 
-        private void btnClear_Click(object sender, EventArgs e)
-        {
+        private void btnClear_Click(object sender, EventArgs e){
             dtpFrom.Value = DateTime.Today;
             dtpTo.Value = DateTime.Today;
 
@@ -109,10 +102,8 @@ namespace PalletLotSystem
 
 
 
-        private void ExportToCsv()
-        {
-            try
-            {
+        private void ExportToCsv(){
+            try{
                 SaveFileDialog sfd = new SaveFileDialog();
 
                 sfd.Filter = "CSV File (*.csv) | *.csv";
@@ -131,12 +122,10 @@ namespace PalletLotSystem
                 }
                 sb.AppendLine();
 
-                foreach (DataGridViewRow row in dgvPalletLogs.Rows)
-                {
+                foreach (DataGridViewRow row in dgvPalletLogs.Rows){
                     if (row.IsNewRow)
                         continue;
-                    for (int i = 0; i < dgvPalletLogs.Columns.Count; i++)
-                    {
+                    for (int i = 0; i < dgvPalletLogs.Columns.Count; i++){
                         string value = "";
 
                         if(row.Cells[i].Value != null)
@@ -157,14 +146,12 @@ namespace PalletLotSystem
 
                 MessageBox.Show("CSV Exported Successfully!", "Export Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex){
                 MessageBox.Show("Export error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private void btnExport_Click(object sender, EventArgs e)
-        {
+        private void btnExport_Click(object sender, EventArgs e){
             ExportToCsv();
         }
 
