@@ -17,24 +17,21 @@ namespace PalletLotSystem
             InitializeComponent();
         }
 
-        private void btnLayout_Click(object sender, EventArgs e)
-        {
+        private void btnLayout_Click(object sender, EventArgs e){
             Layout layout = new Layout();
             this.Hide();
             layout.Show();
             layout.FormClosed += (s, args) => this.Show();
         }
 
-        private void btnHistory_Click(object sender, EventArgs e)
-        {
+        private void btnHistory_Click(object sender, EventArgs e){
             PalletLogs logs = new PalletLogs();
             this.Hide();
             logs.Show();
             logs.FormClosed += (s, args) => this.Show();
         }
 
-        private void btnLogout_Click(object sender, EventArgs e)
-        {
+        private void btnLogout_Click(object sender, EventArgs e){
             this.Close();
         }
     }

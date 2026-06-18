@@ -23,7 +23,7 @@ namespace PalletLotSystem{
                     Button btn = (Button)ctrl;
 
                     if (btn.Name == location){
-                        btn.Text = GetButtonDisplayText(palletNo);
+                        btn.Text = GetButtonDisplayText(location);
                         break;
                     }
                 }
@@ -118,78 +118,56 @@ namespace PalletLotSystem{
                     if (btn.Name.StartsWith("A")){
                         btn.Click += PalletButton_Click;
                         btn.UseVisualStyleBackColor = false;
-                        btn.FlatStyle = FlatStyle.Flat;
-                        btn.FlatAppearance.BorderSize = 1;
                         btn.BackColor = Color.FromArgb(204, 255, 153);
 
                     }else if (btn.Name.StartsWith("B")){
                         btn.Click += PalletButton_Click;
                         btn.UseVisualStyleBackColor = false;
-                        btn.FlatStyle = FlatStyle.Flat;
-                        btn.FlatAppearance.BorderSize = 1;
                         btn.BackColor = Color.FromArgb(202, 237, 251);
 
                     }else if (btn.Name.StartsWith("C")){
                         btn.Click += PalletButton_Click;
                         btn.UseVisualStyleBackColor = false;
-                        btn.FlatStyle = FlatStyle.Flat;
-                        btn.FlatAppearance.BorderSize = 1;
                         btn.BackColor = Color.FromArgb(202, 237, 251);
 
                     }else if (btn.Name.StartsWith("D")){
                         btn.Click += PalletButton_Click;
                         btn.UseVisualStyleBackColor = false;
-                        btn.FlatStyle = FlatStyle.Flat;
-                        btn.FlatAppearance.BorderSize = 1;
                         btn.BackColor = Color.FromArgb(131, 204, 235);
 
                     }else if (btn.Name.StartsWith("E")){
                         btn.Click += PalletButton_Click;
                         btn.UseVisualStyleBackColor = false;
-                        btn.FlatStyle = FlatStyle.Flat;
-                        btn.FlatAppearance.BorderSize = 1;
                         btn.BackColor = Color.FromArgb(131, 204, 251);
 
                     }else if (btn.Name.StartsWith("F")){
                         btn.Click += PalletButton_Click;
                         btn.UseVisualStyleBackColor = false;
-                        btn.FlatStyle = FlatStyle.Flat;
-                        btn.FlatAppearance.BorderSize = 1;
                         btn.BackColor = Color.FromArgb(71, 211, 89);
 
                     }else if (btn.Name.StartsWith("G")){
                         btn.Click += PalletButton_Click;
                         btn.UseVisualStyleBackColor = false;
-                        btn.FlatStyle = FlatStyle.Flat;
-                        btn.FlatAppearance.BorderSize = 1;
                         btn.BackColor = Color.FromArgb(71, 211, 89);
 
                     }else if (btn.Name.StartsWith("H")){
                         btn.Click += PalletButton_Click;
                         btn.UseVisualStyleBackColor = false;
-                        btn.FlatStyle = FlatStyle.Flat;
-                        btn.FlatAppearance.BorderSize = 1;
                         btn.BackColor = Color.FromArgb(255, 255, 255);
 
                     }else if (btn.Name.StartsWith("I")){
                         btn.Click += PalletButton_Click;
                         btn.UseVisualStyleBackColor = false;
-                        btn.FlatStyle = FlatStyle.Flat;
-                        btn.FlatAppearance.BorderSize = 1;
                         btn.BackColor = Color.FromArgb(255, 255, 255);
 
                     }else if (btn.Name.StartsWith("J")){
                         btn.Click += PalletButton_Click;
                         btn.UseVisualStyleBackColor = false;
-                        btn.FlatStyle = FlatStyle.Flat;
-                        btn.FlatAppearance.BorderSize = 1;
                         btn.BackColor = Color.FromArgb(255, 255, 255);
 
                     }else if (btn.Name.StartsWith("K")){
                         btn.Click += PalletButton_Click;
                         btn.UseVisualStyleBackColor = false;
-                        btn.FlatStyle = FlatStyle.Flat;
-                        btn.FlatAppearance.BorderSize = 1;
                         btn.BackColor = Color.FromArgb(255, 255, 255);
 
                     }
@@ -212,11 +190,6 @@ namespace PalletLotSystem{
             this.lblTotalPallets.ForeColor = Color.FromArgb(255, 137, 0);
 
             this.pnlUtilization.BackColor = Color.FromArgb(220, 220, 220);
-
-        }
-
-        private void Layout_Load(object sender, EventArgs e)
-        {
 
         }
     }

@@ -16,8 +16,7 @@ namespace PalletLotSystem
     {
         String connStr = "server=localhost; user=root; password=root; database=christian; port=3306";
 
-        public PalletLogs()
-        {
+        public PalletLogs(){
             InitializeComponent();
 
             DisplayPalletLogs();
@@ -150,8 +149,7 @@ namespace PalletLotSystem
                 File.WriteAllText(sfd.FileName, sb.ToString(), Encoding.UTF8);
 
                 MessageBox.Show("CSV Exported Successfully!", "Export Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            catch (Exception ex){
+            }catch (Exception ex){
                 MessageBox.Show("Export error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -168,8 +166,7 @@ namespace PalletLotSystem
 
         }
 
-        private void btnBack_Click(object sender, EventArgs e)
-        {
+        private void btnBack_Click(object sender, EventArgs e){
             this.Close();
         }
 

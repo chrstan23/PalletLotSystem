@@ -316,10 +316,5 @@ namespace PalletLotSystem{
 
             this.Close();
         }
-
-        private void UpdateForm_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

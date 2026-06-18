@@ -25,14 +25,11 @@ namespace PalletLotSystem{
             }
         }
 
-        public void LoginFunc()
-        {
+        public void LoginFunc(){
             string password = txtPassword.Text;
 
-            using (MySqlConnection conn = new MySqlConnection(connStr))
-            {
-                try
-                {
+            using (MySqlConnection conn = new MySqlConnection(connStr)){
+                try{
                     conn.Open();
 
                     string query = "SELECT * FROM tbl_users WHERE companyId=@companyId";
@@ -42,8 +39,7 @@ namespace PalletLotSystem{
 
                     MySqlDataReader reader = cmd.ExecuteReader();
 
-                    if (reader.Read())
-                    {
+                    if (reader.Read()){
 
                         UserSession.FullName = reader["fullName"].ToString();
                         UserSession.CompanyId = reader["companyId"].ToString();
@@ -56,14 +52,12 @@ namespace PalletLotSystem{
                         this.Hide();
                         landing.Show();
                         landing.FormClosed += (s, args) => this.Show();
-                    }
-                    else
-                    {
+
+                    }else{
                         MessageBox.Show("Wrong Credentials", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
                     }
-                }
-                catch (Exception ex)
-                {
+                }catch (Exception ex){
                     MessageBox.Show("Database Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     txtPassword.Text =  "";
 
@@ -71,8 +65,7 @@ namespace PalletLotSystem{
             }
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
-        {
+        private void btnCancel_Click(object sender, EventArgs e){
             this.Close();
         }
     }
