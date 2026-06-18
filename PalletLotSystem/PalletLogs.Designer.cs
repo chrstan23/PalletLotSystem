@@ -39,6 +39,7 @@
             this.pnlHeader = new System.Windows.Forms.Panel();
             this.lblHeader = new System.Windows.Forms.Label();
             this.lblSubtitle = new System.Windows.Forms.Label();
+            this.btnBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPalletLogs)).BeginInit();
             this.pnlHeader.SuspendLayout();
             this.SuspendLayout();
@@ -56,7 +57,7 @@
             this.btnExport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
             this.btnExport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExport.Location = new System.Drawing.Point(899, 95);
+            this.btnExport.Location = new System.Drawing.Point(796, 95);
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(100, 30);
             this.btnExport.TabIndex = 1;
@@ -69,7 +70,7 @@
             this.dtpTo.CalendarFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpTo.CalendarMonthBackground = System.Drawing.Color.White;
             this.dtpTo.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpTo.Location = new System.Drawing.Point(556, 105);
+            this.dtpTo.Location = new System.Drawing.Point(470, 99);
             this.dtpTo.Name = "dtpTo";
             this.dtpTo.Size = new System.Drawing.Size(97, 20);
             this.dtpTo.TabIndex = 2;
@@ -79,7 +80,7 @@
             this.btnFilter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
             this.btnFilter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFilter.Location = new System.Drawing.Point(687, 95);
+            this.btnFilter.Location = new System.Drawing.Point(584, 95);
             this.btnFilter.Name = "btnFilter";
             this.btnFilter.Size = new System.Drawing.Size(100, 30);
             this.btnFilter.TabIndex = 3;
@@ -92,7 +93,7 @@
             this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(165)))), ((int)(((byte)(166)))));
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(793, 95);
+            this.btnClear.Location = new System.Drawing.Point(690, 95);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(100, 30);
             this.btnClear.TabIndex = 4;
@@ -105,7 +106,7 @@
             this.dtpFrom.CalendarFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpFrom.CalendarMonthBackground = System.Drawing.Color.White;
             this.dtpFrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpFrom.Location = new System.Drawing.Point(412, 105);
+            this.dtpFrom.Location = new System.Drawing.Point(326, 99);
             this.dtpFrom.Name = "dtpFrom";
             this.dtpFrom.Size = new System.Drawing.Size(97, 20);
             this.dtpFrom.TabIndex = 5;
@@ -114,7 +115,7 @@
             // 
             this.lblFrom.AutoSize = true;
             this.lblFrom.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFrom.Location = new System.Drawing.Point(360, 105);
+            this.lblFrom.Location = new System.Drawing.Point(274, 99);
             this.lblFrom.Name = "lblFrom";
             this.lblFrom.Size = new System.Drawing.Size(49, 17);
             this.lblFrom.TabIndex = 6;
@@ -124,7 +125,7 @@
             // 
             this.lblTo.AutoSize = true;
             this.lblTo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTo.Location = new System.Drawing.Point(523, 105);
+            this.lblTo.Location = new System.Drawing.Point(437, 99);
             this.lblTo.Name = "lblTo";
             this.lblTo.Size = new System.Drawing.Size(30, 17);
             this.lblTo.TabIndex = 7;
@@ -145,11 +146,11 @@
             // lblHeader
             // 
             this.lblHeader.AutoSize = true;
-            this.lblHeader.Font = new System.Drawing.Font("Bahnschrift SemiBold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeader.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeader.ForeColor = System.Drawing.Color.White;
             this.lblHeader.Location = new System.Drawing.Point(12, 13);
             this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(214, 39);
+            this.lblHeader.Size = new System.Drawing.Size(182, 39);
             this.lblHeader.TabIndex = 1025;
             this.lblHeader.Text = "PALLET LOGS";
             // 
@@ -164,12 +165,26 @@
             this.lblSubtitle.TabIndex = 1026;
             this.lblSubtitle.Text = "View pallet transaction records";
             // 
+            // btnBack
+            // 
+            this.btnBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
+            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Location = new System.Drawing.Point(902, 95);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(100, 30);
+            this.btnBack.TabIndex = 9;
+            this.btnBack.Text = "BACK";
+            this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // PalletLogs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(244)))), ((int)(((byte)(248)))));
             this.ClientSize = new System.Drawing.Size(1006, 463);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.pnlHeader);
             this.Controls.Add(this.lblTo);
             this.Controls.Add(this.lblFrom);
@@ -180,6 +195,7 @@
             this.Controls.Add(this.btnExport);
             this.Controls.Add(this.dgvPalletLogs);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "PalletLogs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PalletLogs";
@@ -204,5 +220,6 @@
         private System.Windows.Forms.Panel pnlHeader;
         private System.Windows.Forms.Label lblHeader;
         private System.Windows.Forms.Label lblSubtitle;
+        private System.Windows.Forms.Button btnBack;
     }
 }

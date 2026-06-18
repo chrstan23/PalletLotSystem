@@ -32,5 +32,10 @@ namespace PalletLotSystem
             logs.Show();
             logs.FormClosed += (s, args) => this.Show();
         }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

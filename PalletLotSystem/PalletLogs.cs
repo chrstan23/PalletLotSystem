@@ -157,7 +157,20 @@ namespace PalletLotSystem
         }
 
         private void btnExport_Click(object sender, EventArgs e){
+            DialogResult result = MessageBox.Show("Are you sure you want to export this data?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes){
             ExportToCsv();
+
+            }else{
+                return;
+            }
+
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         

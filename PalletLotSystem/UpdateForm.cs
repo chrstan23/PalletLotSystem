@@ -19,13 +19,14 @@ namespace PalletLotSystem{
         }
 
         private void ApplyUserPermissions(){
-            if (UserSession.Privilege == 3)
+            if (UserSession.Privilege > 2)
             {
-                btnIn.Visible = false;
-                btnOut.Visible = false;
+                btnIn.Enabled = false;
+                btnOut.Enabled = false;
                 btnSave.Visible = false;
                 btnCancel.Visible = false;
-                btnCancel2.Visible = false;
+                btnCancel2.Enabled = true;
+                lblHeader.Text = "VIEW PALLET DETAILS";
             }
         }
 
@@ -314,6 +315,11 @@ namespace PalletLotSystem{
         private void btnCancel2_Click(object sender, EventArgs e){
 
             this.Close();
+        }
+
+        private void UpdateForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
