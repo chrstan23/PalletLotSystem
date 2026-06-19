@@ -270,7 +270,7 @@ namespace PalletLotSystem{
                         int rowsAffected = cmd.ExecuteNonQuery();
 
                         if (rowsAffected > 0){
-                            MessageBox.Show("Pallet cleared successfully!");
+                            MessageBox.Show("Pallet cleared successfully!", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                             layoutForm.LoadStatistics();
                             layoutForm.LoadPalletStatus();
@@ -289,7 +289,7 @@ namespace PalletLotSystem{
         private void btnOut_Click(object sender, EventArgs e){
             if (string.IsNullOrWhiteSpace(txtPalletNo.Text)){
 
-                MessageBox.Show("The pallet is still empty.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("The pallet is still empty.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 

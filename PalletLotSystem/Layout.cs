@@ -23,7 +23,7 @@ namespace PalletLotSystem{
                     Button btn = (Button)ctrl;
 
                     if (btn.Name == location){
-                        btn.Text = GetButtonDisplayText(location);
+                        btn.Text = GetButtonDisplayText(palletNo);
                         break;
                     }
                 }
@@ -72,7 +72,14 @@ namespace PalletLotSystem{
             if (string.IsNullOrWhiteSpace(palletNo))
                 return "";
 
-            return palletNo.Trim();
+            palletNo = palletNo.Trim();
+
+            if (palletNo.StartsWith("P-"))
+            {
+                return "P-\r\n" + palletNo.Substring(2);
+            }
+
+            return palletNo;
         }
 
         // LOAD FROM DATABASE
