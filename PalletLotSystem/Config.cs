@@ -11,7 +11,7 @@ namespace PalletLotSystem{
         public static string ConnectionString{
 
             get{
-                string[] lines = File.ReadAllLines("config.ini");
+                string[] lines = File.ReadAllLines("dbConfig.ini");
 
                 string server = "";
                 string port = "";

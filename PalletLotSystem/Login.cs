@@ -58,7 +58,7 @@ namespace PalletLotSystem{
 
                     }
                 }catch (Exception ex){
-                    MessageBox.Show("Database Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBox.Show("Database Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtPassword.Text =  "";
 
                 }
