@@ -11,7 +11,7 @@ using MySql.Data.MySqlClient;
 
 namespace PalletLotSystem{
     public partial class Login : Form{
-        String connStr = "server=localhost; user=root; password=root; database=christian; port=3306";
+        String connStr = Config.ConnectionString;
 
         public Login(){
             InitializeComponent();

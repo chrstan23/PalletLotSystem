@@ -8,12 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PalletLotSystem
-{
-    public partial class LandingPage : Form
-    {
-        public LandingPage()
-        {
+namespace PalletLotSystem{
+    public partial class LandingPage : Form{
+        public LandingPage(){
             InitializeComponent();
         }
 

@@ -555,10 +555,14 @@
             this.lblUtilization = new System.Windows.Forms.Label();
             this.pnlAA = new System.Windows.Forms.Panel();
             this.pnlOccupied = new System.Windows.Forms.Panel();
+            this.picOccupied = new System.Windows.Forms.PictureBox();
             this.pnlEmpty = new System.Windows.Forms.Panel();
+            this.picEmpty = new System.Windows.Forms.PictureBox();
             this.lblEmptyPallets = new System.Windows.Forms.Label();
             this.pnlTotal = new System.Windows.Forms.Panel();
+            this.picTotal = new System.Windows.Forms.PictureBox();
             this.pnlUtilization = new System.Windows.Forms.Panel();
+            this.picUtilization = new System.Windows.Forms.PictureBox();
             this.pnlBC = new System.Windows.Forms.Panel();
             this.pnlDE = new System.Windows.Forms.Panel();
             this.pnlJK = new System.Windows.Forms.Panel();
@@ -566,27 +570,23 @@
             this.pnlHI = new System.Windows.Forms.Panel();
             this.pnlHeading = new System.Windows.Forms.Panel();
             this.label50 = new System.Windows.Forms.Label();
-            this.picOccupied = new System.Windows.Forms.PictureBox();
-            this.picTotal = new System.Windows.Forms.PictureBox();
-            this.picEmpty = new System.Windows.Forms.PictureBox();
-            this.picUtilization = new System.Windows.Forms.PictureBox();
             this.A08 = new System.Windows.Forms.Button();
             this.btnX1 = new System.Windows.Forms.Button();
             this.pnlAA.SuspendLayout();
             this.pnlOccupied.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picOccupied)).BeginInit();
             this.pnlEmpty.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picEmpty)).BeginInit();
             this.pnlTotal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTotal)).BeginInit();
             this.pnlUtilization.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUtilization)).BeginInit();
             this.pnlBC.SuspendLayout();
             this.pnlDE.SuspendLayout();
             this.pnlJK.SuspendLayout();
             this.pnlFG.SuspendLayout();
             this.pnlHI.SuspendLayout();
             this.pnlHeading.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picOccupied)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picTotal)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picEmpty)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picUtilization)).BeginInit();
             this.SuspendLayout();
             // 
             // A01
@@ -6433,6 +6433,16 @@
             this.pnlOccupied.Size = new System.Drawing.Size(130, 60);
             this.pnlOccupied.TabIndex = 1018;
             // 
+            // picOccupied
+            // 
+            this.picOccupied.Image = global::PalletLotSystem.Properties.Resources.pallet;
+            this.picOccupied.Location = new System.Drawing.Point(6, 23);
+            this.picOccupied.Name = "picOccupied";
+            this.picOccupied.Size = new System.Drawing.Size(32, 32);
+            this.picOccupied.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picOccupied.TabIndex = 1021;
+            this.picOccupied.TabStop = false;
+            // 
             // pnlEmpty
             // 
             this.pnlEmpty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -6443,6 +6453,16 @@
             this.pnlEmpty.Name = "pnlEmpty";
             this.pnlEmpty.Size = new System.Drawing.Size(130, 60);
             this.pnlEmpty.TabIndex = 1019;
+            // 
+            // picEmpty
+            // 
+            this.picEmpty.Image = global::PalletLotSystem.Properties.Resources.pallet__2_;
+            this.picEmpty.Location = new System.Drawing.Point(6, 23);
+            this.picEmpty.Name = "picEmpty";
+            this.picEmpty.Size = new System.Drawing.Size(32, 32);
+            this.picEmpty.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picEmpty.TabIndex = 1022;
+            this.picEmpty.TabStop = false;
             // 
             // lblEmptyPallets
             // 
@@ -6466,6 +6486,16 @@
             this.pnlTotal.Size = new System.Drawing.Size(130, 60);
             this.pnlTotal.TabIndex = 1019;
             // 
+            // picTotal
+            // 
+            this.picTotal.Image = global::PalletLotSystem.Properties.Resources.pallet__1_;
+            this.picTotal.Location = new System.Drawing.Point(6, 23);
+            this.picTotal.Name = "picTotal";
+            this.picTotal.Size = new System.Drawing.Size(32, 32);
+            this.picTotal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picTotal.TabIndex = 1023;
+            this.picTotal.TabStop = false;
+            // 
             // pnlUtilization
             // 
             this.pnlUtilization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -6476,6 +6506,16 @@
             this.pnlUtilization.Name = "pnlUtilization";
             this.pnlUtilization.Size = new System.Drawing.Size(130, 60);
             this.pnlUtilization.TabIndex = 1020;
+            // 
+            // picUtilization
+            // 
+            this.picUtilization.Image = global::PalletLotSystem.Properties.Resources.percent;
+            this.picUtilization.Location = new System.Drawing.Point(6, 23);
+            this.picUtilization.Name = "picUtilization";
+            this.picUtilization.Size = new System.Drawing.Size(32, 32);
+            this.picUtilization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picUtilization.TabIndex = 1024;
+            this.picUtilization.TabStop = false;
             // 
             // pnlBC
             // 
@@ -6564,46 +6604,6 @@
             this.label50.Size = new System.Drawing.Size(386, 39);
             this.label50.TabIndex = 1024;
             this.label50.Text = "PLANT 3 PALLET MONITORING";
-            // 
-            // picOccupied
-            // 
-            this.picOccupied.Image = global::PalletLotSystem.Properties.Resources.pallet;
-            this.picOccupied.Location = new System.Drawing.Point(6, 23);
-            this.picOccupied.Name = "picOccupied";
-            this.picOccupied.Size = new System.Drawing.Size(32, 32);
-            this.picOccupied.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picOccupied.TabIndex = 1021;
-            this.picOccupied.TabStop = false;
-            // 
-            // picTotal
-            // 
-            this.picTotal.Image = global::PalletLotSystem.Properties.Resources.pallet__1_;
-            this.picTotal.Location = new System.Drawing.Point(6, 23);
-            this.picTotal.Name = "picTotal";
-            this.picTotal.Size = new System.Drawing.Size(32, 32);
-            this.picTotal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picTotal.TabIndex = 1023;
-            this.picTotal.TabStop = false;
-            // 
-            // picEmpty
-            // 
-            this.picEmpty.Image = global::PalletLotSystem.Properties.Resources.pallet__2_;
-            this.picEmpty.Location = new System.Drawing.Point(6, 23);
-            this.picEmpty.Name = "picEmpty";
-            this.picEmpty.Size = new System.Drawing.Size(32, 32);
-            this.picEmpty.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picEmpty.TabIndex = 1022;
-            this.picEmpty.TabStop = false;
-            // 
-            // picUtilization
-            // 
-            this.picUtilization.Image = global::PalletLotSystem.Properties.Resources.percent;
-            this.picUtilization.Location = new System.Drawing.Point(6, 23);
-            this.picUtilization.Name = "picUtilization";
-            this.picUtilization.Size = new System.Drawing.Size(32, 32);
-            this.picUtilization.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picUtilization.TabIndex = 1024;
-            this.picUtilization.TabStop = false;
             // 
             // A08
             // 
@@ -7154,12 +7154,16 @@
             this.pnlAA.PerformLayout();
             this.pnlOccupied.ResumeLayout(false);
             this.pnlOccupied.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picOccupied)).EndInit();
             this.pnlEmpty.ResumeLayout(false);
             this.pnlEmpty.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picEmpty)).EndInit();
             this.pnlTotal.ResumeLayout(false);
             this.pnlTotal.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTotal)).EndInit();
             this.pnlUtilization.ResumeLayout(false);
             this.pnlUtilization.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picUtilization)).EndInit();
             this.pnlBC.ResumeLayout(false);
             this.pnlBC.PerformLayout();
             this.pnlDE.ResumeLayout(false);
@@ -7172,10 +7176,6 @@
             this.pnlHI.PerformLayout();
             this.pnlHeading.ResumeLayout(false);
             this.pnlHeading.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picOccupied)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picTotal)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picEmpty)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picUtilization)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

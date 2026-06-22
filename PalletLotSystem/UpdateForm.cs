@@ -5,7 +5,7 @@ using MySql.Data.MySqlClient;
 namespace PalletLotSystem{
     public partial class UpdateForm : Form{
 
-        String connStr = "Server=localhost; user=root; password=root; database=christian; port=3306";
+        String connStr = Config.ConnectionString;
 
         private Layout layoutForm;
 
@@ -162,7 +162,7 @@ namespace PalletLotSystem{
                         }
                     }
                 }catch (Exception ex){
-                    MessageBox.Show("Database Error: " + ex.Message);
+                    MessageBox.Show("Database Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
             }
         }
@@ -251,7 +251,7 @@ namespace PalletLotSystem{
                     }
                 }
                 catch (Exception ex){
-                    MessageBox.Show("Database Error: " + ex.Message);
+                    MessageBox.Show("Database Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
             }
         }
@@ -281,7 +281,7 @@ namespace PalletLotSystem{
                         }
                     }
                 }catch (Exception ex){
-                    MessageBox.Show("Database Error: " + ex.Message);
+                    MessageBox.Show("Database Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
             }
         }

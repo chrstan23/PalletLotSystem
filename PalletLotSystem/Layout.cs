@@ -5,7 +5,7 @@ using MySql.Data.MySqlClient;
 
 namespace PalletLotSystem{
     public partial class Layout : Form{
-        String connStr = "server=localhost; user=root; password=root; database=christian; port=3306";
+        String connStr = Config.ConnectionString;
 
         public Layout(){
             InitializeComponent();
@@ -62,7 +62,7 @@ namespace PalletLotSystem{
 
                 }
                 catch (Exception ex){
-                    MessageBox.Show("Database Error: " + ex.Message);
+                    MessageBox.Show("Database Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
             }
         }

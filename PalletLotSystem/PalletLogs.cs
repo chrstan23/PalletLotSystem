@@ -14,7 +14,7 @@ namespace PalletLotSystem
 {
     public partial class PalletLogs : Form
     {
-        String connStr = "server=localhost; user=root; password=root; database=christian; port=3306";
+        String connStr = Config.ConnectionString;
 
         public PalletLogs(){
             InitializeComponent();
@@ -55,8 +55,8 @@ namespace PalletLotSystem
                     dgvPalletLogs.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
                     dgvPalletLogs.GridColor = Color.LightGray;
 
-                }catch (Exception e){
-                    MessageBox.Show("Database Error " + e.Message);
+                }catch (Exception ex){
+                    MessageBox.Show("Database Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
             }
         }
@@ -82,7 +82,7 @@ namespace PalletLotSystem
                     }
                 }
                 catch (Exception ex){
-                    MessageBox.Show("Database error: " + ex.Message);
+                    MessageBox.Show("Database Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
             }
         }
