@@ -591,7 +591,7 @@
             // 
             // A01
             // 
-            this.A01.BackColor = System.Drawing.SystemColors.Control;
+            this.A01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A01.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A01.Location = new System.Drawing.Point(1210, 124);
@@ -602,7 +602,7 @@
             // 
             // A02
             // 
-            this.A02.BackColor = System.Drawing.SystemColors.Control;
+            this.A02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A02.Location = new System.Drawing.Point(1181, 124);
@@ -613,7 +613,7 @@
             // 
             // A03
             // 
-            this.A03.BackColor = System.Drawing.SystemColors.Control;
+            this.A03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A03.Location = new System.Drawing.Point(1152, 124);
@@ -624,7 +624,7 @@
             // 
             // A04
             // 
-            this.A04.BackColor = System.Drawing.SystemColors.Control;
+            this.A04.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A04.Location = new System.Drawing.Point(1123, 124);
@@ -635,7 +635,7 @@
             // 
             // A05
             // 
-            this.A05.BackColor = System.Drawing.SystemColors.Control;
+            this.A05.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A05.Location = new System.Drawing.Point(1094, 124);
@@ -660,7 +660,7 @@
             // 
             // A06
             // 
-            this.A06.BackColor = System.Drawing.SystemColors.Control;
+            this.A06.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A06.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A06.Location = new System.Drawing.Point(1065, 124);
@@ -671,7 +671,7 @@
             // 
             // AA06
             // 
-            this.AA06.BackColor = System.Drawing.SystemColors.Control;
+            this.AA06.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA06.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA06.Location = new System.Drawing.Point(1065, 153);
@@ -682,7 +682,7 @@
             // 
             // AA01
             // 
-            this.AA01.BackColor = System.Drawing.SystemColors.Control;
+            this.AA01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA01.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA01.Location = new System.Drawing.Point(1210, 153);
@@ -693,7 +693,7 @@
             // 
             // AA02
             // 
-            this.AA02.BackColor = System.Drawing.SystemColors.Control;
+            this.AA02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA02.Location = new System.Drawing.Point(1181, 153);
@@ -704,7 +704,7 @@
             // 
             // AA03
             // 
-            this.AA03.BackColor = System.Drawing.SystemColors.Control;
+            this.AA03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA03.Location = new System.Drawing.Point(1152, 153);
@@ -715,7 +715,7 @@
             // 
             // AA04
             // 
-            this.AA04.BackColor = System.Drawing.SystemColors.Control;
+            this.AA04.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA04.Location = new System.Drawing.Point(1123, 153);
@@ -726,7 +726,7 @@
             // 
             // AA05
             // 
-            this.AA05.BackColor = System.Drawing.SystemColors.Control;
+            this.AA05.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA05.Location = new System.Drawing.Point(1094, 153);
@@ -1337,7 +1337,7 @@
             // 
             // AA08
             // 
-            this.AA08.BackColor = System.Drawing.SystemColors.Control;
+            this.AA08.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA08.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA08.Location = new System.Drawing.Point(1007, 153);
@@ -1348,7 +1348,7 @@
             // 
             // AA09
             // 
-            this.AA09.BackColor = System.Drawing.SystemColors.Control;
+            this.AA09.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA09.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA09.Location = new System.Drawing.Point(978, 153);
@@ -1359,7 +1359,7 @@
             // 
             // A09
             // 
-            this.A09.BackColor = System.Drawing.SystemColors.Control;
+            this.A09.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A09.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A09.Location = new System.Drawing.Point(978, 124);
@@ -1370,7 +1370,7 @@
             // 
             // AA15
             // 
-            this.AA15.BackColor = System.Drawing.SystemColors.Control;
+            this.AA15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA15.Location = new System.Drawing.Point(804, 153);
@@ -1393,7 +1393,7 @@
             // 
             // AA12
             // 
-            this.AA12.BackColor = System.Drawing.SystemColors.Control;
+            this.AA12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA12.Location = new System.Drawing.Point(891, 153);
@@ -1404,7 +1404,7 @@
             // 
             // AA13
             // 
-            this.AA13.BackColor = System.Drawing.SystemColors.Control;
+            this.AA13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA13.Location = new System.Drawing.Point(862, 153);
@@ -1415,7 +1415,7 @@
             // 
             // AA14
             // 
-            this.AA14.BackColor = System.Drawing.SystemColors.Control;
+            this.AA14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA14.Location = new System.Drawing.Point(833, 153);
@@ -1426,7 +1426,7 @@
             // 
             // A15
             // 
-            this.A15.BackColor = System.Drawing.SystemColors.Control;
+            this.A15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A15.Location = new System.Drawing.Point(804, 124);
@@ -1449,7 +1449,7 @@
             // 
             // A12
             // 
-            this.A12.BackColor = System.Drawing.SystemColors.Control;
+            this.A12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A12.Location = new System.Drawing.Point(891, 124);
@@ -1460,7 +1460,7 @@
             // 
             // A13
             // 
-            this.A13.BackColor = System.Drawing.SystemColors.Control;
+            this.A13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A13.Location = new System.Drawing.Point(862, 124);
@@ -1471,7 +1471,7 @@
             // 
             // A14
             // 
-            this.A14.BackColor = System.Drawing.SystemColors.Control;
+            this.A14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A14.Location = new System.Drawing.Point(833, 124);
@@ -1482,7 +1482,7 @@
             // 
             // A25
             // 
-            this.A25.BackColor = System.Drawing.SystemColors.Control;
+            this.A25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A25.Location = new System.Drawing.Point(475, 112);
@@ -1493,7 +1493,7 @@
             // 
             // A22
             // 
-            this.A22.BackColor = System.Drawing.SystemColors.Control;
+            this.A22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A22.Location = new System.Drawing.Point(562, 112);
@@ -1504,7 +1504,7 @@
             // 
             // A30
             // 
-            this.A30.BackColor = System.Drawing.SystemColors.Control;
+            this.A30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A30.Location = new System.Drawing.Point(330, 112);
@@ -1515,7 +1515,7 @@
             // 
             // A26
             // 
-            this.A26.BackColor = System.Drawing.SystemColors.Control;
+            this.A26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A26.Location = new System.Drawing.Point(446, 112);
@@ -1526,7 +1526,7 @@
             // 
             // A27
             // 
-            this.A27.BackColor = System.Drawing.SystemColors.Control;
+            this.A27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A27.Location = new System.Drawing.Point(417, 112);
@@ -1537,7 +1537,7 @@
             // 
             // A28
             // 
-            this.A28.BackColor = System.Drawing.SystemColors.Control;
+            this.A28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A28.Location = new System.Drawing.Point(388, 112);
@@ -1548,7 +1548,7 @@
             // 
             // A29
             // 
-            this.A29.BackColor = System.Drawing.SystemColors.Control;
+            this.A29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A29.Location = new System.Drawing.Point(359, 112);
@@ -1559,7 +1559,7 @@
             // 
             // A23
             // 
-            this.A23.BackColor = System.Drawing.SystemColors.Control;
+            this.A23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A23.Location = new System.Drawing.Point(533, 112);
@@ -1570,7 +1570,7 @@
             // 
             // A24
             // 
-            this.A24.BackColor = System.Drawing.SystemColors.Control;
+            this.A24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A24.Location = new System.Drawing.Point(504, 112);
@@ -1581,7 +1581,7 @@
             // 
             // A21
             // 
-            this.A21.BackColor = System.Drawing.SystemColors.Control;
+            this.A21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A21.Location = new System.Drawing.Point(591, 112);
@@ -1592,7 +1592,7 @@
             // 
             // A16
             // 
-            this.A16.BackColor = System.Drawing.SystemColors.Control;
+            this.A16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A16.Location = new System.Drawing.Point(776, 124);
@@ -1603,7 +1603,7 @@
             // 
             // A17
             // 
-            this.A17.BackColor = System.Drawing.SystemColors.Control;
+            this.A17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A17.Location = new System.Drawing.Point(707, 112);
@@ -1614,7 +1614,7 @@
             // 
             // A18
             // 
-            this.A18.BackColor = System.Drawing.SystemColors.Control;
+            this.A18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A18.Location = new System.Drawing.Point(678, 112);
@@ -1625,7 +1625,7 @@
             // 
             // A19
             // 
-            this.A19.BackColor = System.Drawing.SystemColors.Control;
+            this.A19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A19.Location = new System.Drawing.Point(649, 112);
@@ -1636,7 +1636,7 @@
             // 
             // A20
             // 
-            this.A20.BackColor = System.Drawing.SystemColors.Control;
+            this.A20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A20.Location = new System.Drawing.Point(620, 112);
@@ -1647,7 +1647,7 @@
             // 
             // A35
             // 
-            this.A35.BackColor = System.Drawing.SystemColors.Control;
+            this.A35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
             this.A35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A35.Location = new System.Drawing.Point(185, 112);
@@ -1658,7 +1658,7 @@
             // 
             // A32
             // 
-            this.A32.BackColor = System.Drawing.SystemColors.Control;
+            this.A32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A32.Location = new System.Drawing.Point(272, 112);
@@ -1669,7 +1669,7 @@
             // 
             // A40
             // 
-            this.A40.BackColor = System.Drawing.SystemColors.Control;
+            this.A40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
             this.A40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A40.Location = new System.Drawing.Point(40, 112);
@@ -1680,7 +1680,7 @@
             // 
             // A36
             // 
-            this.A36.BackColor = System.Drawing.SystemColors.Control;
+            this.A36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
             this.A36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A36.Location = new System.Drawing.Point(156, 112);
@@ -1691,7 +1691,7 @@
             // 
             // A37
             // 
-            this.A37.BackColor = System.Drawing.SystemColors.Control;
+            this.A37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
             this.A37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A37.Location = new System.Drawing.Point(127, 112);
@@ -1702,7 +1702,7 @@
             // 
             // A38
             // 
-            this.A38.BackColor = System.Drawing.SystemColors.Control;
+            this.A38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
             this.A38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A38.Location = new System.Drawing.Point(98, 112);
@@ -1713,7 +1713,7 @@
             // 
             // A39
             // 
-            this.A39.BackColor = System.Drawing.SystemColors.Control;
+            this.A39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
             this.A39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A39.Location = new System.Drawing.Point(69, 112);
@@ -1724,7 +1724,7 @@
             // 
             // A33
             // 
-            this.A33.BackColor = System.Drawing.SystemColors.Control;
+            this.A33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A33.Location = new System.Drawing.Point(243, 112);
@@ -1735,7 +1735,7 @@
             // 
             // A34
             // 
-            this.A34.BackColor = System.Drawing.SystemColors.Control;
+            this.A34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
             this.A34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A34.Location = new System.Drawing.Point(214, 112);
@@ -1746,7 +1746,7 @@
             // 
             // A31
             // 
-            this.A31.BackColor = System.Drawing.SystemColors.Control;
+            this.A31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A31.Location = new System.Drawing.Point(301, 112);
@@ -1757,7 +1757,7 @@
             // 
             // B36
             // 
-            this.B36.BackColor = System.Drawing.SystemColors.Control;
+            this.B36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B36.Location = new System.Drawing.Point(157, 201);
@@ -1768,7 +1768,7 @@
             // 
             // B33
             // 
-            this.B33.BackColor = System.Drawing.SystemColors.Control;
+            this.B33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B33.Location = new System.Drawing.Point(244, 201);
@@ -1803,7 +1803,7 @@
             // 
             // B38
             // 
-            this.B38.BackColor = System.Drawing.SystemColors.Control;
+            this.B38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B38.Location = new System.Drawing.Point(99, 201);
@@ -1814,7 +1814,7 @@
             // 
             // B39
             // 
-            this.B39.BackColor = System.Drawing.SystemColors.Control;
+            this.B39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B39.Location = new System.Drawing.Point(70, 201);
@@ -1825,7 +1825,7 @@
             // 
             // B40
             // 
-            this.B40.BackColor = System.Drawing.SystemColors.Control;
+            this.B40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B40.Location = new System.Drawing.Point(41, 201);
@@ -1836,7 +1836,7 @@
             // 
             // B34
             // 
-            this.B34.BackColor = System.Drawing.SystemColors.Control;
+            this.B34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B34.Location = new System.Drawing.Point(215, 201);
@@ -1847,7 +1847,7 @@
             // 
             // B35
             // 
-            this.B35.BackColor = System.Drawing.SystemColors.Control;
+            this.B35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B35.Location = new System.Drawing.Point(186, 201);
@@ -1870,7 +1870,7 @@
             // 
             // B26
             // 
-            this.B26.BackColor = System.Drawing.SystemColors.Control;
+            this.B26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B26.Location = new System.Drawing.Point(447, 201);
@@ -1881,7 +1881,7 @@
             // 
             // B23
             // 
-            this.B23.BackColor = System.Drawing.SystemColors.Control;
+            this.B23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B23.Location = new System.Drawing.Point(534, 201);
@@ -1892,7 +1892,7 @@
             // 
             // B31
             // 
-            this.B31.BackColor = System.Drawing.SystemColors.Control;
+            this.B31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B31.Location = new System.Drawing.Point(302, 201);
@@ -1915,7 +1915,7 @@
             // 
             // B28
             // 
-            this.B28.BackColor = System.Drawing.SystemColors.Control;
+            this.B28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B28.Location = new System.Drawing.Point(389, 201);
@@ -1926,7 +1926,7 @@
             // 
             // B29
             // 
-            this.B29.BackColor = System.Drawing.SystemColors.Control;
+            this.B29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B29.Location = new System.Drawing.Point(360, 201);
@@ -1937,7 +1937,7 @@
             // 
             // B30
             // 
-            this.B30.BackColor = System.Drawing.SystemColors.Control;
+            this.B30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B30.Location = new System.Drawing.Point(331, 201);
@@ -1948,7 +1948,7 @@
             // 
             // B24
             // 
-            this.B24.BackColor = System.Drawing.SystemColors.Control;
+            this.B24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B24.Location = new System.Drawing.Point(505, 201);
@@ -1959,7 +1959,7 @@
             // 
             // B25
             // 
-            this.B25.BackColor = System.Drawing.SystemColors.Control;
+            this.B25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B25.Location = new System.Drawing.Point(476, 201);
@@ -1982,7 +1982,7 @@
             // 
             // B16
             // 
-            this.B16.BackColor = System.Drawing.SystemColors.Control;
+            this.B16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B16.Location = new System.Drawing.Point(776, 201);
@@ -1993,7 +1993,7 @@
             // 
             // B18
             // 
-            this.B18.BackColor = System.Drawing.SystemColors.Control;
+            this.B18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B18.Location = new System.Drawing.Point(679, 201);
@@ -2004,7 +2004,7 @@
             // 
             // B19
             // 
-            this.B19.BackColor = System.Drawing.SystemColors.Control;
+            this.B19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B19.Location = new System.Drawing.Point(650, 201);
@@ -2015,7 +2015,7 @@
             // 
             // B20
             // 
-            this.B20.BackColor = System.Drawing.SystemColors.Control;
+            this.B20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B20.Location = new System.Drawing.Point(621, 201);
@@ -2026,7 +2026,7 @@
             // 
             // B21
             // 
-            this.B21.BackColor = System.Drawing.SystemColors.Control;
+            this.B21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B21.Location = new System.Drawing.Point(592, 201);
@@ -2073,7 +2073,7 @@
             // 
             // B10
             // 
-            this.B10.BackColor = System.Drawing.SystemColors.Control;
+            this.B10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B10.Location = new System.Drawing.Point(950, 201);
@@ -2096,7 +2096,7 @@
             // 
             // B15
             // 
-            this.B15.BackColor = System.Drawing.SystemColors.Control;
+            this.B15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B15.Location = new System.Drawing.Point(805, 201);
@@ -2107,7 +2107,7 @@
             // 
             // B11
             // 
-            this.B11.BackColor = System.Drawing.SystemColors.Control;
+            this.B11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B11.Location = new System.Drawing.Point(921, 201);
@@ -2130,7 +2130,7 @@
             // 
             // B13
             // 
-            this.B13.BackColor = System.Drawing.SystemColors.Control;
+            this.B13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B13.Location = new System.Drawing.Point(863, 201);
@@ -2141,7 +2141,7 @@
             // 
             // B14
             // 
-            this.B14.BackColor = System.Drawing.SystemColors.Control;
+            this.B14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B14.Location = new System.Drawing.Point(834, 201);
@@ -2152,7 +2152,7 @@
             // 
             // B08
             // 
-            this.B08.BackColor = System.Drawing.SystemColors.Control;
+            this.B08.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B08.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B08.Location = new System.Drawing.Point(1008, 201);
@@ -2163,7 +2163,7 @@
             // 
             // B09
             // 
-            this.B09.BackColor = System.Drawing.SystemColors.Control;
+            this.B09.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B09.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B09.Location = new System.Drawing.Point(979, 201);
@@ -2174,7 +2174,7 @@
             // 
             // B06
             // 
-            this.B06.BackColor = System.Drawing.SystemColors.Control;
+            this.B06.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B06.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B06.Location = new System.Drawing.Point(1066, 201);
@@ -2197,7 +2197,7 @@
             // 
             // B03
             // 
-            this.B03.BackColor = System.Drawing.SystemColors.Control;
+            this.B03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B03.Location = new System.Drawing.Point(1153, 201);
@@ -2208,7 +2208,7 @@
             // 
             // B04
             // 
-            this.B04.BackColor = System.Drawing.SystemColors.Control;
+            this.B04.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B04.Location = new System.Drawing.Point(1124, 201);
@@ -2219,7 +2219,7 @@
             // 
             // B05
             // 
-            this.B05.BackColor = System.Drawing.SystemColors.Control;
+            this.B05.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B05.Location = new System.Drawing.Point(1095, 201);
@@ -2230,7 +2230,7 @@
             // 
             // C02
             // 
-            this.C02.BackColor = System.Drawing.SystemColors.Control;
+            this.C02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.C02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C02.Location = new System.Drawing.Point(1175, 230);
@@ -2241,7 +2241,7 @@
             // 
             // C04
             // 
-            this.C04.BackColor = System.Drawing.SystemColors.Control;
+            this.C04.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.C04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C04.Location = new System.Drawing.Point(1103, 230);
@@ -2252,7 +2252,7 @@
             // 
             // C03
             // 
-            this.C03.BackColor = System.Drawing.SystemColors.Control;
+            this.C03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.C03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C03.Location = new System.Drawing.Point(1139, 230);
@@ -2263,7 +2263,7 @@
             // 
             // C08
             // 
-            this.C08.BackColor = System.Drawing.SystemColors.Control;
+            this.C08.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.C08.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C08.Location = new System.Drawing.Point(959, 230);
@@ -2274,7 +2274,7 @@
             // 
             // C07
             // 
-            this.C07.BackColor = System.Drawing.SystemColors.Control;
+            this.C07.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.C07.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C07.Location = new System.Drawing.Point(995, 230);
@@ -2285,7 +2285,7 @@
             // 
             // C06
             // 
-            this.C06.BackColor = System.Drawing.SystemColors.Control;
+            this.C06.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.C06.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C06.Location = new System.Drawing.Point(1031, 230);
@@ -2296,7 +2296,7 @@
             // 
             // C05
             // 
-            this.C05.BackColor = System.Drawing.SystemColors.Control;
+            this.C05.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.C05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C05.Location = new System.Drawing.Point(1067, 230);
@@ -2307,7 +2307,7 @@
             // 
             // C13
             // 
-            this.C13.BackColor = System.Drawing.SystemColors.Control;
+            this.C13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.C13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C13.Location = new System.Drawing.Point(779, 230);
@@ -2318,7 +2318,7 @@
             // 
             // C12
             // 
-            this.C12.BackColor = System.Drawing.SystemColors.Control;
+            this.C12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.C12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C12.Location = new System.Drawing.Point(815, 230);
@@ -2329,7 +2329,7 @@
             // 
             // C11
             // 
-            this.C11.BackColor = System.Drawing.SystemColors.Control;
+            this.C11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.C11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C11.Location = new System.Drawing.Point(851, 230);
@@ -2340,7 +2340,7 @@
             // 
             // C10
             // 
-            this.C10.BackColor = System.Drawing.SystemColors.Control;
+            this.C10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.C10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C10.Location = new System.Drawing.Point(887, 230);
@@ -2351,7 +2351,7 @@
             // 
             // C09
             // 
-            this.C09.BackColor = System.Drawing.SystemColors.Control;
+            this.C09.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.C09.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C09.Location = new System.Drawing.Point(923, 230);
@@ -2362,7 +2362,7 @@
             // 
             // C26
             // 
-            this.C26.BackColor = System.Drawing.SystemColors.Control;
+            this.C26.BackColor = System.Drawing.Color.Yellow;
             this.C26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C26.Location = new System.Drawing.Point(269, 230);
@@ -2373,7 +2373,7 @@
             // 
             // C25
             // 
-            this.C25.BackColor = System.Drawing.SystemColors.Control;
+            this.C25.BackColor = System.Drawing.Color.Yellow;
             this.C25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C25.Location = new System.Drawing.Point(305, 230);
@@ -2384,7 +2384,7 @@
             // 
             // C24
             // 
-            this.C24.BackColor = System.Drawing.SystemColors.Control;
+            this.C24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
             this.C24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C24.Location = new System.Drawing.Point(341, 230);
@@ -2395,7 +2395,7 @@
             // 
             // C23
             // 
-            this.C23.BackColor = System.Drawing.SystemColors.Control;
+            this.C23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
             this.C23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C23.Location = new System.Drawing.Point(377, 230);
@@ -2406,7 +2406,7 @@
             // 
             // C22
             // 
-            this.C22.BackColor = System.Drawing.SystemColors.Control;
+            this.C22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
             this.C22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C22.Location = new System.Drawing.Point(413, 230);
@@ -2417,7 +2417,7 @@
             // 
             // C21
             // 
-            this.C21.BackColor = System.Drawing.SystemColors.Control;
+            this.C21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
             this.C21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C21.Location = new System.Drawing.Point(449, 230);
@@ -2428,7 +2428,7 @@
             // 
             // C20
             // 
-            this.C20.BackColor = System.Drawing.SystemColors.Control;
+            this.C20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
             this.C20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C20.Location = new System.Drawing.Point(485, 230);
@@ -2439,7 +2439,7 @@
             // 
             // C19
             // 
-            this.C19.BackColor = System.Drawing.SystemColors.Control;
+            this.C19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
             this.C19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C19.Location = new System.Drawing.Point(521, 230);
@@ -2450,7 +2450,7 @@
             // 
             // C18
             // 
-            this.C18.BackColor = System.Drawing.SystemColors.Control;
+            this.C18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
             this.C18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C18.Location = new System.Drawing.Point(557, 230);
@@ -2461,7 +2461,7 @@
             // 
             // C17
             // 
-            this.C17.BackColor = System.Drawing.SystemColors.Control;
+            this.C17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
             this.C17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C17.Location = new System.Drawing.Point(593, 230);
@@ -2472,7 +2472,7 @@
             // 
             // C16
             // 
-            this.C16.BackColor = System.Drawing.SystemColors.Control;
+            this.C16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
             this.C16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C16.Location = new System.Drawing.Point(629, 230);
@@ -2483,7 +2483,7 @@
             // 
             // C15
             // 
-            this.C15.BackColor = System.Drawing.SystemColors.Control;
+            this.C15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.C15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C15.Location = new System.Drawing.Point(665, 230);
@@ -2494,7 +2494,7 @@
             // 
             // C14
             // 
-            this.C14.BackColor = System.Drawing.SystemColors.Control;
+            this.C14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.C14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C14.Location = new System.Drawing.Point(701, 230);
@@ -2505,7 +2505,7 @@
             // 
             // C31
             // 
-            this.C31.BackColor = System.Drawing.SystemColors.Control;
+            this.C31.BackColor = System.Drawing.Color.Yellow;
             this.C31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C31.Location = new System.Drawing.Point(89, 230);
@@ -2516,7 +2516,7 @@
             // 
             // C30
             // 
-            this.C30.BackColor = System.Drawing.SystemColors.Control;
+            this.C30.BackColor = System.Drawing.Color.Yellow;
             this.C30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C30.Location = new System.Drawing.Point(125, 230);
@@ -2527,7 +2527,7 @@
             // 
             // C29
             // 
-            this.C29.BackColor = System.Drawing.SystemColors.Control;
+            this.C29.BackColor = System.Drawing.Color.Yellow;
             this.C29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C29.Location = new System.Drawing.Point(161, 230);
@@ -2538,7 +2538,7 @@
             // 
             // C28
             // 
-            this.C28.BackColor = System.Drawing.SystemColors.Control;
+            this.C28.BackColor = System.Drawing.Color.Yellow;
             this.C28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C28.Location = new System.Drawing.Point(197, 230);
@@ -2549,7 +2549,7 @@
             // 
             // C27
             // 
-            this.C27.BackColor = System.Drawing.SystemColors.Control;
+            this.C27.BackColor = System.Drawing.Color.Yellow;
             this.C27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.C27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C27.Location = new System.Drawing.Point(233, 230);
@@ -2582,7 +2582,7 @@
             // 
             // D10
             // 
-            this.D10.BackColor = System.Drawing.SystemColors.Control;
+            this.D10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D10.Location = new System.Drawing.Point(950, 282);
@@ -2593,7 +2593,7 @@
             // 
             // D07
             // 
-            this.D07.BackColor = System.Drawing.SystemColors.Control;
+            this.D07.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D07.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D07.Location = new System.Drawing.Point(1037, 282);
@@ -2604,7 +2604,7 @@
             // 
             // D15
             // 
-            this.D15.BackColor = System.Drawing.SystemColors.Control;
+            this.D15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D15.Location = new System.Drawing.Point(805, 282);
@@ -2615,7 +2615,7 @@
             // 
             // D11
             // 
-            this.D11.BackColor = System.Drawing.SystemColors.Control;
+            this.D11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D11.Location = new System.Drawing.Point(921, 282);
@@ -2626,7 +2626,7 @@
             // 
             // D12
             // 
-            this.D12.BackColor = System.Drawing.SystemColors.Control;
+            this.D12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D12.Location = new System.Drawing.Point(892, 282);
@@ -2637,7 +2637,7 @@
             // 
             // D13
             // 
-            this.D13.BackColor = System.Drawing.SystemColors.Control;
+            this.D13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D13.Location = new System.Drawing.Point(863, 282);
@@ -2648,7 +2648,7 @@
             // 
             // D14
             // 
-            this.D14.BackColor = System.Drawing.SystemColors.Control;
+            this.D14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D14.Location = new System.Drawing.Point(834, 282);
@@ -2659,7 +2659,7 @@
             // 
             // D08
             // 
-            this.D08.BackColor = System.Drawing.SystemColors.Control;
+            this.D08.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D08.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D08.Location = new System.Drawing.Point(1008, 282);
@@ -2670,7 +2670,7 @@
             // 
             // D09
             // 
-            this.D09.BackColor = System.Drawing.SystemColors.Control;
+            this.D09.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D09.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D09.Location = new System.Drawing.Point(979, 282);
@@ -2681,7 +2681,7 @@
             // 
             // D06
             // 
-            this.D06.BackColor = System.Drawing.SystemColors.Control;
+            this.D06.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D06.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D06.Location = new System.Drawing.Point(1066, 282);
@@ -2692,7 +2692,7 @@
             // 
             // D02
             // 
-            this.D02.BackColor = System.Drawing.SystemColors.Control;
+            this.D02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D02.Location = new System.Drawing.Point(1182, 282);
@@ -2703,7 +2703,7 @@
             // 
             // D03
             // 
-            this.D03.BackColor = System.Drawing.SystemColors.Control;
+            this.D03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D03.Location = new System.Drawing.Point(1153, 282);
@@ -2714,7 +2714,7 @@
             // 
             // D04
             // 
-            this.D04.BackColor = System.Drawing.SystemColors.Control;
+            this.D04.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D04.Location = new System.Drawing.Point(1124, 282);
@@ -2725,7 +2725,7 @@
             // 
             // D05
             // 
-            this.D05.BackColor = System.Drawing.SystemColors.Control;
+            this.D05.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D05.Location = new System.Drawing.Point(1095, 282);
@@ -2736,7 +2736,7 @@
             // 
             // D36
             // 
-            this.D36.BackColor = System.Drawing.SystemColors.Control;
+            this.D36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D36.Location = new System.Drawing.Point(157, 282);
@@ -2747,7 +2747,7 @@
             // 
             // D33
             // 
-            this.D33.BackColor = System.Drawing.SystemColors.Control;
+            this.D33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D33.Location = new System.Drawing.Point(244, 282);
@@ -2758,7 +2758,7 @@
             // 
             // D17
             // 
-            this.D17.BackColor = System.Drawing.SystemColors.Control;
+            this.D17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D17.Location = new System.Drawing.Point(708, 282);
@@ -2769,7 +2769,7 @@
             // 
             // D37
             // 
-            this.D37.BackColor = System.Drawing.SystemColors.Control;
+            this.D37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D37.Location = new System.Drawing.Point(128, 282);
@@ -2780,7 +2780,7 @@
             // 
             // D38
             // 
-            this.D38.BackColor = System.Drawing.SystemColors.Control;
+            this.D38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D38.Location = new System.Drawing.Point(99, 282);
@@ -2791,7 +2791,7 @@
             // 
             // D39
             // 
-            this.D39.BackColor = System.Drawing.SystemColors.Control;
+            this.D39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D39.Location = new System.Drawing.Point(70, 282);
@@ -2802,7 +2802,7 @@
             // 
             // D40
             // 
-            this.D40.BackColor = System.Drawing.SystemColors.Control;
+            this.D40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D40.Location = new System.Drawing.Point(41, 282);
@@ -2813,7 +2813,7 @@
             // 
             // D34
             // 
-            this.D34.BackColor = System.Drawing.SystemColors.Control;
+            this.D34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D34.Location = new System.Drawing.Point(215, 282);
@@ -2824,7 +2824,7 @@
             // 
             // D35
             // 
-            this.D35.BackColor = System.Drawing.SystemColors.Control;
+            this.D35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D35.Location = new System.Drawing.Point(186, 282);
@@ -2835,7 +2835,7 @@
             // 
             // D32
             // 
-            this.D32.BackColor = System.Drawing.SystemColors.Control;
+            this.D32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D32.Location = new System.Drawing.Point(273, 282);
@@ -2846,7 +2846,7 @@
             // 
             // D26
             // 
-            this.D26.BackColor = System.Drawing.SystemColors.Control;
+            this.D26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D26.Location = new System.Drawing.Point(447, 282);
@@ -2857,7 +2857,7 @@
             // 
             // D23
             // 
-            this.D23.BackColor = System.Drawing.SystemColors.Control;
+            this.D23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D23.Location = new System.Drawing.Point(534, 282);
@@ -2868,7 +2868,7 @@
             // 
             // D31
             // 
-            this.D31.BackColor = System.Drawing.SystemColors.Control;
+            this.D31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D31.Location = new System.Drawing.Point(302, 282);
@@ -2879,7 +2879,7 @@
             // 
             // D27
             // 
-            this.D27.BackColor = System.Drawing.SystemColors.Control;
+            this.D27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D27.Location = new System.Drawing.Point(418, 282);
@@ -2890,7 +2890,7 @@
             // 
             // D28
             // 
-            this.D28.BackColor = System.Drawing.SystemColors.Control;
+            this.D28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D28.Location = new System.Drawing.Point(389, 282);
@@ -2901,7 +2901,7 @@
             // 
             // D29
             // 
-            this.D29.BackColor = System.Drawing.SystemColors.Control;
+            this.D29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D29.Location = new System.Drawing.Point(360, 282);
@@ -2912,7 +2912,7 @@
             // 
             // D30
             // 
-            this.D30.BackColor = System.Drawing.SystemColors.Control;
+            this.D30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D30.Location = new System.Drawing.Point(331, 282);
@@ -2923,7 +2923,7 @@
             // 
             // D24
             // 
-            this.D24.BackColor = System.Drawing.SystemColors.Control;
+            this.D24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D24.Location = new System.Drawing.Point(505, 282);
@@ -2934,7 +2934,7 @@
             // 
             // D25
             // 
-            this.D25.BackColor = System.Drawing.SystemColors.Control;
+            this.D25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D25.Location = new System.Drawing.Point(476, 282);
@@ -2945,7 +2945,7 @@
             // 
             // D22
             // 
-            this.D22.BackColor = System.Drawing.SystemColors.Control;
+            this.D22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D22.Location = new System.Drawing.Point(563, 282);
@@ -2956,7 +2956,7 @@
             // 
             // D16
             // 
-            this.D16.BackColor = System.Drawing.SystemColors.Control;
+            this.D16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D16.Location = new System.Drawing.Point(776, 282);
@@ -2967,7 +2967,7 @@
             // 
             // D18
             // 
-            this.D18.BackColor = System.Drawing.SystemColors.Control;
+            this.D18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D18.Location = new System.Drawing.Point(679, 282);
@@ -2978,7 +2978,7 @@
             // 
             // D19
             // 
-            this.D19.BackColor = System.Drawing.SystemColors.Control;
+            this.D19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D19.Location = new System.Drawing.Point(650, 282);
@@ -2989,7 +2989,7 @@
             // 
             // D20
             // 
-            this.D20.BackColor = System.Drawing.SystemColors.Control;
+            this.D20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D20.Location = new System.Drawing.Point(621, 282);
@@ -3000,7 +3000,7 @@
             // 
             // D21
             // 
-            this.D21.BackColor = System.Drawing.SystemColors.Control;
+            this.D21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.D21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.D21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.D21.Location = new System.Drawing.Point(592, 282);
@@ -3011,7 +3011,7 @@
             // 
             // E10
             // 
-            this.E10.BackColor = System.Drawing.SystemColors.Control;
+            this.E10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E10.Location = new System.Drawing.Point(950, 311);
@@ -3022,7 +3022,7 @@
             // 
             // E07
             // 
-            this.E07.BackColor = System.Drawing.SystemColors.Control;
+            this.E07.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E07.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E07.Location = new System.Drawing.Point(1037, 311);
@@ -3033,7 +3033,7 @@
             // 
             // E15
             // 
-            this.E15.BackColor = System.Drawing.SystemColors.Control;
+            this.E15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E15.Location = new System.Drawing.Point(805, 311);
@@ -3044,7 +3044,7 @@
             // 
             // E11
             // 
-            this.E11.BackColor = System.Drawing.SystemColors.Control;
+            this.E11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E11.Location = new System.Drawing.Point(921, 311);
@@ -3055,7 +3055,7 @@
             // 
             // E12
             // 
-            this.E12.BackColor = System.Drawing.SystemColors.Control;
+            this.E12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E12.Location = new System.Drawing.Point(892, 311);
@@ -3066,7 +3066,7 @@
             // 
             // E13
             // 
-            this.E13.BackColor = System.Drawing.SystemColors.Control;
+            this.E13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E13.Location = new System.Drawing.Point(863, 311);
@@ -3077,7 +3077,7 @@
             // 
             // E14
             // 
-            this.E14.BackColor = System.Drawing.SystemColors.Control;
+            this.E14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E14.Location = new System.Drawing.Point(834, 311);
@@ -3088,7 +3088,7 @@
             // 
             // E08
             // 
-            this.E08.BackColor = System.Drawing.SystemColors.Control;
+            this.E08.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E08.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E08.Location = new System.Drawing.Point(1008, 311);
@@ -3099,7 +3099,7 @@
             // 
             // E09
             // 
-            this.E09.BackColor = System.Drawing.SystemColors.Control;
+            this.E09.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E09.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E09.Location = new System.Drawing.Point(979, 311);
@@ -3110,7 +3110,7 @@
             // 
             // E06
             // 
-            this.E06.BackColor = System.Drawing.SystemColors.Control;
+            this.E06.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E06.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E06.Location = new System.Drawing.Point(1066, 311);
@@ -3121,7 +3121,7 @@
             // 
             // E02
             // 
-            this.E02.BackColor = System.Drawing.SystemColors.Control;
+            this.E02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E02.Location = new System.Drawing.Point(1182, 311);
@@ -3132,7 +3132,7 @@
             // 
             // E03
             // 
-            this.E03.BackColor = System.Drawing.SystemColors.Control;
+            this.E03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E03.Location = new System.Drawing.Point(1153, 311);
@@ -3143,7 +3143,7 @@
             // 
             // E04
             // 
-            this.E04.BackColor = System.Drawing.SystemColors.Control;
+            this.E04.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E04.Location = new System.Drawing.Point(1124, 311);
@@ -3154,7 +3154,7 @@
             // 
             // E05
             // 
-            this.E05.BackColor = System.Drawing.SystemColors.Control;
+            this.E05.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E05.Location = new System.Drawing.Point(1095, 311);
@@ -3165,7 +3165,7 @@
             // 
             // E36
             // 
-            this.E36.BackColor = System.Drawing.SystemColors.Control;
+            this.E36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E36.Location = new System.Drawing.Point(157, 311);
@@ -3176,7 +3176,7 @@
             // 
             // E33
             // 
-            this.E33.BackColor = System.Drawing.SystemColors.Control;
+            this.E33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E33.Location = new System.Drawing.Point(244, 311);
@@ -3187,7 +3187,7 @@
             // 
             // E17
             // 
-            this.E17.BackColor = System.Drawing.SystemColors.Control;
+            this.E17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E17.Location = new System.Drawing.Point(708, 311);
@@ -3198,7 +3198,7 @@
             // 
             // E37
             // 
-            this.E37.BackColor = System.Drawing.SystemColors.Control;
+            this.E37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E37.Location = new System.Drawing.Point(128, 311);
@@ -3209,7 +3209,7 @@
             // 
             // E38
             // 
-            this.E38.BackColor = System.Drawing.SystemColors.Control;
+            this.E38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E38.Location = new System.Drawing.Point(99, 311);
@@ -3220,7 +3220,7 @@
             // 
             // E39
             // 
-            this.E39.BackColor = System.Drawing.SystemColors.Control;
+            this.E39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E39.Location = new System.Drawing.Point(70, 311);
@@ -3231,7 +3231,7 @@
             // 
             // E40
             // 
-            this.E40.BackColor = System.Drawing.SystemColors.Control;
+            this.E40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E40.Location = new System.Drawing.Point(41, 311);
@@ -3242,7 +3242,7 @@
             // 
             // E34
             // 
-            this.E34.BackColor = System.Drawing.SystemColors.Control;
+            this.E34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E34.Location = new System.Drawing.Point(215, 311);
@@ -3253,7 +3253,7 @@
             // 
             // E35
             // 
-            this.E35.BackColor = System.Drawing.SystemColors.Control;
+            this.E35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E35.Location = new System.Drawing.Point(186, 311);
@@ -3264,7 +3264,7 @@
             // 
             // E32
             // 
-            this.E32.BackColor = System.Drawing.SystemColors.Control;
+            this.E32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E32.Location = new System.Drawing.Point(273, 311);
@@ -3275,7 +3275,7 @@
             // 
             // E26
             // 
-            this.E26.BackColor = System.Drawing.SystemColors.Control;
+            this.E26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E26.Location = new System.Drawing.Point(447, 311);
@@ -3286,7 +3286,7 @@
             // 
             // E23
             // 
-            this.E23.BackColor = System.Drawing.SystemColors.Control;
+            this.E23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E23.Location = new System.Drawing.Point(534, 311);
@@ -3297,7 +3297,7 @@
             // 
             // E31
             // 
-            this.E31.BackColor = System.Drawing.SystemColors.Control;
+            this.E31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E31.Location = new System.Drawing.Point(302, 311);
@@ -3308,7 +3308,7 @@
             // 
             // E27
             // 
-            this.E27.BackColor = System.Drawing.SystemColors.Control;
+            this.E27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E27.Location = new System.Drawing.Point(418, 311);
@@ -3319,7 +3319,7 @@
             // 
             // E28
             // 
-            this.E28.BackColor = System.Drawing.SystemColors.Control;
+            this.E28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E28.Location = new System.Drawing.Point(389, 311);
@@ -3330,7 +3330,7 @@
             // 
             // E29
             // 
-            this.E29.BackColor = System.Drawing.SystemColors.Control;
+            this.E29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E29.Location = new System.Drawing.Point(360, 311);
@@ -3341,7 +3341,7 @@
             // 
             // E30
             // 
-            this.E30.BackColor = System.Drawing.SystemColors.Control;
+            this.E30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E30.Location = new System.Drawing.Point(331, 311);
@@ -3352,7 +3352,7 @@
             // 
             // E24
             // 
-            this.E24.BackColor = System.Drawing.SystemColors.Control;
+            this.E24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E24.Location = new System.Drawing.Point(505, 311);
@@ -3363,7 +3363,7 @@
             // 
             // E25
             // 
-            this.E25.BackColor = System.Drawing.SystemColors.Control;
+            this.E25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E25.Location = new System.Drawing.Point(476, 311);
@@ -3374,7 +3374,7 @@
             // 
             // E22
             // 
-            this.E22.BackColor = System.Drawing.SystemColors.Control;
+            this.E22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E22.Location = new System.Drawing.Point(563, 311);
@@ -3385,7 +3385,7 @@
             // 
             // E16
             // 
-            this.E16.BackColor = System.Drawing.SystemColors.Control;
+            this.E16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E16.Location = new System.Drawing.Point(776, 311);
@@ -3396,7 +3396,7 @@
             // 
             // E18
             // 
-            this.E18.BackColor = System.Drawing.SystemColors.Control;
+            this.E18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E18.Location = new System.Drawing.Point(679, 311);
@@ -3407,7 +3407,7 @@
             // 
             // E19
             // 
-            this.E19.BackColor = System.Drawing.SystemColors.Control;
+            this.E19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E19.Location = new System.Drawing.Point(650, 311);
@@ -3418,7 +3418,7 @@
             // 
             // E20
             // 
-            this.E20.BackColor = System.Drawing.SystemColors.Control;
+            this.E20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E20.Location = new System.Drawing.Point(621, 311);
@@ -3429,7 +3429,7 @@
             // 
             // E21
             // 
-            this.E21.BackColor = System.Drawing.SystemColors.Control;
+            this.E21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.E21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.E21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.E21.Location = new System.Drawing.Point(592, 311);
@@ -3440,7 +3440,7 @@
             // 
             // F10
             // 
-            this.F10.BackColor = System.Drawing.SystemColors.Control;
+            this.F10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F10.Location = new System.Drawing.Point(950, 355);
@@ -3451,7 +3451,7 @@
             // 
             // F07
             // 
-            this.F07.BackColor = System.Drawing.SystemColors.Control;
+            this.F07.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F07.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F07.Location = new System.Drawing.Point(1037, 355);
@@ -3462,7 +3462,7 @@
             // 
             // F15
             // 
-            this.F15.BackColor = System.Drawing.SystemColors.Control;
+            this.F15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F15.Location = new System.Drawing.Point(805, 355);
@@ -3473,7 +3473,7 @@
             // 
             // F11
             // 
-            this.F11.BackColor = System.Drawing.SystemColors.Control;
+            this.F11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F11.Location = new System.Drawing.Point(921, 355);
@@ -3484,7 +3484,7 @@
             // 
             // F12
             // 
-            this.F12.BackColor = System.Drawing.SystemColors.Control;
+            this.F12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F12.Location = new System.Drawing.Point(892, 355);
@@ -3495,7 +3495,7 @@
             // 
             // F13
             // 
-            this.F13.BackColor = System.Drawing.SystemColors.Control;
+            this.F13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F13.Location = new System.Drawing.Point(863, 355);
@@ -3506,7 +3506,7 @@
             // 
             // F14
             // 
-            this.F14.BackColor = System.Drawing.SystemColors.Control;
+            this.F14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F14.Location = new System.Drawing.Point(834, 355);
@@ -3517,7 +3517,7 @@
             // 
             // F08
             // 
-            this.F08.BackColor = System.Drawing.SystemColors.Control;
+            this.F08.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F08.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F08.Location = new System.Drawing.Point(1008, 355);
@@ -3528,7 +3528,7 @@
             // 
             // F09
             // 
-            this.F09.BackColor = System.Drawing.SystemColors.Control;
+            this.F09.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F09.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F09.Location = new System.Drawing.Point(979, 355);
@@ -3539,7 +3539,7 @@
             // 
             // F06
             // 
-            this.F06.BackColor = System.Drawing.SystemColors.Control;
+            this.F06.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F06.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F06.Location = new System.Drawing.Point(1066, 355);
@@ -3550,7 +3550,7 @@
             // 
             // F02
             // 
-            this.F02.BackColor = System.Drawing.SystemColors.Control;
+            this.F02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F02.Location = new System.Drawing.Point(1182, 355);
@@ -3561,7 +3561,7 @@
             // 
             // F03
             // 
-            this.F03.BackColor = System.Drawing.SystemColors.Control;
+            this.F03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F03.Location = new System.Drawing.Point(1153, 355);
@@ -3572,7 +3572,7 @@
             // 
             // F04
             // 
-            this.F04.BackColor = System.Drawing.SystemColors.Control;
+            this.F04.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F04.Location = new System.Drawing.Point(1124, 355);
@@ -3583,7 +3583,7 @@
             // 
             // F05
             // 
-            this.F05.BackColor = System.Drawing.SystemColors.Control;
+            this.F05.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F05.Location = new System.Drawing.Point(1095, 355);
@@ -3594,7 +3594,7 @@
             // 
             // F36
             // 
-            this.F36.BackColor = System.Drawing.SystemColors.Control;
+            this.F36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F36.Location = new System.Drawing.Point(157, 355);
@@ -3605,7 +3605,7 @@
             // 
             // F33
             // 
-            this.F33.BackColor = System.Drawing.SystemColors.Control;
+            this.F33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F33.Location = new System.Drawing.Point(244, 355);
@@ -3616,7 +3616,7 @@
             // 
             // F17
             // 
-            this.F17.BackColor = System.Drawing.SystemColors.Control;
+            this.F17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F17.Location = new System.Drawing.Point(708, 355);
@@ -3627,7 +3627,7 @@
             // 
             // F37
             // 
-            this.F37.BackColor = System.Drawing.SystemColors.Control;
+            this.F37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F37.Location = new System.Drawing.Point(128, 355);
@@ -3638,7 +3638,7 @@
             // 
             // F38
             // 
-            this.F38.BackColor = System.Drawing.SystemColors.Control;
+            this.F38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F38.Location = new System.Drawing.Point(99, 355);
@@ -3649,7 +3649,7 @@
             // 
             // F39
             // 
-            this.F39.BackColor = System.Drawing.SystemColors.Control;
+            this.F39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F39.Location = new System.Drawing.Point(70, 355);
@@ -3660,7 +3660,7 @@
             // 
             // F40
             // 
-            this.F40.BackColor = System.Drawing.SystemColors.Control;
+            this.F40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F40.Location = new System.Drawing.Point(41, 355);
@@ -3671,7 +3671,7 @@
             // 
             // F34
             // 
-            this.F34.BackColor = System.Drawing.SystemColors.Control;
+            this.F34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F34.Location = new System.Drawing.Point(215, 355);
@@ -3682,7 +3682,7 @@
             // 
             // F35
             // 
-            this.F35.BackColor = System.Drawing.SystemColors.Control;
+            this.F35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F35.Location = new System.Drawing.Point(186, 355);
@@ -3693,7 +3693,7 @@
             // 
             // F32
             // 
-            this.F32.BackColor = System.Drawing.SystemColors.Control;
+            this.F32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F32.Location = new System.Drawing.Point(273, 355);
@@ -3704,7 +3704,7 @@
             // 
             // F26
             // 
-            this.F26.BackColor = System.Drawing.SystemColors.Control;
+            this.F26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F26.Location = new System.Drawing.Point(447, 355);
@@ -3715,7 +3715,7 @@
             // 
             // F23
             // 
-            this.F23.BackColor = System.Drawing.SystemColors.Control;
+            this.F23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F23.Location = new System.Drawing.Point(534, 355);
@@ -3726,7 +3726,7 @@
             // 
             // F31
             // 
-            this.F31.BackColor = System.Drawing.SystemColors.Control;
+            this.F31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F31.Location = new System.Drawing.Point(302, 355);
@@ -3737,7 +3737,7 @@
             // 
             // F27
             // 
-            this.F27.BackColor = System.Drawing.SystemColors.Control;
+            this.F27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F27.Location = new System.Drawing.Point(418, 355);
@@ -3748,7 +3748,7 @@
             // 
             // F28
             // 
-            this.F28.BackColor = System.Drawing.SystemColors.Control;
+            this.F28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F28.Location = new System.Drawing.Point(389, 355);
@@ -3759,7 +3759,7 @@
             // 
             // F29
             // 
-            this.F29.BackColor = System.Drawing.SystemColors.Control;
+            this.F29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F29.Location = new System.Drawing.Point(360, 355);
@@ -3770,7 +3770,7 @@
             // 
             // F30
             // 
-            this.F30.BackColor = System.Drawing.SystemColors.Control;
+            this.F30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F30.Location = new System.Drawing.Point(331, 355);
@@ -3781,7 +3781,7 @@
             // 
             // F24
             // 
-            this.F24.BackColor = System.Drawing.SystemColors.Control;
+            this.F24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F24.Location = new System.Drawing.Point(505, 355);
@@ -3792,7 +3792,7 @@
             // 
             // F25
             // 
-            this.F25.BackColor = System.Drawing.SystemColors.Control;
+            this.F25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F25.Location = new System.Drawing.Point(476, 355);
@@ -3803,7 +3803,7 @@
             // 
             // F22
             // 
-            this.F22.BackColor = System.Drawing.SystemColors.Control;
+            this.F22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F22.Location = new System.Drawing.Point(563, 355);
@@ -3814,7 +3814,7 @@
             // 
             // F16
             // 
-            this.F16.BackColor = System.Drawing.SystemColors.Control;
+            this.F16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F16.Location = new System.Drawing.Point(776, 355);
@@ -3825,7 +3825,7 @@
             // 
             // F18
             // 
-            this.F18.BackColor = System.Drawing.SystemColors.Control;
+            this.F18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F18.Location = new System.Drawing.Point(679, 355);
@@ -3836,7 +3836,7 @@
             // 
             // F19
             // 
-            this.F19.BackColor = System.Drawing.SystemColors.Control;
+            this.F19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F19.Location = new System.Drawing.Point(650, 355);
@@ -3847,7 +3847,7 @@
             // 
             // F20
             // 
-            this.F20.BackColor = System.Drawing.SystemColors.Control;
+            this.F20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F20.Location = new System.Drawing.Point(621, 355);
@@ -3858,7 +3858,7 @@
             // 
             // F21
             // 
-            this.F21.BackColor = System.Drawing.SystemColors.Control;
+            this.F21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.F21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.F21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.F21.Location = new System.Drawing.Point(592, 355);
@@ -3869,7 +3869,7 @@
             // 
             // G10
             // 
-            this.G10.BackColor = System.Drawing.SystemColors.Control;
+            this.G10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G10.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G10.Location = new System.Drawing.Point(950, 384);
@@ -3880,7 +3880,7 @@
             // 
             // G07
             // 
-            this.G07.BackColor = System.Drawing.SystemColors.Control;
+            this.G07.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G07.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G07.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G07.Location = new System.Drawing.Point(1037, 384);
@@ -3891,7 +3891,7 @@
             // 
             // G15
             // 
-            this.G15.BackColor = System.Drawing.SystemColors.Control;
+            this.G15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G15.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G15.Location = new System.Drawing.Point(805, 384);
@@ -3902,7 +3902,7 @@
             // 
             // G11
             // 
-            this.G11.BackColor = System.Drawing.SystemColors.Control;
+            this.G11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G11.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G11.Location = new System.Drawing.Point(921, 384);
@@ -3913,7 +3913,7 @@
             // 
             // G12
             // 
-            this.G12.BackColor = System.Drawing.SystemColors.Control;
+            this.G12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G12.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G12.Location = new System.Drawing.Point(892, 384);
@@ -3924,7 +3924,7 @@
             // 
             // G13
             // 
-            this.G13.BackColor = System.Drawing.SystemColors.Control;
+            this.G13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G13.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G13.Location = new System.Drawing.Point(863, 384);
@@ -3935,7 +3935,7 @@
             // 
             // G14
             // 
-            this.G14.BackColor = System.Drawing.SystemColors.Control;
+            this.G14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G14.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G14.Location = new System.Drawing.Point(834, 384);
@@ -3946,7 +3946,7 @@
             // 
             // G08
             // 
-            this.G08.BackColor = System.Drawing.SystemColors.Control;
+            this.G08.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G08.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G08.Location = new System.Drawing.Point(1008, 384);
@@ -3957,7 +3957,7 @@
             // 
             // G09
             // 
-            this.G09.BackColor = System.Drawing.SystemColors.Control;
+            this.G09.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G09.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G09.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G09.Location = new System.Drawing.Point(979, 384);
@@ -3968,7 +3968,7 @@
             // 
             // G06
             // 
-            this.G06.BackColor = System.Drawing.SystemColors.Control;
+            this.G06.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G06.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G06.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G06.Location = new System.Drawing.Point(1066, 384);
@@ -3979,7 +3979,7 @@
             // 
             // G02
             // 
-            this.G02.BackColor = System.Drawing.SystemColors.Control;
+            this.G02.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G02.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G02.Location = new System.Drawing.Point(1182, 384);
@@ -3990,7 +3990,7 @@
             // 
             // G03
             // 
-            this.G03.BackColor = System.Drawing.SystemColors.Control;
+            this.G03.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G03.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G03.Location = new System.Drawing.Point(1153, 384);
@@ -4001,7 +4001,7 @@
             // 
             // G04
             // 
-            this.G04.BackColor = System.Drawing.SystemColors.Control;
+            this.G04.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G04.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G04.Location = new System.Drawing.Point(1124, 384);
@@ -4012,7 +4012,7 @@
             // 
             // G05
             // 
-            this.G05.BackColor = System.Drawing.SystemColors.Control;
+            this.G05.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G05.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G05.Location = new System.Drawing.Point(1095, 384);
@@ -4023,7 +4023,7 @@
             // 
             // G36
             // 
-            this.G36.BackColor = System.Drawing.SystemColors.Control;
+            this.G36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G36.Location = new System.Drawing.Point(157, 384);
@@ -4034,7 +4034,7 @@
             // 
             // G33
             // 
-            this.G33.BackColor = System.Drawing.SystemColors.Control;
+            this.G33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G33.Location = new System.Drawing.Point(244, 384);
@@ -4045,7 +4045,7 @@
             // 
             // G17
             // 
-            this.G17.BackColor = System.Drawing.SystemColors.Control;
+            this.G17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G17.Location = new System.Drawing.Point(708, 384);
@@ -4056,7 +4056,7 @@
             // 
             // G37
             // 
-            this.G37.BackColor = System.Drawing.SystemColors.Control;
+            this.G37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G37.Location = new System.Drawing.Point(128, 384);
@@ -4067,7 +4067,7 @@
             // 
             // G38
             // 
-            this.G38.BackColor = System.Drawing.SystemColors.Control;
+            this.G38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G38.Location = new System.Drawing.Point(99, 384);
@@ -4078,7 +4078,7 @@
             // 
             // G39
             // 
-            this.G39.BackColor = System.Drawing.SystemColors.Control;
+            this.G39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G39.Location = new System.Drawing.Point(70, 384);
@@ -4089,7 +4089,7 @@
             // 
             // G40
             // 
-            this.G40.BackColor = System.Drawing.SystemColors.Control;
+            this.G40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G40.Location = new System.Drawing.Point(41, 384);
@@ -4100,7 +4100,7 @@
             // 
             // G34
             // 
-            this.G34.BackColor = System.Drawing.SystemColors.Control;
+            this.G34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G34.Location = new System.Drawing.Point(215, 384);
@@ -4111,7 +4111,7 @@
             // 
             // G35
             // 
-            this.G35.BackColor = System.Drawing.SystemColors.Control;
+            this.G35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G35.Location = new System.Drawing.Point(186, 384);
@@ -4122,7 +4122,7 @@
             // 
             // G32
             // 
-            this.G32.BackColor = System.Drawing.SystemColors.Control;
+            this.G32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G32.Location = new System.Drawing.Point(273, 384);
@@ -4133,7 +4133,7 @@
             // 
             // G26
             // 
-            this.G26.BackColor = System.Drawing.SystemColors.Control;
+            this.G26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G26.Location = new System.Drawing.Point(447, 384);
@@ -4144,7 +4144,7 @@
             // 
             // G23
             // 
-            this.G23.BackColor = System.Drawing.SystemColors.Control;
+            this.G23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G23.Location = new System.Drawing.Point(534, 384);
@@ -4155,7 +4155,7 @@
             // 
             // G31
             // 
-            this.G31.BackColor = System.Drawing.SystemColors.Control;
+            this.G31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G31.Location = new System.Drawing.Point(302, 384);
@@ -4166,7 +4166,7 @@
             // 
             // G27
             // 
-            this.G27.BackColor = System.Drawing.SystemColors.Control;
+            this.G27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G27.Location = new System.Drawing.Point(418, 384);
@@ -4177,7 +4177,7 @@
             // 
             // G28
             // 
-            this.G28.BackColor = System.Drawing.SystemColors.Control;
+            this.G28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G28.Location = new System.Drawing.Point(389, 384);
@@ -4188,7 +4188,7 @@
             // 
             // G29
             // 
-            this.G29.BackColor = System.Drawing.SystemColors.Control;
+            this.G29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G29.Location = new System.Drawing.Point(360, 384);
@@ -4199,7 +4199,7 @@
             // 
             // G30
             // 
-            this.G30.BackColor = System.Drawing.SystemColors.Control;
+            this.G30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G30.Location = new System.Drawing.Point(331, 384);
@@ -4210,7 +4210,7 @@
             // 
             // G24
             // 
-            this.G24.BackColor = System.Drawing.SystemColors.Control;
+            this.G24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G24.Location = new System.Drawing.Point(505, 384);
@@ -4221,7 +4221,7 @@
             // 
             // G25
             // 
-            this.G25.BackColor = System.Drawing.SystemColors.Control;
+            this.G25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G25.Location = new System.Drawing.Point(476, 384);
@@ -4232,7 +4232,7 @@
             // 
             // G22
             // 
-            this.G22.BackColor = System.Drawing.SystemColors.Control;
+            this.G22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G22.Location = new System.Drawing.Point(563, 384);
@@ -4243,7 +4243,7 @@
             // 
             // G16
             // 
-            this.G16.BackColor = System.Drawing.SystemColors.Control;
+            this.G16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G16.Location = new System.Drawing.Point(776, 384);
@@ -4254,7 +4254,7 @@
             // 
             // G18
             // 
-            this.G18.BackColor = System.Drawing.SystemColors.Control;
+            this.G18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G18.Location = new System.Drawing.Point(679, 384);
@@ -4265,7 +4265,7 @@
             // 
             // G19
             // 
-            this.G19.BackColor = System.Drawing.SystemColors.Control;
+            this.G19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G19.Location = new System.Drawing.Point(650, 384);
@@ -4276,7 +4276,7 @@
             // 
             // G20
             // 
-            this.G20.BackColor = System.Drawing.SystemColors.Control;
+            this.G20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G20.Location = new System.Drawing.Point(621, 384);
@@ -4287,7 +4287,7 @@
             // 
             // G21
             // 
-            this.G21.BackColor = System.Drawing.SystemColors.Control;
+            this.G21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.G21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.G21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.G21.Location = new System.Drawing.Point(592, 384);
@@ -4298,7 +4298,7 @@
             // 
             // AA16
             // 
-            this.AA16.BackColor = System.Drawing.SystemColors.Control;
+            this.AA16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA16.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA16.Location = new System.Drawing.Point(776, 153);
@@ -4309,7 +4309,7 @@
             // 
             // AA34
             // 
-            this.AA34.BackColor = System.Drawing.SystemColors.Control;
+            this.AA34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
             this.AA34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA34.Location = new System.Drawing.Point(214, 141);
@@ -4320,7 +4320,7 @@
             // 
             // AA31
             // 
-            this.AA31.BackColor = System.Drawing.SystemColors.Control;
+            this.AA31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA31.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA31.Location = new System.Drawing.Point(301, 141);
@@ -4331,7 +4331,7 @@
             // 
             // AA35
             // 
-            this.AA35.BackColor = System.Drawing.SystemColors.Control;
+            this.AA35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
             this.AA35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA35.Location = new System.Drawing.Point(185, 141);
@@ -4342,7 +4342,7 @@
             // 
             // AA36
             // 
-            this.AA36.BackColor = System.Drawing.SystemColors.Control;
+            this.AA36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
             this.AA36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA36.Location = new System.Drawing.Point(156, 141);
@@ -4353,7 +4353,7 @@
             // 
             // AA37
             // 
-            this.AA37.BackColor = System.Drawing.SystemColors.Control;
+            this.AA37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
             this.AA37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA37.Location = new System.Drawing.Point(127, 141);
@@ -4364,7 +4364,7 @@
             // 
             // AA38
             // 
-            this.AA38.BackColor = System.Drawing.SystemColors.Control;
+            this.AA38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
             this.AA38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA38.Location = new System.Drawing.Point(98, 141);
@@ -4375,7 +4375,7 @@
             // 
             // AA32
             // 
-            this.AA32.BackColor = System.Drawing.SystemColors.Control;
+            this.AA32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA32.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA32.Location = new System.Drawing.Point(272, 141);
@@ -4386,7 +4386,7 @@
             // 
             // AA33
             // 
-            this.AA33.BackColor = System.Drawing.SystemColors.Control;
+            this.AA33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA33.Location = new System.Drawing.Point(243, 141);
@@ -4397,7 +4397,7 @@
             // 
             // AA30
             // 
-            this.AA30.BackColor = System.Drawing.SystemColors.Control;
+            this.AA30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA30.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA30.Location = new System.Drawing.Point(330, 141);
@@ -4408,7 +4408,7 @@
             // 
             // AA39
             // 
-            this.AA39.BackColor = System.Drawing.SystemColors.Control;
+            this.AA39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
             this.AA39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA39.Location = new System.Drawing.Point(69, 141);
@@ -4419,7 +4419,7 @@
             // 
             // AA22
             // 
-            this.AA22.BackColor = System.Drawing.SystemColors.Control;
+            this.AA22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA22.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA22.Location = new System.Drawing.Point(562, 141);
@@ -4430,7 +4430,7 @@
             // 
             // AA29
             // 
-            this.AA29.BackColor = System.Drawing.SystemColors.Control;
+            this.AA29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA29.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA29.Location = new System.Drawing.Point(359, 141);
@@ -4441,7 +4441,7 @@
             // 
             // AA25
             // 
-            this.AA25.BackColor = System.Drawing.SystemColors.Control;
+            this.AA25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA25.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA25.Location = new System.Drawing.Point(475, 141);
@@ -4452,7 +4452,7 @@
             // 
             // AA26
             // 
-            this.AA26.BackColor = System.Drawing.SystemColors.Control;
+            this.AA26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA26.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA26.Location = new System.Drawing.Point(446, 141);
@@ -4463,7 +4463,7 @@
             // 
             // AA27
             // 
-            this.AA27.BackColor = System.Drawing.SystemColors.Control;
+            this.AA27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA27.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA27.Location = new System.Drawing.Point(417, 141);
@@ -4474,7 +4474,7 @@
             // 
             // AA28
             // 
-            this.AA28.BackColor = System.Drawing.SystemColors.Control;
+            this.AA28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA28.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA28.Location = new System.Drawing.Point(388, 141);
@@ -4485,7 +4485,7 @@
             // 
             // AA23
             // 
-            this.AA23.BackColor = System.Drawing.SystemColors.Control;
+            this.AA23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA23.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA23.Location = new System.Drawing.Point(533, 141);
@@ -4496,7 +4496,7 @@
             // 
             // AA24
             // 
-            this.AA24.BackColor = System.Drawing.SystemColors.Control;
+            this.AA24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA24.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA24.Location = new System.Drawing.Point(504, 141);
@@ -4507,7 +4507,7 @@
             // 
             // AA21
             // 
-            this.AA21.BackColor = System.Drawing.SystemColors.Control;
+            this.AA21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA21.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA21.Location = new System.Drawing.Point(591, 141);
@@ -4518,7 +4518,7 @@
             // 
             // AA17
             // 
-            this.AA17.BackColor = System.Drawing.SystemColors.Control;
+            this.AA17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA17.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA17.Location = new System.Drawing.Point(707, 141);
@@ -4529,7 +4529,7 @@
             // 
             // AA18
             // 
-            this.AA18.BackColor = System.Drawing.SystemColors.Control;
+            this.AA18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA18.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA18.Location = new System.Drawing.Point(678, 141);
@@ -4540,7 +4540,7 @@
             // 
             // AA19
             // 
-            this.AA19.BackColor = System.Drawing.SystemColors.Control;
+            this.AA19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA19.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA19.Location = new System.Drawing.Point(649, 141);
@@ -4551,7 +4551,7 @@
             // 
             // AA20
             // 
-            this.AA20.BackColor = System.Drawing.SystemColors.Control;
+            this.AA20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.AA20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA20.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA20.Location = new System.Drawing.Point(620, 141);
@@ -4562,7 +4562,7 @@
             // 
             // AA40
             // 
-            this.AA40.BackColor = System.Drawing.SystemColors.Control;
+            this.AA40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
             this.AA40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA40.Location = new System.Drawing.Point(40, 141);
@@ -4573,7 +4573,7 @@
             // 
             // B41
             // 
-            this.B41.BackColor = System.Drawing.SystemColors.Control;
+            this.B41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.B41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B41.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B41.Location = new System.Drawing.Point(12, 201);
@@ -6607,7 +6607,7 @@
             // 
             // A08
             // 
-            this.A08.BackColor = System.Drawing.SystemColors.Control;
+            this.A08.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.A08.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.A08.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.A08.Location = new System.Drawing.Point(1007, 124);
