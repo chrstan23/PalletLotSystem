@@ -9,9 +9,15 @@ namespace PalletLotSystem{
 
         private Layout layoutForm;
 
+        private TextBox[] partNos;
+        private TextBox[] qtys;
+
         public UpdateForm(Layout layout, string location){
             InitializeComponent();
             layoutForm = layout;
+
+            partNos = new TextBox[] { txtPartNumber1, txtPartNumber2, txtPartNumber3, txtPartNumber4, txtPartNumber5 };
+            qtys = new TextBox[] { txtQty1, txtQty2, txtQty3, txtQty4, txtQty5 };
 
             LoadPalletData(location);
             ApplyUserPermissions();
@@ -22,7 +28,7 @@ namespace PalletLotSystem{
             if (UserSession.Privilege > 2)
             {
                 btnIn.Enabled = false;
-                btnOut.Enabled = false;
+                btnWithdraw.Enabled = false;
                 btnSave.Visible = false;
                 btnCancel.Visible = false;
                 btnCancel2.Enabled = true;
@@ -44,6 +50,14 @@ namespace PalletLotSystem{
                             lblPallet.Text = location;
                             txtPalletNo.Text = reader["palletNo"].ToString();
                             txtPalletId.Text = reader["palletId"].ToString();
+                            for (int i = 0; i < partNos.Length; i++)
+                            {
+                                partNos[i].Text = reader["partNo" + (i + 1)].ToString();
+
+                                int qty = Convert.ToInt32(reader["qty" + (i + 1)]);
+
+                                qtys[i].Text = qty == 0 ? "" : qty.ToString();
+                            }
                         }
                     }
                 }
@@ -69,6 +83,9 @@ namespace PalletLotSystem{
         private void btnSave_Click(object sender, EventArgs e){
             string palletNo = txtPalletNo.Text.Trim();
             string palletId = txtPalletId.Text.Trim();
+            string partNo1 = txtPartNumber1.Text.Trim();
+            string qty1 = txtQty1.Text.Trim();
+
 
             if (palletNo == ""){
                 MessageBox.Show("Please enter Pallet No.", "Validation",MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -82,8 +99,15 @@ namespace PalletLotSystem{
                 return;
             }else if (!PalletIdLoc() || !ValidatePalletNo()){
                 return;
+            }else if(partNo1 == "" || qty1 == ""){
+                MessageBox.Show("Please enter atleast one Part Number for Pallet", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }else{
 
+                DialogResult result = MessageBox.Show("Are you sure with the details of the Pallet?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (result == DialogResult.No){
+                    return;
+                }
                 PalletIdLoc();
                 UpdatePalletStatus();
 
@@ -134,13 +158,17 @@ namespace PalletLotSystem{
                     }
 
                     // UPDATE DATABASE
-                    string updateQuery = @"UPDATE tbl_pallet SET palletNo = @palletNo, palletId = @palletId, status = @status WHERE location = @location";
+                    string updateQuery = @"UPDATE tbl_pallet SET palletNo = @palletNo, palletId = @palletId, status = @status, partNo1 = @partNo1, qty1 = @qty1, partNo2 = @partNo2, qty2 = @qty2, partNo3 = @partNo3, qty3 = @qty3, partNo4 = @partNo4, qty4 = @qty4, partNo5 = @partNo5, qty5 = @qty5 WHERE location = @location";
 
                     using (MySqlCommand cmd = new MySqlCommand(updateQuery, conn)){
                         cmd.Parameters.AddWithValue("@palletNo", palletNo);
                         cmd.Parameters.AddWithValue("@palletId", palletId);
                         cmd.Parameters.AddWithValue("@status", newStatus);
                         cmd.Parameters.AddWithValue("@location", location);
+                        for (int i = 0; i < partNos.Length; i++){
+                            cmd.Parameters.AddWithValue("@partNo" + (i + 1), partNos[i].Text.Trim());
+                            cmd.Parameters.AddWithValue("@qty" + (i + 1), qtys[i].Text.Trim());                            
+                        }
 
                         int rowsAffected = cmd.ExecuteNonQuery();
 
@@ -193,19 +221,42 @@ namespace PalletLotSystem{
         // CANCEL
         private void btnCancel_Click(object sender, EventArgs e){
             btnIn.Visible = true;
-            btnOut.Visible = true;
+            btnWithdraw.Visible = true;
             btnCancel2.Visible = true;
             btnSave.Visible = false;
             btnCancel.Visible = false;
             txtPalletNo.Enabled = false;
             txtPalletId.Enabled = false;
+            txtPartNumber1.Enabled = false;
+            txtPartNumber2.Enabled = false;
+            txtPartNumber3.Enabled = false;
+            txtPartNumber4.Enabled = false;
+            txtPartNumber5.Enabled = false;
+            txtQty1.Enabled = false;
+            txtQty2.Enabled = false;
+            txtQty3.Enabled = false;
+            txtQty4.Enabled = false;
+            txtQty5.Enabled = false;
+            btnSave.Enabled = false;
+            txtPalletNo.Text = "";
+            txtPalletId.Text = "";
+            txtPartNumber1.Text = "";
+            txtPartNumber2.Text = "";
+            txtPartNumber3.Text = "";
+            txtPartNumber4.Text = "";
+            txtPartNumber5.Text = "";
+            txtQty1.Text = "";
+            txtQty2.Text = "";
+            txtQty3.Text = "";
+            txtQty4.Text = "";
+            txtQty5.Text = "";
 
         }
 
         //FOR SCANNING THE BARCODE PALLET ID
         private void txtPalletId_KeyDown(object sender, KeyEventArgs e){
             if (e.KeyCode == Keys.Enter){
-                btnSave.PerformClick();
+                txtPartNumber1.Focus();
                 
             }
         }
@@ -219,10 +270,20 @@ namespace PalletLotSystem{
             }else{
                 txtPalletNo.Enabled = true;
                 txtPalletId.Enabled = true;
+                txtPartNumber1.Enabled = true;
+                txtPartNumber2.Enabled = true;
+                txtPartNumber3.Enabled = true;
+                txtPartNumber4.Enabled = true;
+                txtPartNumber5.Enabled = true;
+                txtQty1.Enabled = true;
+                txtQty2.Enabled = true;
+                txtQty3.Enabled = true;
+                txtQty4.Enabled = true;
+                txtQty5.Enabled = true;
                 btnSave.Enabled = true;
                 txtPalletNo.Focus();
                 btnIn.Visible = false;
-                btnOut.Visible = false;
+                btnWithdraw.Visible = false;
                 btnSave.Visible = true;
                 btnCancel2.Visible = false;
                 btnCancel.Visible = true;
@@ -286,22 +347,6 @@ namespace PalletLotSystem{
             }
         }
 
-        private void btnOut_Click(object sender, EventArgs e){
-            if (string.IsNullOrWhiteSpace(txtPalletNo.Text)){
-
-                MessageBox.Show("The pallet is still empty.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
-            DialogResult result = MessageBox.Show("Are you sure you want to take out this pallet?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if (result == DialogResult.No){
-                return;
-            }
-
-            PalletOutLog();
-            ClearPallet();
-        }
 
         private void txtPalletNo_KeyDown(object sender, KeyEventArgs e){
 
@@ -315,6 +360,31 @@ namespace PalletLotSystem{
         private void btnCancel2_Click(object sender, EventArgs e){
 
             this.Close();
+        }
+
+        private void UpdateForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnWithdraw_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtPalletNo.Text))
+            {
+
+                MessageBox.Show("The pallet is still empty.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            //}
+
+            //DialogResult result = MessageBox.Show("Are you sure you want to take out this pallet?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            //if (result == DialogResult.No)
+            //{
+            //    return;
+            //}
+
+            PalletOutLog();
+            ClearPallet();
         }
     }
 }

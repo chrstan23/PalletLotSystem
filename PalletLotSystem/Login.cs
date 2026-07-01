@@ -31,8 +31,7 @@ namespace PalletLotSystem{
             using (MySqlConnection conn = new MySqlConnection(connStr)){
                 try{
                     conn.Open();
-
-                    string query = "SELECT * FROM tbl_users WHERE companyId=@companyId";
+                    string query = "SELECT companyId, fullName, privilege FROM tbl_users WHERE companyId=@companyId";
 
                     MySqlCommand cmd = new MySqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@companyId", password);
@@ -44,7 +43,7 @@ namespace PalletLotSystem{
                         UserSession.FullName = reader["fullName"].ToString();
                         UserSession.CompanyId = reader["companyId"].ToString();
                         UserSession.Privilege = Convert.ToInt16(reader["privilege"]);
-
+                        
                         MessageBox.Show("Login Successfull", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         txtPassword.Text = "";
 

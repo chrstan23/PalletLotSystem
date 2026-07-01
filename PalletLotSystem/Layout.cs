@@ -89,7 +89,7 @@ namespace PalletLotSystem{
                 try{
                     conn.Open();
 
-                    string query = "SELECT * FROM tbl_pallet";
+                    string query = "SELECT location, palletNo, status, palletId FROM tbl_pallet";
 
                     using (MySqlCommand cmd = new MySqlCommand(query, conn))
                     using (MySqlDataReader reader = cmd.ExecuteReader()){
