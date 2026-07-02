@@ -36,6 +36,8 @@
             this.txtQty = new System.Windows.Forms.TextBox();
             this.btnWithdraw = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.lblAvailable = new System.Windows.Forms.Label();
+            this.lblAvailQty = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblPalletNo
@@ -59,7 +61,7 @@
             // lblPartNo
             // 
             this.lblPartNo.AutoSize = true;
-            this.lblPartNo.Location = new System.Drawing.Point(44, 90);
+            this.lblPartNo.Location = new System.Drawing.Point(44, 58);
             this.lblPartNo.Name = "lblPartNo";
             this.lblPartNo.Size = new System.Drawing.Size(72, 13);
             this.lblPartNo.TabIndex = 2;
@@ -68,15 +70,16 @@
             // cmbPartNo
             // 
             this.cmbPartNo.FormattingEnabled = true;
-            this.cmbPartNo.Location = new System.Drawing.Point(113, 87);
+            this.cmbPartNo.Location = new System.Drawing.Point(113, 55);
             this.cmbPartNo.Name = "cmbPartNo";
             this.cmbPartNo.Size = new System.Drawing.Size(121, 21);
             this.cmbPartNo.TabIndex = 3;
+            this.cmbPartNo.SelectedIndexChanged += new System.EventHandler(this.cmbPartNo_SelectedIndexChanged);
             // 
             // lblQty
             // 
             this.lblQty.AutoSize = true;
-            this.lblQty.Location = new System.Drawing.Point(44, 124);
+            this.lblQty.Location = new System.Drawing.Point(43, 108);
             this.lblQty.Name = "lblQty";
             this.lblQty.Size = new System.Drawing.Size(49, 13);
             this.lblQty.TabIndex = 4;
@@ -84,34 +87,56 @@
             // 
             // txtQty
             // 
-            this.txtQty.Location = new System.Drawing.Point(113, 121);
+            this.txtQty.Location = new System.Drawing.Point(112, 105);
             this.txtQty.Name = "txtQty";
             this.txtQty.Size = new System.Drawing.Size(121, 20);
             this.txtQty.TabIndex = 5;
             // 
             // btnWithdraw
             // 
-            this.btnWithdraw.Location = new System.Drawing.Point(47, 167);
+            this.btnWithdraw.Location = new System.Drawing.Point(41, 142);
             this.btnWithdraw.Name = "btnWithdraw";
             this.btnWithdraw.Size = new System.Drawing.Size(75, 23);
             this.btnWithdraw.TabIndex = 6;
             this.btnWithdraw.Text = "WITHDRAW";
             this.btnWithdraw.UseVisualStyleBackColor = true;
+            this.btnWithdraw.Click += new System.EventHandler(this.btnWithdraw_Click);
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(141, 167);
+            this.btnCancel.Location = new System.Drawing.Point(135, 142);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 7;
             this.btnCancel.Text = "CANCEL";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // lblAvailable
+            // 
+            this.lblAvailable.AutoSize = true;
+            this.lblAvailable.Location = new System.Drawing.Point(44, 83);
+            this.lblAvailable.Name = "lblAvailable";
+            this.lblAvailable.Size = new System.Drawing.Size(95, 13);
+            this.lblAvailable.TabIndex = 8;
+            this.lblAvailable.Text = "Available Quantity:";
+            // 
+            // lblAvailQty
+            // 
+            this.lblAvailQty.AutoSize = true;
+            this.lblAvailQty.Location = new System.Drawing.Point(145, 83);
+            this.lblAvailQty.Name = "lblAvailQty";
+            this.lblAvailQty.Size = new System.Drawing.Size(21, 13);
+            this.lblAvailQty.TabIndex = 9;
+            this.lblAvailQty.Text = "qty";
             // 
             // WithdrawForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.lblAvailQty);
+            this.Controls.Add(this.lblAvailable);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnWithdraw);
             this.Controls.Add(this.txtQty);
@@ -121,6 +146,7 @@
             this.Controls.Add(this.lblDisplay);
             this.Controls.Add(this.lblPalletNo);
             this.Name = "WithdrawForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WithdrawForm";
             this.Load += new System.EventHandler(this.WithdrawForm_Load);
             this.ResumeLayout(false);
@@ -138,5 +164,7 @@
         private System.Windows.Forms.TextBox txtQty;
         private System.Windows.Forms.Button btnWithdraw;
         private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Label lblAvailable;
+        private System.Windows.Forms.Label lblAvailQty;
     }
 }

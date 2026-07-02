@@ -367,14 +367,17 @@ namespace PalletLotSystem{
 
         }
 
-        private void btnWithdraw_Click(object sender, EventArgs e)
-        {
+        private void btnWithdraw_Click(object sender, EventArgs e){
             if (string.IsNullOrWhiteSpace(txtPalletNo.Text))
             {
 
                 MessageBox.Show("The pallet is still empty.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
-            //}
+            }
+            WithdrawForm withdraw = new WithdrawForm(txtPalletNo.Text.Trim());
+
+            withdraw.ShowDialog();
+            LoadPalletData(lblPallet.Text);
 
             //DialogResult result = MessageBox.Show("Are you sure you want to take out this pallet?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
@@ -383,8 +386,8 @@ namespace PalletLotSystem{
             //    return;
             //}
 
-            PalletOutLog();
-            ClearPallet();
+            //PalletOutLog();
+            //ClearPallet();
         }
     }
 }

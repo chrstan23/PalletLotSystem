@@ -108,6 +108,12 @@
       <DependentUpon>UpdateForm.cs</DependentUpon>
     </Compile>
     <Compile Include="UserSession.cs" />
+    <Compile Include="WithdrawForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WithdrawForm.Designer.cs">
+      <DependentUpon>WithdrawForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="LandingPage.resx">
       <DependentUpon>LandingPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,6 +138,9 @@
     </Compile>
     <EmbeddedResource Include="UpdateForm.resx">
       <DependentUpon>UpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WithdrawForm.resx">
+      <DependentUpon>WithdrawForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
