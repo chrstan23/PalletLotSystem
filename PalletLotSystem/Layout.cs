@@ -30,6 +30,7 @@ namespace PalletLotSystem{
             }
         }
 
+        //DISPLAY STATISTICS OF PALLETS
         public void LoadStatistics(){
             using (MySqlConnection conn = new MySqlConnection(connStr)){
                 try{
@@ -114,6 +115,7 @@ namespace PalletLotSystem{
             Button btn = (Button)sender;
             UpdateForm update = new UpdateForm(this, btn.Name);
             update.ShowDialog();
+            LoadPalletStatus();
         }
 
         private void RegisterPalletButtons(){
@@ -174,6 +176,11 @@ namespace PalletLotSystem{
             this.lblTotalPallets.ForeColor = Color.FromArgb(255, 137, 0);
 
             this.pnlUtilization.BackColor = Color.FromArgb(220, 220, 220);
+
+        }
+
+        private void Layout_Load(object sender, EventArgs e)
+        {
 
         }
     }

@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.btnLayout = new System.Windows.Forms.Button();
-            this.btnHistory = new System.Windows.Forms.Button();
+            this.btnPalletLogs = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
+            this.btnPartLogs = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnLayout
@@ -39,27 +40,27 @@
             this.btnLayout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLayout.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLayout.ForeColor = System.Drawing.Color.White;
-            this.btnLayout.Location = new System.Drawing.Point(54, 35);
+            this.btnLayout.Location = new System.Drawing.Point(45, 35);
             this.btnLayout.Name = "btnLayout";
-            this.btnLayout.Size = new System.Drawing.Size(100, 32);
+            this.btnLayout.Size = new System.Drawing.Size(115, 32);
             this.btnLayout.TabIndex = 0;
             this.btnLayout.Text = "LAYOUT";
             this.btnLayout.UseVisualStyleBackColor = false;
             this.btnLayout.Click += new System.EventHandler(this.btnLayout_Click);
             // 
-            // btnHistory
+            // btnPalletLogs
             // 
-            this.btnHistory.BackColor = System.Drawing.Color.Black;
-            this.btnHistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHistory.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHistory.ForeColor = System.Drawing.Color.White;
-            this.btnHistory.Location = new System.Drawing.Point(186, 35);
-            this.btnHistory.Name = "btnHistory";
-            this.btnHistory.Size = new System.Drawing.Size(100, 32);
-            this.btnHistory.TabIndex = 1;
-            this.btnHistory.Text = "HISTORY";
-            this.btnHistory.UseVisualStyleBackColor = false;
-            this.btnHistory.Click += new System.EventHandler(this.btnHistory_Click);
+            this.btnPalletLogs.BackColor = System.Drawing.Color.Black;
+            this.btnPalletLogs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPalletLogs.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPalletLogs.ForeColor = System.Drawing.Color.White;
+            this.btnPalletLogs.Location = new System.Drawing.Point(186, 35);
+            this.btnPalletLogs.Name = "btnPalletLogs";
+            this.btnPalletLogs.Size = new System.Drawing.Size(115, 32);
+            this.btnPalletLogs.TabIndex = 1;
+            this.btnPalletLogs.Text = "PALLET LOGS";
+            this.btnPalletLogs.UseVisualStyleBackColor = false;
+            this.btnPalletLogs.Click += new System.EventHandler(this.btnPalletLogs_Click);
             // 
             // btnLogout
             // 
@@ -67,13 +68,27 @@
             this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogout.ForeColor = System.Drawing.Color.Black;
-            this.btnLogout.Location = new System.Drawing.Point(124, 88);
+            this.btnLogout.Location = new System.Drawing.Point(186, 86);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(90, 35);
+            this.btnLogout.Size = new System.Drawing.Size(115, 32);
             this.btnLogout.TabIndex = 2;
             this.btnLogout.Text = "LOGOUT";
             this.btnLogout.UseVisualStyleBackColor = false;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
+            // btnPartLogs
+            // 
+            this.btnPartLogs.BackColor = System.Drawing.Color.Black;
+            this.btnPartLogs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPartLogs.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPartLogs.ForeColor = System.Drawing.Color.White;
+            this.btnPartLogs.Location = new System.Drawing.Point(45, 86);
+            this.btnPartLogs.Name = "btnPartLogs";
+            this.btnPartLogs.Size = new System.Drawing.Size(115, 32);
+            this.btnPartLogs.TabIndex = 3;
+            this.btnPartLogs.Text = "PARTS LOGS";
+            this.btnPartLogs.UseVisualStyleBackColor = false;
+            this.btnPartLogs.Click += new System.EventHandler(this.btnPartLogs_Click);
             // 
             // LandingPage
             // 
@@ -81,8 +96,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(244)))), ((int)(((byte)(248)))));
             this.ClientSize = new System.Drawing.Size(340, 146);
+            this.Controls.Add(this.btnPartLogs);
             this.Controls.Add(this.btnLogout);
-            this.Controls.Add(this.btnHistory);
+            this.Controls.Add(this.btnPalletLogs);
             this.Controls.Add(this.btnLayout);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LandingPage";
@@ -95,7 +111,8 @@
         #endregion
 
         private System.Windows.Forms.Button btnLayout;
-        private System.Windows.Forms.Button btnHistory;
+        private System.Windows.Forms.Button btnPalletLogs;
         private System.Windows.Forms.Button btnLogout;
+        private System.Windows.Forms.Button btnPartLogs;
     }
 }

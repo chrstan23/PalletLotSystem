@@ -54,6 +54,8 @@ namespace PalletLotSystem{
 
                     }else{
                         MessageBox.Show("Wrong Credentials", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        txtPassword.Clear();
+                        txtPassword.Focus();
 
                     }
                 }catch (Exception ex){

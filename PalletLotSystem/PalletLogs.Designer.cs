@@ -30,16 +30,16 @@
         {
             this.dgvPalletLogs = new System.Windows.Forms.DataGridView();
             this.btnExport = new System.Windows.Forms.Button();
-            this.dtpTo = new System.Windows.Forms.DateTimePicker();
             this.btnFilter = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.pnlHeader = new System.Windows.Forms.Panel();
+            this.lblSubtitle = new System.Windows.Forms.Label();
+            this.lblHeader = new System.Windows.Forms.Label();
+            this.btnBack = new System.Windows.Forms.Button();
+            this.dtpTo = new System.Windows.Forms.DateTimePicker();
             this.dtpFrom = new System.Windows.Forms.DateTimePicker();
             this.lblFrom = new System.Windows.Forms.Label();
             this.lblTo = new System.Windows.Forms.Label();
-            this.pnlHeader = new System.Windows.Forms.Panel();
-            this.lblHeader = new System.Windows.Forms.Label();
-            this.lblSubtitle = new System.Windows.Forms.Label();
-            this.btnBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPalletLogs)).BeginInit();
             this.pnlHeader.SuspendLayout();
             this.SuspendLayout();
@@ -65,22 +65,12 @@
             this.btnExport.UseVisualStyleBackColor = false;
             this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
-            // dtpTo
-            // 
-            this.dtpTo.CalendarFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpTo.CalendarMonthBackground = System.Drawing.Color.White;
-            this.dtpTo.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpTo.Location = new System.Drawing.Point(470, 99);
-            this.dtpTo.Name = "dtpTo";
-            this.dtpTo.Size = new System.Drawing.Size(97, 20);
-            this.dtpTo.TabIndex = 2;
-            // 
             // btnFilter
             // 
             this.btnFilter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
             this.btnFilter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFilter.Location = new System.Drawing.Point(584, 95);
+            this.btnFilter.Location = new System.Drawing.Point(346, 95);
             this.btnFilter.Name = "btnFilter";
             this.btnFilter.Size = new System.Drawing.Size(100, 30);
             this.btnFilter.TabIndex = 3;
@@ -93,43 +83,13 @@
             this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(165)))), ((int)(((byte)(166)))));
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(690, 95);
+            this.btnClear.Location = new System.Drawing.Point(452, 95);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(100, 30);
             this.btnClear.TabIndex = 4;
             this.btnClear.Text = "CLEAR";
             this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
-            // 
-            // dtpFrom
-            // 
-            this.dtpFrom.CalendarFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpFrom.CalendarMonthBackground = System.Drawing.Color.White;
-            this.dtpFrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpFrom.Location = new System.Drawing.Point(326, 99);
-            this.dtpFrom.Name = "dtpFrom";
-            this.dtpFrom.Size = new System.Drawing.Size(97, 20);
-            this.dtpFrom.TabIndex = 5;
-            // 
-            // lblFrom
-            // 
-            this.lblFrom.AutoSize = true;
-            this.lblFrom.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFrom.Location = new System.Drawing.Point(274, 99);
-            this.lblFrom.Name = "lblFrom";
-            this.lblFrom.Size = new System.Drawing.Size(49, 17);
-            this.lblFrom.TabIndex = 6;
-            this.lblFrom.Text = "FROM:";
-            // 
-            // lblTo
-            // 
-            this.lblTo.AutoSize = true;
-            this.lblTo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTo.Location = new System.Drawing.Point(437, 99);
-            this.lblTo.Name = "lblTo";
-            this.lblTo.Size = new System.Drawing.Size(30, 17);
-            this.lblTo.TabIndex = 7;
-            this.lblTo.Text = "TO:";
             // 
             // pnlHeader
             // 
@@ -143,17 +103,6 @@
             this.pnlHeader.Size = new System.Drawing.Size(1006, 75);
             this.pnlHeader.TabIndex = 8;
             // 
-            // lblHeader
-            // 
-            this.lblHeader.AutoSize = true;
-            this.lblHeader.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeader.ForeColor = System.Drawing.Color.White;
-            this.lblHeader.Location = new System.Drawing.Point(12, 13);
-            this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(182, 39);
-            this.lblHeader.TabIndex = 1025;
-            this.lblHeader.Text = "PALLET LOGS";
-            // 
             // lblSubtitle
             // 
             this.lblSubtitle.AutoSize = true;
@@ -164,6 +113,17 @@
             this.lblSubtitle.Size = new System.Drawing.Size(208, 19);
             this.lblSubtitle.TabIndex = 1026;
             this.lblSubtitle.Text = "View pallet transaction records";
+            // 
+            // lblHeader
+            // 
+            this.lblHeader.AutoSize = true;
+            this.lblHeader.Font = new System.Drawing.Font("Bahnschrift SemiBold SemiConden", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeader.ForeColor = System.Drawing.Color.White;
+            this.lblHeader.Location = new System.Drawing.Point(12, 13);
+            this.lblHeader.Name = "lblHeader";
+            this.lblHeader.Size = new System.Drawing.Size(182, 39);
+            this.lblHeader.TabIndex = 1025;
+            this.lblHeader.Text = "PALLET LOGS";
             // 
             // btnBack
             // 
@@ -177,6 +137,48 @@
             this.btnBack.Text = "BACK";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // dtpTo
+            // 
+            this.dtpTo.CalendarFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpTo.CalendarMonthBackground = System.Drawing.Color.White;
+            this.dtpTo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpTo.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpTo.Location = new System.Drawing.Point(227, 99);
+            this.dtpTo.Name = "dtpTo";
+            this.dtpTo.Size = new System.Drawing.Size(113, 26);
+            this.dtpTo.TabIndex = 2;
+            // 
+            // dtpFrom
+            // 
+            this.dtpFrom.CalendarFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpFrom.CalendarMonthBackground = System.Drawing.Color.White;
+            this.dtpFrom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpFrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpFrom.Location = new System.Drawing.Point(68, 99);
+            this.dtpFrom.Name = "dtpFrom";
+            this.dtpFrom.Size = new System.Drawing.Size(113, 26);
+            this.dtpFrom.TabIndex = 5;
+            // 
+            // lblFrom
+            // 
+            this.lblFrom.AutoSize = true;
+            this.lblFrom.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFrom.Location = new System.Drawing.Point(3, 101);
+            this.lblFrom.Name = "lblFrom";
+            this.lblFrom.Size = new System.Drawing.Size(59, 21);
+            this.lblFrom.TabIndex = 6;
+            this.lblFrom.Text = "FROM:";
+            // 
+            // lblTo
+            // 
+            this.lblTo.AutoSize = true;
+            this.lblTo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTo.Location = new System.Drawing.Point(187, 100);
+            this.lblTo.Name = "lblTo";
+            this.lblTo.Size = new System.Drawing.Size(34, 21);
+            this.lblTo.TabIndex = 7;
+            this.lblTo.Text = "TO:";
             // 
             // PalletLogs
             // 
@@ -211,15 +213,15 @@
 
         private System.Windows.Forms.DataGridView dgvPalletLogs;
         private System.Windows.Forms.Button btnExport;
-        private System.Windows.Forms.DateTimePicker dtpTo;
         private System.Windows.Forms.Button btnFilter;
         private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.DateTimePicker dtpFrom;
-        private System.Windows.Forms.Label lblFrom;
-        private System.Windows.Forms.Label lblTo;
         private System.Windows.Forms.Panel pnlHeader;
         private System.Windows.Forms.Label lblHeader;
         private System.Windows.Forms.Label lblSubtitle;
         private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.DateTimePicker dtpTo;
+        private System.Windows.Forms.DateTimePicker dtpFrom;
+        private System.Windows.Forms.Label lblFrom;
+        private System.Windows.Forms.Label lblTo;
     }
 }

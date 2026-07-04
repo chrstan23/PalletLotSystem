@@ -10,10 +10,8 @@ using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using System.IO;
 
-namespace PalletLotSystem
-{
-    public partial class PalletLogs : Form
-    {
+namespace PalletLotSystem{
+    public partial class PalletLogs : Form{
         String connStr = Config.ConnectionString;
 
         public PalletLogs(){
@@ -25,13 +23,14 @@ namespace PalletLotSystem
             dtpTo.Value = DateTime.Today;
         }
 
+        //DISPLATING ALL PALLET LOGS ON TBL_PALLETLOGS
         private void DisplayPalletLogs(){
             using (MySqlConnection conn = new MySqlConnection(connStr)){
 
                 try{
                     conn.Open();
 
-                    string query = "SELECT employeeInName AS `Employee In`, location AS `Pallet Location`, palletId AS `Pallet ID`, palletNo AS `Pallet No.`, dateIn AS `Date In`, timeIn AS `Time In`, employeeOutName AS `Employee Out`, dateOut AS `Date Out`, timeOut AS `Time Out` FROM tbl_palletlogs ORDER BY id DESC";
+                    string query = "SELECT employeeInName AS `Employee In`, location AS `Pallet Location`, palletId AS `Pallet ID`, palletNo AS `Pallet No.`, partNo1 AS `Part No. 1`, qty1 AS `Quantity 1`, partNo2 AS `Part No. 2`, qty2 AS `Quantity 2`, partNo3 AS `Part No. 3`, qty3 AS `Quantity 3`, partNo4 AS `Part No. 4`, qty4 AS `Quantity 4`, partNo5 AS `Part No. 5`, qty5 AS `Quantity 5`, dateIn AS `Date In`, timeIn AS `Time In`, employeeOutName AS `Employee Out`, dateOut AS `Date Out`, timeOut AS `Time Out` FROM tbl_palletlogs ORDER BY id DESC";
 
                     MySqlDataAdapter da = new MySqlDataAdapter(query, conn);
 
@@ -40,7 +39,7 @@ namespace PalletLotSystem
 
                     dgvPalletLogs.DataSource = dt;
                     dgvPalletLogs.RowHeadersVisible = false;
-                    dgvPalletLogs.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                    dgvPalletLogs.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
                     dgvPalletLogs.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
                     dgvPalletLogs.Columns["Employee In"].FillWeight = 130;
                     dgvPalletLogs.Columns["Pallet ID"].FillWeight = 220;
@@ -54,6 +53,7 @@ namespace PalletLotSystem
                     dgvPalletLogs.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(245, 245, 245);
                     dgvPalletLogs.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
                     dgvPalletLogs.GridColor = Color.LightGray;
+                    dgvPalletLogs.CellFormatting += dgvPalletLogs_CellFormatting;
 
                 }catch (Exception ex){
                     MessageBox.Show("Database Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -61,6 +61,7 @@ namespace PalletLotSystem
             }
         }
 
+        //FILTER THE PALLET LOGS DEPENDING ON THE DATE IN
         private void FilterPalletLogs(){
             using (MySqlConnection conn = new MySqlConnection(connStr)){
                 try{
@@ -68,7 +69,7 @@ namespace PalletLotSystem
 
                     string fromDate = dtpFrom.Value.ToString("MM-dd-yyyy");
                     string toDate = dtpTo.Value.ToString("MM-dd-yyyy");
-                    string query = "SELECT employeeInName AS `Employee In`, location AS `Pallet Location`, palletId AS `Pallet ID`, palletNo AS `Pallet No.`, dateIn AS `Date In`, timeIn AS `Time In`, employeeOutName AS `Employee Out`, dateOut AS `Date Out`, timeOut AS `Time Out` FROM tbl_palletlogs WHERE STR_TO_DATE(dateIn, '%m-%d-%Y') BETWEEN STR_TO_DATE(@fromDate, '%m-%d-%Y') AND STR_TO_DATE(@toDate, '%m-%d-%Y') ORDER BY id DESC";
+                    string query = "SELECT employeeInName AS `Employee In`, location AS `Pallet Location`, palletId AS `Pallet ID`, palletNo AS `Pallet No.`, partNo1 AS `Part No. 1`, qty1 AS `Quantity 1`, partNo2 AS `Part No. 2`, qty2 AS `Quantity 2`, partNo3 AS `Part No. 3`, qty3 AS `Quantity 3`, partNo4 AS `Part No. 4`, qty4 AS `Quantity 4`, partNo5 AS `Part No. 5`, qty5 AS `Quantity 5`, dateIn AS `Date In`, timeIn AS `Time In`, employeeOutName AS `Employee Out`, dateOut AS `Date Out`, timeOut AS `Time Out` FROM tbl_palletlogs WHERE STR_TO_DATE(dateIn, '%m-%d-%Y') BETWEEN STR_TO_DATE(@fromDate, '%m-%d-%Y') AND STR_TO_DATE(@toDate, '%m-%d-%Y') ORDER BY id DESC";
 
                     using(MySqlDataAdapter da = new MySqlDataAdapter(query, conn)){
                         da.SelectCommand.Parameters.AddWithValue("@fromDate", fromDate);
@@ -105,7 +106,7 @@ namespace PalletLotSystem
         }
 
 
-
+        //EXPORTING THE DISPLAYED DATA ON DGV
         private void ExportToCsv(){
             try{
                 SaveFileDialog sfd = new SaveFileDialog();
@@ -164,6 +165,18 @@ namespace PalletLotSystem
                 return;
             }
 
+        }
+
+        //REMOVING 0 VALUE ON THE DGV
+        private void dgvPalletLogs_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e){
+            string columnName = dgvPalletLogs.Columns[e.ColumnIndex].Name;
+
+            if (columnName.StartsWith("Quantity")){
+                if (e.Value != null && e.Value.ToString() == "0"){
+                    e.Value = "";
+                    e.FormattingApplied = true;
+                }
+            }
         }
 
         private void btnBack_Click(object sender, EventArgs e){

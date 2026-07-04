@@ -36,6 +36,7 @@ namespace PalletLotSystem{
             }
         }
 
+        //DISPLAY PALLET DETAILS IF THE PALLET IS OCCUPIED
         private void LoadPalletData(string location){
             using (MySqlConnection conn = new MySqlConnection(connStr)){
                 conn.Open();
@@ -50,8 +51,7 @@ namespace PalletLotSystem{
                             lblPallet.Text = location;
                             txtPalletNo.Text = reader["palletNo"].ToString();
                             txtPalletId.Text = reader["palletId"].ToString();
-                            for (int i = 0; i < partNos.Length; i++)
-                            {
+                            for (int i = 0; i < partNos.Length; i++){
                                 partNos[i].Text = reader["partNo" + (i + 1)].ToString();
 
                                 int qty = Convert.ToInt32(reader["qty" + (i + 1)]);
@@ -79,12 +79,102 @@ namespace PalletLotSystem{
             return true;
         }
 
+        private bool ValidatePartNumbers()
+        {
+            // First Part Number and Quantity are required
+            if (string.IsNullOrWhiteSpace(txtPartNumber1.Text) ||
+                string.IsNullOrWhiteSpace(txtQty1.Text))
+            {
+                MessageBox.Show(
+                    "Please enter at least one Part Number and Quantity.",
+                    "Validation",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+
+                if (string.IsNullOrWhiteSpace(txtPartNumber1.Text))
+                    txtPartNumber1.Focus();
+                else
+                    txtQty1.Focus();
+
+                return false;
+            }
+
+            // Validate all Part Number / Quantity pairs
+            for (int i = 0; i < partNos.Length; i++)
+            {
+                string partNo = partNos[i].Text.Trim();
+                string qty = qtys[i].Text.Trim();
+
+                // Part Number entered but Quantity is empty
+                if (!string.IsNullOrWhiteSpace(partNo) &&
+                    string.IsNullOrWhiteSpace(qty))
+                {
+                    MessageBox.Show(
+                        "Please enter the quantity for Part Number " + (i + 1) + ".",
+                        "Validation",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning);
+
+                    qtys[i].Focus();
+                    return false;
+                }
+
+                // Quantity entered but Part Number is empty
+                if (string.IsNullOrWhiteSpace(partNo) &&
+                    !string.IsNullOrWhiteSpace(qty))
+                {
+                    MessageBox.Show(
+                        "Please enter the Part Number for Quantity " + (i + 1) + ".",
+                        "Validation",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning);
+
+                    partNos[i].Focus();
+                    return false;
+                }
+
+                // If Quantity is entered, it must be numeric
+                if (!string.IsNullOrWhiteSpace(qty))
+                {
+                    int number;
+
+                    if (!int.TryParse(qty, out number))
+                    {
+                        MessageBox.Show(
+                            "Quantity " + (i + 1) + " must contain numbers only.",
+                            "Validation",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Warning);
+
+                        qtys[i].SelectAll();
+                        qtys[i].Focus();
+                        return false;
+                    }
+
+                    // Quantity must be greater than zero
+                    if (number <= 0)
+                    {
+                        MessageBox.Show(
+                            "Quantity " + (i + 1) + " must be greater than zero.",
+                            "Validation",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Warning);
+
+                        qtys[i].SelectAll();
+                        qtys[i].Focus();
+                        return false;
+                    }
+                }
+            }
+
+            // All validations passed
+            return true;
+        }
+
         // SAVE BUTTON
         private void btnSave_Click(object sender, EventArgs e){
             string palletNo = txtPalletNo.Text.Trim();
             string palletId = txtPalletId.Text.Trim();
-            string partNo1 = txtPartNumber1.Text.Trim();
-            string qty1 = txtQty1.Text.Trim();
 
 
             if (palletNo == ""){
@@ -99,8 +189,8 @@ namespace PalletLotSystem{
                 return;
             }else if (!PalletIdLoc() || !ValidatePalletNo()){
                 return;
-            }else if(partNo1 == "" || qty1 == ""){
-                MessageBox.Show("Please enter atleast one Part Number for Pallet", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }else if(!ValidatePartNumbers()){
+                return;
             }else{
 
                 DialogResult result = MessageBox.Show("Are you sure with the details of the Pallet?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -115,20 +205,30 @@ namespace PalletLotSystem{
             }
         }
 
-        //INSERTING PALLET LOGS
+        //INSERTING PALLET LOGS AFTER SUCCESSFUL IN
         private void InsertPalletLog(string location, string palletNo, string palletId){
             using (MySqlConnection conn = new MySqlConnection(connStr)){
 
                 conn.Open();
 
-                string query =  "INSERT INTO tbl_palletlogs (employeeInName, location, palletNo, palletId, dateIn, timeIn) VALUES (@employeeName, @location, @palletNo, @palletId, @dateIn, @timeIn)";
+                string query = "INSERT INTO tbl_palletlogs (employeeInName, location, palletNo, palletId, partNo1, qty1, partNo2, qty2, partNo3, qty3, partNo4, qty4, partNo5, qty5, dateIn, timeIn) VALUES (@employeeName, @location, @palletNo, @palletId, @partNo1, @qty1, @partNo2, @qty2, @partNo3, @qty3, @partNo4, @qty4, @partNo5, @qty5, @dateIn, @timeIn)";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, conn)){
                     cmd.Parameters.AddWithValue("@employeeName", UserSession.FullName);
                     cmd.Parameters.AddWithValue("@location", location);
                     cmd.Parameters.AddWithValue("@palletNo", palletNo);
                     cmd.Parameters.AddWithValue("@palletId", palletId);
-                    cmd.Parameters.AddWithValue("@dateIn", DateTime.Now.ToString("MM-dd-yyy"));
+
+                    for (int i = 0; i < partNos.Length; i++){
+                        cmd.Parameters.AddWithValue("@partNo" + (i + 1), partNos[i].Text.Trim());
+
+                        int qty;
+                        if (int.TryParse(qtys[i].Text.Trim(), out qty))
+                            cmd.Parameters.AddWithValue("@qty" + (i + 1), qty);
+                        else
+                            cmd.Parameters.AddWithValue("@qty" + (i + 1), 0);
+                    }
+                        cmd.Parameters.AddWithValue("@dateIn", DateTime.Now.ToString("MM-dd-yyy"));
                     cmd.Parameters.AddWithValue("@timeIn", DateTime.Now.ToString("HH:mm"));
 
                     cmd.ExecuteNonQuery();
@@ -136,7 +236,7 @@ namespace PalletLotSystem{
             }
         }
 
-        // UPDATE LOGIC
+        // UPDATE PALLET DETAILS IF BEING OCCUPIED
         private void UpdatePalletStatus(){
             using (MySqlConnection conn = new MySqlConnection(connStr)){
 
@@ -379,15 +479,6 @@ namespace PalletLotSystem{
             withdraw.ShowDialog();
             LoadPalletData(lblPallet.Text);
 
-            //DialogResult result = MessageBox.Show("Are you sure you want to take out this pallet?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            //if (result == DialogResult.No)
-            //{
-            //    return;
-            //}
-
-            //PalletOutLog();
-            //ClearPallet();
         }
     }
 }
