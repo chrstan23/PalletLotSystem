@@ -116,6 +116,7 @@ namespace PalletLotSystem{
             UpdateForm update = new UpdateForm(this, btn.Name);
             update.ShowDialog();
             LoadPalletStatus();
+            LoadStatistics();
         }
 
         private void RegisterPalletButtons(){

@@ -197,6 +197,7 @@ namespace PalletLotSystem{
             txtQty.Clear();
             this.Close();
 
+
         }
 
         //LOGGING THE PARTNUMBERS WITHDRAWN IN THE PALLETS
