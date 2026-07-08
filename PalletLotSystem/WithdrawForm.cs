@@ -29,6 +29,7 @@ namespace PalletLotSystem{
 
         public WithdrawForm(string palletNo){
             InitializeComponent();
+            txtQty.Focus();
             this.palletNo = palletNo;
             FetchPartNumbers();
         }
@@ -86,10 +87,8 @@ namespace PalletLotSystem{
 
             PartItem item = (PartItem)cmbPartNo.SelectedItem;
 
-            using (MySqlConnection conn = new MySqlConnection(connStr))
-            {
-                try
-                {
+            using (MySqlConnection conn = new MySqlConnection(connStr)){
+                try{
                     conn.Open();
                     string query = "Select qty" + item.Slot + " FROM tbl_pallet WHERE palletNo=@palletNo";
 
@@ -110,7 +109,7 @@ namespace PalletLotSystem{
                     MessageBox.Show("Database error: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-
+            txtQty.Focus();
         }
 
         private void btnCancel_Click(object sender, EventArgs e){
@@ -296,7 +295,7 @@ namespace PalletLotSystem{
                 try{
                     conn.Open();
 
-                    string query = @"UPDATE tbl_pallet SET palletNo = '', palletId = '', status = 'EMPTY', partNo1 = '', qty1 = 0, partNo2 = '', qty2 = 0, partNo3 = '', qty3 = 0, partNo4 = '', qty4 = 0, partNo5 = '', qty5 = 0 WHERE palletNo = @palletNo";
+                    string query = @"UPDATE tbl_pallet SET palletNo = '', palletId = '', status = 'EMPTY', partNo1 = '', qty1 = 0, partNo2 = '', qty2 = 0, partNo3 = '', qty3 = 0, partNo4 = '', qty4 = 0, partNo5 = '', qty5 = 0, dateReceived = NULL WHERE palletNo = @palletNo";
 
                     using (MySqlCommand cmd = new MySqlCommand(query, conn))
                     {

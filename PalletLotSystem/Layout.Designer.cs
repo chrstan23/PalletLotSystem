@@ -4326,7 +4326,7 @@
             // 
             // AA34
             // 
-            this.AA34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
+            this.AA34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.AA34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA34.Location = new System.Drawing.Point(214, 141);
@@ -4348,7 +4348,7 @@
             // 
             // AA35
             // 
-            this.AA35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
+            this.AA35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.AA35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA35.Location = new System.Drawing.Point(185, 141);
@@ -4359,7 +4359,7 @@
             // 
             // AA36
             // 
-            this.AA36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
+            this.AA36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.AA36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA36.Location = new System.Drawing.Point(156, 141);
@@ -4370,7 +4370,7 @@
             // 
             // AA37
             // 
-            this.AA37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
+            this.AA37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.AA37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA37.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA37.Location = new System.Drawing.Point(127, 141);
@@ -4381,7 +4381,7 @@
             // 
             // AA38
             // 
-            this.AA38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
+            this.AA38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.AA38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA38.Location = new System.Drawing.Point(98, 141);
@@ -4425,7 +4425,7 @@
             // 
             // AA39
             // 
-            this.AA39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
+            this.AA39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.AA39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA39.Location = new System.Drawing.Point(69, 141);
@@ -4579,7 +4579,7 @@
             // 
             // AA40
             // 
-            this.AA40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
+            this.AA40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.AA40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AA40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AA40.Location = new System.Drawing.Point(40, 141);
@@ -6779,7 +6779,7 @@
             // 
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("Segoe UI", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.Location = new System.Drawing.Point(1041, 570);
+            this.label60.Location = new System.Drawing.Point(1157, 570);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(85, 13);
             this.label60.TabIndex = 1040;
@@ -6789,7 +6789,7 @@
             // 
             this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(1023, 569);
+            this.button7.Location = new System.Drawing.Point(1139, 569);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(15, 15);
             this.button7.TabIndex = 1039;
@@ -6801,9 +6801,9 @@
             this.label61.Font = new System.Drawing.Font("Segoe UI", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label61.Location = new System.Drawing.Point(954, 571);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(65, 13);
+            this.label61.Size = new System.Drawing.Size(182, 13);
             this.label61.TabIndex = 1038;
-            this.label61.Text = "SRU PARTS";
+            this.label61.Text = "SRU PARTS/PACKING MATERIALS";
             // 
             // button8
             // 

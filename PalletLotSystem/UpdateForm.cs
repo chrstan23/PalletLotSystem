@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 using MySql.Data.MySqlClient;
 
 namespace PalletLotSystem{
@@ -48,6 +49,12 @@ namespace PalletLotSystem{
 
                     using(MySqlDataReader reader = cmd.ExecuteReader()){
                         if (reader.Read()){
+                            if (reader["dateReceived"] != DBNull.Value){
+                                dtpReceive.Value = Convert.ToDateTime(reader["dateReceived"]);
+                            }
+                            else{
+                                dtpReceive.Value = DateTime.Today;
+                            }
                             lblPallet.Text = location;
                             txtPalletNo.Text = reader["palletNo"].ToString();
                             txtPalletId.Text = reader["palletId"].ToString();
@@ -211,13 +218,15 @@ namespace PalletLotSystem{
 
                 conn.Open();
 
-                string query = "INSERT INTO tbl_palletlogs (employeeInName, location, palletNo, palletId, partNo1, qty1, partNo2, qty2, partNo3, qty3, partNo4, qty4, partNo5, qty5, dateIn, timeIn) VALUES (@employeeName, @location, @palletNo, @palletId, @partNo1, @qty1, @partNo2, @qty2, @partNo3, @qty3, @partNo4, @qty4, @partNo5, @qty5, @dateIn, @timeIn)";
+                string query = "INSERT INTO tbl_palletlogs (employeeInName, location, palletNo, palletId, partNo1, qty1, partNo2, qty2, partNo3, qty3, partNo4, qty4, partNo5, qty5, dateReceived) VALUES (@employeeName, @location, @palletNo, @palletId, @partNo1, @qty1, @partNo2, @qty2, @partNo3, @qty3, @partNo4, @qty4, @partNo5, @qty5, @dateReceived)";
 
+                string dateReceived = dtpReceive.Value.ToString("MM-dd-yyyy");
                 using (MySqlCommand cmd = new MySqlCommand(query, conn)){
                     cmd.Parameters.AddWithValue("@employeeName", UserSession.FullName);
                     cmd.Parameters.AddWithValue("@location", location);
                     cmd.Parameters.AddWithValue("@palletNo", palletNo);
                     cmd.Parameters.AddWithValue("@palletId", palletId);
+                    cmd.Parameters.AddWithValue("@dateReceived", dateReceived);
 
                     for (int i = 0; i < partNos.Length; i++){
                         cmd.Parameters.AddWithValue("@partNo" + (i + 1), partNos[i].Text.Trim());
@@ -228,8 +237,6 @@ namespace PalletLotSystem{
                         else
                             cmd.Parameters.AddWithValue("@qty" + (i + 1), 0);
                     }
-                        cmd.Parameters.AddWithValue("@dateIn", DateTime.Now.ToString("MM-dd-yyy"));
-                    cmd.Parameters.AddWithValue("@timeIn", DateTime.Now.ToString("HH:mm"));
 
                     cmd.ExecuteNonQuery();
                 }
@@ -247,6 +254,7 @@ namespace PalletLotSystem{
                     string palletNo = txtPalletNo.Text.Trim();
                     string palletId = txtPalletId.Text.Trim();
                     string location = lblPallet.Text;
+                    DateTime dateReceived = dtpReceive.Value.Date;
 
                     string newStatus = "";
 
@@ -258,7 +266,7 @@ namespace PalletLotSystem{
                     }
 
                     // UPDATE DATABASE
-                    string updateQuery = @"UPDATE tbl_pallet SET palletNo = @palletNo, palletId = @palletId, status = @status, partNo1 = @partNo1, qty1 = @qty1, partNo2 = @partNo2, qty2 = @qty2, partNo3 = @partNo3, qty3 = @qty3, partNo4 = @partNo4, qty4 = @qty4, partNo5 = @partNo5, qty5 = @qty5 WHERE location = @location";
+                    string updateQuery = @"UPDATE tbl_pallet SET palletNo = @palletNo, palletId = @palletId, status = @status, partNo1 = @partNo1, qty1 = @qty1, partNo2 = @partNo2, qty2 = @qty2, partNo3 = @partNo3, qty3 = @qty3, partNo4 = @partNo4, qty4 = @qty4, partNo5 = @partNo5, qty5 = @qty5, dateReceived = @dateReceived WHERE location = @location";
 
                     using (MySqlCommand cmd = new MySqlCommand(updateQuery, conn)){
                         cmd.Parameters.AddWithValue("@palletNo", palletNo);
@@ -269,7 +277,7 @@ namespace PalletLotSystem{
                             cmd.Parameters.AddWithValue("@partNo" + (i + 1), partNos[i].Text.Trim());
                             cmd.Parameters.AddWithValue("@qty" + (i + 1), qtys[i].Text.Trim());                            
                         }
-
+                        cmd.Parameters.AddWithValue("@dateReceived", dateReceived);
                         int rowsAffected = cmd.ExecuteNonQuery();
 
                         if (rowsAffected > 0){
@@ -327,6 +335,7 @@ namespace PalletLotSystem{
             btnCancel.Visible = false;
             txtPalletNo.Enabled = false;
             txtPalletId.Enabled = false;
+            dtpReceive.Enabled = false;
             txtPartNumber1.Enabled = false;
             txtPartNumber2.Enabled = false;
             txtPartNumber3.Enabled = false;
@@ -370,6 +379,7 @@ namespace PalletLotSystem{
             }else{
                 txtPalletNo.Enabled = true;
                 txtPalletId.Enabled = true;
+                dtpReceive.Enabled = true;
                 txtPartNumber1.Enabled = true;
                 txtPartNumber2.Enabled = true;
                 txtPartNumber3.Enabled = true;
@@ -451,9 +461,20 @@ namespace PalletLotSystem{
         private void txtPalletNo_KeyDown(object sender, KeyEventArgs e){
 
             if (e.KeyCode == Keys.Enter){
+                string palletNo = txtPalletNo.Text.Trim();
+
+                if (!Regex.IsMatch(palletNo, @"^P-\d{4}$")){
+                    MessageBox.Show("Invalid Pallet No Format.", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    txtPalletNo.Clear();
+                    txtPalletNo.Focus();
+
+                }else{
                 txtPalletId.Focus();
                 txtPalletId.SelectAll();
                 ValidatePalletNo();
+
+                }
+
             }
         }
 

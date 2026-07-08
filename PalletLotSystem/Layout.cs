@@ -120,45 +120,16 @@ namespace PalletLotSystem{
         }
 
         private void RegisterPalletButtons(){
+            const string palletRows = "ABCDEFGHIJK";
+
             foreach (Control ctrl in this.Controls){
-                if (ctrl is Button){
-                    Button btn = (Button)ctrl;
+                Button btn = ctrl as Button;
 
-                    if (btn.Name.StartsWith("A")){
-                        btn.Click += PalletButton_Click;
+                if (btn != null && palletRows.Contains(btn.Name[0].ToString())){
+                    btn.Click += PalletButton_Click;
 
-                    }else if (btn.Name.StartsWith("B")){
-                        btn.Click += PalletButton_Click;
-
-                    }else if (btn.Name.StartsWith("C")){
-                        btn.Click += PalletButton_Click;
-
-                    }else if (btn.Name.StartsWith("D")){
-                        btn.Click += PalletButton_Click;
-
-                    }else if (btn.Name.StartsWith("E")){
-                        btn.Click += PalletButton_Click;
-
-                    }else if (btn.Name.StartsWith("F")){
-                        btn.Click += PalletButton_Click;
-
-                    }else if (btn.Name.StartsWith("G")){
-                        btn.Click += PalletButton_Click;
-
-                    }else if (btn.Name.StartsWith("H")){
-                        btn.Click += PalletButton_Click;
-
-                    }else if (btn.Name.StartsWith("I")){
-                        btn.Click += PalletButton_Click;
-
-                    }else if (btn.Name.StartsWith("J")){
-                        btn.Click += PalletButton_Click;
-
-                    }else if (btn.Name.StartsWith("K")){
-                        btn.Click += PalletButton_Click;
-
-                    }
                 }
+
             }
         }
         
