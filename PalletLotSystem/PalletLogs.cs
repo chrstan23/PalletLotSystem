@@ -23,14 +23,14 @@ namespace PalletLotSystem{
             dtpTo.Value = DateTime.Today;
         }
 
-        //DISPLATING ALL PALLET LOGS ON TBL_PALLETLOGS
+        //DISPLAYING ALL PALLET LOGS ON TBL_PALLETLOGS
         private void DisplayPalletLogs(){
             using (MySqlConnection conn = new MySqlConnection(connStr)){
 
                 try{
                     conn.Open();
 
-                    string query = "SELECT employeeInName AS `Employee In`, location AS `Pallet Location`, palletId AS `Pallet ID`, palletNo AS `Pallet No.`, partNo1 AS `Part No. 1`, qty1 AS `Quantity 1`, partNo2 AS `Part No. 2`, qty2 AS `Quantity 2`, partNo3 AS `Part No. 3`, qty3 AS `Quantity 3`, partNo4 AS `Part No. 4`, qty4 AS `Quantity 4`, partNo5 AS `Part No. 5`, qty5 AS `Quantity 5`, dateReceived AS `Date Received`, employeeOutName AS `Employee Out`, dateOut AS `Date Out`, timeOut AS `Time Out` FROM tbl_palletlogs ORDER BY id DESC";
+                    string query = "SELECT dateReceived AS `Date Received`, location AS `Pallet Location`, palletId AS `Pallet ID`, palletNo AS `Pallet No.`, partNo1 AS `Part No. 1`, qty1 AS `Quantity 1`, partNo2 AS `Part No. 2`, qty2 AS `Quantity 2`, partNo3 AS `Part No. 3`, qty3 AS `Quantity 3`, partNo4 AS `Part No. 4`, qty4 AS `Quantity 4`, partNo5 AS `Part No. 5`, qty5 AS `Quantity 5`, employeeInName AS `Employee In`, employeeOutName AS `Employee Out`, dateOut AS `Date Out`, timeOut AS `Time Out` FROM tbl_palletlogs ORDER BY dateReceived DESC";
 
                     MySqlDataAdapter da = new MySqlDataAdapter(query, conn);
 
@@ -69,7 +69,7 @@ namespace PalletLotSystem{
 
                     string fromDate = dtpFrom.Value.ToString("MM-dd-yyyy");
                     string toDate = dtpTo.Value.ToString("MM-dd-yyyy");
-                    string query = "SELECT employeeInName AS `Employee In`, location AS `Pallet Location`, palletId AS `Pallet ID`, palletNo AS `Pallet No.`, partNo1 AS `Part No. 1`, qty1 AS `Quantity 1`, partNo2 AS `Part No. 2`, qty2 AS `Quantity 2`, partNo3 AS `Part No. 3`, qty3 AS `Quantity 3`, partNo4 AS `Part No. 4`, qty4 AS `Quantity 4`, partNo5 AS `Part No. 5`, qty5 AS `Quantity 5`, dateReceived AS `Date Received`, employeeOutName AS `Employee Out`, dateOut AS `Date Out`, timeOut AS `Time Out` FROM tbl_palletlogs WHERE STR_TO_DATE(dateIn, '%m-%d-%Y') BETWEEN STR_TO_DATE(@fromDate, '%m-%d-%Y') AND STR_TO_DATE(@toDate, '%m-%d-%Y') ORDER BY id DESC";
+                    string query = "SELECT dateReceived AS `Date Received`, location AS `Pallet Location`, palletId AS `Pallet ID`, palletNo AS `Pallet No.`, partNo1 AS `Part No. 1`, qty1 AS `Quantity 1`, partNo2 AS `Part No. 2`, qty2 AS `Quantity 2`, partNo3 AS `Part No. 3`, qty3 AS `Quantity 3`, partNo4 AS `Part No. 4`, qty4 AS `Quantity 4`, partNo5 AS `Part No. 5`, qty5 AS `Quantity 5`, employeeInName AS `Employee In`, employeeOutName AS `Employee Out`, dateOut AS `Date Out`, timeOut AS `Time Out` FROM tbl_palletlogs WHERE STR_TO_DATE(dateReceived, '%m-%d-%Y') BETWEEN STR_TO_DATE(@fromDate, '%m-%d-%Y') AND STR_TO_DATE(@toDate, '%m-%d-%Y') ORDER BY dateReceived DESC";
 
                     using(MySqlDataAdapter da = new MySqlDataAdapter(query, conn)){
                         da.SelectCommand.Parameters.AddWithValue("@fromDate", fromDate);
