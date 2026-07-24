@@ -223,7 +223,7 @@
             this.txtPartNumber1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPartNumber1.Location = new System.Drawing.Point(159, 199);
             this.txtPartNumber1.Name = "txtPartNumber1";
-            this.txtPartNumber1.Size = new System.Drawing.Size(170, 26);
+            this.txtPartNumber1.Size = new System.Drawing.Size(209, 26);
             this.txtPartNumber1.TabIndex = 5;
             // 
             // lblPartNumber1
@@ -242,7 +242,7 @@
             this.txtPartNumber2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPartNumber2.Location = new System.Drawing.Point(159, 236);
             this.txtPartNumber2.Name = "txtPartNumber2";
-            this.txtPartNumber2.Size = new System.Drawing.Size(170, 26);
+            this.txtPartNumber2.Size = new System.Drawing.Size(209, 26);
             this.txtPartNumber2.TabIndex = 7;
             // 
             // lblPartNumber2
@@ -261,7 +261,7 @@
             this.txtPartNumber3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPartNumber3.Location = new System.Drawing.Point(159, 274);
             this.txtPartNumber3.Name = "txtPartNumber3";
-            this.txtPartNumber3.Size = new System.Drawing.Size(170, 26);
+            this.txtPartNumber3.Size = new System.Drawing.Size(209, 26);
             this.txtPartNumber3.TabIndex = 9;
             // 
             // lblPartNumber3
@@ -278,7 +278,7 @@
             // 
             this.lblQty3.AutoSize = true;
             this.lblQty3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQty3.Location = new System.Drawing.Point(332, 277);
+            this.lblQty3.Location = new System.Drawing.Point(368, 277);
             this.lblQty3.Name = "lblQty3";
             this.lblQty3.Size = new System.Drawing.Size(37, 20);
             this.lblQty3.TabIndex = 24;
@@ -288,7 +288,7 @@
             // 
             this.lblQty2.AutoSize = true;
             this.lblQty2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQty2.Location = new System.Drawing.Point(332, 239);
+            this.lblQty2.Location = new System.Drawing.Point(368, 239);
             this.lblQty2.Name = "lblQty2";
             this.lblQty2.Size = new System.Drawing.Size(37, 20);
             this.lblQty2.TabIndex = 22;
@@ -298,7 +298,7 @@
             // 
             this.lblQty1.AutoSize = true;
             this.lblQty1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQty1.Location = new System.Drawing.Point(332, 202);
+            this.lblQty1.Location = new System.Drawing.Point(368, 202);
             this.lblQty1.Name = "lblQty1";
             this.lblQty1.Size = new System.Drawing.Size(37, 20);
             this.lblQty1.TabIndex = 20;
@@ -308,52 +308,52 @@
             // 
             this.txtQty3.Enabled = false;
             this.txtQty3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQty3.Location = new System.Drawing.Point(371, 274);
+            this.txtQty3.Location = new System.Drawing.Point(402, 274);
             this.txtQty3.Name = "txtQty3";
-            this.txtQty3.Size = new System.Drawing.Size(90, 26);
+            this.txtQty3.Size = new System.Drawing.Size(59, 26);
             this.txtQty3.TabIndex = 10;
             // 
             // txtQty2
             // 
             this.txtQty2.Enabled = false;
             this.txtQty2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQty2.Location = new System.Drawing.Point(371, 236);
+            this.txtQty2.Location = new System.Drawing.Point(402, 236);
             this.txtQty2.Name = "txtQty2";
-            this.txtQty2.Size = new System.Drawing.Size(90, 26);
+            this.txtQty2.Size = new System.Drawing.Size(59, 26);
             this.txtQty2.TabIndex = 8;
             // 
             // txtQty1
             // 
             this.txtQty1.Enabled = false;
             this.txtQty1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQty1.Location = new System.Drawing.Point(371, 199);
+            this.txtQty1.Location = new System.Drawing.Point(402, 199);
             this.txtQty1.Name = "txtQty1";
-            this.txtQty1.Size = new System.Drawing.Size(90, 26);
+            this.txtQty1.Size = new System.Drawing.Size(59, 26);
             this.txtQty1.TabIndex = 6;
             // 
             // txtQty5
             // 
             this.txtQty5.Enabled = false;
             this.txtQty5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQty5.Location = new System.Drawing.Point(371, 347);
+            this.txtQty5.Location = new System.Drawing.Point(402, 347);
             this.txtQty5.Name = "txtQty5";
-            this.txtQty5.Size = new System.Drawing.Size(90, 26);
+            this.txtQty5.Size = new System.Drawing.Size(59, 26);
             this.txtQty5.TabIndex = 14;
             // 
             // txtQty4
             // 
             this.txtQty4.Enabled = false;
             this.txtQty4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQty4.Location = new System.Drawing.Point(371, 309);
+            this.txtQty4.Location = new System.Drawing.Point(402, 309);
             this.txtQty4.Name = "txtQty4";
-            this.txtQty4.Size = new System.Drawing.Size(90, 26);
+            this.txtQty4.Size = new System.Drawing.Size(59, 26);
             this.txtQty4.TabIndex = 12;
             // 
             // lblQty5
             // 
             this.lblQty5.AutoSize = true;
             this.lblQty5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQty5.Location = new System.Drawing.Point(332, 350);
+            this.lblQty5.Location = new System.Drawing.Point(368, 350);
             this.lblQty5.Name = "lblQty5";
             this.lblQty5.Size = new System.Drawing.Size(37, 20);
             this.lblQty5.TabIndex = 28;
@@ -363,7 +363,7 @@
             // 
             this.lblQty4.AutoSize = true;
             this.lblQty4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQty4.Location = new System.Drawing.Point(332, 312);
+            this.lblQty4.Location = new System.Drawing.Point(368, 312);
             this.lblQty4.Name = "lblQty4";
             this.lblQty4.Size = new System.Drawing.Size(37, 20);
             this.lblQty4.TabIndex = 26;
@@ -375,7 +375,7 @@
             this.txtPartNumber5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPartNumber5.Location = new System.Drawing.Point(159, 347);
             this.txtPartNumber5.Name = "txtPartNumber5";
-            this.txtPartNumber5.Size = new System.Drawing.Size(170, 26);
+            this.txtPartNumber5.Size = new System.Drawing.Size(209, 26);
             this.txtPartNumber5.TabIndex = 13;
             // 
             // lblPartNumber5
@@ -394,7 +394,7 @@
             this.txtPartNumber4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPartNumber4.Location = new System.Drawing.Point(159, 309);
             this.txtPartNumber4.Name = "txtPartNumber4";
-            this.txtPartNumber4.Size = new System.Drawing.Size(170, 26);
+            this.txtPartNumber4.Size = new System.Drawing.Size(209, 26);
             this.txtPartNumber4.TabIndex = 11;
             // 
             // lblPartNumber4

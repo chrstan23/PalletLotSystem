@@ -37,43 +37,43 @@ namespace PalletLotSystem{
         //FETCHING PARTNUMBERS DEPENDING ON THE PALLETNO
         private void FetchPartNumbers(){
             try{
-            using (MySqlConnection conn = new MySqlConnection(connStr)){
-                conn.Open();
+                using (MySqlConnection conn = new MySqlConnection(connStr)){
+                    conn.Open();
 
-                string query = "SELECT * FROM tbl_pallet WHERE palletNo = @palletNo";
+                    string query = "SELECT * FROM tbl_pallet WHERE palletNo = @palletNo";
 
-                using (MySqlCommand cmd = new MySqlCommand(query, conn)){
-                    cmd.Parameters.AddWithValue("@palletNo", palletNo);
+                    using (MySqlCommand cmd = new MySqlCommand(query, conn)){
+                        cmd.Parameters.AddWithValue("@palletNo", palletNo);
 
-                    using (MySqlDataReader reader = cmd.ExecuteReader()){
-                        if (reader.Read()){
-                            palletId = reader["palletId"].ToString();
-                            location = reader["location"].ToString();
-                            lblDisplay.Text = reader["palletNo"].ToString();
-                            cmbPartNo.Items.Clear();
+                        using (MySqlDataReader reader = cmd.ExecuteReader()){
+                            if (reader.Read()){
+                                palletId = reader["palletId"].ToString();
+                                location = reader["location"].ToString();
+                                lblDisplay.Text = reader["palletNo"].ToString();
+                                cmbPartNo.Items.Clear();
 
-                            for (int i = 1; i <= 5; i++){
-                                string partNo = reader["partNo" + i].ToString();
+                                for (int i = 1; i <= 5; i++){
+                                    string partNo = reader["partNo" + i].ToString();
 
-                                if (!string.IsNullOrWhiteSpace(partNo)){
-                                    cmbPartNo.Items.Add(new PartItem()
-                                    {
-                                        Slot = i,
-                                        PartNo = partNo
-                                    });
+                                    if (!string.IsNullOrWhiteSpace(partNo)){
+                                        cmbPartNo.Items.Add(new PartItem(){
+                                            Slot = i,
+                                            PartNo = partNo
+                                        });
+                                    }
                                 }
                             }
                         }
                     }
                 }
-            }
 
-            if (cmbPartNo.Items.Count > 0)
-                cmbPartNo.SelectedIndex = 0;
-        }catch (Exception ex){
+                if (cmbPartNo.Items.Count > 0)
+                    cmbPartNo.SelectedIndex = 0;
+            }catch (Exception ex){
                 MessageBox.Show("Database Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        
 
         private void WithdrawForm_Load(object sender, EventArgs e)
         {
@@ -90,7 +90,7 @@ namespace PalletLotSystem{
             using (MySqlConnection conn = new MySqlConnection(connStr)){
                 try{
                     conn.Open();
-                    string query = "Select qty" + item.Slot + " FROM tbl_pallet WHERE palletNo=@palletNo";
+                    string query = "SELECT qty" + item.Slot + " FROM tbl_pallet WHERE palletNo=@palletNo";
 
                     using(MySqlCommand cmd = new MySqlCommand(query, conn)){
                         cmd.Parameters.AddWithValue("@palletNo", palletNo);
@@ -102,14 +102,40 @@ namespace PalletLotSystem{
                             lblAvailQty.Text = "0";
                         }
                     }
-                }
-                
-                catch (Exception ex)
-                {
+                }catch (Exception ex){
                     MessageBox.Show("Database error: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             txtQty.Focus();
+        }
+
+        private bool ValidateFIFO(string partNo, string palletNo){
+            using (MySqlConnection conn = new MySqlConnection(connStr)){
+                conn.Open();
+
+                string query = @"SELECT palletNo FROM(SELECT palletNo, partNo1 AS partNo, qty1 AS qty, dateReceived FROM tbl_pallet
+                                        UNION ALL SELECT palletNo, partNo2 AS partNo, qty2 AS qty, dateReceived FROM tbl_pallet
+                                        UNION ALL SELECT palletNo, partNo3 AS partNo, qty3 AS qty, dateReceived FROM tbl_pallet
+                                        UNION ALL SELECT palletNo, partNo4 AS partNo, qty4 AS qty, dateReceived FROM tbl_pallet
+                                        UNION ALL SELECT palletNo, partNo5 AS partNo, qty5 AS qty, dateReceived FROM tbl_pallet) AS Parts WHERE partNo = @partNo AND qty > 0 ORDER BY dateReceived ASC, palletNo ASC LIMIT 1";
+
+                using (MySqlCommand cmd = new MySqlCommand(query, conn)){
+                    cmd.Parameters.AddWithValue("@partNo", partNo);
+
+                    object result = cmd.ExecuteScalar();
+
+                    if (result == null)
+                        return true;
+
+                    string oldestPallet = result.ToString();
+
+                    if (oldestPallet != palletNo){
+                        MessageBox.Show("Parts can't be withdrawn due to FIFO rules", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return false;
+                    }
+                }
+            }
+            return true;
         }
 
         private void btnCancel_Click(object sender, EventArgs e){
@@ -160,6 +186,10 @@ namespace PalletLotSystem{
                 return;
             }
 
+            if (!ValidateFIFO(item.PartNo, palletNo)){
+                return;
+            }
+
 
             DialogResult result = MessageBox.Show("Are you sure you want to withdraw " + withdrawQty + " pc(s) of " + item.PartNo + "?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
 
@@ -185,8 +215,8 @@ namespace PalletLotSystem{
                         cmd.Parameters.AddWithValue("@qty", remainingQty);
                     cmd.Parameters.AddWithValue("@palletNo", palletNo);
                     cmd.ExecuteNonQuery();
-                    }
                 }
+            }
 
             InsertPartLog(withdrawQty, remainingQty);
             CheckIfPalletIsEmpty();
@@ -195,8 +225,6 @@ namespace PalletLotSystem{
             FetchPartNumbers();
             txtQty.Clear();
             this.Close();
-
-
         }
 
         //LOGGING THE PARTNUMBERS WITHDRAWN IN THE PALLETS
@@ -234,8 +262,8 @@ namespace PalletLotSystem{
                         cmd.Parameters.AddWithValue("@withdrawQty", withdrawQty);
                         cmd.Parameters.AddWithValue("@remainingQty", remainingQty);
                         cmd.Parameters.AddWithValue("@employeeName", UserSession.FullName);
-                        cmd.Parameters.AddWithValue("@dateWithdraw", DateTime.Now.ToString("MM-dd-yyyy"));
-                        cmd.Parameters.AddWithValue("@timeWithdraw", DateTime.Now.ToString("HH:mm:ss"));
+                        cmd.Parameters.AddWithValue("@dateWithdraw", DateTime.Today);
+                        cmd.Parameters.AddWithValue("@timeWithdraw", DateTime.Now.TimeOfDay);
 
                         cmd.ExecuteNonQuery();
                     }
@@ -320,8 +348,8 @@ namespace PalletLotSystem{
 
                     using (MySqlCommand cmd = new MySqlCommand(query, conn)){
                         cmd.Parameters.AddWithValue("@employeeOutName", UserSession.FullName);
-                        cmd.Parameters.AddWithValue("@dateOut", DateTime.Now.ToString("MM-dd-yyyy"));
-                        cmd.Parameters.AddWithValue("@timeOut", DateTime.Now.ToString("HH:mm"));
+                        cmd.Parameters.AddWithValue("@dateOut", DateTime.Today);
+                        cmd.Parameters.AddWithValue("@timeOut", DateTime.Now.TimeOfDay);
 
                         cmd.Parameters.AddWithValue("@location", location);
                         cmd.Parameters.AddWithValue("@palletNo", palletNo);

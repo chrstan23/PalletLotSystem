@@ -67,10 +67,10 @@ namespace PalletLotSystem{
                 try{
                     conn.Open();
 
-                    string fromDate = dtpFrom.Value.ToString("MM-dd-yyyy");
-                    string toDate = dtpTo.Value.ToString("MM-dd-yyyy");
-                    string query = "SELECT dateReceived AS `Date Received`, location AS `Pallet Location`, palletId AS `Pallet ID`, palletNo AS `Pallet No.`, partNo1 AS `Part No. 1`, qty1 AS `Quantity 1`, partNo2 AS `Part No. 2`, qty2 AS `Quantity 2`, partNo3 AS `Part No. 3`, qty3 AS `Quantity 3`, partNo4 AS `Part No. 4`, qty4 AS `Quantity 4`, partNo5 AS `Part No. 5`, qty5 AS `Quantity 5`, employeeInName AS `Employee In`, employeeOutName AS `Employee Out`, dateOut AS `Date Out`, timeOut AS `Time Out` FROM tbl_palletlogs WHERE STR_TO_DATE(dateReceived, '%m-%d-%Y') BETWEEN STR_TO_DATE(@fromDate, '%m-%d-%Y') AND STR_TO_DATE(@toDate, '%m-%d-%Y') ORDER BY dateReceived DESC";
+                    string query = "SELECT dateReceived AS `Date Received`, location AS `Pallet Location`, palletId AS `Pallet ID`, palletNo AS `Pallet No.`, partNo1 AS `Part No. 1`, qty1 AS `Quantity 1`, partNo2 AS `Part No. 2`, qty2 AS `Quantity 2`, partNo3 AS `Part No. 3`, qty3 AS `Quantity 3`, partNo4 AS `Part No. 4`, qty4 AS `Quantity 4`, partNo5 AS `Part No. 5`, qty5 AS `Quantity 5`, employeeInName AS `Employee In`, employeeOutName AS `Employee Out`, dateOut AS `Date Out`, timeOut AS `Time Out` FROM tbl_palletlogs WHERE dateReceived BETWEEN @fromDate AND @toDate ORDER BY `Date Received` DESC";
 
+                    DateTime fromDate = dtpFrom.Value.Date;
+                    DateTime toDate = dtpTo.Value.Date;
                     using(MySqlDataAdapter da = new MySqlDataAdapter(query, conn)){
                         da.SelectCommand.Parameters.AddWithValue("@fromDate", fromDate);
                         da.SelectCommand.Parameters.AddWithValue("@toDate", toDate);
@@ -133,8 +133,22 @@ namespace PalletLotSystem{
                     for (int i = 0; i < dgvPalletLogs.Columns.Count; i++){
                         string value = "";
 
-                        if(row.Cells[i].Value != null)
-                            value = row.Cells[i].Value.ToString();
+                        if (row.Cells[i].Value != null){
+                            string columnName = dgvPalletLogs.Columns[i].Name;
+
+                            if (row.Cells[i].Value is DateTime){
+                                DateTime dt = (DateTime)row.Cells[i].Value;
+
+                                if (columnName == "Date Received" || columnName == "Date Out")
+                                    value = dt.ToString("M/d/yyyy");
+                                else
+                                    value = dt.ToString();
+                            }else if (row.Cells[i].Value is TimeSpan){
+                                value = ((TimeSpan)row.Cells[i].Value).ToString(@"hh\:mm\:ss");
+                            }else{
+                                value = row.Cells[i].Value.ToString();
+                            }
+                        }
 
                         value = "\"" + value.Replace("\"", "\"\"") + "\"";
 

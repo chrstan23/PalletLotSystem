@@ -13,3 +13,7 @@ C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\Pall
 C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.PalletLogs.resources
 C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.WithdrawForm.resources
 C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.PartsLog.resources
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\bin\Debug\MySql.Data.dll
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\bin\Debug\MySql.Data.xml
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.SearchPartNo.resources
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.AddPartNo.resources

@@ -55,6 +55,14 @@ namespace PalletLotSystem{
 
         //FILTERING PARTNUMBER LOGS USING PALLETNO
         private void FilterPartLogs(){
+
+            if (string.IsNullOrWhiteSpace(txtPalletNo.Text)){
+                MessageBox.Show("Please enter a Pallet No.", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                txtPalletNo.Focus();
+                return;
+            }
+
             using (MySqlConnection conn = new MySqlConnection(connStr))
             {
                 try
@@ -70,6 +78,14 @@ namespace PalletLotSystem{
 
                         DataTable dt = new DataTable();
                         da.Fill(dt);
+
+                        if (dt.Rows.Count == 0){
+                            MessageBox.Show("No records found for Pallet No. " + palletNo + ".", "No Records", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                            txtPalletNo.Focus();
+                            txtPalletNo.SelectAll();
+                            return;
+                        }
 
                         dgvPartLogs.DataSource = dt;
                     }
@@ -90,13 +106,15 @@ namespace PalletLotSystem{
 
             SaveFileDialog sfd = new SaveFileDialog();
             sfd.Filter = "CSV Files (*.csv)|*.csv";
-            sfd.FileName = "PartLogs_" + DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".csv";
+            sfd.FileName = "PartLogs_" + DateTime.Now.ToString("yyyyMMdd") + ".csv";
 
             if (sfd.ShowDialog() == DialogResult.OK){
                 try{
-                    using (StreamWriter sw = new StreamWriter(sfd.FileName, false, Encoding.UTF8)){
-                        
-                        for (int i = 0; i < dgvPartLogs.Columns.Count; i++){
+                    using (StreamWriter sw = new StreamWriter(sfd.FileName, false, Encoding.UTF8))
+                    {
+
+                        for (int i = 0; i < dgvPartLogs.Columns.Count; i++)
+                        {
                             sw.Write("\"" + dgvPartLogs.Columns[i].HeaderText + "\"");
 
                             if (i < dgvPartLogs.Columns.Count - 1)
@@ -104,23 +122,41 @@ namespace PalletLotSystem{
                         }
                         sw.WriteLine();
 
-                        
-                        foreach (DataGridViewRow row in dgvPartLogs.Rows){
+
+                        foreach (DataGridViewRow row in dgvPartLogs.Rows)
+                        {
                             if (row.IsNewRow)
                                 continue;
-
-                            for (int i = 0; i < dgvPartLogs.Columns.Count; i++){
+                            for (int i = 0; i < dgvPartLogs.Columns.Count; i++)
+                            {
                                 string value = "";
-
                                 if (row.Cells[i].Value != null)
-                                    value = row.Cells[i].Value.ToString().Replace("\"", "\"\"");
+                                {
+                                    string columnName = dgvPartLogs.Columns[i].Name;
 
+                                    if (row.Cells[i].Value is DateTime)
+                                    {
+                                        DateTime dt = (DateTime)row.Cells[i].Value;
+                                        if (columnName == "Date Withdrawn")
+                                            value = dt.ToString("M/d/yyyy");
+                                        else
+                                            value = dt.ToString();
+                                    }
+                                    else if (row.Cells[i].Value is TimeSpan)
+                                    {
+                                        value = ((TimeSpan)row.Cells[i].Value).ToString(@"hh\:mm");
+                                    }
+                                    else
+                                    {
+                                        value = row.Cells[i].Value.ToString();
+                                    }
+                                    value = value.Replace("\"", "\"\"");
+                                }
                                 sw.Write("\"" + value + "\"");
 
                                 if (i < dgvPartLogs.Columns.Count - 1)
                                     sw.Write(",");
                             }
-
                             sw.WriteLine();
                         }
                     }

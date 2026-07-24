@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Layout));
             this.A01 = new System.Windows.Forms.Button();
             this.A02 = new System.Windows.Forms.Button();
             this.A03 = new System.Windows.Forms.Button();
@@ -569,6 +570,7 @@
             this.pnlFG = new System.Windows.Forms.Panel();
             this.pnlHI = new System.Windows.Forms.Panel();
             this.pnlHeading = new System.Windows.Forms.Panel();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.label50 = new System.Windows.Forms.Label();
             this.A08 = new System.Windows.Forms.Button();
             this.btnX1 = new System.Windows.Forms.Button();
@@ -585,10 +587,12 @@
             this.button5 = new System.Windows.Forms.Button();
             this.label59 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
-            this.label60 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
             this.label61 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
             this.pnlAA.SuspendLayout();
             this.pnlOccupied.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picOccupied)).BeginInit();
@@ -1774,7 +1778,7 @@
             // 
             // B36
             // 
-            this.B36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
+            this.B36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(51)))), ((int)(((byte)(204)))));
             this.B36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B36.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B36.Location = new System.Drawing.Point(157, 201);
@@ -1785,7 +1789,7 @@
             // 
             // B33
             // 
-            this.B33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
+            this.B33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(51)))), ((int)(((byte)(204)))));
             this.B33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B33.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B33.Location = new System.Drawing.Point(244, 201);
@@ -1820,7 +1824,7 @@
             // 
             // B38
             // 
-            this.B38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
+            this.B38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(51)))), ((int)(((byte)(204)))));
             this.B38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B38.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B38.Location = new System.Drawing.Point(99, 201);
@@ -1831,7 +1835,7 @@
             // 
             // B39
             // 
-            this.B39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
+            this.B39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(51)))), ((int)(((byte)(204)))));
             this.B39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B39.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B39.Location = new System.Drawing.Point(70, 201);
@@ -1842,7 +1846,7 @@
             // 
             // B40
             // 
-            this.B40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
+            this.B40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(51)))), ((int)(((byte)(204)))));
             this.B40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B40.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B40.Location = new System.Drawing.Point(41, 201);
@@ -1853,7 +1857,7 @@
             // 
             // B34
             // 
-            this.B34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
+            this.B34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(51)))), ((int)(((byte)(204)))));
             this.B34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B34.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B34.Location = new System.Drawing.Point(215, 201);
@@ -1864,7 +1868,7 @@
             // 
             // B35
             // 
-            this.B35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
+            this.B35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(51)))), ((int)(((byte)(204)))));
             this.B35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B35.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B35.Location = new System.Drawing.Point(186, 201);
@@ -4590,7 +4594,7 @@
             // 
             // B41
             // 
-            this.B41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
+            this.B41.BackColor = System.Drawing.SystemColors.Control;
             this.B41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B41.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B41.Location = new System.Drawing.Point(12, 201);
@@ -6597,6 +6601,7 @@
             // pnlHeading
             // 
             this.pnlHeading.BackColor = System.Drawing.SystemColors.Desktop;
+            this.pnlHeading.Controls.Add(this.btnSearch);
             this.pnlHeading.Controls.Add(this.label50);
             this.pnlHeading.Controls.Add(this.pnlOccupied);
             this.pnlHeading.Controls.Add(this.pnlTotal);
@@ -6610,6 +6615,20 @@
             this.pnlHeading.Name = "pnlHeading";
             this.pnlHeading.Size = new System.Drawing.Size(1307, 75);
             this.pnlHeading.TabIndex = 1023;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.ForeColor = System.Drawing.Color.Black;
+            this.btnSearch.Location = new System.Drawing.Point(1197, 5);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(100, 32);
+            this.btnSearch.TabIndex = 1025;
+            this.btnSearch.Text = "SEARCH";
+            this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // label50
             // 
@@ -6649,7 +6668,7 @@
             // 
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(17, 575);
+            this.label53.Location = new System.Drawing.Point(2, 575);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(49, 13);
             this.label53.TabIndex = 1024;
@@ -6659,7 +6678,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(153)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(71, 574);
+            this.button1.Location = new System.Drawing.Point(56, 574);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(15, 15);
             this.button1.TabIndex = 1025;
@@ -6668,20 +6687,20 @@
             // label54
             // 
             this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Segoe UI", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(89, 575);
+            this.label54.Font = new System.Drawing.Font("Segoe UI", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.Location = new System.Drawing.Point(74, 576);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(151, 13);
+            this.label54.Size = new System.Drawing.Size(122, 12);
             this.label54.TabIndex = 1026;
             this.label54.Text = "PCBA PACKING MATERIALS";
             // 
             // label55
             // 
             this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Segoe UI", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(262, 574);
+            this.label55.Font = new System.Drawing.Font("Segoe UI", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.Location = new System.Drawing.Point(216, 575);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(167, 13);
+            this.label55.Size = new System.Drawing.Size(136, 12);
             this.label55.TabIndex = 1028;
             this.label55.Text = "ESCROW PACKING MATERIALS";
             // 
@@ -6689,7 +6708,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(232)))), ((int)(((byte)(185)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(244, 573);
+            this.button2.Location = new System.Drawing.Point(198, 573);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(15, 15);
             this.button2.TabIndex = 1027;
@@ -6698,10 +6717,10 @@
             // label56
             // 
             this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Segoe UI", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(449, 573);
+            this.label56.Font = new System.Drawing.Font("Segoe UI", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.Location = new System.Drawing.Point(371, 574);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(163, 13);
+            this.label56.Size = new System.Drawing.Size(132, 12);
             this.label56.TabIndex = 1030;
             this.label56.Text = "F53/F56 PACKING MATERIALS";
             // 
@@ -6709,7 +6728,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(217)))), ((int)(((byte)(241)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(431, 572);
+            this.button3.Location = new System.Drawing.Point(353, 572);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(15, 15);
             this.button3.TabIndex = 1029;
@@ -6718,10 +6737,10 @@
             // label57
             // 
             this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Segoe UI", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(841, 571);
+            this.label57.Font = new System.Drawing.Font("Segoe UI", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.Location = new System.Drawing.Point(692, 572);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(89, 13);
+            this.label57.Size = new System.Drawing.Size(73, 12);
             this.label57.TabIndex = 1036;
             this.label57.Text = "MTR-R/F PARTS";
             // 
@@ -6729,7 +6748,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.Yellow;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(823, 570);
+            this.button4.Location = new System.Drawing.Point(674, 570);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(15, 15);
             this.button4.TabIndex = 1035;
@@ -6738,10 +6757,10 @@
             // label58
             // 
             this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Segoe UI", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(732, 572);
+            this.label58.Font = new System.Drawing.Font("Segoe UI", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.Location = new System.Drawing.Point(601, 573);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(89, 13);
+            this.label58.Size = new System.Drawing.Size(73, 12);
             this.label58.TabIndex = 1034;
             this.label58.Text = "ESCROW PARTS";
             // 
@@ -6749,7 +6768,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(247)))), ((int)(((byte)(166)))));
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(714, 571);
+            this.button5.Location = new System.Drawing.Point(583, 571);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(15, 15);
             this.button5.TabIndex = 1033;
@@ -6758,10 +6777,10 @@
             // label59
             // 
             this.label59.AutoSize = true;
-            this.label59.Font = new System.Drawing.Font("Segoe UI", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.Location = new System.Drawing.Point(636, 573);
+            this.label59.Font = new System.Drawing.Font("Segoe UI", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.Location = new System.Drawing.Point(522, 574);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(76, 13);
+            this.label59.Size = new System.Drawing.Size(61, 12);
             this.label59.TabIndex = 1032;
             this.label59.Text = "GBVM PARTS";
             // 
@@ -6769,39 +6788,19 @@
             // 
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(618, 572);
+            this.button6.Location = new System.Drawing.Point(504, 572);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(15, 15);
             this.button6.TabIndex = 1031;
             this.button6.UseVisualStyleBackColor = false;
             // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("Segoe UI", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.Location = new System.Drawing.Point(1157, 570);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(85, 13);
-            this.label60.TabIndex = 1040;
-            this.label60.Text = "F53/F56 PARTS";
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(1139, 569);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(15, 15);
-            this.button7.TabIndex = 1039;
-            this.button7.UseVisualStyleBackColor = false;
-            // 
             // label61
             // 
             this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("Segoe UI", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(954, 571);
+            this.label61.Font = new System.Drawing.Font("Segoe UI", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.Location = new System.Drawing.Point(785, 571);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(182, 13);
+            this.label61.Size = new System.Drawing.Size(148, 12);
             this.label61.TabIndex = 1038;
             this.label61.Text = "SRU PARTS/PACKING MATERIALS";
             // 
@@ -6809,11 +6808,51 @@
             // 
             this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(180)))), ((int)(((byte)(226)))));
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(936, 570);
+            this.button8.Location = new System.Drawing.Point(767, 570);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(15, 15);
             this.button8.TabIndex = 1037;
             this.button8.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(166)))), ((int)(((byte)(62)))));
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Location = new System.Drawing.Point(934, 569);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(15, 15);
+            this.button7.TabIndex = 1039;
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("Segoe UI", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.Location = new System.Drawing.Point(952, 570);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(69, 12);
+            this.label60.TabIndex = 1040;
+            this.label60.Text = "F53/F56 PARTS";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Segoe UI", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.Location = new System.Drawing.Point(1042, 570);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(124, 12);
+            this.label62.TabIndex = 1042;
+            this.label62.Text = "GBVM PACKING MATERIALS";
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(51)))), ((int)(((byte)(204)))));
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Location = new System.Drawing.Point(1024, 569);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(15, 15);
+            this.button9.TabIndex = 1041;
+            this.button9.UseVisualStyleBackColor = false;
             // 
             // Layout
             // 
@@ -6821,6 +6860,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(244)))), ((int)(((byte)(248)))));
             this.ClientSize = new System.Drawing.Size(1307, 599);
+            this.Controls.Add(this.label62);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.label60);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.label61);
@@ -7353,7 +7394,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Layout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Layout";
+            this.Text = resources.GetString("$this.Text");
             this.Load += new System.EventHandler(this.Layout_Load);
             this.pnlAA.ResumeLayout(false);
             this.pnlAA.PerformLayout();
@@ -7945,9 +7986,12 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Button button9;
     }
 }

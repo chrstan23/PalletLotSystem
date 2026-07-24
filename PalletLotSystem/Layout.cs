@@ -120,7 +120,7 @@ namespace PalletLotSystem{
         }
 
         private void RegisterPalletButtons(){
-            const string palletRows = "ABCDEFGHIJK";
+            const string palletRows = "ABCDEFG";
 
             foreach (Control ctrl in this.Controls){
                 Button btn = ctrl as Button;
@@ -149,6 +149,12 @@ namespace PalletLotSystem{
 
             this.pnlUtilization.BackColor = Color.FromArgb(220, 220, 220);
 
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e){
+            using (SearchPartNo search = new SearchPartNo()){
+                search.ShowDialog();
+            }            
         }
 
         private void Layout_Load(object sender, EventArgs e)
