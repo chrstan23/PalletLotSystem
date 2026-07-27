@@ -17,3 +17,6 @@ C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\Pall
 C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\bin\Debug\MySql.Data.xml
 C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.SearchPartNo.resources
 C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.AddPartNo.resources
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem - 072726\PalletLotSystem\PalletLotSystem\bin\Debug\PalletLotSystem.exe.config
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem - 072726\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.exe
+C:\Users\IT\Documents\Visual Studio 2013\Projects\christian\PalletLotSystem - 072726\PalletLotSystem\PalletLotSystem\obj\Debug\PalletLotSystem.pdb
