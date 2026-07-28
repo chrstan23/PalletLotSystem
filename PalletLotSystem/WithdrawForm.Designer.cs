@@ -47,7 +47,7 @@
             // 
             this.lblPalletNo.AutoSize = true;
             this.lblPalletNo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPalletNo.Location = new System.Drawing.Point(36, 104);
+            this.lblPalletNo.Location = new System.Drawing.Point(11, 104);
             this.lblPalletNo.Name = "lblPalletNo";
             this.lblPalletNo.Size = new System.Drawing.Size(85, 21);
             this.lblPalletNo.TabIndex = 0;
@@ -57,7 +57,7 @@
             // 
             this.lblDisplay.AutoSize = true;
             this.lblDisplay.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDisplay.Location = new System.Drawing.Point(127, 104);
+            this.lblDisplay.Location = new System.Drawing.Point(102, 104);
             this.lblDisplay.Name = "lblDisplay";
             this.lblDisplay.Size = new System.Drawing.Size(67, 21);
             this.lblDisplay.TabIndex = 1;
@@ -67,7 +67,7 @@
             // 
             this.lblPartNo.AutoSize = true;
             this.lblPartNo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPartNo.Location = new System.Drawing.Point(36, 132);
+            this.lblPartNo.Location = new System.Drawing.Point(11, 132);
             this.lblPartNo.Name = "lblPartNo";
             this.lblPartNo.Size = new System.Drawing.Size(117, 21);
             this.lblPartNo.TabIndex = 2;
@@ -76,11 +76,11 @@
             // cmbPartNo
             // 
             this.cmbPartNo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbPartNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbPartNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbPartNo.FormattingEnabled = true;
-            this.cmbPartNo.Location = new System.Drawing.Point(149, 131);
+            this.cmbPartNo.Location = new System.Drawing.Point(124, 131);
             this.cmbPartNo.Name = "cmbPartNo";
-            this.cmbPartNo.Size = new System.Drawing.Size(154, 28);
+            this.cmbPartNo.Size = new System.Drawing.Size(211, 24);
             this.cmbPartNo.TabIndex = 3;
             this.cmbPartNo.SelectedIndexChanged += new System.EventHandler(this.cmbPartNo_SelectedIndexChanged);
             // 
@@ -88,7 +88,7 @@
             // 
             this.lblQty.AutoSize = true;
             this.lblQty.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQty.Location = new System.Drawing.Point(36, 195);
+            this.lblQty.Location = new System.Drawing.Point(11, 195);
             this.lblQty.Name = "lblQty";
             this.lblQty.Size = new System.Drawing.Size(81, 21);
             this.lblQty.TabIndex = 4;
@@ -96,10 +96,10 @@
             // 
             // txtQty
             // 
-            this.txtQty.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQty.Location = new System.Drawing.Point(123, 194);
+            this.txtQty.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQty.Location = new System.Drawing.Point(98, 194);
             this.txtQty.Name = "txtQty";
-            this.txtQty.Size = new System.Drawing.Size(154, 26);
+            this.txtQty.Size = new System.Drawing.Size(154, 22);
             this.txtQty.TabIndex = 5;
             // 
             // btnWithdraw
@@ -107,7 +107,7 @@
             this.btnWithdraw.BackColor = System.Drawing.Color.SkyBlue;
             this.btnWithdraw.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnWithdraw.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnWithdraw.Location = new System.Drawing.Point(39, 242);
+            this.btnWithdraw.Location = new System.Drawing.Point(51, 242);
             this.btnWithdraw.Name = "btnWithdraw";
             this.btnWithdraw.Size = new System.Drawing.Size(115, 32);
             this.btnWithdraw.TabIndex = 6;
@@ -120,7 +120,7 @@
             this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(170, 242);
+            this.btnCancel.Location = new System.Drawing.Point(182, 242);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(115, 32);
             this.btnCancel.TabIndex = 7;
@@ -132,7 +132,7 @@
             // 
             this.lblAvailable.AutoSize = true;
             this.lblAvailable.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAvailable.Location = new System.Drawing.Point(36, 167);
+            this.lblAvailable.Location = new System.Drawing.Point(11, 167);
             this.lblAvailable.Name = "lblAvailable";
             this.lblAvailable.Size = new System.Drawing.Size(157, 21);
             this.lblAvailable.TabIndex = 8;
@@ -142,7 +142,7 @@
             // 
             this.lblAvailQty.AutoSize = true;
             this.lblAvailQty.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAvailQty.Location = new System.Drawing.Point(199, 166);
+            this.lblAvailQty.Location = new System.Drawing.Point(174, 166);
             this.lblAvailQty.Name = "lblAvailQty";
             this.lblAvailQty.Size = new System.Drawing.Size(35, 21);
             this.lblAvailQty.TabIndex = 9;

@@ -6412,7 +6412,7 @@
             // 
             this.lblUtilizationPallets.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUtilizationPallets.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblUtilizationPallets.Location = new System.Drawing.Point(29, 18);
+            this.lblUtilizationPallets.Location = new System.Drawing.Point(37, 18);
             this.lblUtilizationPallets.Name = "lblUtilizationPallets";
             this.lblUtilizationPallets.Size = new System.Drawing.Size(95, 40);
             this.lblUtilizationPallets.TabIndex = 1016;

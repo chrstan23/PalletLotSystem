@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Drawing;
 using System.Text.RegularExpressions;
 using MySql.Data.MySqlClient;
 using System.Collections.Generic;
@@ -190,7 +191,7 @@ namespace PalletLotSystem{
                 //DUPLICATE PARTNUMBERS
                 if (!string.IsNullOrWhiteSpace(partNo)){
                     if (partSet.Contains(partNo)){
-                        MessageBox.Show("Duplicate Partnumber detected. Partnumbers should not have separate quantity.", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("Duplicate Part Number detected. Partnumbers should not have separate quantity.", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
                         partNos[i].SelectAll();
                         partNos[i].Focus();
@@ -261,7 +262,7 @@ namespace PalletLotSystem{
 
                 conn.Open();
 
-                string query = "INSERT INTO tbl_palletlogs (employeeInName, location, palletNo, palletId, partNo1, qty1, partNo2, qty2, partNo3, qty3, partNo4, qty4, partNo5, qty5, dateReceived) VALUES (@employeeName, @location, @palletNo, @palletId, @partNo1, @qty1, @partNo2, @qty2, @partNo3, @qty3, @partNo4, @qty4, @partNo5, @qty5, @dateReceived)";
+                string query = "INSERT INTO tbl_palletlogs (employeeInName, location, palletNo, palletId, partNo1, qty1, partNo2, qty2, partNo3, qty3, partNo4, qty4, partNo5, qty5, dateReceived, dateEncoded, timeEncoded) VALUES (@employeeName, @location, @palletNo, @palletId, @partNo1, @qty1, @partNo2, @qty2, @partNo3, @qty3, @partNo4, @qty4, @partNo5, @qty5, @dateReceived, @dateEncoded, @timeEncoded)";
 
                 DateTime dateReceived = dtpReceive.Value.Date;
                 using (MySqlCommand cmd = new MySqlCommand(query, conn)){
@@ -270,6 +271,8 @@ namespace PalletLotSystem{
                     cmd.Parameters.AddWithValue("@palletNo", palletNo);
                     cmd.Parameters.AddWithValue("@palletId", palletId);
                     cmd.Parameters.AddWithValue("@dateReceived", dateReceived);
+                    cmd.Parameters.AddWithValue("@dateEncoded", DateTime.Today);
+                    cmd.Parameters.AddWithValue("@timeEncoded", DateTime.Now.TimeOfDay);
 
                     for (int i = 0; i < partNos.Length; i++){
                         cmd.Parameters.AddWithValue("@partNo" + (i + 1), partNos[i].Text.Trim().ToUpper());

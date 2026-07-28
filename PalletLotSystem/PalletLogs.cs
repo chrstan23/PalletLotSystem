@@ -30,7 +30,7 @@ namespace PalletLotSystem{
                 try{
                     conn.Open();
 
-                    string query = "SELECT dateReceived AS `Date Received`, location AS `Pallet Location`, palletId AS `Pallet ID`, palletNo AS `Pallet No.`, partNo1 AS `Part No. 1`, qty1 AS `Quantity 1`, partNo2 AS `Part No. 2`, qty2 AS `Quantity 2`, partNo3 AS `Part No. 3`, qty3 AS `Quantity 3`, partNo4 AS `Part No. 4`, qty4 AS `Quantity 4`, partNo5 AS `Part No. 5`, qty5 AS `Quantity 5`, employeeInName AS `Employee In`, employeeOutName AS `Employee Out`, dateOut AS `Date Out`, timeOut AS `Time Out` FROM tbl_palletlogs ORDER BY dateReceived DESC";
+                    string query = "SELECT dateReceived AS `Date Received`, location AS `Pallet Location`, palletId AS `Pallet ID`, palletNo AS `Pallet No.`, partNo1 AS `Part No. 1`, qty1 AS `Quantity 1`, partNo2 AS `Part No. 2`, qty2 AS `Quantity 2`, partNo3 AS `Part No. 3`, qty3 AS `Quantity 3`, partNo4 AS `Part No. 4`, qty4 AS `Quantity 4`, partNo5 AS `Part No. 5`, qty5 AS `Quantity 5`, employeeInName AS `Employee In`, dateEncoded AS `Date Encoded`, timeEncoded AS `Time Encoded`, employeeOutName AS `Employee Out`, dateOut AS `Date Out`, timeOut AS `Time Out` FROM tbl_palletlogs ORDER BY dateReceived DESC";
 
                     MySqlDataAdapter da = new MySqlDataAdapter(query, conn);
 
@@ -67,7 +67,7 @@ namespace PalletLotSystem{
                 try{
                     conn.Open();
 
-                    string query = "SELECT dateReceived AS `Date Received`, location AS `Pallet Location`, palletId AS `Pallet ID`, palletNo AS `Pallet No.`, partNo1 AS `Part No. 1`, qty1 AS `Quantity 1`, partNo2 AS `Part No. 2`, qty2 AS `Quantity 2`, partNo3 AS `Part No. 3`, qty3 AS `Quantity 3`, partNo4 AS `Part No. 4`, qty4 AS `Quantity 4`, partNo5 AS `Part No. 5`, qty5 AS `Quantity 5`, employeeInName AS `Employee In`, employeeOutName AS `Employee Out`, dateOut AS `Date Out`, timeOut AS `Time Out` FROM tbl_palletlogs WHERE dateReceived BETWEEN @fromDate AND @toDate ORDER BY `Date Received` DESC";
+                    string query = "SELECT dateReceived AS `Date Received`, location AS `Pallet Location`, palletId AS `Pallet ID`, palletNo AS `Pallet No.`, partNo1 AS `Part No. 1`, qty1 AS `Quantity 1`, partNo2 AS `Part No. 2`, qty2 AS `Quantity 2`, partNo3 AS `Part No. 3`, qty3 AS `Quantity 3`, partNo4 AS `Part No. 4`, qty4 AS `Quantity 4`, partNo5 AS `Part No. 5`, qty5 AS `Quantity 5`, employeeInName AS `Employee In`, dateEncoded AS `Date Encoded`, timeEncoded AS `Time Encoded`, employeeOutName AS `Employee Out`, dateOut AS `Date Out`, timeOut AS `Time Out` FROM tbl_palletlogs WHERE dateReceived BETWEEN @fromDate AND @toDate ORDER BY `Date Received` DESC";
 
                     DateTime fromDate = dtpFrom.Value.Date;
                     DateTime toDate = dtpTo.Value.Date;

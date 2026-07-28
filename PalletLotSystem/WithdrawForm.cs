@@ -32,6 +32,11 @@ namespace PalletLotSystem{
             txtQty.Focus();
             this.palletNo = palletNo;
             FetchPartNumbers();
+
+            cmbPartNo.IntegralHeight = false;
+            cmbPartNo.Font = new Font("Segoe UI", 8F);
+            cmbPartNo.Height = 28;
+            //txtQty.Font = new Font("Segoe UI", 8F);
         }
 
         //FETCHING PARTNUMBERS DEPENDING ON THE PALLETNO

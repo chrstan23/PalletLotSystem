@@ -122,7 +122,7 @@ namespace PalletLotSystem
                 add.ShowDialog();
 
             }
-            
+
         }
     }
 }
